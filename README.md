@@ -27,9 +27,11 @@ Hardware
       mchp-pic18f.lib
       mchp-pic32mx.lib
       memories.lib
-      \models
-        \QFP
-        \SOIC
+      ...
     \Freescale
     ....
+  \models
+      \QFP
+      \SOIC
+      ...
       
