@@ -21,17 +21,17 @@ library
 For more information about 3d representations
 http://eagleup.wordpress.com 
 
-Hardware
-  \libraries
-    \Microchip
-      mchp-pic18f.lib
-      mchp-pic32mx.lib
-      memories.lib
-      ...
-    \Freescale
-    ....
-  \models
-      \QFP
-      \SOIC
-      ...
++ Hardware.
+  + \libraries.
+    + \Microchip.
+      + mchp-pic18f.lib<br>
+      + mchp-pic32mx.lib<br>
+      + memories.lib<br>
+      + ...
+    + \Freescale
+    + ....
+  + \models
+      + \QFP
+      + \SOIC
+      + ...
       
