@@ -1,0 +1,3402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>&lt;table border="0" cellpadding="5" cellspacing="0"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#B3BFDE&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;Tantalum Capacitor Components&lt;/b&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;font color=#666666&gt;
+
+&lt;p&gt;
+Tantalum capacitors are the leading choice when high capacitance is needed in the smallest possible size. KEMET has been the foremost manufacturer of tantalum capacitors for over 50 years, and is constantly introducing new innovations to meet changing demands. Offered in a variety of standard sizes, KEMET tantalum capacitors and are fully RoHS compliant and compatible with modern solder processes including multiple reflow passes. 
+&lt;p&gt;
+
+KEMET tantalum capacitors offer many advantages including low ESR, surge current robustness and multiple operating temperature ranges. KEMET also offers a complete line of military and Commercial Off-the-Shelf (COTS) products as well as enhanced testing for space applications. While many applications use surface mount technology, a complete line of through-hole tantalum capacitors are available for down-hole, military and other demanding environments. 
+&lt;p&gt;
+
+KEMET’s traditional MnO2 tantalum capacitors consist of a sintered anode of tantalum metal. This anode is porous thus providing increased surface area. An oxide layer is then formed, and this oxide layer becomes the capacitor dielectric. The oxidized anode is impregnated with manganese dioxide to form the cathode. 
+&lt;p&gt;
+
+Tantalum polymer capacitors are a newer variation which replaces the manganese dioxide cathode with a solid conductive polymer cathode. KEMET polymer tantalum capacitors are recommended when very low ESR, increased temperature stability or benign failure mode is critical. 
+&lt;p&gt;
+
+Ref: &lt;a href="http://www.kemet.com/kemet/web/homepage/kechome.nsf/weben/Tantalum%20Capacitors"&gt;Link&lt;/a&gt;
+&lt;p&gt;
+&lt;b&gt;Components&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;T491-------Industrial Grade MnO2 Series
+&lt;li&gt;T494-------Industrial Grade Low ESR MnO2 series
+&lt;li&gt;T495-------Surge Robust Low ESR MnO2 series
+&lt;li&gt;T510-------Multiple Anode Low ESR MnO2 series
+&lt;li&gt;T520-------Polimer Tantalum
+&lt;li&gt;T521-------High Voltaje Polymer Tantalum
+&lt;li&gt;T522-------Reduced Leackage Polymer Tantalum
+&lt;li&gt;T525------125 C Rated Polymer Tantalum
+&lt;li&gt;T530------High capacitance/125 C Rated Polymer Tantalum
+&lt;li&gt;T543------Series Polymer Tantalum COTS Organic Capacitor (KO-CAP)
+&lt;li&lt;T545------Series High Energy Polymer Tantalum
+&lt;li&gt;A700------Polymer Aluminum
+&lt;/ul&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+&lt;/table&gt;</description>
+<packages>
+<package name="CAPMP7360-38">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0" width="600"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#0C2579 colspan="2"&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;Capacitor Polarized Molded Body (CAPMP)&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;img src="../../models/capacitors/CAPMP/png/CAPMP7360-38.png" width="240"&gt;
+&lt;/td&gt;
+&lt;td bgcolor=#ffffff&gt;
+&lt;font color=#666666&gt;
+EIA 7260-38 &lt;br&gt;
+(Kemet E, AVX V): &lt;br&gt;
+7.3 mm × 6.0 mm × 3.8 mm&lt;br&gt;
+-----------------------------------
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+&lt;br&gt;</description>
+<smd name="1" x="3.3" y="0" dx="4.15" dy="2.25" layer="1" rot="R90"/>
+<smd name="2" x="-3.3" y="0" dx="4.15" dy="2.25" layer="1" rot="R90"/>
+<wire x1="-3.7" y1="3" x2="3.1" y2="3" width="0.1" layer="51"/>
+<wire x1="3.1" y1="3" x2="3.7" y2="3" width="0.1" layer="51"/>
+<wire x1="3.7" y1="3" x2="3.7" y2="-3" width="0.1" layer="51"/>
+<wire x1="3.7" y1="-3" x2="-3.7" y2="-3" width="0.1" layer="51"/>
+<wire x1="-3.7" y1="-3" x2="-3.7" y2="3" width="0.1" layer="51"/>
+<rectangle x1="-3.7" y1="-2.1" x2="-2.4" y2="2.1" layer="51"/>
+<rectangle x1="2.4" y1="-2.1" x2="3.7" y2="2.1" layer="51"/>
+<wire x1="3.1" y1="3" x2="3.1" y2="-2.9" width="0.1" layer="51"/>
+<wire x1="-3.7" y1="2.2" x2="-3.7" y2="3" width="0.1524" layer="21"/>
+<wire x1="-3.7" y1="3" x2="3.1" y2="3" width="0.1524" layer="21"/>
+<wire x1="3.1" y1="3" x2="3.7" y2="3" width="0.1524" layer="21"/>
+<wire x1="3.7" y1="3" x2="3.7" y2="2.2" width="0.1524" layer="21"/>
+<wire x1="3.1" y1="3" x2="3.1" y2="2.2" width="0.1524" layer="21"/>
+<wire x1="3.7" y1="-2.2" x2="3.7" y2="-3" width="0.1524" layer="21"/>
+<wire x1="3.7" y1="-3" x2="3.1" y2="-3" width="0.1524" layer="21"/>
+<wire x1="3.1" y1="-3" x2="-3.7" y2="-3" width="0.1524" layer="21"/>
+<wire x1="-3.7" y1="-3" x2="-3.7" y2="-2.2" width="0.1524" layer="21"/>
+<wire x1="3.1" y1="-3" x2="3.1" y2="-2.2" width="0.1524" layer="21"/>
+<text x="-4.3" y="3.1" size="1.016" layer="25" ratio="12">&gt;Name</text>
+<text x="-4.3" y="-4.1" size="1.016" layer="27" ratio="12">&gt;Value</text>
+</package>
+<package name="CAPMP7343-43">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0" width="600"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#0C2579 colspan="2"&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;Capacitor Polarized Molded Body (CAPMP)&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;img src="../../models/capacitors/CAPMP/png/CAPMP7343-43.png" width="240"&gt;
+&lt;/td&gt;
+&lt;td bgcolor=#ffffff&gt;
+&lt;font color=#666666&gt;
+EIA 7343-43 &lt;br&gt;
+(Kemet X, AVX E): &lt;br&gt;
+7.3 mm × 4.3 mm × 4.3 mm&lt;br&gt;
+------------------------------------------
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+&lt;br&gt;</description>
+<smd name="1" x="2.6" y="0" dx="2.45" dy="3.35" layer="1" rot="R90"/>
+<smd name="2" x="-2.6" y="0" dx="2.45" dy="3.35" layer="1" rot="R90"/>
+<wire x1="-3.7" y1="2.2" x2="3" y2="2.2" width="0.1" layer="51"/>
+<wire x1="3" y1="2.2" x2="3.7" y2="2.2" width="0.1" layer="51"/>
+<wire x1="3.7" y1="2.2" x2="3.7" y2="-2.2" width="0.1" layer="51"/>
+<wire x1="3.7" y1="-2.2" x2="3" y2="-2.2" width="0.1" layer="51"/>
+<wire x1="3" y1="-2.2" x2="-3.7" y2="-2.2" width="0.1" layer="51"/>
+<wire x1="-3.7" y1="-2.2" x2="-3.7" y2="2.2" width="0.1" layer="51"/>
+<rectangle x1="-3.7" y1="-1.2" x2="-2.4" y2="1.2" layer="51"/>
+<rectangle x1="2.4" y1="-1.2" x2="3.7" y2="1.2" layer="51"/>
+<wire x1="3" y1="2.2" x2="3" y2="-2.2" width="0.1" layer="51"/>
+<wire x1="-3.7" y1="1.3" x2="-3.7" y2="2.2" width="0.1524" layer="21"/>
+<wire x1="-3.7" y1="2.2" x2="3" y2="2.2" width="0.1524" layer="21"/>
+<wire x1="3" y1="2.2" x2="3.7" y2="2.2" width="0.1524" layer="21"/>
+<wire x1="3.7" y1="2.2" x2="3.7" y2="1.3" width="0.1524" layer="21"/>
+<wire x1="3" y1="2.2" x2="3" y2="1.3" width="0.1524" layer="21"/>
+<wire x1="3.7" y1="-1.3" x2="3.7" y2="-2.2" width="0.1524" layer="21"/>
+<wire x1="3.7" y1="-2.2" x2="3" y2="-2.2" width="0.1524" layer="21"/>
+<wire x1="3" y1="-2.2" x2="-3.7" y2="-2.2" width="0.1524" layer="21"/>
+<wire x1="-3.7" y1="-2.2" x2="-3.7" y2="-1.3" width="0.1524" layer="21"/>
+<wire x1="3" y1="-2.2" x2="3" y2="-1.3" width="0.1524" layer="21"/>
+<text x="-4.2" y="2.3" size="1.016" layer="25" ratio="12">&gt;Name</text>
+<text x="-4.2" y="-3.3" size="1.016" layer="27" ratio="12">&gt;Value</text>
+</package>
+<package name="CAPMP7343-31">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0" width="600"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#0C2579 colspan="2"&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;Capacitor Polarized Molded Body (CAPMP)&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;img src="../../models/capacitors/CAPMP/png/CAPMP7343-31.png" width="240"&gt;
+&lt;/td&gt;
+&lt;td bgcolor=#ffffff&gt;
+&lt;font color=#666666&gt;
+EIA 7343-31 &lt;br&gt;
+(Kemet D, AVX D): &lt;br&gt;
+7.3 mm × 4.3 mm × 3.1 mm&lt;br&gt;
+--------------------------------------
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+&lt;br&gt;</description>
+<smd name="1" x="2.6" y="0" dx="2.45" dy="3.35" layer="1" rot="R90"/>
+<smd name="2" x="-2.6" y="0" dx="2.45" dy="3.35" layer="1" rot="R90"/>
+<wire x1="-3.7" y1="2.2" x2="3.2" y2="2.2" width="0.1" layer="51"/>
+<wire x1="3.2" y1="2.2" x2="3.7" y2="2.2" width="0.1" layer="51"/>
+<wire x1="3.7" y1="2.2" x2="3.7" y2="-2.2" width="0.1" layer="51"/>
+<wire x1="3.7" y1="-2.2" x2="3.2" y2="-2.2" width="0.1" layer="51"/>
+<wire x1="3.2" y1="-2.2" x2="-3.7" y2="-2.2" width="0.1" layer="51"/>
+<wire x1="-3.7" y1="-2.2" x2="-3.7" y2="2.2" width="0.1" layer="51"/>
+<rectangle x1="-3.7" y1="-1.2" x2="-2.2" y2="1.2" layer="51"/>
+<rectangle x1="2.4" y1="-1.2" x2="3.7" y2="1.2" layer="51"/>
+<wire x1="3.2" y1="2.2" x2="3.2" y2="-2.2" width="0.1" layer="51"/>
+<wire x1="-3.7" y1="1.3" x2="-3.7" y2="2.2" width="0.1524" layer="21"/>
+<wire x1="-3.7" y1="2.2" x2="3.2" y2="2.2" width="0.1524" layer="21"/>
+<wire x1="3.2" y1="2.2" x2="3.7" y2="2.2" width="0.1524" layer="21"/>
+<wire x1="3.7" y1="2.2" x2="3.7" y2="1.3" width="0.1524" layer="21"/>
+<wire x1="3.2" y1="2.2" x2="3.2" y2="1.3" width="0.1524" layer="21"/>
+<wire x1="3.7" y1="-1.3" x2="3.7" y2="-2.2" width="0.1524" layer="21"/>
+<wire x1="3.7" y1="-2.2" x2="3.2" y2="-2.2" width="0.1524" layer="21"/>
+<wire x1="3.2" y1="-2.2" x2="-3.7" y2="-2.2" width="0.1524" layer="21"/>
+<wire x1="-3.7" y1="-2.2" x2="-3.7" y2="-1.3" width="0.1524" layer="21"/>
+<wire x1="3.2" y1="-2.2" x2="3.2" y2="-1.3" width="0.1524" layer="21"/>
+<text x="-4.3" y="2.3" size="1.016" layer="25" ratio="12">&gt;Name</text>
+<text x="-4.2" y="-3.3" size="1.016" layer="27" ratio="12">&gt;Value</text>
+</package>
+<package name="CAPMP7343-20">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0" width="600"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#0C2579 colspan="2"&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;Capacitor Polarized Molded Body (CAPMP)&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;img src="../../models/capacitors/CAPMP/png/CAPMP7343-20.png" width="240"&gt;
+&lt;/td&gt;
+&lt;td bgcolor=#ffffff&gt;
+&lt;font color=#666666&gt;
+EIA 7343-20 &lt;br&gt;
+(Kemet V, AVX Y): &lt;br&gt;
+7.3 mm × 4.3 mm × 2.0 mm&lt;br&gt;
+
+-------------------------------------
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+&lt;br&gt;</description>
+<smd name="1" x="2.6" y="0" dx="2.45" dy="3.35" layer="1" rot="R90"/>
+<smd name="2" x="-2.6" y="0" dx="2.45" dy="3.35" layer="1" rot="R90"/>
+<wire x1="-3.7" y1="2.2" x2="3.7" y2="2.2" width="0.1" layer="51"/>
+<wire x1="3.7" y1="2.2" x2="3.7" y2="-2.2" width="0.1" layer="51"/>
+<wire x1="3.7" y1="-2.2" x2="-3.7" y2="-2.2" width="0.1" layer="51"/>
+<wire x1="-3.7" y1="-2.2" x2="-3.7" y2="2.2" width="0.1" layer="51"/>
+<rectangle x1="-3.7" y1="-1.2" x2="-2.4" y2="1.2" layer="51"/>
+<rectangle x1="2.3" y1="-1.2" x2="3.7" y2="1.2" layer="51"/>
+<wire x1="-3.7" y1="1.3" x2="-3.7" y2="2.2" width="0.1524" layer="21"/>
+<wire x1="-3.7" y1="2.2" x2="3.2" y2="2.2" width="0.1524" layer="21"/>
+<wire x1="3.2" y1="2.2" x2="3.7" y2="2.2" width="0.1524" layer="21"/>
+<wire x1="3.7" y1="2.2" x2="3.7" y2="1.3" width="0.1524" layer="21"/>
+<wire x1="-3.7" y1="-1.3" x2="-3.7" y2="-2.2" width="0.1524" layer="21"/>
+<wire x1="-3.7" y1="-2.2" x2="3.2" y2="-2.2" width="0.1524" layer="21"/>
+<wire x1="3.2" y1="-2.2" x2="3.7" y2="-2.2" width="0.1524" layer="21"/>
+<wire x1="3.7" y1="-2.2" x2="3.7" y2="-1.3" width="0.1524" layer="21"/>
+<text x="-4.2" y="2.3" size="1.016" layer="25" ratio="12">&gt;Name</text>
+<text x="-4.2" y="-3.3" size="1.016" layer="27" ratio="12">&gt;Value</text>
+<wire x1="3.2" y1="2.2" x2="3.2" y2="1.3" width="0.1524" layer="21"/>
+<wire x1="3.2" y1="-2.2" x2="3.2" y2="-1.3" width="0.1524" layer="21"/>
+</package>
+<package name="CAPMP6032-28">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0" width="600"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#0C2579 colspan="2"&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;Capacitor Polarized Molded Body (CAPMP)&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;img src="../../models/capacitors/CAPMP/png/CAPMP6032-28.png" width="240"&gt;
+&lt;/td&gt;
+&lt;td bgcolor=#ffffff&gt;
+&lt;font color=#666666&gt;
+EIA 6032-28 &lt;br&gt;
+(Kemet C, AVX C): &lt;br&gt;
+6.0 mm × 3.2 mm × 2.8 mm&lt;br&gt;
+--------------------------------------
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+&lt;br&gt;</description>
+<smd name="1" x="2.5" y="0" dx="2.25" dy="2.25" layer="1"/>
+<smd name="2" x="-2.5" y="0" dx="2.25" dy="2.25" layer="1"/>
+<wire x1="-3" y1="1.6" x2="2.5" y2="1.6" width="0.1" layer="51"/>
+<wire x1="2.5" y1="1.6" x2="3" y2="1.6" width="0.1" layer="51"/>
+<wire x1="3" y1="1.6" x2="3" y2="-1.6" width="0.1" layer="51"/>
+<wire x1="3" y1="-1.6" x2="2.5" y2="-1.6" width="0.1" layer="51"/>
+<wire x1="2.5" y1="-1.6" x2="-3" y2="-1.6" width="0.1" layer="51"/>
+<wire x1="-3" y1="-1.6" x2="-3" y2="1.6" width="0.1" layer="51"/>
+<rectangle x1="-3" y1="-1.1" x2="-1.7" y2="1.1" layer="51"/>
+<rectangle x1="1.7" y1="-1.1" x2="3" y2="1.1" layer="51"/>
+<wire x1="2.5" y1="1.6" x2="2.5" y2="-1.6" width="0.1" layer="51"/>
+<wire x1="-3" y1="1.2" x2="-3" y2="1.6" width="0.1524" layer="21"/>
+<wire x1="-3" y1="1.6" x2="2.5" y2="1.6" width="0.1524" layer="21"/>
+<wire x1="2.5" y1="1.6" x2="3" y2="1.6" width="0.1524" layer="21"/>
+<wire x1="3" y1="1.6" x2="3" y2="1.2" width="0.1524" layer="21"/>
+<wire x1="2.5" y1="1.6" x2="2.5" y2="1.2" width="0.1524" layer="21"/>
+<wire x1="3" y1="-1.2" x2="3" y2="-1.6" width="0.1524" layer="21"/>
+<wire x1="3" y1="-1.6" x2="2.5" y2="-1.6" width="0.1524" layer="21"/>
+<wire x1="2.5" y1="-1.6" x2="-3" y2="-1.6" width="0.1524" layer="21"/>
+<wire x1="-3" y1="-1.6" x2="-3" y2="-1.2" width="0.1524" layer="21"/>
+<wire x1="2.5" y1="-1.6" x2="2.5" y2="-1.2" width="0.1524" layer="21"/>
+<text x="-3.5" y="1.7" size="1.016" layer="25" ratio="12">&gt;Name</text>
+<text x="-3.6" y="-2.7" size="1.016" layer="27" ratio="12">&gt;Value</text>
+</package>
+<package name="CAPMP6032-15">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0" width="600"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#0C2579 colspan="2"&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;Capacitor Polarized Molded Body (CAPMP)&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;img src="../../models/capacitors/CAPMP/png/CAPMP6032-15.png" width="240"&gt;
+&lt;/td&gt;
+&lt;td bgcolor=#ffffff&gt;
+&lt;font color=#666666&gt;
+EIA 6032-15 &lt;br&gt;
+(Kemet U, AVX W): &lt;br&gt;
+6.0 mm × 3.2 mm × 1.5 mm&lt;br&gt;
+
+---------------------------------------
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+&lt;br&gt;</description>
+<smd name="P$1" x="2.5" y="0" dx="2.25" dy="2.25" layer="1"/>
+<smd name="P$2" x="-2.5" y="0" dx="2.25" dy="2.25" layer="1"/>
+<wire x1="-3" y1="1.6" x2="2.5" y2="1.6" width="0.1" layer="51"/>
+<wire x1="2.5" y1="1.6" x2="3" y2="1.6" width="0.1" layer="51"/>
+<wire x1="3" y1="1.6" x2="3" y2="-1.6" width="0.1" layer="51"/>
+<wire x1="3" y1="-1.6" x2="2.5" y2="-1.6" width="0.1" layer="51"/>
+<wire x1="2.5" y1="-1.6" x2="-3" y2="-1.6" width="0.1" layer="51"/>
+<wire x1="-3" y1="-1.6" x2="-3" y2="1.6" width="0.1" layer="51"/>
+<rectangle x1="-3" y1="-1.1" x2="-1.7" y2="1.1" layer="51"/>
+<rectangle x1="1.7" y1="-1.1" x2="3" y2="1.1" layer="51"/>
+<wire x1="-3" y1="1.2" x2="-3" y2="1.6" width="0.1524" layer="21"/>
+<wire x1="-3" y1="1.6" x2="2.6" y2="1.6" width="0.1524" layer="21"/>
+<wire x1="2.6" y1="1.6" x2="3" y2="1.6" width="0.1524" layer="21"/>
+<wire x1="3" y1="1.6" x2="3" y2="1.2" width="0.1524" layer="21"/>
+<wire x1="-3" y1="-1.2" x2="-3" y2="-1.6" width="0.1524" layer="21"/>
+<wire x1="-3" y1="-1.6" x2="2.6" y2="-1.6" width="0.1524" layer="21"/>
+<wire x1="2.6" y1="-1.6" x2="3" y2="-1.6" width="0.1524" layer="21"/>
+<wire x1="3" y1="-1.6" x2="3" y2="-1.2" width="0.1524" layer="21"/>
+<text x="-3.5" y="1.7" size="1.016" layer="25" ratio="12">&gt;Name</text>
+<text x="-3.5" y="-2.7" size="1.016" layer="27" ratio="12">&gt;Value</text>
+<wire x1="2.6" y1="1.6" x2="2.6" y2="1.2" width="0.1524" layer="21"/>
+<wire x1="2.6" y1="-1.2" x2="2.6" y2="-1.6" width="0.1524" layer="21"/>
+</package>
+<package name="CAPMP3528-21">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0" width="600"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#0C2579 colspan="2"&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;Capacitor Polarized Molded Body (CAPMP)&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;img src="../../models/capacitors/CAPMP/png/CAPMP3528-21.png" width="240"&gt;
+&lt;/td&gt;
+&lt;td bgcolor=#ffffff&gt;
+&lt;font color=#666666&gt;
+EIA 3528-21 &lt;br&gt;
+(Kemet B, AVX B): &lt;br&gt;
+3.5 mm × 2.8 mm × 2.1 mm&lt;br&gt;
+------------------------------------
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;</description>
+<smd name="1" x="1.4" y="0" dx="1.75" dy="2.25" layer="1" rot="R180"/>
+<smd name="2" x="-1.4" y="0" dx="1.75" dy="2.25" layer="1" rot="R180"/>
+<wire x1="-1.8" y1="1.4" x2="1.4" y2="1.4" width="0.1" layer="51"/>
+<wire x1="1.4" y1="1.4" x2="1.8" y2="1.4" width="0.1" layer="51"/>
+<wire x1="1.8" y1="1.4" x2="1.8" y2="-1.4" width="0.1" layer="51"/>
+<wire x1="1.8" y1="-1.4" x2="1.4" y2="-1.4" width="0.1" layer="51"/>
+<wire x1="1.4" y1="-1.4" x2="-1.8" y2="-1.4" width="0.1" layer="51"/>
+<wire x1="-1.8" y1="-1.4" x2="-1.8" y2="1.4" width="0.1" layer="51"/>
+<rectangle x1="-1.8" y1="-1.1" x2="-1" y2="1.1" layer="51"/>
+<rectangle x1="1" y1="-1.1" x2="1.8" y2="1.1" layer="51"/>
+<wire x1="1.4" y1="1.4" x2="1.4" y2="-1.4" width="0.1" layer="51"/>
+<wire x1="-1.8" y1="1.2" x2="-1.8" y2="1.4" width="0.1524" layer="21"/>
+<wire x1="-1.8" y1="1.4" x2="1.4" y2="1.4" width="0.1524" layer="21"/>
+<wire x1="1.4" y1="1.4" x2="1.8" y2="1.4" width="0.1524" layer="21"/>
+<wire x1="1.8" y1="1.4" x2="1.8" y2="1.2" width="0.1524" layer="21"/>
+<wire x1="1.4" y1="1.4" x2="1.4" y2="1.2" width="0.1524" layer="21"/>
+<wire x1="1.8" y1="-1.2" x2="1.8" y2="-1.4" width="0.1524" layer="21"/>
+<wire x1="1.8" y1="-1.4" x2="1.4" y2="-1.4" width="0.1524" layer="21"/>
+<wire x1="1.4" y1="-1.4" x2="-1.8" y2="-1.4" width="0.1524" layer="21"/>
+<wire x1="-1.8" y1="-1.4" x2="-1.8" y2="-1.2" width="0.1524" layer="21"/>
+<wire x1="1.4" y1="-1.4" x2="1.4" y2="-1.2" width="0.1524" layer="21"/>
+<text x="-2.2" y="1.5" size="1.016" layer="25" ratio="12">&gt;Name</text>
+<text x="-2.2" y="-2.5" size="1.016" layer="27" ratio="12">&gt;Value</text>
+</package>
+<package name="CAPMP3528-12">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0" width="600"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#0C2579 colspan="2"&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;Capacitor Polarized Molded Body (CAPMP)&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;img src="../../models/capacitors/CAPMP/png/CAPMP3528-12.png" width="240"&gt;
+&lt;/td&gt;
+&lt;td bgcolor=#ffffff&gt;
+&lt;font color=#666666&gt;
+EIA 3528-12 &lt;br&gt;
+(Kemet T, AVX T): &lt;br&gt;
+3.5 mm × 2.8 mm × 1.2 mm&lt;br&gt;
+--------------------------------------------
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;</description>
+<smd name="1" x="1.3" y="0" dx="2.25" dy="1.75" layer="1" rot="R90"/>
+<smd name="2" x="-1.3" y="0" dx="2.25" dy="1.75" layer="1" rot="R90"/>
+<wire x1="-1.8" y1="1.4" x2="1.4" y2="1.4" width="0.1" layer="51"/>
+<wire x1="1.4" y1="1.4" x2="1.8" y2="1.4" width="0.1" layer="51"/>
+<wire x1="1.8" y1="1.4" x2="1.8" y2="-1.4" width="0.1" layer="51"/>
+<wire x1="1.8" y1="-1.4" x2="1.4" y2="-1.4" width="0.1" layer="51"/>
+<wire x1="1.4" y1="-1.4" x2="-1.8" y2="-1.4" width="0.1" layer="51"/>
+<wire x1="-1.8" y1="-1.4" x2="-1.8" y2="1.4" width="0.1" layer="51"/>
+<rectangle x1="-1.8" y1="-1.1" x2="-1" y2="1.1" layer="51"/>
+<rectangle x1="1" y1="-1.1" x2="1.8" y2="1.1" layer="51"/>
+<wire x1="-1.8" y1="1.2" x2="-1.8" y2="1.4" width="0.1524" layer="21"/>
+<wire x1="-1.8" y1="1.4" x2="1.4" y2="1.4" width="0.1524" layer="21"/>
+<wire x1="1.4" y1="1.4" x2="1.8" y2="1.4" width="0.1524" layer="21"/>
+<wire x1="1.8" y1="1.4" x2="1.8" y2="1.2" width="0.1524" layer="21"/>
+<wire x1="1.8" y1="-1.2" x2="1.8" y2="-1.4" width="0.1524" layer="21"/>
+<wire x1="1.8" y1="-1.4" x2="1.4" y2="-1.4" width="0.1524" layer="21"/>
+<wire x1="1.4" y1="-1.4" x2="-1.8" y2="-1.4" width="0.1524" layer="21"/>
+<wire x1="-1.8" y1="-1.4" x2="-1.8" y2="-1.2" width="0.1524" layer="21"/>
+<text x="-2.1" y="1.5" size="1.016" layer="25" ratio="12">&gt;Name</text>
+<text x="-2.1" y="-2.5" size="1.016" layer="27" ratio="12">&gt;Value</text>
+<wire x1="1.4" y1="1.4" x2="1.4" y2="1.2" width="0.1524" layer="21"/>
+<wire x1="1.4" y1="-1.4" x2="1.4" y2="-1.2" width="0.1524" layer="21"/>
+</package>
+<package name="CAPMP3216-18">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0" width="600"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#0C2579 colspan="2"&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;Capacitor Polarized Molded Body (CAPMP)&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;img src="../../models/capacitors/CAPMP/png/CAPMP3216-18.png" width="240"&gt;
+&lt;/td&gt;
+&lt;td bgcolor=#ffffff&gt;
+&lt;font color=#666666&gt;
+EIA 3216-18 &lt;br&gt;
+(Kemet A, AVX A): &lt;br&gt;
+3.2 mm × 1.6 mm × 1.8 mm&lt;br&gt;
+------------------------------------
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;</description>
+<wire x1="-1.6" y1="0.8" x2="1.2" y2="0.8" width="0.1" layer="51"/>
+<wire x1="1.2" y1="0.8" x2="1.6" y2="0.8" width="0.1" layer="51"/>
+<wire x1="1.6" y1="0.8" x2="1.6" y2="-0.8" width="0.1" layer="51"/>
+<wire x1="1.6" y1="-0.8" x2="1.2" y2="-0.8" width="0.1" layer="51"/>
+<wire x1="1.2" y1="-0.8" x2="-1.6" y2="-0.8" width="0.1" layer="51"/>
+<wire x1="-1.6" y1="-0.8" x2="-1.6" y2="0.8" width="0.1" layer="51"/>
+<rectangle x1="-1.6" y1="-0.6" x2="-0.8" y2="0.6" layer="51"/>
+<rectangle x1="0.8" y1="-0.6" x2="1.6" y2="0.6" layer="51"/>
+<smd name="1" x="1.3" y="0" dx="1.25" dy="1.75" layer="1" rot="R90"/>
+<smd name="2" x="-1.3" y="0" dx="1.25" dy="1.75" layer="1" rot="R90"/>
+<wire x1="1.2" y1="0.8" x2="1.2" y2="-0.8" width="0.1" layer="51"/>
+<wire x1="-1.6" y1="0.7" x2="-1.6" y2="0.8" width="0.1524" layer="21"/>
+<wire x1="-1.6" y1="0.8" x2="1.2" y2="0.8" width="0.1524" layer="21"/>
+<wire x1="1.2" y1="0.8" x2="1.6" y2="0.8" width="0.1524" layer="21"/>
+<wire x1="1.6" y1="0.8" x2="1.6" y2="0.7" width="0.1524" layer="21"/>
+<wire x1="1.6" y1="-0.7" x2="1.6" y2="-0.8" width="0.1524" layer="21"/>
+<wire x1="1.6" y1="-0.8" x2="1.2" y2="-0.8" width="0.1524" layer="21"/>
+<wire x1="1.2" y1="-0.8" x2="-1.6" y2="-0.8" width="0.1524" layer="21"/>
+<wire x1="-1.6" y1="-0.8" x2="-1.6" y2="-0.7" width="0.1524" layer="21"/>
+<wire x1="1.2" y1="0.8" x2="1.2" y2="0.7" width="0.1524" layer="21"/>
+<wire x1="1.2" y1="-0.8" x2="1.2" y2="-0.7" width="0.1524" layer="21"/>
+<text x="-2.1" y="0.9" size="1.016" layer="25" ratio="12">&gt;Name</text>
+<text x="-2.1" y="-1.9" size="1.016" layer="27" ratio="12">&gt;Value</text>
+</package>
+<package name="CAPMP3216-12">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0" width="600"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#0C2579 colspan="2"&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;Capacitor Polarized Molded Body (CAPMP)&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;img src="../../models/capacitors/CAPMP/png/CAPMP3216-12.png" width="240"&gt;
+&lt;/td&gt;
+&lt;td bgcolor=#ffffff&gt;
+&lt;font color=#666666&gt;
+EIA 3216-12 &lt;br&gt;
+(Kemet I, AVX K): &lt;br&gt;
+3.2 mm × 1.6 mm × 1.2 mm&lt;br&gt;
+-----------------------------------
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;</description>
+<smd name="1" x="1.3" y="0" dx="1.25" dy="1.75" layer="1" rot="R90"/>
+<smd name="2" x="-1.3" y="0" dx="1.25" dy="1.75" layer="1" rot="R90"/>
+<wire x1="-1.6" y1="0.8" x2="1.3" y2="0.8" width="0.1" layer="51"/>
+<wire x1="1.3" y1="0.8" x2="1.6" y2="0.8" width="0.1" layer="51"/>
+<wire x1="1.6" y1="0.8" x2="1.6" y2="-0.8" width="0.1" layer="51"/>
+<wire x1="1.6" y1="-0.8" x2="1.3" y2="-0.8" width="0.1" layer="51"/>
+<wire x1="1.3" y1="-0.8" x2="-1.6" y2="-0.8" width="0.1" layer="51"/>
+<wire x1="-1.6" y1="-0.8" x2="-1.6" y2="0.8" width="0.1" layer="51"/>
+<rectangle x1="-1.6" y1="-0.6" x2="-0.8" y2="0.6" layer="51"/>
+<rectangle x1="0.8" y1="-0.6" x2="1.6" y2="0.6" layer="51"/>
+<wire x1="-1.6" y1="0.7" x2="-1.6" y2="0.8" width="0.1524" layer="21"/>
+<wire x1="-1.6" y1="0.8" x2="1.2" y2="0.8" width="0.1524" layer="21"/>
+<wire x1="1.2" y1="0.8" x2="1.6" y2="0.8" width="0.1524" layer="21"/>
+<wire x1="1.6" y1="0.8" x2="1.6" y2="0.7" width="0.1524" layer="21"/>
+<wire x1="-1.6" y1="-0.7" x2="-1.6" y2="-0.8" width="0.1524" layer="21"/>
+<wire x1="-1.6" y1="-0.8" x2="1.2" y2="-0.8" width="0.1524" layer="21"/>
+<wire x1="1.2" y1="-0.8" x2="1.6" y2="-0.8" width="0.1524" layer="21"/>
+<wire x1="1.6" y1="-0.8" x2="1.6" y2="-0.7" width="0.1524" layer="21"/>
+<text x="-2.2" y="0.9" size="1.016" layer="25" ratio="12">&gt;Name</text>
+<text x="-2.2" y="-1.9" size="1.016" layer="27" ratio="12">&gt;Value</text>
+<wire x1="1.2" y1="-0.8" x2="1.2" y2="-0.7" width="0.1524" layer="21"/>
+<wire x1="1.2" y1="0.8" x2="1.2" y2="0.7" width="0.1524" layer="21"/>
+</package>
+<package name="CAPMP2012-12">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0" width="600"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#0C2579 colspan="2"&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;Capacitor Polarized Molded Body (CAPMP)&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;img src="../../models/capacitors/CAPMP/png/CAPMP2012-12.png" width="240"&gt;
+&lt;/td&gt;
+&lt;td bgcolor=#ffffff&gt;
+&lt;font color=#666666&gt;
+EIA 2012-12&lt;br&gt; 
+(Kemet R, AVX R): &lt;br&gt;
+2.0 mm × 1.3 mm × 1.2 mm&lt;br&gt;
+--------------------------------------------
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+&lt;br&gt;</description>
+<smd name="1" x="0.9" y="0" dx="0.95" dy="1.45" layer="1" rot="R90"/>
+<smd name="2" x="-0.9" y="0" dx="0.95" dy="1.45" layer="1" rot="R90"/>
+<wire x1="-1" y1="0.7" x2="0.7" y2="0.7" width="0.1" layer="51"/>
+<wire x1="0.7" y1="0.7" x2="1" y2="0.7" width="0.1" layer="51"/>
+<wire x1="1" y1="0.7" x2="1" y2="-0.7" width="0.1" layer="51"/>
+<wire x1="1" y1="-0.7" x2="0.7" y2="-0.7" width="0.1" layer="51"/>
+<wire x1="0.7" y1="-0.7" x2="-1" y2="-0.7" width="0.1" layer="51"/>
+<wire x1="-1" y1="-0.7" x2="-1" y2="0.7" width="0.1" layer="51"/>
+<rectangle x1="-1" y1="-0.5" x2="-0.5" y2="0.5" layer="51"/>
+<rectangle x1="0.5" y1="-0.5" x2="1" y2="0.5" layer="51"/>
+<wire x1="-1" y1="0.6" x2="-1" y2="0.7" width="0.1524" layer="21"/>
+<wire x1="-1" y1="0.7" x2="0.6" y2="0.7" width="0.1524" layer="21"/>
+<wire x1="0.6" y1="0.7" x2="1" y2="0.7" width="0.1524" layer="21"/>
+<wire x1="1" y1="0.7" x2="1" y2="0.6" width="0.1524" layer="21"/>
+<wire x1="1" y1="-0.6" x2="1" y2="-0.7" width="0.1524" layer="21"/>
+<wire x1="1" y1="-0.7" x2="0.6" y2="-0.7" width="0.1524" layer="21"/>
+<wire x1="0.6" y1="-0.7" x2="-1" y2="-0.7" width="0.1524" layer="21"/>
+<wire x1="-1" y1="-0.7" x2="-1" y2="-0.6" width="0.1524" layer="21"/>
+<text x="-1.6" y="0.8" size="1.016" layer="25" ratio="12">&gt;Name</text>
+<text x="-1.6" y="-1.9" size="1.016" layer="27" ratio="12">&gt;Value</text>
+<wire x1="0.6" y1="0.7" x2="0.6" y2="0.6" width="0.1524" layer="21"/>
+<wire x1="0.6" y1="-0.7" x2="0.6" y2="-0.6" width="0.1524" layer="21"/>
+</package>
+<package name="CAPMP7360-20">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0" width="600"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#0C2579 colspan="2"&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;Capacitor Polarized Molded Body (CAPMP)&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;img src="../../models/capacitors/CAPMP/png/CAPMP7360-20.png" width="240"&gt;
+&lt;/td&gt;
+&lt;td bgcolor=#ffffff&gt;
+&lt;font color=#666666&gt;
+EIA 7360-20 &lt;br&gt;
+(Kemet H): &lt;br&gt;
+7.3 mm × 6.0 mm × 2.0 mm&lt;br&gt;
+-----------------------------------
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+&lt;br&gt;</description>
+<smd name="1" x="3.3" y="0" dx="4.15" dy="2.25" layer="1" rot="R90"/>
+<smd name="2" x="-3.3" y="0" dx="4.15" dy="2.25" layer="1" rot="R90"/>
+<wire x1="-3.7" y1="3" x2="3.1" y2="3" width="0.1" layer="51"/>
+<wire x1="3.1" y1="3" x2="3.7" y2="3" width="0.1" layer="51"/>
+<wire x1="3.7" y1="3" x2="3.7" y2="-3" width="0.1" layer="51"/>
+<wire x1="3.7" y1="-3" x2="-3.7" y2="-3" width="0.1" layer="51"/>
+<wire x1="-3.7" y1="-3" x2="-3.7" y2="3" width="0.1" layer="51"/>
+<rectangle x1="-3.7" y1="-2.1" x2="-2.4" y2="2.1" layer="51"/>
+<rectangle x1="2.4" y1="-2.1" x2="3.7" y2="2.1" layer="51"/>
+<wire x1="3.1" y1="3" x2="3.1" y2="-2.9" width="0.1" layer="51"/>
+<wire x1="-3.7" y1="2.2" x2="-3.7" y2="3" width="0.1524" layer="21"/>
+<wire x1="-3.7" y1="3" x2="3.1" y2="3" width="0.1524" layer="21"/>
+<wire x1="3.1" y1="3" x2="3.7" y2="3" width="0.1524" layer="21"/>
+<wire x1="3.7" y1="3" x2="3.7" y2="2.2" width="0.1524" layer="21"/>
+<wire x1="3.1" y1="3" x2="3.1" y2="2.2" width="0.1524" layer="21"/>
+<wire x1="3.7" y1="-2.2" x2="3.7" y2="-3" width="0.1524" layer="21"/>
+<wire x1="3.7" y1="-3" x2="3.1" y2="-3" width="0.1524" layer="21"/>
+<wire x1="3.1" y1="-3" x2="-3.7" y2="-3" width="0.1524" layer="21"/>
+<wire x1="-3.7" y1="-3" x2="-3.7" y2="-2.2" width="0.1524" layer="21"/>
+<wire x1="3.1" y1="-3" x2="3.1" y2="-2.2" width="0.1524" layer="21"/>
+<text x="-4.3" y="3.1" size="1.016" layer="25" ratio="12">&gt;Name</text>
+<text x="-4.3" y="-4.1" size="1.016" layer="27" ratio="12">&gt;Value</text>
+</package>
+<package name="CAPMP6032-19">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0" width="600"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#0C2579 colspan="2"&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;Capacitor Polarized Molded Body (CAPMP)&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;img src="../../models/capacitors/CAPMP/png/CAPMP6032-19.png" width="240"&gt;
+&lt;/td&gt;
+&lt;td bgcolor=#ffffff&gt;
+&lt;font color=#666666&gt;
+EIA 6032-19 &lt;br&gt;
+(Kemet L): &lt;br&gt;
+6.0 mm × 3.2 mm × 1.9 mm&lt;br&gt;
+--------------------------------------
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+&lt;br&gt;</description>
+<smd name="P$1" x="2.5" y="0" dx="2.25" dy="2.25" layer="1"/>
+<smd name="P$2" x="-2.5" y="0" dx="2.25" dy="2.25" layer="1"/>
+<wire x1="-3" y1="1.6" x2="2.5" y2="1.6" width="0.1" layer="51"/>
+<wire x1="2.5" y1="1.6" x2="3" y2="1.6" width="0.1" layer="51"/>
+<wire x1="3" y1="1.6" x2="3" y2="-1.6" width="0.1" layer="51"/>
+<wire x1="3" y1="-1.6" x2="2.5" y2="-1.6" width="0.1" layer="51"/>
+<wire x1="2.5" y1="-1.6" x2="-3" y2="-1.6" width="0.1" layer="51"/>
+<wire x1="-3" y1="-1.6" x2="-3" y2="1.6" width="0.1" layer="51"/>
+<rectangle x1="-3" y1="-1.1" x2="-1.7" y2="1.1" layer="51"/>
+<rectangle x1="1.7" y1="-1.1" x2="3" y2="1.1" layer="51"/>
+<wire x1="-3" y1="1.2" x2="-3" y2="1.6" width="0.1524" layer="21"/>
+<wire x1="-3" y1="1.6" x2="2.6" y2="1.6" width="0.1524" layer="21"/>
+<wire x1="2.6" y1="1.6" x2="3" y2="1.6" width="0.1524" layer="21"/>
+<wire x1="3" y1="1.6" x2="3" y2="1.2" width="0.1524" layer="21"/>
+<wire x1="-3" y1="-1.2" x2="-3" y2="-1.6" width="0.1524" layer="21"/>
+<wire x1="-3" y1="-1.6" x2="2.6" y2="-1.6" width="0.1524" layer="21"/>
+<wire x1="2.6" y1="-1.6" x2="3" y2="-1.6" width="0.1524" layer="21"/>
+<wire x1="3" y1="-1.6" x2="3" y2="-1.2" width="0.1524" layer="21"/>
+<text x="-3.5" y="1.7" size="1.016" layer="25" ratio="12">&gt;Name</text>
+<text x="-3.5" y="-2.7" size="1.016" layer="27" ratio="12">&gt;Value</text>
+<wire x1="2.6" y1="1.6" x2="2.6" y2="1.2" width="0.1524" layer="21"/>
+<wire x1="2.6" y1="-1.2" x2="2.6" y2="-1.6" width="0.1524" layer="21"/>
+</package>
+<package name="CAPMP3528-15">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0" width="600"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#0C2579 colspan="2"&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;Capacitor Polarized Molded Body (CAPMP)&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;img src="../../models/capacitors/CAPMP/png/CAPMP3528-15.png" width="240"&gt;
+&lt;/td&gt;
+&lt;td bgcolor=#ffffff&gt;
+&lt;font color=#666666&gt;
+EIA 3528-15 &lt;br&gt;
+(Kemet M): &lt;br&gt;
+3.5 mm × 2.8 mm × 1.5 mm&lt;br&gt;
+------------------------------------
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;</description>
+<smd name="1" x="1.4" y="0" dx="1.75" dy="2.25" layer="1" rot="R180"/>
+<smd name="2" x="-1.4" y="0" dx="1.75" dy="2.25" layer="1" rot="R180"/>
+<wire x1="-1.8" y1="1.4" x2="1.4" y2="1.4" width="0.1" layer="51"/>
+<wire x1="1.4" y1="1.4" x2="1.8" y2="1.4" width="0.1" layer="51"/>
+<wire x1="1.8" y1="1.4" x2="1.8" y2="-1.4" width="0.1" layer="51"/>
+<wire x1="1.8" y1="-1.4" x2="1.4" y2="-1.4" width="0.1" layer="51"/>
+<wire x1="1.4" y1="-1.4" x2="-1.8" y2="-1.4" width="0.1" layer="51"/>
+<wire x1="-1.8" y1="-1.4" x2="-1.8" y2="1.4" width="0.1" layer="51"/>
+<rectangle x1="-1.8" y1="-1.1" x2="-1" y2="1.1" layer="51"/>
+<rectangle x1="1" y1="-1.1" x2="1.8" y2="1.1" layer="51"/>
+<wire x1="1.4" y1="1.4" x2="1.4" y2="-1.4" width="0.1" layer="51"/>
+<wire x1="-1.8" y1="1.2" x2="-1.8" y2="1.4" width="0.1524" layer="21"/>
+<wire x1="-1.8" y1="1.4" x2="1.4" y2="1.4" width="0.1524" layer="21"/>
+<wire x1="1.4" y1="1.4" x2="1.8" y2="1.4" width="0.1524" layer="21"/>
+<wire x1="1.8" y1="1.4" x2="1.8" y2="1.2" width="0.1524" layer="21"/>
+<wire x1="1.4" y1="1.4" x2="1.4" y2="1.2" width="0.1524" layer="21"/>
+<wire x1="1.8" y1="-1.2" x2="1.8" y2="-1.4" width="0.1524" layer="21"/>
+<wire x1="1.8" y1="-1.4" x2="1.4" y2="-1.4" width="0.1524" layer="21"/>
+<wire x1="1.4" y1="-1.4" x2="-1.8" y2="-1.4" width="0.1524" layer="21"/>
+<wire x1="-1.8" y1="-1.4" x2="-1.8" y2="-1.2" width="0.1524" layer="21"/>
+<wire x1="1.4" y1="-1.4" x2="1.4" y2="-1.2" width="0.1524" layer="21"/>
+<text x="-2.2" y="1.5" size="1.016" layer="25" ratio="12">&gt;Name</text>
+<text x="-2.2" y="-2.5" size="1.016" layer="27" ratio="12">&gt;Value</text>
+</package>
+<package name="CAPMP7343-15">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0" width="600"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#0C2579 colspan="2"&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;Capacitor Polarized Molded Body (CAPMP)&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;img src="../../models/capacitors/CAPMP/png/CAPMP7343-15.png" width="240"&gt;
+&lt;/td&gt;
+&lt;td bgcolor=#ffffff&gt;
+&lt;font color=#666666&gt;
+EIA 7343-20 &lt;br&gt;
+(Kemet W): &lt;br&gt;
+7.3 mm × 4.3 mm × 1.5 mm&lt;br&gt;
+
+-------------------------------------
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+&lt;br&gt;</description>
+<smd name="1" x="2.6" y="0" dx="2.45" dy="3.35" layer="1" rot="R90"/>
+<smd name="2" x="-2.6" y="0" dx="2.45" dy="3.35" layer="1" rot="R90"/>
+<wire x1="-3.7" y1="2.2" x2="3.7" y2="2.2" width="0.1" layer="51"/>
+<wire x1="3.7" y1="2.2" x2="3.7" y2="-2.2" width="0.1" layer="51"/>
+<wire x1="3.7" y1="-2.2" x2="-3.7" y2="-2.2" width="0.1" layer="51"/>
+<wire x1="-3.7" y1="-2.2" x2="-3.7" y2="2.2" width="0.1" layer="51"/>
+<rectangle x1="-3.7" y1="-1.2" x2="-2.4" y2="1.2" layer="51"/>
+<rectangle x1="2.3" y1="-1.2" x2="3.7" y2="1.2" layer="51"/>
+<wire x1="-3.7" y1="1.3" x2="-3.7" y2="2.2" width="0.1524" layer="21"/>
+<wire x1="-3.7" y1="2.2" x2="3.2" y2="2.2" width="0.1524" layer="21"/>
+<wire x1="3.2" y1="2.2" x2="3.7" y2="2.2" width="0.1524" layer="21"/>
+<wire x1="3.7" y1="2.2" x2="3.7" y2="1.3" width="0.1524" layer="21"/>
+<wire x1="-3.7" y1="-1.3" x2="-3.7" y2="-2.2" width="0.1524" layer="21"/>
+<wire x1="-3.7" y1="-2.2" x2="3.2" y2="-2.2" width="0.1524" layer="21"/>
+<wire x1="3.2" y1="-2.2" x2="3.7" y2="-2.2" width="0.1524" layer="21"/>
+<wire x1="3.7" y1="-2.2" x2="3.7" y2="-1.3" width="0.1524" layer="21"/>
+<text x="-4.2" y="2.3" size="1.016" layer="25" ratio="12">&gt;Name</text>
+<text x="-4.2" y="-3.3" size="1.016" layer="27" ratio="12">&gt;Value</text>
+<wire x1="3.2" y1="2.2" x2="3.2" y2="1.3" width="0.1524" layer="21"/>
+<wire x1="3.2" y1="-2.2" x2="3.2" y2="-1.3" width="0.1524" layer="21"/>
+</package>
+<package name="CAPMP7343-31A">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0" width="600"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#0C2579 colspan="2"&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;Capacitor Polarized Molded Body (CAPMP)&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;img src="../../models/capacitors/CAPMP/png/CAPMP7343-31A.png" width="240"&gt;
+&lt;/td&gt;
+&lt;td bgcolor=#ffffff&gt;
+&lt;font color=#666666&gt;
+EIA 7343-31 &lt;br&gt;
+(Kemet D, AVX E): &lt;br&gt;
+7.3 mm × 4.3 mm × 3.1 mm&lt;br&gt;
+------------------------------------------
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+&lt;br&gt;</description>
+<smd name="1" x="2.6" y="0" dx="2.45" dy="3.35" layer="1" rot="R90"/>
+<smd name="2" x="-2.6" y="0" dx="2.45" dy="3.35" layer="1" rot="R90"/>
+<wire x1="-3.7" y1="2.2" x2="3" y2="2.2" width="0.1" layer="51"/>
+<wire x1="3" y1="2.2" x2="3.7" y2="2.2" width="0.1" layer="51"/>
+<wire x1="3.7" y1="2.2" x2="3.7" y2="-2.2" width="0.1" layer="51"/>
+<wire x1="3.7" y1="-2.2" x2="3" y2="-2.2" width="0.1" layer="51"/>
+<wire x1="3" y1="-2.2" x2="-3.7" y2="-2.2" width="0.1" layer="51"/>
+<wire x1="-3.7" y1="-2.2" x2="-3.7" y2="2.2" width="0.1" layer="51"/>
+<rectangle x1="-3.7" y1="-1.2" x2="-2.4" y2="1.2" layer="51"/>
+<rectangle x1="2.4" y1="-1.2" x2="3.7" y2="1.2" layer="51"/>
+<wire x1="3" y1="2.2" x2="3" y2="-2.2" width="0.1" layer="51"/>
+<wire x1="-3.7" y1="1.3" x2="-3.7" y2="2.2" width="0.1524" layer="21"/>
+<wire x1="-3.7" y1="2.2" x2="3" y2="2.2" width="0.1524" layer="21"/>
+<wire x1="3" y1="2.2" x2="3.7" y2="2.2" width="0.1524" layer="21"/>
+<wire x1="3.7" y1="2.2" x2="3.7" y2="1.3" width="0.1524" layer="21"/>
+<wire x1="3" y1="2.2" x2="3" y2="1.3" width="0.1524" layer="21"/>
+<wire x1="3.7" y1="-1.3" x2="3.7" y2="-2.2" width="0.1524" layer="21"/>
+<wire x1="3.7" y1="-2.2" x2="3" y2="-2.2" width="0.1524" layer="21"/>
+<wire x1="3" y1="-2.2" x2="-3.7" y2="-2.2" width="0.1524" layer="21"/>
+<wire x1="-3.7" y1="-2.2" x2="-3.7" y2="-1.3" width="0.1524" layer="21"/>
+<wire x1="3" y1="-2.2" x2="3" y2="-1.3" width="0.1524" layer="21"/>
+<text x="-4.2" y="2.3" size="1.016" layer="25" ratio="12">&gt;Name</text>
+<text x="-4.2" y="-3.3" size="1.016" layer="27" ratio="12">&gt;Value</text>
+</package>
+<package name="CAPMP7343-20A">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0" width="600"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#0C2579 colspan="2"&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;Capacitor Polarized Molded Body (CAPMP)&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;img src="../../models/capacitors/CAPMP/png/CAPMP7343-20A.png" width="240"&gt;
+&lt;/td&gt;
+&lt;td bgcolor=#ffffff&gt;
+&lt;font color=#666666&gt;
+EIA 7343-20 &lt;br&gt;
+(Kemet V, AVX E): &lt;br&gt;
+7.3 mm × 4.3 mm × 2 mm&lt;br&gt;
+------------------------------------------
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+&lt;br&gt;</description>
+<smd name="1" x="2.6" y="0" dx="2.45" dy="3.35" layer="1" rot="R90"/>
+<smd name="2" x="-2.6" y="0" dx="2.45" dy="3.35" layer="1" rot="R90"/>
+<wire x1="-3.7" y1="2.2" x2="3" y2="2.2" width="0.1" layer="51"/>
+<wire x1="3" y1="2.2" x2="3.7" y2="2.2" width="0.1" layer="51"/>
+<wire x1="3.7" y1="2.2" x2="3.7" y2="-2.2" width="0.1" layer="51"/>
+<wire x1="3.7" y1="-2.2" x2="3" y2="-2.2" width="0.1" layer="51"/>
+<wire x1="3" y1="-2.2" x2="-3.7" y2="-2.2" width="0.1" layer="51"/>
+<wire x1="-3.7" y1="-2.2" x2="-3.7" y2="2.2" width="0.1" layer="51"/>
+<rectangle x1="-3.7" y1="-1.2" x2="-2.4" y2="1.2" layer="51"/>
+<rectangle x1="2.4" y1="-1.2" x2="3.7" y2="1.2" layer="51"/>
+<wire x1="3" y1="2.2" x2="3" y2="-2.2" width="0.1" layer="51"/>
+<wire x1="-3.7" y1="1.3" x2="-3.7" y2="2.2" width="0.1524" layer="21"/>
+<wire x1="-3.7" y1="2.2" x2="3" y2="2.2" width="0.1524" layer="21"/>
+<wire x1="3" y1="2.2" x2="3.7" y2="2.2" width="0.1524" layer="21"/>
+<wire x1="3.7" y1="2.2" x2="3.7" y2="1.3" width="0.1524" layer="21"/>
+<wire x1="3" y1="2.2" x2="3" y2="1.3" width="0.1524" layer="21"/>
+<wire x1="3.7" y1="-1.3" x2="3.7" y2="-2.2" width="0.1524" layer="21"/>
+<wire x1="3.7" y1="-2.2" x2="3" y2="-2.2" width="0.1524" layer="21"/>
+<wire x1="3" y1="-2.2" x2="-3.7" y2="-2.2" width="0.1524" layer="21"/>
+<wire x1="-3.7" y1="-2.2" x2="-3.7" y2="-1.3" width="0.1524" layer="21"/>
+<wire x1="3" y1="-2.2" x2="3" y2="-1.3" width="0.1524" layer="21"/>
+<text x="-4.2" y="2.3" size="1.016" layer="25" ratio="12">&gt;Name</text>
+<text x="-4.2" y="-3.3" size="1.016" layer="27" ratio="12">&gt;Value</text>
+</package>
+<package name="CAPMP7343-15A">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0" width="600"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#0C2579 colspan="2"&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;Capacitor Polarized Molded Body (CAPMP)&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;img src="../../models/capacitors/CAPMP/png/CAPMP7343-15A.png" width="240"&gt;
+&lt;/td&gt;
+&lt;td bgcolor=#ffffff&gt;
+&lt;font color=#666666&gt;
+EIA 7343-15 &lt;br&gt;
+(Kemet W, AVX E): &lt;br&gt;
+7.3 mm × 4.3 mm × 15 mm&lt;br&gt;
+------------------------------------------
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+&lt;br&gt;</description>
+<smd name="1" x="2.6" y="0" dx="2.45" dy="3.35" layer="1" rot="R90"/>
+<smd name="2" x="-2.6" y="0" dx="2.45" dy="3.35" layer="1" rot="R90"/>
+<wire x1="-3.7" y1="2.2" x2="3" y2="2.2" width="0.1" layer="51"/>
+<wire x1="3" y1="2.2" x2="3.7" y2="2.2" width="0.1" layer="51"/>
+<wire x1="3.7" y1="2.2" x2="3.7" y2="-2.2" width="0.1" layer="51"/>
+<wire x1="3.7" y1="-2.2" x2="3" y2="-2.2" width="0.1" layer="51"/>
+<wire x1="3" y1="-2.2" x2="-3.7" y2="-2.2" width="0.1" layer="51"/>
+<wire x1="-3.7" y1="-2.2" x2="-3.7" y2="2.2" width="0.1" layer="51"/>
+<rectangle x1="-3.7" y1="-1.2" x2="-2.4" y2="1.2" layer="51"/>
+<rectangle x1="2.4" y1="-1.2" x2="3.7" y2="1.2" layer="51"/>
+<wire x1="3" y1="2.2" x2="3" y2="-2.2" width="0.1" layer="51"/>
+<wire x1="-3.7" y1="1.3" x2="-3.7" y2="2.2" width="0.1524" layer="21"/>
+<wire x1="-3.7" y1="2.2" x2="3" y2="2.2" width="0.1524" layer="21"/>
+<wire x1="3" y1="2.2" x2="3.7" y2="2.2" width="0.1524" layer="21"/>
+<wire x1="3.7" y1="2.2" x2="3.7" y2="1.3" width="0.1524" layer="21"/>
+<wire x1="3" y1="2.2" x2="3" y2="1.3" width="0.1524" layer="21"/>
+<wire x1="3.7" y1="-1.3" x2="3.7" y2="-2.2" width="0.1524" layer="21"/>
+<wire x1="3.7" y1="-2.2" x2="3" y2="-2.2" width="0.1524" layer="21"/>
+<wire x1="3" y1="-2.2" x2="-3.7" y2="-2.2" width="0.1524" layer="21"/>
+<wire x1="-3.7" y1="-2.2" x2="-3.7" y2="-1.3" width="0.1524" layer="21"/>
+<wire x1="3" y1="-2.2" x2="3" y2="-1.3" width="0.1524" layer="21"/>
+<text x="-4.2" y="2.3" size="1.016" layer="25" ratio="12">&gt;Name</text>
+<text x="-4.2" y="-3.3" size="1.016" layer="27" ratio="12">&gt;Value</text>
+</package>
+<package name="CAPMP7343-43A">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0" width="600"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#0C2579 colspan="2"&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;Capacitor Polarized Molded Body (CAPMP)&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;img src="../../models/capacitors/CAPMP/png/CAPMP7343-43A.png" width="240"&gt;
+&lt;/td&gt;
+&lt;td bgcolor=#ffffff&gt;
+&lt;font color=#666666&gt;
+EIA 7343-43 &lt;br&gt;
+(Kemet X, AVX E): &lt;br&gt;
+7.3 mm × 4.3 mm × 4.3 mm&lt;br&gt;
+------------------------------------------
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+&lt;br&gt;</description>
+<smd name="1" x="2.6" y="0" dx="2.45" dy="3.35" layer="1" rot="R90"/>
+<smd name="2" x="-2.6" y="0" dx="2.45" dy="3.35" layer="1" rot="R90"/>
+<wire x1="-3.7" y1="2.2" x2="3" y2="2.2" width="0.1" layer="51"/>
+<wire x1="3" y1="2.2" x2="3.7" y2="2.2" width="0.1" layer="51"/>
+<wire x1="3.7" y1="2.2" x2="3.7" y2="-2.2" width="0.1" layer="51"/>
+<wire x1="3.7" y1="-2.2" x2="3" y2="-2.2" width="0.1" layer="51"/>
+<wire x1="3" y1="-2.2" x2="-3.7" y2="-2.2" width="0.1" layer="51"/>
+<wire x1="-3.7" y1="-2.2" x2="-3.7" y2="2.2" width="0.1" layer="51"/>
+<rectangle x1="-3.7" y1="-1.2" x2="-2.4" y2="1.2" layer="51"/>
+<rectangle x1="2.4" y1="-1.2" x2="3.7" y2="1.2" layer="51"/>
+<wire x1="3" y1="2.2" x2="3" y2="-2.2" width="0.1" layer="51"/>
+<wire x1="-3.7" y1="1.3" x2="-3.7" y2="2.2" width="0.1524" layer="21"/>
+<wire x1="-3.7" y1="2.2" x2="3" y2="2.2" width="0.1524" layer="21"/>
+<wire x1="3" y1="2.2" x2="3.7" y2="2.2" width="0.1524" layer="21"/>
+<wire x1="3.7" y1="2.2" x2="3.7" y2="1.3" width="0.1524" layer="21"/>
+<wire x1="3" y1="2.2" x2="3" y2="1.3" width="0.1524" layer="21"/>
+<wire x1="3.7" y1="-1.3" x2="3.7" y2="-2.2" width="0.1524" layer="21"/>
+<wire x1="3.7" y1="-2.2" x2="3" y2="-2.2" width="0.1524" layer="21"/>
+<wire x1="3" y1="-2.2" x2="-3.7" y2="-2.2" width="0.1524" layer="21"/>
+<wire x1="-3.7" y1="-2.2" x2="-3.7" y2="-1.3" width="0.1524" layer="21"/>
+<wire x1="3" y1="-2.2" x2="3" y2="-1.3" width="0.1524" layer="21"/>
+<text x="-4.2" y="2.3" size="1.016" layer="25" ratio="12">&gt;Name</text>
+<text x="-4.2" y="-3.3" size="1.016" layer="27" ratio="12">&gt;Value</text>
+</package>
+</packages>
+<symbols>
+<symbol name="POLAR_CAP">
+<wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.016" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="-1" x2="2.4892" y2="-1.8542" width="0.254" layer="94" curve="-37.878202" cap="flat"/>
+<wire x1="-2.4668" y1="-1.8504" x2="0" y2="-1.0161" width="0.254" layer="94" curve="-37.373024" cap="flat"/>
+<text x="1.016" y="0.635" size="1.778" layer="95">&gt;NAME</text>
+<text x="1.016" y="-4.191" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="0" y="2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="2" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="T494" prefix="C">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#0C2579&gt;
+&lt;font color=#ffffff&gt;
+&lt;br&gt;&lt;br&gt;
+ &lt;b&gt;Industrial Grade Low ESR MnO2 Series&lt;/b&gt;
+
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#B3BFDE&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;font color=#666666&gt;
+&lt;b&gt;Description&lt;/b&gt;
+&lt;p&gt;
+OVERVIEW:&lt;br&gt;
+The KEMET T494 Series is a lower ESR version of the popular 
+T491 Series, designed speciﬁ cally for today’s highly automated 
+surface mount processes and equipment. The T494 combines 
+KEMET’s proven solid tantalum technology, acclaimed and 
+respected throughout the world, with the latest in materials, 
+processes and automation, resulting in unsurpassed total 
+performance and value. This product meets or exceeds the 
+requirements of EIA Standard 535BAAC. The T494 standard 
+terminations are available in 100% matte tin and provide 
+excellent wetting characteristics and compatibility with today's 
+surface mount solder systems. Tin/lead (Sn/Pb) terminations 
+are available upon request for any part number. Gold-plated 
+terminations are also available for use with conductive epoxy 
+attachment processes.
+&lt;p&gt;
+APPLICATIONS&lt;br&gt;
+Typical applications include decoupling and ﬁ ltering in industrial 
+and automotive end applications, such as DC/DC converters, 
+portable electronics, telecommunications, and control units.&lt;p&gt;
+
+BENEFITS&lt;br&gt;
+• Meets or exceeds EIA Standard 535BAAC&lt;br&gt;
+• Taped and reeled per EIA 481–1&lt;br&gt;
+• Symmetrical, compliant terminations&lt;br&gt;
+• Optional gold-plated terminations&lt;br&gt;
+• Laser-marked case&lt;br&gt;
+• 100% surge current test on C, D, E, U, V, X sizes&lt;br&gt;
+• Halogen-free epoxy&lt;br&gt;
+• Capacitance values of 0.1 μF to 1,000 μF&lt;br&gt;
+• Tolerances of ±10% and ±20%&lt;br&gt;
+• Voltage rating of 2.5 – 50 VDC&lt;br&gt;
+• Extended range values&lt;br&gt;
+• Low proﬁ le case sizes&lt;br&gt;
+• RoHS Compliant and lead-free terminations&lt;br&gt;
+• Operating temperature range of -55˚C to +125˚C&lt;br&gt;
+&lt;p&gt;
+&lt;b&gt;How to Order&lt;/b&gt;
+
+&lt;table  border="1" cellpadding="5" cellspacing="0"&gt;
+&lt;tr&gt;
+&lt;th&gt;T &lt;/th&gt;&lt;th&gt;494&lt;/th&gt;&lt;th&gt; T&lt;/th&gt;&lt;th&gt; 336 &lt;/th&gt;&lt;th&gt;M&lt;/th&gt;&lt;th&gt; 004&lt;/th&gt;&lt;th&gt; A&lt;/th&gt;&lt;th&gt; T&lt;/th&gt;&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+Capacitor&lt;br&gt;Class&lt;/td&gt;&lt;td&gt;Series&lt;/td&gt;&lt;td&gt;Case Size&lt;/td&gt;&lt;td&gt;Capacitance&lt;br&gt;Code (pF)&lt;/td&gt;&lt;td&gt;
+Capacitance&lt;br&gt;Tolerance&lt;/td&gt;&lt;td&gt;Voltage&lt;/td&gt;&lt;td&gt;Failure Rate/&lt;br&gt;Design&lt;/td&gt;&lt;td&gt;Lead Material&lt;/td&gt;&lt;td&gt; Packaging (C-Spec)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;T = &lt;br&gt;Tantalum&lt;/td&gt;&lt;td&gt;Industrial Low ESR&lt;/td&gt;&lt;td&gt;A, B, C, D, E, &lt;br&gt;R, S, T, U, V, X&lt;/td&gt;
+&lt;td&gt;First two digits&lt;br&gt; represent &lt;br&gt;signiﬁ cant &lt;br&gt;ﬁgures. Third digit &lt;br&gt;speciﬁ es number &lt;br&gt;of zeros.&lt;/td&gt;
+&lt;td&gt;K = ±10%&lt;br&gt;M = ±20%&lt;/td&gt;
+&lt;td&gt;
+2R5 = 2.5 V&lt;br&gt;
+003 = 3 V&lt;br&gt;
+004 = 4 V&lt;br&gt;
+006 = 6.3 V&lt;br&gt;
+010 = 10 V&lt;br&gt;
+016 = 16 V&lt;br&gt;
+020 = 20 V&lt;br&gt;
+025 = 25 V&lt;br&gt;
+035 = 35 V&lt;br&gt;
+050 = 50 V&lt;/td&gt;&lt;td&gt;A = N/A&lt;/td&gt;
+&lt;td&gt;T = 100% Matte Tin (Sn) Plated*&lt;br&gt; 
+H = Standard Solder Coated (SnPb 5% Pb minimum)&lt;br&gt; 
+G = Gold Plated (A, B, C, 
+D, X only) &lt;br&gt;
+N = Non-Magnetic 100% Tin (Sn)&lt;br&gt;
+M = Non-Magnetic (SnPb)&lt;/td&gt;&lt;td&gt;Blank = 7" Reel &lt;br&gt;7280 = 13" Ree&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#B3BFDE&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;Ref: &lt;/b&gt;&lt;a href="http://www.kemet.com/kemet/web/homepage/kechome.nsf/weben/5E1C09C1E6E61D1085257A4F00642EC0/$file/KEM_T2008_T494.pdf"&gt;Datasheet&lt;/a&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#0C2579&gt;
+&lt;font color=#ffffff&gt;
+Add more variants to T494@, just remplace the "@" with a new technologie named according to order code parameters.&lt;br&gt; 
+It is mandatory to fill up the following attributes &lt;b&gt;MANUFACTURER, DESCRIPTION, MOUSER, AVNET, ARROW, FUTURE, NEWARK, DIGIKEY, AVRG-PRICE, OCTOPART-LINK, DATASHEET&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;</description>
+<gates>
+<gate name="G$1" symbol="POLAR_CAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="A" package="CAPMP3216-18">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="B" package="CAPMP3528-21">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="C" package="CAPMP6032-28">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="D" package="CAPMP7343-31">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="X" package="CAPMP7343-43">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="E" package="CAPMP7360-38">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="R" package="CAPMP2012-12">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="S" package="CAPMP3216-12">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="T" package="CAPMP3528-12">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="U" package="CAPMP6032-15">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="V" package="CAPMP7343-20">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="T495" prefix="C">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#0C2579&gt;
+&lt;font color=#ffffff&gt;
+&lt;br&gt;&lt;br&gt;
+ &lt;b&gt;Surge Robust Low ESR MnO2 Series&lt;/b&gt;
+
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#B3BFDE&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;font color=#666666&gt;
+&lt;b&gt;Description&lt;/b&gt;
+&lt;p&gt;
+OVERVIEW:&lt;br&gt;
+The low ESR, surge-robust T495 Series is designed for 
+demanding applications that require high surge current and 
+high ripple current capability. This series builds upon the proven 
+capabilities of our industrial grade tantalum chip capacitors 
+to offer several advantages such as low ESR, high ripple 
+current capability, excellent capacitance stability, and improved 
+resistance to high in-rush currents. These beneﬁ ts are achieved 
+though a combination of proprietary design, materials, and process 
+parameters as well as high-stress, low impedance electrical 
+conditioning performed prior to screening.
+&lt;p&gt;
+APPLICATIONS&lt;br&gt;
+Typical applications include decoupling and ﬁ ltering in industrial 
+and automotive end applications, such as DC/DC converters, 
+portable electronics, telecommunications, and control units 
+requiring high ripple current capability.&lt;p&gt;
+
+BENEFITS&lt;br&gt;
+• Meets or exceeds EIA Standard 535BAAC&lt;br&gt;
+• Taped and reeled per EIA 481–1&lt;br&gt;
+• High surge current capability&lt;br&gt;
+• Optional gold-plated terminations&lt;br&gt;
+• High ripple current capability&lt;br&gt;
+• 100% surge current test on C, D, E, U, V, X sizes&lt;br&gt;
+• 100% steady-state accelerated aging&lt;br&gt;
+• Capacitance values of 0.1 μF to 1,000 μF&lt;br&gt;
+• Tolerances of ±10% and ±20%&lt;br&gt;
+• Voltage rating of 2.5 – 50 VDC&lt;br&gt;
+• Extended range values&lt;br&gt;
+• Available tested to DSCC 95158&lt;br&gt;
+• RoHS Compliant and lead-free terminations&lt;br&gt;
+• Operating temperature range of -55˚C to +125˚C
+&lt;p&gt;
+&lt;b&gt;How to Order&lt;/b&gt;
+
+&lt;table  border="1" cellpadding="5" cellspacing="0"&gt;
+&lt;tr&gt;
+&lt;th&gt;T &lt;/th&gt;&lt;th&gt;495&lt;/th&gt;&lt;th&gt; X&lt;/th&gt;&lt;th&gt; 107 &lt;/th&gt;&lt;th&gt;M&lt;/th&gt;&lt;th&gt; 010&lt;/th&gt;&lt;th&gt; A&lt;/th&gt;&lt;th&gt; T&lt;/th&gt;&lt;th&gt;E045&lt;/th&gt;&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+Capacitor&lt;br&gt;Class&lt;/td&gt;&lt;td&gt;Series&lt;/td&gt;&lt;td&gt;Case Size&lt;/td&gt;&lt;td&gt;Capacitance&lt;br&gt;Code (pF)&lt;/td&gt;&lt;td&gt;
+Capacitance&lt;br&gt;Tolerance&lt;/td&gt;&lt;td&gt;Voltage&lt;/td&gt;&lt;td&gt;Failure Rate/&lt;br&gt;Design&lt;/td&gt;&lt;td&gt;Lead Material&lt;/td&gt;&lt;td&gt;ESR&lt;/td&gt;&lt;td&gt; Packaging (C-Spec)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;T = &lt;br&gt;Tantalum&lt;/td&gt;&lt;td&gt;Surge Robustl Low ESR&lt;/td&gt;&lt;td&gt;A, B, C, D, E, &lt;br&gt; T, V, X&lt;/td&gt;
+&lt;td&gt;First two digits&lt;br&gt; represent &lt;br&gt;signiﬁ cant &lt;br&gt;ﬁgures. Third digit &lt;br&gt;speciﬁ es number &lt;br&gt;of zeros.&lt;/td&gt;
+&lt;td&gt;K = ±10%&lt;br&gt;M = ±20%&lt;/td&gt;
+&lt;td&gt;
+2R5 = 2.5 V&lt;br&gt;
+003 = 3 V&lt;br&gt;
+004 = 4 V&lt;br&gt;
+006 = 6.3 V&lt;br&gt;
+010 = 10 V&lt;br&gt;
+016 = 16 V&lt;br&gt;
+020 = 20 V&lt;br&gt;
+025 = 25 V&lt;br&gt;
+035 = 35 V&lt;br&gt;
+050 = 50 V&lt;/td&gt;&lt;td&gt;A = N/A&lt;/td&gt;
+&lt;td&gt;T = 100% Matte Tin (Sn) Plated*&lt;br&gt; 
+H = Standard Solder Coated (SnPb 5% Pb minimum)&lt;br&gt; 
+G = Gold Plated (A, B, C, 
+D, X only) &lt;br&gt;
+N = Non-Magnetic 100% Tin (Sn)&lt;br&gt;
+M = Non-Magnetic (SnPb)&lt;/td&gt;
+&lt;td&gt;Last three digits 
+specify ESR in 
+mΩ. (45 = 45 
+mΩ)&lt;/td&gt;
+&lt;td&gt;Blank = 7" Reel &lt;br&gt;7280 = 13" Ree&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#B3BFDE&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;Ref: &lt;/b&gt;&lt;a href="http://www.kemet.com/kemet/web/homepage/kechome.nsf/weben/1AABD97F96BDDBDA8525795A0050FFCA/$file/KEM_T2009_T495.pdf"&gt;Datasheet&lt;/a&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#0C2579&gt;
+&lt;font color=#ffffff&gt;
+Add more variants to T495@, just remplace the "@" with a new technologie named according to order code parameters.&lt;br&gt; 
+It is mandatory to fill up the following attributes &lt;b&gt;MANUFACTURER, DESCRIPTION, MOUSER, AVNET, ARROW, FUTURE, NEWARK, DIGIKEY, AVRG-PRICE, OCTOPART-LINK, DATASHEET&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;</description>
+<gates>
+<gate name="G$1" symbol="POLAR_CAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="A" package="CAPMP3216-18">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="B" package="CAPMP3528-21">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="C" package="CAPMP6032-28">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="D" package="CAPMP7343-31">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="X" package="CAPMP7343-43">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="E" package="CAPMP7360-38">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="V" package="CAPMP7343-20">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="T" package="CAPMP3528-12">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="T510" prefix="C">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#0C2579&gt;
+&lt;font color=#ffffff&gt;
+&lt;br&gt;&lt;br&gt;
+ &lt;b&gt;Multiple Anode Low ESR MnO2 Series&lt;/b&gt;
+
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#B3BFDE&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;font color=#666666&gt;
+&lt;b&gt;Description&lt;/b&gt;
+&lt;p&gt;
+OVERVIEW:&lt;br&gt;
+The low ESR, surge-robust T510 Series is designed for 
+demanding applications that require high surge current and 
+high ripple current capability. This series builds upon the proven 
+capabilities of our industrial grade tantalum chip capacitors to 
+offer several advantages such as low ESR, high ripple current 
+capability, excellent capacitance stability, and improved resistance 
+to high in-rush currents. These beneﬁ ts are achieved though the 
+utilization of multiple anodes as well as high-stress, low impedance 
+electrical conditioning performed prior to screening.
+&lt;p&gt;
+APPLICATIONS&lt;br&gt;
+Typical applications include decoupling and ﬁ ltering in industrial 
+and automotive end applications, such as DC/DC converters, 
+portable electronics, telecommunications, and control units 
+requiring high ripple current capability.&lt;p&gt;
+
+BENEFITS&lt;br&gt;
+• Meets or exceeds EIA Standard 535BAAC&lt;br&gt;
+• Taped and reeled per EIA 481–1&lt;br&gt;
+• High surge current capability&lt;br&gt;
+• Optional gold-plated terminations&lt;br&gt;
+• High ripple current capability&lt;br&gt;
+• 100% surge current test&lt;br&gt;
+• 100% steady-state accelerated aging&lt;br&gt;
+• Capacitance values of 10 μF to 1,000 μF&lt;br&gt;
+• Tolerances of ±10% and ±20%&lt;br&gt;
+• Voltage rating of 4 to 50 VDC&lt;br&gt;
+• Case sizes E and X&lt;br&gt;
+• ESR as low as 18 mΩ&lt;br&gt;
+• RoHS Compliant and lead-free terminations&lt;br&gt;
+• Operating temperature range of -55˚C to +125˚C
+&lt;p&gt;
+&lt;b&gt;How to Order&lt;/b&gt;
+
+&lt;table  border="1" cellpadding="5" cellspacing="0"&gt;
+&lt;tr&gt;
+&lt;th&gt;T &lt;/th&gt;&lt;th&gt;510&lt;/th&gt;&lt;th&gt; X&lt;/th&gt;&lt;th&gt; 447 &lt;/th&gt;&lt;th&gt;M&lt;/th&gt;&lt;th&gt; 006&lt;/th&gt;&lt;th&gt; A&lt;/th&gt;&lt;th&gt; T&lt;/th&gt;&lt;th&gt;E800&lt;/th&gt;&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+Capacitor&lt;br&gt;Class&lt;/td&gt;&lt;td&gt;Series&lt;/td&gt;&lt;td&gt;Case Size&lt;/td&gt;&lt;td&gt;Capacitance&lt;br&gt;Code (pF)&lt;/td&gt;&lt;td&gt;
+Capacitance&lt;br&gt;Tolerance&lt;/td&gt;&lt;td&gt;Voltage&lt;/td&gt;&lt;td&gt;Failure Rate/&lt;br&gt;Design&lt;/td&gt;&lt;td&gt;Lead Material&lt;/td&gt;&lt;td&gt;ESR&lt;/td&gt;&lt;td&gt; Packaging (C-Spec)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;T = &lt;br&gt;Tantalum&lt;/td&gt;&lt;td&gt;Multiple Anode Low ESR&lt;/td&gt;&lt;td&gt;E, X&lt;/td&gt;
+&lt;td&gt;First two digits&lt;br&gt; represent &lt;br&gt;signiﬁ cant &lt;br&gt;ﬁgures. Third digit &lt;br&gt;speciﬁ es number &lt;br&gt;of zeros.&lt;/td&gt;
+&lt;td&gt;K = ±10%&lt;br&gt;M = ±20%&lt;/td&gt;
+&lt;td&gt;
+004 = 4 V&lt;br&gt;
+006 = 6.3 V&lt;br&gt;
+010 = 10 V&lt;br&gt;
+016 = 16 V&lt;br&gt;
+020 = 20 V&lt;br&gt;
+025 = 25 V&lt;br&gt;
+035 = 35 V&lt;br&gt;
+050 = 50 V&lt;/td&gt;&lt;td&gt;A = N/A, Z = N/A&lt;/td&gt;
+&lt;td&gt;T = 100% Matte Tin (Sn) Plated*&lt;br&gt; 
+H = Standard Solder Coated (SnPb 5% Pb minimum)&lt;br&gt; 
+G = Gold Plated (A, B, C, 
+D, X only) &lt;br&gt;
+N = Non-Magnetic 100% Tin (Sn)&lt;br&gt;
+M = Non-Magnetic (SnPb)&lt;/td&gt;
+&lt;td&gt;Last three digits 
+specify ESR in 
+mΩ. (45 = 45 
+mΩ)&lt;/td&gt;
+&lt;td&gt;Blank = 7" Reel &lt;br&gt;7280 = 13" Ree&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#B3BFDE&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;Ref: &lt;/b&gt;&lt;a href="http://www.kemet.com/kemet/web/homepage/kechome.nsf/weben/F3380D9BC7FC2D71852578D100736418/$file/KEM_T2028_T510_SPACE.pdf"&gt;Datasheet&lt;/a&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#0C2579&gt;
+&lt;font color=#ffffff&gt;
+Add more variants to T510@, just remplace the "@" with a new technologie named according to order code parameters.&lt;br&gt; 
+It is mandatory to fill up the following attributes &lt;b&gt;MANUFACTURER, DESCRIPTION, MOUSER, AVNET, ARROW, FUTURE, NEWARK, DIGIKEY, AVRG-PRICE, OCTOPART-LINK, DATASHEET&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;</description>
+<gates>
+<gate name="G$1" symbol="POLAR_CAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="X" package="CAPMP7343-43">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="E" package="CAPMP7360-38">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="T491?*" prefix="C" uservalue="yes">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#0C2579&gt;
+&lt;font color=#ffffff&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;T491 Industrial Grade MnO2 Series
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#B3BFDE&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;font color=#666666&gt;
+&lt;b&gt;Description&lt;/b&gt;
+&lt;p&gt;
+OVERVIEW&lt;br&gt;
+The KEMET T491 Series, designed speciﬁ cally for today’s highly automated surface mount processes and equipment, is the 
+leading choice for surface mount designs. The T491 combines KEMET’s proven solid tantalum technology, acclaimed and 
+respected throughout the world, with the latest in materials, processes and automation, resulting in unsurpassed total 
+performance and value
+&lt;p&gt;
+APPLICATIONS&lt;br&gt;
+Typical applications include decoupling and ﬁ ltering in industrial and automotive end applications such as DC/DC converters, 
+portable electronics, telecommunications, and control units.
+&lt;p&gt;
+BENEFITS:
+&lt;ul&gt;
+• Taped and reeled per EIA 481–1&lt;br&gt;
+• Symmetrical, compliant terminations&lt;br&gt;
+• Optical gold-plated terminations&lt;br&gt;
+• Laser-marked case&lt;br&gt;
+• 100% surge current test on C, D, E, U, V, X sizes&lt;br&gt;
+• Halogen free epoxy&lt;br&gt;
+• Capacitance 0.1 µF to 1,000 µF&lt;br&gt;
+• Tolerance ±10%, ±20%&lt;br&gt;
+• Voltage 2.5 – 50 VDC&lt;br&gt;
+• Extended range values&lt;br&gt;
+• Low proﬁ le case sizes&lt;br&gt;
+• RoHS Compliant and lead-free terminations&lt;br&gt;
+(See www.kemet.com for transition information)
+• Operating temperature: -55ºC to +125ºC
+&lt;/ul&gt;
+&lt;b&gt;How to Order&lt;/b&gt;
+
+&lt;table  border="1" cellpadding="5" cellspacing="0"&gt;
+&lt;tr&gt;
+&lt;th&gt;T &lt;/th&gt;&lt;th&gt;491&lt;/th&gt;&lt;th&gt; X&lt;/th&gt;&lt;th&gt; 157 &lt;/th&gt;&lt;th&gt;K&lt;/th&gt;&lt;th&gt; 020&lt;/th&gt;&lt;th&gt; A&lt;/th&gt;&lt;th&gt; T&lt;/th&gt;&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+Capacitor&lt;br&gt;Class&lt;/td&gt;&lt;td&gt;Series&lt;/td&gt;&lt;td&gt;Case Size&lt;/td&gt;&lt;td&gt;Capacitance&lt;br&gt;Code (pF)&lt;/td&gt;&lt;td&gt;
+Capacitance&lt;br&gt;Tolerance&lt;/td&gt;&lt;td&gt;Voltage&lt;/td&gt;&lt;td&gt;Failure Rate/&lt;br&gt;Design&lt;/td&gt;&lt;td&gt;Lead Material&lt;/td&gt;&lt;td&gt; Packaging (C-Spec)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;T = &lt;br&gt;Tantalum&lt;/td&gt;&lt;td&gt;Industrial &lt;/td&gt;&lt;td&gt;A, B, C, D, E, &lt;br&gt;R, S, T, U, V, X&lt;/td&gt;
+&lt;td&gt;First two digits&lt;br&gt; represent &lt;br&gt;signiﬁ cant &lt;br&gt;ﬁgures. Third digit &lt;br&gt;speciﬁ es number &lt;br&gt;of zeros.&lt;/td&gt;
+&lt;td&gt;K = ±10%&lt;br&gt;M = ±20%&lt;/td&gt;&lt;td&gt;2R5 = 2.5 V&lt;br&gt;003 = 3 V&lt;br&gt;004 = 4 V&lt;br&gt;006 = 6.3 V&lt;br&gt;010 = 10 V&lt;br&gt;016 = 16 V&lt;br&gt;
+020 = 20 V&lt;br&gt;025 = 25 V&lt;br&gt;035 = 35 V&lt;br&gt;050 = 50 V&lt;/td&gt;&lt;td&gt;A = N/A&lt;/td&gt;
+&lt;td&gt;T = 100% Matte Tin (Sn) Plated*&lt;br&gt; 
+H = Standard Solder Coated (SnPb 5% Pb minimum)&lt;br&gt; 
+G = Gold Plated (A, B, C, 
+D, X only) &lt;br&gt;
+N = Non-Magnetic 100% Tin (Sn)&lt;br&gt;
+M = Non-Magnetic (SnPb)&lt;/td&gt;&lt;td&gt;Blank = 7" Reel &lt;br&gt;7280 = 13" Ree&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#B3BFDE&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;Ref: &lt;/b&gt;&lt;a href="http://www.kemet.com/kemet/web/homepage/kechome.nsf/weben/9F2DE33590D9247E8525788D0059B1E1/$file/KEM_TC101_STD.pdf"&gt;Datasheet&lt;/a&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#0C2579&gt;
+&lt;font color=#ffffff&gt;
+Add more variants to T491@, just remplace the "@" with a new technologie named according to order code parameters.&lt;br&gt; 
+It is mandatory to fill up the following attributes &lt;b&gt;MANUFACTURER, DESCRIPTION, MOUSER, AVNET, ARROW, FUTURE, NEWARK, DIGIKEY, AVRG-PRICE, OCTOPART-LINK, DATASHEET&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;</description>
+<gates>
+<gate name="G$1" symbol="POLAR_CAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="A" package="CAPMP3216-18">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="104K050AT">
+<attribute name="ARROW" value="" constant="no"/>
+<attribute name="AVNET" value="" constant="no"/>
+<attribute name="AVRG-PRICE" value="0.23"/>
+<attribute name="DATASHEET" value="http://www.kemet.com/kemet/web/homepage/kechome.nsf/weben/9F2DE33590D9247E8525788D0059B1E1/$file/KEM_TC101_STD.pdf"/>
+<attribute name="DESCRIPTION" value="Capacitores de tantalio - SMD sólido 50V 0.1uF 10% &quot;A&quot; "/>
+<attribute name="DIGIKEY" value="399-8263-2-ND"/>
+<attribute name="EAGLEUP" value="CAPMP3216-18" constant="no"/>
+<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="KEMET"/>
+<attribute name="MOUSER" value="80-T491A104K050"/>
+<attribute name="NEWARK" value="57K1620"/>
+<attribute name="OCTOPART-LINK" value="http://octopart.com/t491a104k050at-kemet-104789"/>
+</technology>
+<technology name="106K016AT">
+<attribute name="ARROW" value="" constant="no"/>
+<attribute name="AVNET" value="" constant="no"/>
+<attribute name="AVRG-PRICE" value="0.18"/>
+<attribute name="DATASHEET" value="http://www.kemet.com/kemet/web/homepage/kechome.nsf/weben/9F2DE33590D9247E8525788D0059B1E1/$file/KEM_TC101_STD.pdf"/>
+<attribute name="DESCRIPTION" value="Capacitores de tantalio - SMD sólido 16volt 10uF 10% Lead Free"/>
+<attribute name="DIGIKEY" value="399-8269-2-ND"/>
+<attribute name="EAGLEUP" value="CAPMP3216-18" constant="no"/>
+<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="KEMET"/>
+<attribute name="MOUSER" value="80-T491A106K016"/>
+<attribute name="NEWARK" value="" constant="no"/>
+<attribute name="OCTOPART-LINK" value="http://octopart.com/t491a106k016at-kemet-145880"/>
+</technology>
+<technology name="685M006AT">
+<attribute name="ARROW" value="" constant="no"/>
+<attribute name="AVNET" value="" constant="no"/>
+<attribute name="AVRG-PRICE" value="0.18"/>
+<attribute name="DATASHEET" value="http://www.kemet.com/kemet/web/homepage/kechome.nsf/weben/9F2DE33590D9247E8525788D0059B1E1/$file/KEM_TC101_STD.pdf"/>
+<attribute name="DESCRIPTION" value="Capacitores de tantalio - SMD sólido 6.3volts 6.8uF 20% A "/>
+<attribute name="DIGIKEY" value="399-10133-2-ND"/>
+<attribute name="EAGLEUP" value="CAPMP3216-18" constant="no"/>
+<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="KEMET"/>
+<attribute name="MOUSER" value="80-T491A685M006"/>
+<attribute name="NEWARK" value="40K0311"/>
+<attribute name="OCTOPART-LINK" value="http://octopart.com/t491a685m006at-kemet-967879"/>
+</technology>
+<technology name="@">
+<attribute name="ARROW" value="" constant="no"/>
+<attribute name="AVNET" value="" constant="no"/>
+<attribute name="AVRG-PRICE" value="" constant="no"/>
+<attribute name="DATASHEET" value="http://www.kemet.com/kemet/web/homepage/kechome.nsf/weben/9F2DE33590D9247E8525788D0059B1E1/$file/KEM_TC101_STD.pdf"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="EAGLEUP" value="CAPMP3216-18" constant="no"/>
+<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="KEMET"/>
+<attribute name="MOUSER" value="" constant="no"/>
+<attribute name="NEWARK" value="" constant="no"/>
+<attribute name="OCTOPART-LINK" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="B" package="CAPMP3528-21">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="@">
+<attribute name="ARROW" value="" constant="no"/>
+<attribute name="AVNET" value="" constant="no"/>
+<attribute name="AVRG-PRICE" value="" constant="no"/>
+<attribute name="DATASHEET" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="EAGLEUP" value="" constant="no"/>
+<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MOUSER" value="" constant="no"/>
+<attribute name="NEWARK" value="" constant="no"/>
+<attribute name="OCTOPART-LINK" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="C" package="CAPMP6032-28">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="@">
+<attribute name="ARROW" value="" constant="no"/>
+<attribute name="AVNET" value="" constant="no"/>
+<attribute name="AVRG-PRICE" value="" constant="no"/>
+<attribute name="DATASHEET" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="EAGLEUP" value="" constant="no"/>
+<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MOUSER" value="" constant="no"/>
+<attribute name="NEWARK" value="" constant="no"/>
+<attribute name="OCTOPART-LINK" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="D" package="CAPMP7343-31">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="@">
+<attribute name="ARROW" value="" constant="no"/>
+<attribute name="AVNET" value="" constant="no"/>
+<attribute name="AVRG-PRICE" value="" constant="no"/>
+<attribute name="DATASHEET" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="EAGLEUP" value="" constant="no"/>
+<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MOUSER" value="" constant="no"/>
+<attribute name="NEWARK" value="" constant="no"/>
+<attribute name="OCTOPART-LINK" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="E" package="CAPMP7360-38">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="@">
+<attribute name="ARROW" value="" constant="no"/>
+<attribute name="AVNET" value="" constant="no"/>
+<attribute name="AVRG-PRICE" value="" constant="no"/>
+<attribute name="DATASHEET" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="EAGLEUP" value="" constant="no"/>
+<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MOUSER" value="" constant="no"/>
+<attribute name="NEWARK" value="" constant="no"/>
+<attribute name="OCTOPART-LINK" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="R" package="CAPMP2012-12">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="@">
+<attribute name="ARROW" value="" constant="no"/>
+<attribute name="AVNET" value="" constant="no"/>
+<attribute name="AVRG-PRICE" value="" constant="no"/>
+<attribute name="DATASHEET" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="EAGLEUP" value="" constant="no"/>
+<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MOUSER" value="" constant="no"/>
+<attribute name="NEWARK" value="" constant="no"/>
+<attribute name="OCTOPART-LINK" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="S" package="CAPMP3216-12">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="@">
+<attribute name="ARROW" value="" constant="no"/>
+<attribute name="AVNET" value="" constant="no"/>
+<attribute name="AVRG-PRICE" value="" constant="no"/>
+<attribute name="DATASHEET" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="EAGLEUP" value="" constant="no"/>
+<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MOUSER" value="" constant="no"/>
+<attribute name="NEWARK" value="" constant="no"/>
+<attribute name="OCTOPART-LINK" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="T" package="CAPMP3528-12">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="@">
+<attribute name="ARROW" value="" constant="no"/>
+<attribute name="AVNET" value="" constant="no"/>
+<attribute name="AVRG-PRICE" value="" constant="no"/>
+<attribute name="DATASHEET" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="EAGLEUP" value="" constant="no"/>
+<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MOUSER" value="" constant="no"/>
+<attribute name="NEWARK" value="" constant="no"/>
+<attribute name="OCTOPART-LINK" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="U" package="CAPMP6032-15">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="@">
+<attribute name="ARROW" value="" constant="no"/>
+<attribute name="AVNET" value="" constant="no"/>
+<attribute name="AVRG-PRICE" value="" constant="no"/>
+<attribute name="DATASHEET" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="EAGLEUP" value="" constant="no"/>
+<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MOUSER" value="" constant="no"/>
+<attribute name="NEWARK" value="" constant="no"/>
+<attribute name="OCTOPART-LINK" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="V" package="CAPMP7343-20">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="@">
+<attribute name="ARROW" value="" constant="no"/>
+<attribute name="AVNET" value="" constant="no"/>
+<attribute name="AVRG-PRICE" value="" constant="no"/>
+<attribute name="DATASHEET" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="EAGLEUP" value="" constant="no"/>
+<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MOUSER" value="" constant="no"/>
+<attribute name="NEWARK" value="" constant="no"/>
+<attribute name="OCTOPART-LINK" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="X" package="CAPMP7343-43">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="@">
+<attribute name="ARROW" value="" constant="no"/>
+<attribute name="AVNET" value="" constant="no"/>
+<attribute name="AVRG-PRICE" value="" constant="no"/>
+<attribute name="DATASHEET" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="EAGLEUP" value="" constant="no"/>
+<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MOUSER" value="" constant="no"/>
+<attribute name="NEWARK" value="" constant="no"/>
+<attribute name="OCTOPART-LINK" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="T520">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#0C2579&gt;
+&lt;font color=#ffffff&gt;
+&lt;br&gt;&lt;br&gt;
+ &lt;b&gt;Series Polymer Tantalum&lt;/b&gt;
+
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#B3BFDE&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;font color=#666666&gt;
+&lt;b&gt;Description&lt;/b&gt;
+&lt;p&gt;
+OVERVIEW:&lt;br&gt;
+The KEMET Organic Capacitor (KO-CAP) is a tantalum capacitor 
+with a Ta anode and Ta2O5 dielectric. A conductive organic 
+polymer replaces the traditionally used MnO2 as the cathode 
+plate of the capacitor. This results in very low ESR and improved 
+capacitance retention at high frequency. The KO-CAP also 
+exhibits a benign failure mode which eliminates the ignition 
+failures that can occur in standard MnO2 tantalum types. KOCAPs may also be operated at steady state voltages up to 90% 
+of rated voltage for part types with rated voltages of ≤ 10 volts 
+and up to 80% of rated voltage for part types &gt; 10 volts with 
+equivalent or better reliability than traditional MnO2 tantalum 
+capacitors operated at 50% of rated voltage.&lt;p&gt;
+The T520 Series KO-CAP Low ESR Polymer captures the 
+best features of multilayer ceramic (low ESR, high frequency 
+capacitance retention), aluminum electrolytic (higher capacitance, 
+benign failure mode), and proven solid tantalum technology 
+(volumetric efﬁ ciency, surface mount capability, extremely long 
+life). The T520 can reduce component counts, eliminate throughhole assembly by replacing cumbersome leaded aluminum 
+capacitors, and offer a cost-effective and space-saving solution. 
+&lt;p&gt;
+APPLICATIONS&lt;br&gt;
+Typical applications include DC/DC converters, notebook PCs, 
+portable electronics, telecommunications (mobile phone and base 
+station), displays, SSD, HDD and USB.&lt;p&gt;
+
+BENEFITS&lt;br&gt;
+• Extremely low ESR&lt;br&gt;
+• -55°C to 105°C operating temperature range&lt;br&gt;
+• Polymer cathode technology&lt;br&gt;
+• High frequency capacitance retention&lt;br&gt;
+• Non-ignition failure mode&lt;br&gt;
+• Capacitance up to 1,500 µF&lt;br&gt;
+• 100% accelerated steady state aging&lt;br&gt;
+• 100% surge current tested&lt;br&gt;
+• Taped and reeled per EIA 481–1&lt;br&gt;
+• Volumetric efﬁ ciency&lt;br&gt;
+• Self-healing mechanism&lt;br&gt;
+• EIA standard case sizes
+&lt;p&gt;
+&lt;b&gt;How to Order&lt;/b&gt;
+
+&lt;table  border="1" cellpadding="5" cellspacing="0"&gt;
+&lt;tr&gt;
+&lt;th&gt;T &lt;/th&gt;&lt;th&gt;520&lt;/th&gt;&lt;th&gt; V&lt;/th&gt;&lt;th&gt; 157 &lt;/th&gt;&lt;th&gt;M&lt;/th&gt;&lt;th&gt; 006&lt;/th&gt;&lt;th&gt; A&lt;/th&gt;&lt;th&gt; T&lt;/th&gt;&lt;th&gt;E045&lt;/th&gt;&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+Capacitor&lt;br&gt;Class&lt;/td&gt;&lt;td&gt;Series&lt;/td&gt;&lt;td&gt;Case Size&lt;/td&gt;&lt;td&gt;Capacitance&lt;br&gt;Code (pF)&lt;/td&gt;&lt;td&gt;
+Capacitance&lt;br&gt;Tolerance&lt;/td&gt;&lt;td&gt;Voltage&lt;/td&gt;&lt;td&gt;Failure Rate/&lt;br&gt;Design&lt;/td&gt;&lt;td&gt;Lead Material&lt;/td&gt;&lt;td&gt;ESR&lt;/td&gt;&lt;td&gt; Packaging (C-Spec)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;T = &lt;br&gt;Tantalum&lt;/td&gt;&lt;td&gt;520=Polymer&lt;/td&gt;&lt;td&gt;A, B, C, D, H, L, M, T, U, V, W, X, Y&lt;/td&gt;
+&lt;td&gt;First two digits&lt;br&gt; represent &lt;br&gt;signiﬁ cant &lt;br&gt;ﬁgures. Third digit &lt;br&gt;speciﬁ es number &lt;br&gt;of zeros.&lt;/td&gt;
+&lt;td&gt;K = ±10%&lt;br&gt;M = ±20%&lt;/td&gt;
+&lt;td&gt;
+2R5 = 2.5 V&lt;br&gt;
+003 = 3 V&lt;br&gt;
+004 = 4 V&lt;br&gt;
+006 = 6.3 V&lt;br&gt;
+008 = 8 V&lt;br&gt;
+010 = 10 V&lt;br&gt;
+12R = 12.5 V&lt;br&gt;
+016 = 16 V&lt;br&gt;
+020 = 20 V&lt;br&gt;
+025 = 25 V 
+&lt;/td&gt;&lt;td&gt;A = N/A, Z = N/A&lt;/td&gt;
+&lt;td&gt;T = 100% Matte Tin (Sn) Plated*&lt;br&gt; 
+H = Standard Solder Coated (SnPb 5% Pb minimum)&lt;br&gt; 
+G = Gold Plated (A, B, C, 
+D, X only) &lt;br&gt;
+N = Non-Magnetic 100% Tin (Sn)&lt;br&gt;
+M = Non-Magnetic (SnPb)&lt;/td&gt;
+&lt;td&gt;Last three digits 
+specify ESR in 
+mΩ. (45 = 45 
+mΩ)&lt;/td&gt;
+&lt;td&gt;Blank = 7" Reel &lt;br&gt;7280 = 13" Ree&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#B3BFDE&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;Ref: &lt;/b&gt;&lt;a href="http://www.kemet.com/kemet/web/homepage/kechome.nsf/weben/F20B9CAB42EAE1B2852579A4006FE3E2/$file/KEM_T2015_T520.pdf"&gt;Datasheet&lt;/a&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#0C2579&gt;
+&lt;font color=#ffffff&gt;
+Add more variants to T520@, just remplace the "@" with a new technologie named according to order code parameters.&lt;br&gt; 
+It is mandatory to fill up the following attributes &lt;b&gt;MANUFACTURER, DESCRIPTION, MOUSER, AVNET, ARROW, FUTURE, NEWARK, DIGIKEY, AVRG-PRICE, OCTOPART-LINK, DATASHEET&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;</description>
+<gates>
+<gate name="G$1" symbol="POLAR_CAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="A" package="CAPMP3216-18">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="B" package="CAPMP3528-21">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="C" package="CAPMP6032-28">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="D" package="CAPMP7343-31">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="H" package="CAPMP7360-20">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="L" package="CAPMP6032-19">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="M" package="CAPMP3528-15">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="T" package="CAPMP3528-12">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="U" package="CAPMP6032-15">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="V" package="CAPMP7343-20">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="W" package="CAPMP7343-15">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="Y" package="CAPMP7343-43">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="X" package="CAPMP7343-43">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="T521">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#0C2579&gt;
+&lt;font color=#ffffff&gt;
+&lt;br&gt;&lt;br&gt;
+ &lt;b&gt;High Voltage Polymer Tantalum&lt;/b&gt;
+
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#B3BFDE&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;font color=#666666&gt;
+&lt;b&gt;Description&lt;/b&gt;
+&lt;p&gt;
+OVERVIEW:&lt;br&gt;
+The KEMET Organic Capacitor (KO-CAP) is a tantalum capacitor 
+with a Ta anode and Ta2O5 dielectric. A conductive organic 
+polymer replaces the traditionally used MnO2 as the cathode 
+plate of the capacitor. This results in very low ESR and improved 
+capacitance retention at high frequency. The KO-CAP also 
+exhibits a benign failure mode which eliminates the ignition 
+failures that can occur in standard MnO2 tantalum types. KOCAPs may also be operated at voltages up to 90% of rated 
+voltage for part types with rated voltages of ≤ 10 volts and up 
+to 80% of rated voltage for part types &gt; 10 volts with equivalent 
+or better reliability than traditional MnO2 tantalum capacitors operated at 50% of rated voltage.
+&lt;p&gt;
+The T521 Series High Voltage Polymer Tantalum is designed 
+for higher application voltages such as 12 V, 24 V, 28 V, and 48 
+V input rails. This series demonstrates excellent high voltage 
+handling capabilities and reliability and is commonly selected 
+as a replacement for other high capacitance dielectrics such as 
+MnO2 tantalum and aluminum electrolytic capacitors. The T521 
+Series can be safely operated at 80% of the rated voltages and 
+can withstand transient conditions up to the rated voltage of the 
+component. This series offers higher capacitance for a given 
+application voltage when compared to multilayer ceramic and 
+tantalum MnO2 devices. The T521 Series also offers superior 
+ESR performance over tantalum MnO2 and aluminum electrolytic 
+capacitors and a much lower proﬁ le than aluminum polymer and 
+aluminum electrolytic capacitors. 
+&lt;p&gt;
+APPLICATIONS&lt;br&gt;
+Typical applications include DC/DC converters, power supply 
+input and higher voltage applications such as 12 V to 50 V power 
+input rails in the military/aerospace and industrial markets..&lt;p&gt;
+
+BENEFITS&lt;br&gt;
+• Voltage ratings to 63 V&lt;br&gt;
+• Volumetric efﬁ ciency &lt;br&gt;
+• Stable temperature characteristics&lt;br&gt;
+• Up to 68 μF capacitance value &lt;br&gt;
+• High ripple current capability &lt;br&gt;
+• Low ESR &lt;br&gt;
+• High reliability&lt;br&gt;
+• Low proﬁ le design&lt;br&gt;
+• Benign failure mode &lt;br&gt;
+• Pb Free when ordered with 100% Sn termination&lt;br&gt;
+• RoHS Compliant and Halogen Free
+&lt;p&gt;
+&lt;b&gt;How to Order&lt;/b&gt;
+
+&lt;table  border="1" cellpadding="5" cellspacing="0"&gt;
+&lt;tr&gt;
+&lt;th&gt;T &lt;/th&gt;&lt;th&gt;521&lt;/th&gt;&lt;th&gt; V&lt;/th&gt;&lt;th&gt; 226 &lt;/th&gt;&lt;th&gt;M&lt;/th&gt;&lt;th&gt; 025&lt;/th&gt;&lt;th&gt; A&lt;/th&gt;&lt;th&gt; T&lt;/th&gt;&lt;th&gt;E060&lt;/th&gt;&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+Capacitor&lt;br&gt;Class&lt;/td&gt;&lt;td&gt;Series&lt;/td&gt;&lt;td&gt;Case Size&lt;/td&gt;&lt;td&gt;Capacitance&lt;br&gt;Code (pF)&lt;/td&gt;&lt;td&gt;
+Capacitance&lt;br&gt;Tolerance&lt;/td&gt;&lt;td&gt;Voltage&lt;/td&gt;&lt;td&gt;Failure Rate/&lt;br&gt;Design&lt;/td&gt;&lt;td&gt;Lead Material&lt;/td&gt;&lt;td&gt;ESR&lt;/td&gt;&lt;td&gt; Packaging (C-Spec)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;T = &lt;br&gt;Tantalum&lt;/td&gt;&lt;td&gt;520=Polymer&lt;/td&gt;&lt;td&gt;D, V, W, X&lt;/td&gt;
+&lt;td&gt;First two digits&lt;br&gt; represent &lt;br&gt;signiﬁ cant &lt;br&gt;ﬁgures. Third digit &lt;br&gt;speciﬁ es number &lt;br&gt;of zeros.&lt;/td&gt;
+&lt;td&gt;K = ±10%&lt;br&gt;M = ±20%&lt;/td&gt;
+&lt;td&gt;
+016 = 16 V&lt;br&gt;
+020 = 20 V&lt;br&gt;
+025 = 25 V&lt;br&gt;
+035 = 35 V&lt;br&gt;
+050 = 50 V&lt;br&gt;
+063 = 63 V 
+&lt;/td&gt;&lt;td&gt;A = N/A, Z = N/A&lt;/td&gt;
+&lt;td&gt;T = 100% Matte Tin (Sn) Plated*&lt;br&gt; 
+H = Standard Solder Coated (SnPb 5% Pb minimum)&lt;br&gt; 
+G = Gold Plated (A, B, C, 
+D, X only) &lt;br&gt;
+N = Non-Magnetic 100% Tin (Sn)&lt;br&gt;
+M = Non-Magnetic (SnPb)&lt;/td&gt;
+&lt;td&gt;Last three digits 
+specify ESR in 
+mΩ. (45 = 45 
+mΩ)&lt;/td&gt;
+&lt;td&gt;Blank = 7" Reel &lt;br&gt;7280 = 13" Ree&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#B3BFDE&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;Ref: &lt;/b&gt;&lt;a href="http://www.kemet.com/kemet/web/homepage/kechome.nsf/weben/9244A1369948C6D68525788D00765BB6/$file/KEM_T2016_T521.pdf"&gt;Datasheet&lt;/a&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#0C2579&gt;
+&lt;font color=#ffffff&gt;
+Add more variants to T521@, just remplace the "@" with a new technologie named according to order code parameters.&lt;br&gt; 
+It is mandatory to fill up the following attributes &lt;b&gt;MANUFACTURER, DESCRIPTION, MOUSER, AVNET, ARROW, FUTURE, NEWARK, DIGIKEY, AVRG-PRICE, OCTOPART-LINK, DATASHEET&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;</description>
+<gates>
+<gate name="G$1" symbol="POLAR_CAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="D" package="CAPMP7343-31">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="V" package="CAPMP7343-20">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="W" package="CAPMP7343-15">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="X" package="CAPMP7343-43">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="T522" prefix="C">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#0C2579&gt;
+&lt;font color=#ffffff&gt;
+&lt;br&gt;&lt;br&gt;
+ &lt;b&gt;Reduced Leakage Polymer Tantalum&lt;/b&gt;
+
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#B3BFDE&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;font color=#666666&gt;
+&lt;b&gt;Description&lt;/b&gt;
+&lt;p&gt;
+OVERVIEW:&lt;br&gt;
+The KEMET Organic Capacitor (KO-CAP) is a tantalum 
+capacitor with a Ta anode and Ta2O5 dielectric. A conductive 
+organic polymer replaces the traditionally used MnO2 as the 
+cathode plate of the capacitor. This results in very low ESR and 
+improved capacitance retention at high frequency. The KO-CAP 
+also exhibits a benign failure mode which eliminates the ignition 
+failures that can occur in standard MnO2 tantalum types. 
+KO-CAPs may also be operated at steady state voltages up to 
+90% of rated voltage for part types with rated voltages of ≤ 10.
+&lt;p&gt;
+The T522 Reduced Leakage Polymer Tantalum Series is designed 
+to meet the needs of leakage-sensitive applications such as 
+battery supported circuits. The T522 Series offers the lowest 
+leakage values available in polymer tantalum capacitors with upper 
+leakage limits that are up to 70% lower than other polymer series. 
+&lt;p&gt;
+APPLICATIONS&lt;br&gt;
+Typical applications include battery-dependent applications such 
+as handheld consumer electronics, global tracking systems, 
+energy harvesting, wireless sensors and other applications 
+that seek high capacitance, low proﬁ le, safety and low power 
+consumption. &lt;p&gt;
+
+BENEFITS&lt;br&gt;
+• ESR: 25 to 40 mΩ&lt;br&gt;
+• -55°C to 105°C operating temperature range&lt;br&gt;
+• Polymer cathode technology&lt;br&gt;
+• High frequency capacitance retention&lt;br&gt;
+• Non-ignition failure mode&lt;br&gt;
+• Capacitance: 150 to 470 µF&lt;br&gt;
+• Voltage: 6.3 V&lt;br&gt;
+• 100% accelerated steady state aging&lt;br&gt;
+• 100% surge current tested&lt;br&gt;
+• Low proﬁ le designs&lt;br&gt;
+• Volumetric efﬁ ciency&lt;br&gt;
+• Self-healing mechanism&lt;br&gt;
+• EIA standard case sizes
+&lt;p&gt;
+&lt;b&gt;How to Order&lt;/b&gt;
+
+&lt;table  border="1" cellpadding="5" cellspacing="0"&gt;
+&lt;tr&gt;
+&lt;th&gt;T &lt;/th&gt;&lt;th&gt;520&lt;/th&gt;&lt;th&gt; V&lt;/th&gt;&lt;th&gt; 157 &lt;/th&gt;&lt;th&gt;M&lt;/th&gt;&lt;th&gt; 006&lt;/th&gt;&lt;th&gt; A&lt;/th&gt;&lt;th&gt; T&lt;/th&gt;&lt;th&gt;E025&lt;/th&gt;&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+Capacitor&lt;br&gt;Class&lt;/td&gt;&lt;td&gt;Series&lt;/td&gt;&lt;td&gt;Case Size&lt;/td&gt;&lt;td&gt;Capacitance&lt;br&gt;Code (pF)&lt;/td&gt;&lt;td&gt;
+Capacitance&lt;br&gt;Tolerance&lt;/td&gt;&lt;td&gt;Voltage&lt;/td&gt;&lt;td&gt;Failure Rate/&lt;br&gt;Design&lt;/td&gt;&lt;td&gt;Lead Material&lt;/td&gt;&lt;td&gt;ESR&lt;/td&gt;&lt;td&gt; Packaging (C-Spec)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;T = &lt;br&gt;Tantalum&lt;/td&gt;&lt;td&gt;Reduced&lt;/td&gt;&lt;td&gt;Y, V&lt;/td&gt;
+&lt;td&gt;First two digits&lt;br&gt; represent &lt;br&gt;signiﬁ cant &lt;br&gt;ﬁgures. Third digit &lt;br&gt;speciﬁ es number &lt;br&gt;of zeros.&lt;/td&gt;
+&lt;td&gt;K = ±10%&lt;br&gt;M = ±20%&lt;/td&gt;
+&lt;td&gt;
+
+063 = 63 V 
+&lt;/td&gt;&lt;td&gt;A = N/A, Z = N/A&lt;/td&gt;
+&lt;td&gt;T = 100% Matte Tin (Sn) Plated*&lt;br&gt; 
+H = Standard Solder Coated (SnPb 5% Pb minimum)&lt;br&gt; 
+G = Gold Plated (A, B, C, 
+D, X only) &lt;br&gt;
+N = Non-Magnetic 100% Tin (Sn)&lt;br&gt;
+M = Non-Magnetic (SnPb)&lt;/td&gt;
+&lt;td&gt;Last three digits 
+specify ESR in 
+mΩ. (45 = 45 
+mΩ)&lt;/td&gt;
+&lt;td&gt;Blank = 7" Reel &lt;br&gt;7280 = 13" Ree&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#B3BFDE&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;Ref: &lt;/b&gt;&lt;a href="http://www.kemet.com/kemet/web/homepage/kechome.nsf/weben/22504275B150C8F78525793C006C1D2F/$file/KEM_T2030_T522.pdf"&gt;Datasheet&lt;/a&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#0C2579&gt;
+&lt;font color=#ffffff&gt;
+Add more variants to T522@, just remplace the "@" with a new technologie named according to order code parameters.&lt;br&gt; 
+It is mandatory to fill up the following attributes &lt;b&gt;MANUFACTURER, DESCRIPTION, MOUSER, AVNET, ARROW, FUTURE, NEWARK, DIGIKEY, AVRG-PRICE, OCTOPART-LINK, DATASHEET&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;</description>
+<gates>
+<gate name="G$1" symbol="POLAR_CAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="V" package="CAPMP7343-20">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="Y" package="CAPMP7343-43">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="T525" prefix="C" uservalue="yes">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#0C2579&gt;
+&lt;font color=#ffffff&gt;
+&lt;br&gt;&lt;br&gt;
+ &lt;b&gt;125°C Rated Polymer Tantalum&lt;/b&gt;
+
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#B3BFDE&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;font color=#666666&gt;
+&lt;b&gt;Description&lt;/b&gt;
+&lt;p&gt;
+OVERVIEW:&lt;br&gt;
+The KEMET Organic Capacitor (KO-CAP) is a tantalum 
+capacitor with a Ta anode and Ta2O5 dielectric. A conductive 
+organic polymer replaces the traditionally used MnO2 as the 
+cathode plate of the capacitor. This results in very low ESR 
+and improved capacitance retention at high frequency. The 
+KO-CAP also exhibits a benign failure mode which eliminates 
+the ignition failures that can occur in standard MnO2 tantalum 
+types. KO-CAPs may also be operated at steady state voltages 
+up to 90% of rated voltage for part types with rated voltages of 
+≤ 10 volts and up to 80% of rated voltage for part types &gt; 10 volts 
+with equivalent or better reliability than traditional MnO2 tantalum 
+capacitors operated at 50% of rated voltage. 
+&lt;p&gt;
+The T525 Series KOCAP Low ESR Polymer is KEMET’s 125°C rated tantalum polymer 
+capacitor. This part offers the same advantages as the T520 
+Series such as low ESR, high frequency capacitance retention 
+and a benign failure mode. The T525 Series is often the series of 
+choice when considering automotive or industrial type applications.
+&lt;p&gt;
+APPLICATIONS&lt;br&gt;
+Typical applications include automotive, industrial and military as 
+per DSCC 04051. &lt;p&gt;
+
+BENEFITS&lt;br&gt;
+• Polymer cathode technology&lt;br&gt;
+• 125°C maximum operating temperature&lt;br&gt;
+• High frequency capacitance retention&lt;br&gt;
+• Non-ignition failure mode&lt;br&gt;
+• Capacitance: 33 µF to 680 µF&lt;br&gt;
+• Voltage: 2.5 V to 16 V&lt;br&gt;
+• Use up to 90% of rated voltage (10% derating) for part types ≤ 10 V&lt;br&gt;
+• Use up to 80% of rated voltage (20% derating) for part types &gt; 10 V&lt;br&gt;
+• 100% surge current tested&lt;br&gt;
+• Self-healing mechanism&lt;br&gt;
+• Volumetrically efﬁ cient&lt;br&gt;
+• EIA standard case sizes&lt;br&gt;
+• RoHS Compliant and Halogen Free
+&lt;p&gt;
+&lt;b&gt;How to Order&lt;/b&gt;
+
+&lt;table  border="1" cellpadding="5" cellspacing="0"&gt;
+&lt;tr&gt;
+&lt;th&gt;T &lt;/th&gt;&lt;th&gt;525&lt;/th&gt;&lt;th&gt; D&lt;/th&gt;&lt;th&gt; 337 &lt;/th&gt;&lt;th&gt;M&lt;/th&gt;&lt;th&gt; 006&lt;/th&gt;&lt;th&gt; A&lt;/th&gt;&lt;th&gt; T&lt;/th&gt;&lt;th&gt;E800&lt;/th&gt;&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+Capacitor&lt;br&gt;Class&lt;/td&gt;&lt;td&gt;Series&lt;/td&gt;&lt;td&gt;Case Size&lt;/td&gt;&lt;td&gt;Capacitance&lt;br&gt;Code (pF)&lt;/td&gt;&lt;td&gt;
+Capacitance&lt;br&gt;Tolerance&lt;/td&gt;&lt;td&gt;Voltage&lt;/td&gt;&lt;td&gt;Failure Rate/&lt;br&gt;Design&lt;/td&gt;&lt;td&gt;Lead Material&lt;/td&gt;&lt;td&gt;ESR&lt;/td&gt;&lt;td&gt; Packaging (C-Spec)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;T = &lt;br&gt;Tantalum&lt;/td&gt;&lt;td&gt;Rated Polymer&lt;/td&gt;&lt;td&gt;Y, V&lt;/td&gt;
+&lt;td&gt;First two digits&lt;br&gt; represent &lt;br&gt;signiﬁ cant &lt;br&gt;ﬁgures. Third digit &lt;br&gt;speciﬁ es number &lt;br&gt;of zeros.&lt;/td&gt;
+&lt;td&gt;K = ±10%&lt;br&gt;M = ±20%&lt;/td&gt;
+&lt;td&gt;
+2R5 = 2.5 V&lt;br&gt;
+003 = 3 V &lt;br&gt;
+004 = 4 V &lt;br&gt;
+006 = 6.3 V&lt;br&gt; 
+010 = 10 V&lt;br&gt; 
+016 = 16 V
+&lt;/td&gt;&lt;td&gt;A = N/A, Z = N/A&lt;/td&gt;
+&lt;td&gt;T = 100% Matte Tin (Sn) Plated*&lt;br&gt; 
+H = Standard Solder Coated (SnPb 5% Pb minimum)&lt;br&gt; 
+G = Gold Plated (A, B, C, 
+D, X only) &lt;br&gt;
+N = Non-Magnetic 100% Tin (Sn)&lt;br&gt;
+M = Non-Magnetic (SnPb)&lt;/td&gt;
+&lt;td&gt;Last three digits 
+specify ESR in 
+mΩ. (45 = 45 
+mΩ)&lt;/td&gt;
+&lt;td&gt;Blank = 7" Reel &lt;br&gt;7280 = 13" Ree&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#B3BFDE&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;Ref: &lt;/b&gt;&lt;a href="http://www.kemet.com/kemet/web/homepage/kechome.nsf/weben/DF97C2E0EFC4EB918525788D007694ED/$file/KEM_T2017_T525.pdf"&gt;Datasheet&lt;/a&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#0C2579&gt;
+&lt;font color=#ffffff&gt;
+Add more variants to T525@, just remplace the "@" with a new technologie named according to order code parameters.&lt;br&gt; 
+It is mandatory to fill up the following attributes &lt;b&gt;MANUFACTURER, DESCRIPTION, MOUSER, AVNET, ARROW, FUTURE, NEWARK, DIGIKEY, AVRG-PRICE, OCTOPART-LINK, DATASHEET&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;</description>
+<gates>
+<gate name="G$1" symbol="POLAR_CAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="B" package="CAPMP3528-21">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="D" package="CAPMP7343-31">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="T" package="CAPMP3528-12">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="V" package="CAPMP7343-20">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="Y" package="CAPMP7343-43">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="T530" prefix="C">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#0C2579&gt;
+&lt;font color=#ffffff&gt;
+&lt;br&gt;&lt;br&gt;
+ &lt;b&gt;High Capacitance/125°C Rated Polymer Tantalum&lt;/b&gt;
+
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#B3BFDE&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;font color=#666666&gt;
+&lt;b&gt;Description&lt;/b&gt;
+&lt;p&gt;
+OVERVIEW:&lt;br&gt;
+The KEMET Organic Capacitor (KO-CAP) is a tantalum 
+capacitor with a Ta anode and Ta2O5 dielectric. A conductive 
+organic polymer replaces the traditionally used MnO2 as the 
+cathode plate of the capacitor. This results in very low ESR and 
+improved capacitance retention at high frequency. The KOCAP also exhibits a benign failure mode which eliminates the 
+ignition failures that can occur in standard MnO2 tantalum types. 
+KO-CAPs may also be operated at steady state voltages up to 
+90% of rated voltage for part types with rated voltages of ≤10 
+volts and up to 80% of rated voltage for part types &gt;10 volts with 
+equivalent or better reliability than traditional MnO2 tantalum 
+capacitors operated at 50% of rated voltage.
+&lt;p&gt;
+The T530 Series KO-CAP offers the same advantages as 
+the T520 Series but also has the added advantages of higher 
+capacitance, 125°C performance capability, higher ripple current 
+handling capability and a lower ESR range. Packaged as multiple 
+anodes to reduce the depth that the signal must penetrate, this 
+parallel arrangement reduces the ESR further still to achieve the 
+highest capacitance and lowest ESR of any other type of surface 
+mount capacitor with typical ESR values as low as 4 mΩ. With 
+reduced ESR, the enhanced capacitance retention at higher 
+frequencies provides the lowest total capacitance and most 
+economical solution for high power applications.
+&lt;p&gt;
+APPLICATIONS&lt;br&gt;
+Typical applications include high speed server, microprocessor 
+decoupling and high ripple current applications. &lt;p&gt;
+
+BENEFITS&lt;br&gt;
+• ESR: 4 mΩ to 40 mΩ&lt;br&gt;
+• 125°C maximum operating temperature&lt;br&gt;
+• Polymer cathode technology&lt;br&gt;
+• High frequency capacitance retention&lt;br&gt;
+• Non-ignition failure mode&lt;br&gt;
+• Capacitance: 150 µF to 1,500 µF&lt;br&gt;
+• 100% accelerated steady state aging&lt;br&gt;
+• 100% surge current tested&lt;br&gt;
+• Utilizes multiple tantalum anode technology&lt;br&gt;
+• Volumetric efﬁ ciency&lt;br&gt;
+• Use up to 90% of rated voltage (10% derating) for part types ≤ 10 V&lt;br&gt;
+• Use up to 80% of rated voltage (20% derating) for part types &gt; 10 V&lt;br&gt;
+• Self-healing mechanism&lt;br&gt;
+• EIA standard case sizes
+&lt;p&gt;
+&lt;b&gt;How to Order&lt;/b&gt;
+
+&lt;table  border="1" cellpadding="5" cellspacing="0"&gt;
+&lt;tr&gt;
+&lt;th&gt;T &lt;/th&gt;&lt;th&gt;530&lt;/th&gt;&lt;th&gt; X&lt;/th&gt;&lt;th&gt; 337 &lt;/th&gt;&lt;th&gt;M&lt;/th&gt;&lt;th&gt; 010&lt;/th&gt;&lt;th&gt; A&lt;/th&gt;&lt;th&gt; T&lt;/th&gt;&lt;th&gt;E005&lt;/th&gt;&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+Capacitor&lt;br&gt;Class&lt;/td&gt;&lt;td&gt;Series&lt;/td&gt;&lt;td&gt;Case Size&lt;/td&gt;&lt;td&gt;Capacitance&lt;br&gt;Code (pF)&lt;/td&gt;&lt;td&gt;
+Capacitance&lt;br&gt;Tolerance&lt;/td&gt;&lt;td&gt;Voltage&lt;/td&gt;&lt;td&gt;Failure Rate/&lt;br&gt;Design&lt;/td&gt;&lt;td&gt;Lead Material&lt;/td&gt;&lt;td&gt;ESR&lt;/td&gt;&lt;td&gt; Packaging (C-Spec)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;T = &lt;br&gt;Tantalum&lt;/td&gt;&lt;td&gt;= High 
+Capacitance 
+125°C Rated 
+Polymer&lt;/td&gt;&lt;td&gt;D, X, Y&lt;/td&gt;
+&lt;td&gt;First two digits&lt;br&gt; represent &lt;br&gt;signiﬁ cant &lt;br&gt;ﬁgures. Third digit &lt;br&gt;speciﬁ es number &lt;br&gt;of zeros.&lt;/td&gt;
+&lt;td&gt;K = ±10%&lt;br&gt;M = ±20%&lt;/td&gt;
+&lt;td&gt;
+2R5 = 2.5 V&lt;br&gt;
+003 = 3 V &lt;br&gt;
+004 = 4 V &lt;br&gt;
+006 = 6.3 V&lt;br&gt; 
+010 = 10 V&lt;br&gt; 
+016 = 16 V
+&lt;/td&gt;&lt;td&gt;A = N/A, Z = N/A&lt;/td&gt;
+&lt;td&gt;T = 100% Matte Tin (Sn) Plated*&lt;br&gt; 
+H = Standard Solder Coated (SnPb 5% Pb minimum)&lt;br&gt; 
+G = Gold Plated (A, B, C, 
+D, X only) &lt;br&gt;
+N = Non-Magnetic 100% Tin (Sn)&lt;br&gt;
+M = Non-Magnetic (SnPb)&lt;/td&gt;
+&lt;td&gt;Last three digits 
+specify ESR in 
+mΩ. (45 = 45 
+mΩ)&lt;/td&gt;
+&lt;td&gt;Blank = 7" Reel &lt;br&gt;7280 = 13" Ree&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#B3BFDE&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;Ref: &lt;/b&gt;&lt;a href="http://www.kemet.com/kemet/web/homepage/kechome.nsf/weben/5085A4B151E4066B8525788D00770960/$file/KEM_T2019_T530.pdf"&gt;Datasheet&lt;/a&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#0C2579&gt;
+&lt;font color=#ffffff&gt;
+Add more variants to T530@, just remplace the "@" with a new technologie named according to order code parameters.&lt;br&gt; 
+It is mandatory to fill up the following attributes &lt;b&gt;MANUFACTURER, DESCRIPTION, MOUSER, AVNET, ARROW, FUTURE, NEWARK, DIGIKEY, AVRG-PRICE, OCTOPART-LINK, DATASHEET&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;</description>
+<gates>
+<gate name="G$1" symbol="POLAR_CAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="D" package="CAPMP7343-31">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="X" package="CAPMP7343-43">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="Y" package="CAPMP7343-43">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="T545" prefix="C">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#0C2579&gt;
+&lt;font color=#ffffff&gt;
+&lt;br&gt;&lt;br&gt;
+ &lt;b&gt;Series High Energy Polymer Tantalum&lt;/b&gt;
+
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#B3BFDE&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;font color=#666666&gt;
+&lt;b&gt;Description&lt;/b&gt;
+&lt;p&gt;
+OVERVIEW:&lt;br&gt;
+The KEMET Organic Capacitor is a tantalum capacitor with a 
+Ta anode and Ta2O5 dielectric. A conductive organic polymer 
+replaces the traditionally used MnO2 as the cathode plate of the 
+capacitor. This results in very low ESR and improved capacitance 
+retention at high frequency. The polymer technology also exhibits 
+a benign failure mode which eliminates the ignition failures that 
+can occur in standard MnO2 tantalum types. Ta polymers may 
+be operated at voltages up to 90% of rated voltage for part types 
+with rated voltages of ≤ 10 volts and up to 80% of rated voltage 
+for part types &gt; 10 volts with equivalent or better reliability than 
+traditional MnO2 tantalum capacitors operated at 50% of rated voltage.
+&lt;p&gt;
+The T545 Series was developed to deliver the highest energy per 
+CC of any tantalum surface mount device (SMD). This capability 
+makes this capacitor an excellent solution for designs requiring 
+high energy at relatively low voltages, such as data hardening or 
+data vaulting for solid state drives (SSD's). The T545 Series High 
+Energy Polymer Tantalum Surface Mount Capacitor captures the 
+best features of multilayer ceramic capacitors (low ESR and high 
+frequency capacitance retention), aluminum electrolytics (higher 
+capacitance and benign failure mode) and proven solid tantalum 
+technology (volumetric efﬁ ciency, surface mount capability and 
+extremely long life). In addition, this series is subjected to 100% 
+thermal shock and voltage aging to insure long term reliability
+&lt;p&gt;
+APPLICATIONS&lt;br&gt;
+Typical applications include hold-up, data hardening or vaulting for 
+enterprise and military SSDs, and high end desktop modems. &lt;p&gt;
+
+BENEFITS&lt;br&gt;
+• Extremely low ESR&lt;br&gt;
+• High energy delivery capability&lt;br&gt;
+• -55°C to 85°C operating temperature range&lt;br&gt;
+• Polymer cathode technology &lt;br&gt;
+• High frequency capacitance retention&lt;br&gt;
+• Non-ignition failure mode&lt;br&gt;
+• Capacitance up to 1,500 µF&lt;br&gt;
+• Voltage: 6.3 – 16 V&lt;br&gt;
+• 100% accelerated steady state aging&lt;br&gt;
+• 100% surge current tested&lt;br&gt;
+• 100% thermal shock&lt;br&gt;
+• Volumetric efﬁ ciency, very high capacitance&lt;br&gt;
+• Self-healing mechanism&lt;br&gt;
+• Taped and reeled per EIA 481–1, EIA standard case sizes
+&lt;p&gt;
+&lt;b&gt;How to Order&lt;/b&gt;
+
+&lt;table  border="1" cellpadding="5" cellspacing="0"&gt;
+&lt;tr&gt;
+&lt;th&gt;T &lt;/th&gt;&lt;th&gt;545&lt;/th&gt;&lt;th&gt; H&lt;/th&gt;&lt;th&gt; 108&lt;/th&gt;&lt;th&gt;M&lt;/th&gt;&lt;th&gt; 006&lt;/th&gt;&lt;th&gt; A&lt;/th&gt;&lt;th&gt; T&lt;/th&gt;&lt;th&gt;E055&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+Capacitor&lt;br&gt;Class&lt;/td&gt;&lt;td&gt;Series&lt;/td&gt;&lt;td&gt;Case Size&lt;/td&gt;&lt;td&gt;Capacitance&lt;br&gt;Code (pF)&lt;/td&gt;&lt;td&gt;
+Capacitance&lt;br&gt;Tolerance&lt;/td&gt;&lt;td&gt;Voltage&lt;/td&gt;&lt;td&gt;Failure Rate/&lt;br&gt;Design&lt;/td&gt;&lt;td&gt;Lead Material&lt;/td&gt;&lt;td&gt;ESR&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;T = &lt;br&gt;Tantalum&lt;/td&gt;&lt;td&gt;High Energy 
+Polymer 
+Tantalum
+Polymer&lt;/td&gt;&lt;td&gt;D, H, V, W, X, Y&lt;/td&gt;
+&lt;td&gt;First two digits&lt;br&gt; represent &lt;br&gt;signiﬁ cant &lt;br&gt;ﬁgures. Third digit &lt;br&gt;speciﬁ es number &lt;br&gt;of zeros.&lt;/td&gt;
+&lt;td&gt;M = ±20%&lt;/td&gt;
+&lt;td&gt;
+006 = 6.3 V&lt;br&gt; 
+010 = 10 V&lt;br&gt; 
+016 = 16 V
+&lt;/td&gt;&lt;td&gt;A = N/A&lt;/td&gt;
+&lt;td&gt;T = 100% Matte Tin (Sn) Plated*&lt;br&gt; 
+&lt;/td&gt;
+&lt;td&gt;Last three digits 
+specify ESR in 
+mΩ. &lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#B3BFDE&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;Ref: &lt;/b&gt;&lt;a href="http://www.kemet.com/kemet/web/homepage/kechome.nsf/weben/6AA2C3FC35C87D4D85257A4E006B326A/$file/KEM_T2060_T545.pdf"&gt;Datasheet&lt;/a&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#0C2579&gt;
+&lt;font color=#ffffff&gt;
+Add more variants to T545@, just remplace the "@" with a new technologie named according to order code parameters.&lt;br&gt; 
+It is mandatory to fill up the following attributes &lt;b&gt;MANUFACTURER, DESCRIPTION, MOUSER, AVNET, ARROW, FUTURE, NEWARK, DIGIKEY, AVRG-PRICE, OCTOPART-LINK, DATASHEET&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;</description>
+<gates>
+<gate name="G$1" symbol="POLAR_CAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="D" package="CAPMP7343-31">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="H" package="CAPMP7360-20">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="V" package="CAPMP7343-20">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="W" package="CAPMP7343-15">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="X" package="CAPMP7343-43">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="Y" package="CAPMP7343-43">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="T543" prefix="C">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#0C2579&gt;
+&lt;font color=#ffffff&gt;
+&lt;br&gt;&lt;br&gt;
+ &lt;b&gt;Series Polymer Tantalum COTS Organic Capacitor (KO-CAP)&lt;/b&gt;
+
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#B3BFDE&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;font color=#666666&gt;
+&lt;b&gt;Description&lt;/b&gt;
+&lt;p&gt;
+OVERVIEW:&lt;br&gt;
+The KEMET Organic Capacitor is a tantalum capacitor with a 
+Ta anode and Ta2O5 dielectric. A conductive organic polymer 
+replaces the traditionally used MnO2 as the cathode plate of the 
+capacitor. This results in very low ESR, improved capacitance 
+retention at high frequency and improved ripple current handling 
+capability. The polymer technology also exhibits a benign failure 
+mode which eliminates the ignition failures. Tantalum polymers 
+may also be operated at voltages up to 90% of rated voltage 
+for part types with rated voltages of ≤ 10 volts and up to 80% of 
+rated voltage for part types &gt; 10 volts with equivalent or better 
+reliability than traditional MnO2 tantalum capacitors operated at 50% of rated voltage.
+&lt;P&gt;
+The T543 Series Polymer Tantalum COTS is an upscreened 
+version of KEMET's commercial polymer product offering and 
+captures the best features of multilayer ceramic capacitors (low 
+ESR, high frequency capacitance retention), aluminum electrolytic 
+capacitors (higher capacitance, benign failure mode), and proven 
+solid tantalum technology (volumetric efﬁ ciency, surface mount 
+capability, extremely long life). The T543 also offers an option 
+for surge current testing (10 cycles at +25ºC and 10 cycles at 
+-55ºC/+85ºC) and termination ﬁ nish (SnPb and 100% Sn).
+&lt;p&gt;
+APPLICATIONS&lt;br&gt;
+Typical applications include DC/DC converters, switch mode 
+and point of load power supply, radar pulse capacitor and 
+telecommunications (mobile phone and base station). Other 
+general applications include decoupling and ﬁ ltering in 
+applications requiring low ESR or a benign failure mode. &lt;p&gt;
+
+BENEFITS&lt;br&gt;
+• Extremely low ESR&lt;br&gt;
+• -55°C to 105°C operating temperature range&lt;br&gt;
+• Polymer cathode technology &lt;br&gt;
+• High frequency capacitance retention&lt;br&gt;
+• Non-ignition failure mode&lt;br&gt;
+• Capacitance up to 1,500 µF&lt;br&gt;
+• Enhanced derating&lt;br&gt;
+• 100% accelerated steady state aging&lt;br&gt;
+• 100% surge current tested&lt;br&gt;
+• Taped and reeled per EIA 481-1&lt;br&gt;
+• Volumetric efﬁ ciency and self-healing mechanism&lt;br&gt;
+• Termination options (SnPb and 100% Sn)&lt;br&gt;
+• Surge options at 25ºC and -55ºC/85ºC&lt;br&gt;
+• EIA standard case sizes
+&lt;p&gt;
+&lt;b&gt;How to Order&lt;/b&gt;
+
+&lt;table  border="1" cellpadding="5" cellspacing="0"&gt;
+&lt;tr&gt;
+&lt;th&gt;T &lt;/th&gt;&lt;th&gt;543&lt;/th&gt;&lt;th&gt; D&lt;/th&gt;&lt;th&gt; 156&lt;/th&gt;&lt;th&gt;K&lt;/th&gt;&lt;th&gt; 035&lt;/th&gt;&lt;th&gt; A&lt;/th&gt;&lt;th&gt; H&lt;/th&gt;&lt;th&gt;E&lt;/th&gt;&lt;th&gt;100&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+Capacitor&lt;br&gt;Class&lt;/td&gt;&lt;td&gt;Series&lt;/td&gt;&lt;td&gt;Case Size&lt;/td&gt;&lt;td&gt;Capacitance&lt;br&gt;Code (pF)&lt;/td&gt;&lt;td&gt;
+Capacitance&lt;br&gt;Tolerance&lt;/td&gt;&lt;td&gt;Voltage&lt;/td&gt;&lt;td&gt;Failure Rate/&lt;br&gt;Design&lt;/td&gt;&lt;td&gt;Lead Material&lt;/td&gt;&lt;td&gt;Surge&lt;/td&gt;&lt;td&gt;ESR&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;T = &lt;br&gt;Tantalum&lt;/td&gt;&lt;td&gt;Polymer 
+Tantalum 
+COTS&lt;/td&gt;&lt;td&gt;A, B, C, D, H, L, M, T, U, V, W, X, Y&lt;/td&gt;
+&lt;td&gt;First two digits&lt;br&gt; represent &lt;br&gt;signiﬁ cant &lt;br&gt;ﬁgures. Third digit &lt;br&gt;speciﬁ es number &lt;br&gt;of zeros.&lt;/td&gt;
+&lt;td&gt;K = ±20%, M = ±20%&lt;/td&gt;
+&lt;td&gt;
+2R5 = 2.5 V &lt;br&gt; 
+003 = 3 V&lt;br&gt;
+004 = 4 V &lt;br&gt;
+006 = 6.3 V &lt;br&gt;
+010 = 10 V &lt;br&gt;
+12R = 12.5 V&lt;br&gt; 
+016 = 16 V &lt;br&gt;
+020 = 20 V &lt;br&gt;
+025 = 25 V &lt;br&gt;
+035 = 35 V &lt;br&gt;
+050 = 50 V
+&lt;/td&gt;&lt;td&gt;A = N/A&lt;/td&gt;
+&lt;td&gt;H = Standard 
+Solder Coated 
+(SnPb 5% Pb 
+minimum)
+T = 100% Tin 
+(Sn)
+&lt;/td&gt;
+&lt;td&gt;E = None
+S = 10 cycles 
+25°C
+W = 10 cycles 
+-55°C and 
+85°C&lt;/td&gt;
+&lt;td&gt;Last three digits 
+specify ESR in 
+mΩ. &lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#B3BFDE&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;Ref: &lt;/b&gt;&lt;a href="http://www.kemet.com/kemet/web/homepage/kechome.nsf/weben/4965E00A3483171385257A60006E8156/$file/KEM_T2061_T543.pdf"&gt;Datasheet&lt;/a&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#0C2579&gt;
+&lt;font color=#ffffff&gt;
+Add more variants to T543@, just remplace the "@" with a new technologie named according to order code parameters.&lt;br&gt; 
+It is mandatory to fill up the following attributes &lt;b&gt;MANUFACTURER, DESCRIPTION, MOUSER, AVNET, ARROW, FUTURE, NEWARK, DIGIKEY, AVRG-PRICE, OCTOPART-LINK, DATASHEET&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;</description>
+<gates>
+<gate name="G$1" symbol="POLAR_CAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="A" package="CAPMP3216-18">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="B" package="CAPMP3528-21">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="C" package="CAPMP6032-28">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="D" package="CAPMP7343-31">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="H" package="CAPMP7360-20">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="L" package="CAPMP6032-19">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="M" package="CAPMP3528-15">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="T" package="CAPMP3528-12">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="U" package="CAPMP6032-15">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="V" package="CAPMP7343-20">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="W" package="CAPMP7343-15">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="X" package="CAPMP7343-43">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="Y" package="CAPMP7343-43">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="A700?*" prefix="C" uservalue="yes">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#0C2579&gt;
+&lt;font color=#ffffff&gt;
+&lt;br&gt;&lt;br&gt;
+ &lt;b&gt;Series Polymer Aluminum&lt;/b&gt;
+
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#B3BFDE&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;font color=#666666&gt;
+&lt;b&gt;Description&lt;/b&gt;
+&lt;p&gt;
+OVERVIEW:&lt;br&gt;
+The KEMET Aluminum Organic Capacitor (AO-CAP) is a solid 
+state aluminum capacitor with an aluminum oxide dielectric and 
+conductive polymer cathode. The use of the conductive polymer 
+cathode results in very low ESR and improved capacitance 
+retention at high frequency. AO-CAP's may be operated at 
+steady state voltages up to 100% of rated voltage (no derating) 
+with equivalent or better reliability than tantalum capacitors 
+operating at the recommended derated voltage.
+&lt;p&gt;
+The A700 Series AO-CAP offers the same advantages as the 
+polymer tantalum capacitors but also has the added advantages 
+of 125°C performance capability, higher ripple current handling 
+capability and a lower ESR range. Packaged with multiple anodes/
+elements to reduce the depth that the signal must penetrate, this 
+parallel arrangement reduces the ESR further still to achieve 
+lower ESR than other types of surface mount capacitors with 
+similar capacitance ranges. With reduced ESR, the enhanced 
+capacitance retention at higher frequencies provides the 
+lowest total capacitance and an economical solution for power 
+applications.
+&lt;p&gt;
+APPLICATIONS&lt;br&gt;
+Typical applications include DC/DC converters, notebook PCs, 
+telecommunications, displays, and industrial applications. &lt;p&gt;
+
+BENEFITS&lt;br&gt;
+• ESR: 6 mΩ to 70 mΩ&lt;br&gt;
+• Voltage: 2 V to 16 V&lt;br&gt;
+• Capacitance: 6.8 µF to 470 µF&lt;br&gt;
+• Operating Temperature: -55°C to 125°C&lt;br&gt;
+• Polymer cathode technology&lt;br&gt;
+• High frequency capacitance retention&lt;br&gt;
+• Non-ignition failure mode&lt;br&gt;
+• 100% accelerated steady state aging&lt;br&gt;
+• 100% surge current tested&lt;br&gt;
+• Volumetric efﬁ ciency&lt;br&gt;
+• Self-healing mechanism&lt;br&gt;
+• EIA standard case sizes
+&lt;p&gt;
+&lt;b&gt;How to Order&lt;/b&gt;
+
+&lt;table  border="1" cellpadding="5" cellspacing="0"&gt;
+&lt;tr&gt;
+&lt;th&gt;A &lt;/th&gt;&lt;th&gt;700&lt;/th&gt;&lt;th&gt; V&lt;/th&gt;&lt;th&gt; 476&lt;/th&gt;&lt;th&gt;M&lt;/th&gt;&lt;th&gt; 006&lt;/th&gt;&lt;th&gt; A&lt;/th&gt;&lt;th&gt; T&lt;/th&gt;&lt;th&gt;E018&lt;/th&gt;&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+Capacitor&lt;br&gt;Class&lt;/td&gt;&lt;td&gt;Series&lt;/td&gt;&lt;td&gt;Case Size&lt;/td&gt;&lt;td&gt;Capacitance&lt;br&gt;Code (pF)&lt;/td&gt;&lt;td&gt;
+Capacitance&lt;br&gt;Tolerance&lt;/td&gt;&lt;td&gt;Voltage&lt;/td&gt;&lt;td&gt;Failure Rate/&lt;br&gt;Design&lt;/td&gt;&lt;td&gt;Lead Material&lt;/td&gt;&lt;td&gt;ESR&lt;/td&gt;&lt;td&gt;Packaging&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;A = &lt;br&gt;Aluminum&lt;/td&gt;&lt;td&gt;Aluminum Polymer&lt;/td&gt;&lt;td&gt;D, V, W, X&lt;/td&gt;
+&lt;td&gt;First two digits&lt;br&gt; represent &lt;br&gt;signiﬁ cant &lt;br&gt;ﬁgures. Third digit &lt;br&gt;speciﬁ es number &lt;br&gt;of zeros.&lt;/td&gt;
+&lt;td&gt;M = ±20%&lt;/td&gt;
+&lt;td&gt;
+002 = 2 V&lt;br&gt;
+2R5 = 2.5 V&lt;br&gt;
+004 = 4 V&lt;br&gt;
+006 = 6.3 V&lt;br&gt; 
+008 = 8 V&lt;br&gt;
+010 = 10 V&lt;br&gt;
+12R = 12.5 V&lt;br&gt; 
+016 = 16 V 
+&lt;/td&gt;&lt;td&gt;A = N/A&lt;/td&gt;
+&lt;td&gt;T = 100% Matte Tin (Sn) Plated*&lt;br&gt; 
+&lt;/td&gt;
+&lt;td&gt;Last three digits 
+specify ESR in 
+mΩ. &lt;/td&gt;
+&lt;td&gt;
+Blank = 7" Reel 
+7280 = 13" Reel
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#B3BFDE&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;Ref: &lt;/b&gt;&lt;a href="http://www.kemet.com/kemet/web/homepage/kechome.nsf/weben/2499921B5AED734A8525788D005B92C0/$file/KEM_TC102_LOWESR.pdf"&gt;Datasheet&lt;/a&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#0C2579&gt;
+&lt;font color=#ffffff&gt;
+Add more variants to A700@, just remplace the "@" with a new technologie named according to order code parameters.&lt;br&gt; 
+It is mandatory to fill up the following attributes &lt;b&gt;MANUFACTURER, DESCRIPTION, MOUSER, AVNET, ARROW, FUTURE, NEWARK, DIGIKEY, AVRG-PRICE, OCTOPART-LINK, DATASHEET&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;</description>
+<gates>
+<gate name="G$1" symbol="POLAR_CAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="D" package="CAPMP7343-31A">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="@"/>
+</technologies>
+</device>
+<device name="V" package="CAPMP7343-20A">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="@"/>
+</technologies>
+</device>
+<device name="W" package="CAPMP7343-15A">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="@"/>
+</technologies>
+</device>
+<device name="X" package="CAPMP7343-43A">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="@"/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

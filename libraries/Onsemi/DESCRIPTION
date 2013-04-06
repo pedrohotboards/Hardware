@@ -1,0 +1,35 @@
+<language en>
+<table border="0" cellpadding="5" cellspacing="0">
+
+<tr>
+<td bgcolor=#03971F>
+<font color=#ffffff>
+<br>
+<b>ONSEMI</b><br>
+</td>
+</tr>
+
+<tr>
+<td bgcolor=#5AD371>
+<font color=#ffffff>
+<b>Ref: </b><a href="www.molex.com">WebSite</a>
+</tr>
+</td>
+
+<tr>
+<td>
+<font color=#666666>
+<br>
+<img src="onsemi.jpg">
+<p>
+ON Semiconductor (Nasdaq: ONNN) is driving innovation in energy efficient electronics, empowering design engineers to reduce global energy use. The company offers a comprehensive portfolio of energy efficient power and signal management, logic, discrete and custom solutions to help customers solve their unique design challenges in automotive, communications, computing, consumer, industrial, LED lighting, medical, military/aerospace and power supply applications. ON Semiconductor operates a responsive, reliable, world-class supply chain and quality program, and a network of manufacturing facilities, sales offices and design centers in key markets throughout North America, Europe, and the Asia Pacific regions.
+<p>
+
+<b>Libraries</b>
+<ul>
+<li>diodes
+</ul>
+</tr>
+</td>
+</table>
+</language en>

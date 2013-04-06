@@ -1,0 +1,39 @@
+<language en>
+<table border="0" cellpadding="5" cellspacing="0">
+
+<tr>
+<td bgcolor=#ED2724>
+<font color=#ffffff>
+<br>
+<b>MICROCHIP</b><br>
+</td>
+</tr>
+
+<tr>
+<td bgcolor=#F0A3A2>
+<font color=#ffffff>
+<b>Ref: </b><a href="www.microchip.com">WebSite</a>
+</tr>
+</td>
+
+<tr>
+<td>
+<font color=#666666>
+<br>
+<img src="microchip.jpg">
+<p>
+Microchip’s product line is the solution for your embedded design needs. From cost-competitive Analog and Memory devices to performance PIC® Microcontrollers (MCUs) and dsPIC® Digital Signal Controllers (DSCs), our devices provide a custom fit in your cost sensitive design. Quickly integrate our devices into applications from simple to complex. Our starter kits and free reference designs can help get you going.
+<p>
+Use our new Microchip Advanced Parts Selector (MAPS) tool and Development Tools Selector (DTS) to review the entire Microchip product line and find the right devices wherever you are in the design cycle.
+<p>
+
+<b>Libraries</b>
+<ul>
+<li>pic18
+<li>pic32mx
+<li>memories
+</ul>
+</tr>
+</td>
+</table>
+</language en>

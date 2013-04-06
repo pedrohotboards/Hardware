@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="SOT123160X270-2N">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0" width="600"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#03971F colspan="2"&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;Small Outline DIODE (SOD-123)&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;img src="models/SOD/png/ON_SOD123.png" width="240"&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;font color=#666666&gt;
+1.27mm  Pitch&lt;br&gt;
+2.7mm L x 1.6mm W x 1.0mm H&lt;br&gt;
+----------------------------------------------------
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;</description>
+<smd name="2" x="1.65" y="0" dx="0.9" dy="1.2" layer="1"/>
+<smd name="1" x="-1.65" y="0" dx="0.9" dy="1.2" layer="1"/>
+<wire x1="1.35" y1="-0.8" x2="-1.35" y2="-0.8" width="0.1" layer="51"/>
+<wire x1="-1.35" y1="-0.8" x2="-1.35" y2="0.8" width="0.1" layer="51"/>
+<wire x1="-1.35" y1="0.8" x2="1.35" y2="0.8" width="0.1" layer="51"/>
+<wire x1="1.35" y1="0.8" x2="1.35" y2="-0.8" width="0.1" layer="51"/>
+<rectangle x1="-1.85" y1="-0.3" x2="-1.35" y2="0.3" layer="51"/>
+<rectangle x1="1.4" y1="-0.3" x2="1.85" y2="0.3" layer="51"/>
+<rectangle x1="-1.25" y1="-0.75" x2="-0.75" y2="0.75" layer="51"/>
+<text x="-1.7" y="0.9" size="1.016" layer="25" ratio="12">&gt;Name</text>
+<text x="-2.1" y="-1.9" size="1.016" layer="27" ratio="12">&gt;Value</text>
+<wire x1="-1.35" y1="0.7" x2="-1.35" y2="0.8" width="0.1524" layer="21"/>
+<wire x1="-1.35" y1="0.8" x2="-0.8" y2="0.8" width="0.1524" layer="21"/>
+<wire x1="-0.8" y1="0.8" x2="1.35" y2="0.8" width="0.1524" layer="21"/>
+<wire x1="1.35" y1="0.8" x2="1.35" y2="0.7" width="0.1524" layer="21"/>
+<wire x1="1.35" y1="-0.7" x2="1.35" y2="-0.8" width="0.1524" layer="21"/>
+<wire x1="1.35" y1="-0.8" x2="-0.8" y2="-0.8" width="0.1524" layer="21"/>
+<wire x1="-0.8" y1="-0.8" x2="-1.35" y2="-0.8" width="0.1524" layer="21"/>
+<wire x1="-1.35" y1="-0.8" x2="-1.35" y2="-0.75" width="0.1524" layer="21"/>
+<wire x1="-0.8" y1="0.8" x2="-0.8" y2="-0.8" width="0.1524" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="SHOTTKY">
+<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.905" y1="1.27" x2="1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.905" y1="1.27" x2="1.905" y2="1.016" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-1.27" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0.635" y1="-1.016" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
+<text x="-2.286" y="1.905" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.286" y="-3.429" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MBR0530T*G" prefix="D" uservalue="yes">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#03971F&gt;
+&lt;font color=#ffffff&gt;
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;SCHOTTKY BARRIER
+RECTIFIER
+0.5 AMPERES
+30 VOLTS&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#5AD371&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;font color=#666666&gt;
+&lt;b&gt;Description&lt;/b&gt;
+&lt;p&gt;
+The MBR0530T1/3 uses the Schottky Barrier principle with a large
+area metal−to−silicon power diode. Ideally suited for low voltage,
+high frequency rectification or as free wheeling and polarity
+protection diodes in surface mount applications where compact size
+and weight are critical to the system. This package also provides an
+easy to work with alternative to leadless 34 package style. These
+state−of−the−art devices have the following features:
+&lt;p&gt;
+Features&lt;br&gt;
+ Guardring for Stress Protection&lt;br&gt;
+ Low Forward Voltage&lt;br&gt;
+ 125C Operating Junction Temperature&lt;br&gt;
+ Epoxy Meets UL 94, V−0 @ 0.125 in&lt;br&gt;
+ Package Designed for Optimal Automated Board Assembly&lt;br&gt;
+ AEC−Q101 Qualified and PPAP Capable&lt;br&gt;
+ NRVB Prefix for Automotive and Other Applications Requiring
+Unique Site and Control Change Requirements&lt;br&gt;
+ All Packages are Pb−Free*&lt;br&gt;
+&lt;p&gt;
+&lt;b&gt;How to Order&lt;/b&gt;
+
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#5AD371&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;Ref: &lt;/b&gt;&lt;a href="http://www.mouser.com/ds/2/308/MBR0530T1-D-109532.pdf"&gt;Datasheet&lt;/a&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#03971F&gt;
+&lt;font color=#ffffff&gt;
+Add more variants to MBR0530T@G, just remplace the "@" with a new technologie named according to order code parameters.&lt;br&gt; 
+It is mandatory to fill up the following attributes &lt;b&gt;DESCRIPTION, MOUSER, AVNET, ARROW, FUTURE, NEWARK, DIGIKEY, AVRG-PRICE, OCTOPART-LINK, DATASHEET&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;</description>
+<gates>
+<gate name="G$1" symbol="SHOTTKY" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT123160X270-2N">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="C" pad="2"/>
+</connects>
+<technologies>
+<technology name="1">
+<attribute name="ARROW" value="" constant="no"/>
+<attribute name="AVNET" value="" constant="no"/>
+<attribute name="AVRG-PRICE" value="" constant="no"/>
+<attribute name="DATASHEET" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="EAGLEUP" value="SOD123" constant="no"/>
+<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MOUSER" value="" constant="no"/>
+<attribute name="NEWARK" value="" constant="no"/>
+<attribute name="OCTOPART-LINK" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

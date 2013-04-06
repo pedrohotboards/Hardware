@@ -1,0 +1,1525 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>&lt;table border="0" cellpadding="5" cellspacing="0"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#BDBDBD&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;Resonators&lt;/b&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;font color=#666666&gt;
+Resonators
+Test &amp; Burn-in Sockets SMD Crystals | kHz SMD Crystals | Thru-Hole Crystals | kHz Thru-Hole Crystals | SMD Ceramic Resonators | Surge Protectors | Thru-Hole Ceramic Resonators | SAW Resonators&lt;br&gt;
+&lt;br&gt;
+Ref: &lt;a href="http://www.abracon.com/resonators.htm"&gt;Website&lt;/a&gt;
+&lt;p&gt;
+&lt;b&gt;Components&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;ABSM3------HC49US, Resistance welded • 3.5MHz to 60MHz
+&lt;li&gt;ABLSG------With 3rd lead case-grounded, ideal for EMI shielding • HC49US, Resistance welded • 3.579545 MHz to 75 MHz
+&lt;li&gt;ABLS-LR----Ultra Low ESR low frequency crystal! • HC49US, Resistance welded • 3.0MHz to 36MHz
+&lt;li&gt;ABLS--------HC49US, Resistance welded • 3.579545MHz to 70MHz 
+&lt;/ul&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;</description>
+<packages>
+<package name="HC49US1140X470-3N">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0" width="600"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#414141 colspan="2"&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;HC49US Three pins SMD&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;img src="../../models/osc/HC49US/png/HC49US1140X470X420-3N.png" width="240"&gt;
+&lt;/td&gt;
+&lt;td bgcolor=#ffffff&gt;
+&lt;font color=#666666&gt;
+HC49US&lt;br&gt; 
+11.4mm L x 5.5mm H x 4.2mm H&lt;br&gt; 
+-----------------------------------------------
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+&lt;br&gt;</description>
+<smd name="2" x="4.7" y="0" dx="2.1" dy="5.6" layer="1" rot="R90"/>
+<smd name="1" x="-4.7" y="0" dx="2.1" dy="5.6" layer="1" rot="R90"/>
+<wire x1="-5.7" y1="2.4" x2="5.7" y2="2.4" width="0.1" layer="51"/>
+<wire x1="5.7" y1="2.4" x2="5.7" y2="-2.4" width="0.1" layer="51"/>
+<wire x1="5.7" y1="-2.4" x2="-5.7" y2="-2.4" width="0.1" layer="51"/>
+<wire x1="-5.7" y1="-2.4" x2="-5.7" y2="2.4" width="0.1" layer="51"/>
+<wire x1="-3.5" y1="-1.8" x2="3.4" y2="-1.8" width="0.1" layer="51"/>
+<wire x1="3.4" y1="-1.8" x2="3.5" y2="-1.8" width="0.1" layer="51"/>
+<wire x1="-3.5" y1="1.8" x2="3.5" y2="1.8" width="0.1" layer="51"/>
+<wire x1="3.5" y1="1.8" x2="3.4" y2="-1.8" width="0.1" layer="51" curve="-183.17983"/>
+<wire x1="-3.5" y1="-1.8" x2="-3.5" y2="1.8" width="0.1" layer="51" curve="-180"/>
+<wire x1="-3.4" y1="1.6" x2="3.4" y2="1.6" width="0.1" layer="51"/>
+<wire x1="-3.4" y1="-1.6" x2="3.5" y2="-1.6" width="0.1" layer="51"/>
+<wire x1="-3.4" y1="-1.6" x2="-3.4" y2="1.6" width="0.1" layer="51" curve="-180"/>
+<wire x1="3.4" y1="1.6" x2="3.5" y2="-1.6" width="0.1" layer="51" curve="-180"/>
+<text x="-5.5" y="-3.8" size="1.016" layer="27" ratio="12">&gt;Value</text>
+<text x="-5.3" y="2.5" size="1.016" layer="25" ratio="12">&gt;Name</text>
+<wire x1="-5.7" y1="1.1" x2="-5.7" y2="2.4" width="0.1524" layer="21"/>
+<wire x1="-5.7" y1="2.4" x2="5.7" y2="2.4" width="0.1524" layer="21"/>
+<wire x1="5.7" y1="2.4" x2="5.7" y2="1.2" width="0.1524" layer="21"/>
+<wire x1="5.7" y1="-1.2" x2="5.7" y2="-2.4" width="0.1524" layer="21"/>
+<wire x1="5.7" y1="-2.4" x2="-5.7" y2="-2.4" width="0.1524" layer="21"/>
+<wire x1="-5.7" y1="-2.4" x2="-5.7" y2="-1.2" width="0.1524" layer="21"/>
+<smd name="3" x="0" y="1" dx="4" dy="2.1" layer="1" rot="R90"/>
+</package>
+<package name="HC49US1140X470-2N">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0" width="600"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#414141 colspan="2"&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;HC49US Two pins SMD &lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;img src="../../models/osc/HC49US/png/HC49US1140X470-2N.png" width="240"&gt;
+&lt;/td&gt;
+&lt;td bgcolor=#ffffff&gt;
+&lt;font color=#666666&gt;
+HC49US&lt;br&gt; 
+11.4mm L x 4.7mm W x (4.2mm, 3.3mm, 2.5mm)H&lt;br&gt; 
+-----------------------------------------------
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+&lt;br&gt;</description>
+<smd name="2" x="4.7" y="0.2" dx="2.1" dy="5.6" layer="1" rot="R90"/>
+<smd name="1" x="-4.7" y="0.2" dx="2.1" dy="5.6" layer="1" rot="R90"/>
+<wire x1="-5.7" y1="2.6" x2="5.7" y2="2.6" width="0.1" layer="51"/>
+<wire x1="5.7" y1="2.6" x2="5.7" y2="-2.2" width="0.1" layer="51"/>
+<wire x1="5.7" y1="-2.2" x2="-5.7" y2="-2.2" width="0.1" layer="51"/>
+<wire x1="-5.7" y1="-2.2" x2="-5.7" y2="2.6" width="0.1" layer="51"/>
+<wire x1="-3.5" y1="-1.6" x2="3.4" y2="-1.6" width="0.1" layer="51"/>
+<wire x1="3.4" y1="-1.6" x2="3.5" y2="-1.6" width="0.1" layer="51"/>
+<wire x1="-3.5" y1="2" x2="3.5" y2="2" width="0.1" layer="51"/>
+<wire x1="3.5" y1="2" x2="3.4" y2="-1.6" width="0.1" layer="51" curve="-183.17983"/>
+<wire x1="-3.5" y1="-1.6" x2="-3.5" y2="2" width="0.1" layer="51" curve="-180"/>
+<wire x1="-3.4" y1="1.8" x2="3.4" y2="1.8" width="0.1" layer="51"/>
+<wire x1="-3.4" y1="-1.4" x2="3.5" y2="-1.4" width="0.1" layer="51"/>
+<wire x1="-3.4" y1="-1.4" x2="-3.4" y2="1.8" width="0.1" layer="51" curve="-180"/>
+<wire x1="3.4" y1="1.8" x2="3.5" y2="-1.4" width="0.1" layer="51" curve="-180"/>
+<text x="-5.5" y="-3.6" size="1.016" layer="27" ratio="12">&gt;Value</text>
+<text x="-5.3" y="2.7" size="1.016" layer="25" ratio="12">&gt;Name</text>
+<wire x1="-5.7" y1="1.3" x2="-5.7" y2="2.6" width="0.1524" layer="21"/>
+<wire x1="-5.7" y1="2.6" x2="5.7" y2="2.6" width="0.1524" layer="21"/>
+<wire x1="5.7" y1="2.6" x2="5.7" y2="1.4" width="0.1524" layer="21"/>
+<wire x1="5.7" y1="-1" x2="5.7" y2="-2.2" width="0.1524" layer="21"/>
+<wire x1="5.7" y1="-2.2" x2="-5.7" y2="-2.2" width="0.1524" layer="21"/>
+<wire x1="-5.7" y1="-2.2" x2="-5.7" y2="-1" width="0.1524" layer="21"/>
+</package>
+<package name="HC49US1300X470-4N">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0" width="600"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#414141 colspan="2"&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;HC49US Four pins SMD&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;img src="../../models/osc/HC49US/png/HC49US1300X470-4N.png" width="240"&gt;
+&lt;/td&gt;
+&lt;td bgcolor=#ffffff&gt;
+&lt;font color=#666666&gt;
+HC49US&lt;br&gt; 
+13.0mm L x 4.7mm H x (5.1mm, 4.5mm, 3.8mm) H&lt;br&gt; 
+----------------------------------------------
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+&lt;br&gt;</description>
+<smd name="3" x="4.5" y="1.6" dx="3" dy="2.5" layer="1"/>
+<smd name="2" x="4.5" y="-1.6" dx="3" dy="2.5" layer="1"/>
+<smd name="1" x="-4.5" y="-1.6" dx="3" dy="2.5" layer="1"/>
+<smd name="4" x="-4.5" y="1.6" dx="3" dy="2.5" layer="1"/>
+<wire x1="-0.4" y1="2.5" x2="0.6" y2="2.5" width="0.1" layer="51"/>
+<wire x1="-0.3" y1="-2.5" x2="0.5" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="5.3" y1="2.5" x2="4.5" y2="2.5" width="0.1" layer="51"/>
+<wire x1="4.5" y1="2.5" x2="2.6" y2="2.5" width="0.1" layer="51"/>
+<wire x1="2.6" y1="2.5" x2="-2.5" y2="2.5" width="0.1" layer="51"/>
+<wire x1="-2.5" y1="2.5" x2="-4.5" y2="2.5" width="0.1" layer="51"/>
+<wire x1="-4.5" y1="2.5" x2="-5.4" y2="2.5" width="0.1" layer="51"/>
+<wire x1="-6.3" y1="1.5" x2="-6.3" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="-6.3" y1="-2.5" x2="-4.5" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="-4.5" y1="-2.5" x2="-2.6" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="-2.6" y1="-2.5" x2="2.6" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="2.6" y1="-2.5" x2="4.5" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="4.5" y1="-2.5" x2="5.2" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="6.3" y1="1.6" x2="6.3" y2="1" width="0.1" layer="51"/>
+<rectangle x1="3.9" y1="2.5" x2="4.5" y2="2.8" layer="51"/>
+<rectangle x1="4.5" y1="2.5" x2="5.1" y2="2.8" layer="51"/>
+<rectangle x1="-4.5" y1="2.5" x2="-3.9" y2="2.8" layer="51"/>
+<rectangle x1="-5.1" y1="2.5" x2="-4.5" y2="2.8" layer="51"/>
+<rectangle x1="-5.1" y1="-2.8" x2="-4.5" y2="-2.5" layer="51"/>
+<rectangle x1="-4.5" y1="-2.8" x2="-3.9" y2="-2.5" layer="51"/>
+<rectangle x1="3.9" y1="-2.8" x2="4.5" y2="-2.5" layer="51"/>
+<rectangle x1="4.5" y1="-2.8" x2="5.1" y2="-2.5" layer="51"/>
+<wire x1="6.3" y1="1" x2="6.3" y2="-1" width="0.1" layer="51"/>
+<wire x1="6.3" y1="-1" x2="6.3" y2="-1.4" width="0.1" layer="51"/>
+<wire x1="6.3" y1="-1.4" x2="5.2" y2="-2.5" width="0.1" layer="51" curve="-95.452622"/>
+<wire x1="5.3" y1="2.5" x2="6.3" y2="1.6" width="0.1" layer="51" curve="-99.889667"/>
+<wire x1="-6.3" y1="1.5" x2="-5.4" y2="2.5" width="0.1" layer="51" curve="-96.340192"/>
+<wire x1="2.6" y1="2.5" x2="2.6" y2="-2.5" width="0.1" layer="51" curve="-180"/>
+<wire x1="-2.6" y1="-2.5" x2="-2.5" y2="2.5" width="0.1" layer="51" curve="-180"/>
+<wire x1="-4.5" y1="2.5" x2="-4.5" y2="1.6" width="0.1" layer="51"/>
+<wire x1="-4.5" y1="-2.5" x2="-4.5" y2="-1.6" width="0.1" layer="51"/>
+<wire x1="4.5" y1="2.5" x2="4.5" y2="1.6" width="0.1" layer="51"/>
+<wire x1="4.5" y1="-2.5" x2="4.5" y2="-1.7" width="0.1" layer="51"/>
+<wire x1="6.3" y1="1" x2="4.9" y2="1" width="0.1" layer="51"/>
+<wire x1="6.3" y1="-1" x2="4.9" y2="-1" width="0.1" layer="51"/>
+<wire x1="-2.5" y1="2.3" x2="-2.4" y2="2.3" width="0.1" layer="51"/>
+<wire x1="-2.4" y1="2.3" x2="2.5" y2="2.3" width="0.1" layer="51"/>
+<wire x1="-2.5" y1="-2.3" x2="2.5" y2="-2.3" width="0.1" layer="51"/>
+<wire x1="-2.5" y1="-2.3" x2="-2.4" y2="2.3" width="0.1" layer="51" curve="-180"/>
+<wire x1="2.5" y1="2.3" x2="2.5" y2="-2.3" width="0.1" layer="51" curve="-180"/>
+<text x="-2.3" y="3" size="1.016" layer="25" ratio="12">&gt;Name</text>
+<text x="-2.4" y="-3.7" size="1.016" layer="27" ratio="12">&gt;Value</text>
+<wire x1="2.8" y1="2.5" x2="-2.8" y2="2.5" width="0.1524" layer="21"/>
+<wire x1="2.8" y1="-2.5" x2="-2.8" y2="-2.5" width="0.1524" layer="21"/>
+<wire x1="6.1" y1="2.5" x2="6.3" y2="2.5" width="0.1524" layer="21"/>
+<wire x1="6.3" y1="2.5" x2="6.3" y2="-2.5" width="0.1524" layer="21"/>
+<wire x1="6.3" y1="-2.5" x2="6.1" y2="-2.5" width="0.1524" layer="21"/>
+<wire x1="-6.1" y1="2.4" x2="-6.3" y2="2.4" width="0.1524" layer="21"/>
+<wire x1="-6.3" y1="2.4" x2="-6.3" y2="-2.5" width="0.1524" layer="21"/>
+<wire x1="-6.3" y1="-2.5" x2="-6.1" y2="-2.5" width="0.1524" layer="21"/>
+</package>
+<package name="CEMIC800X450-2N">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0" width="600"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#414141 colspan="2"&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;Ceramic SMD Crystal &lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;img src="../../models/osc/CERAMIC/png/CEMIC800X450-2N.png" width="240"&gt;
+&lt;/td&gt;
+&lt;td bgcolor=#ffffff&gt;
+&lt;font color=#666666&gt;
+HC49US&lt;br&gt; 
+8.0mm L x 4.5mm W x (1.4mm)H&lt;br&gt; 
+-----------------------------------------------
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+&lt;br&gt;</description>
+<smd name="1" x="-3.25" y="0" dx="3" dy="2.5" layer="1" rot="R90"/>
+<smd name="2" x="3.25" y="0" dx="3" dy="2.5" layer="1" rot="R90"/>
+<wire x1="3.5" y1="2.25" x2="4" y2="1.75" width="0.1" layer="51"/>
+<wire x1="4" y1="1.75" x2="4" y2="-1.75" width="0.1" layer="51"/>
+<wire x1="4" y1="-1.75" x2="3.5" y2="-2.25" width="0.1" layer="51"/>
+<wire x1="3.5" y1="-2.25" x2="-3.5" y2="-2.25" width="0.1" layer="51"/>
+<wire x1="-3.5" y1="-2.25" x2="-4" y2="-1.75" width="0.1" layer="51"/>
+<wire x1="-4" y1="-1.75" x2="-4" y2="1.75" width="0.1" layer="51"/>
+<wire x1="-4" y1="1.75" x2="-3.5" y2="2.25" width="0.1" layer="51"/>
+<wire x1="-3.5" y1="2.25" x2="3.5" y2="2.25" width="0.1" layer="51"/>
+<rectangle x1="-4" y1="-1" x2="-2.5" y2="1" layer="51"/>
+<rectangle x1="2.5" y1="-1" x2="4" y2="1" layer="51"/>
+<wire x1="-4" y1="2.25" x2="4" y2="2.25" width="0.1524" layer="21"/>
+<wire x1="4" y1="2.25" x2="4" y2="-2.25" width="0.1524" layer="21"/>
+<wire x1="4" y1="-2.25" x2="-4" y2="-2.25" width="0.1524" layer="21"/>
+<wire x1="-4" y1="-2.25" x2="-4" y2="2.25" width="0.1524" layer="21"/>
+<text x="-2.5" y="2.5" size="1.016" layer="25" ratio="12">&gt;Name</text>
+<text x="-2.25" y="-3.5" size="1.016" layer="27" ratio="12">&gt;Value</text>
+</package>
+<package name="CYLC600X190-2N">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0" width="600"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#414141 colspan="2"&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;Cylindrical SMD Crystal &lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;img src="../../models/osc/CYLINC/png/CYLC600X190-2N.png" width="240"&gt;
+&lt;/td&gt;
+&lt;td bgcolor=#ffffff&gt;
+&lt;font color=#666666&gt;
+HC49US&lt;br&gt; 
+6.0mm L x 1.9mm W&lt;br&gt; 
+-----------------------------------------------
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+&lt;br&gt;</description>
+<smd name="3" x="-3.9" y="0" dx="6" dy="2.5" layer="1"/>
+<smd name="2" x="2.1" y="1.3" dx="2.5" dy="1" layer="1"/>
+<smd name="1" x="2.1" y="-1.3" dx="2.5" dy="1" layer="1"/>
+<wire x1="-6.5" y1="0.5" x2="-6.5" y2="-0.5" width="0.1" layer="51"/>
+<wire x1="-6.5" y1="-0.5" x2="-0.5" y2="-0.5" width="0.1" layer="51"/>
+<wire x1="-0.5" y1="-0.5" x2="-0.5" y2="-0.3" width="0.1" layer="51"/>
+<wire x1="-0.5" y1="-0.3" x2="-0.5" y2="0.3" width="0.1" layer="51"/>
+<wire x1="-0.5" y1="0.3" x2="-0.5" y2="0.5" width="0.1" layer="51"/>
+<wire x1="-0.5" y1="0.5" x2="-6.5" y2="0.5" width="0.1" layer="51"/>
+<wire x1="-0.5" y1="0.3" x2="0.5" y2="0.3" width="0.1" layer="51"/>
+<wire x1="-0.5" y1="-0.3" x2="0.5" y2="-0.3" width="0.1" layer="51"/>
+<wire x1="0.5" y1="0.3" x2="0.5" y2="1.3" width="0.1" layer="51"/>
+<wire x1="0.5" y1="1.3" x2="2.5" y2="1.3" width="0.1" layer="51"/>
+<wire x1="0.5" y1="-0.3" x2="0.5" y2="-1.3" width="0.1" layer="51"/>
+<wire x1="0.5" y1="-1.3" x2="2.5" y2="-1.3" width="0.1" layer="51"/>
+<rectangle x1="-6.5" y1="-0.5" x2="-0.5" y2="0.5" layer="51"/>
+<wire x1="0.7" y1="1.4" x2="-0.8" y2="1.4" width="0.1524" layer="21"/>
+<wire x1="-0.8" y1="1.4" x2="-0.8" y2="1.3" width="0.1524" layer="21"/>
+<wire x1="0.8" y1="-1.4" x2="-0.8" y2="-1.4" width="0.1524" layer="21"/>
+<wire x1="-0.8" y1="-1.4" x2="-0.8" y2="-1.3" width="0.1524" layer="21"/>
+<wire x1="0.8" y1="0.7" x2="0.8" y2="-0.7" width="0.1524" layer="21"/>
+<text x="-5.7" y="1.6" size="1.016" layer="25" ratio="12">&gt;Name</text>
+<text x="-5.9" y="-2.5" size="1.016" layer="27" ratio="12">&gt;Value</text>
+</package>
+<package name="CEMIC320X150-2N">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0" width="600"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#414141 colspan="2"&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;Ceramic SMD Crystal &lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;img src="../../models/osc/CERAMIC/png/CEMIC320X150-2N.png" width="240"&gt;
+&lt;/td&gt;
+&lt;td bgcolor=#ffffff&gt;
+&lt;font color=#666666&gt;
+3.2mm L x 1.5mm W x (1.0mm)H&lt;br&gt; 
+-----------------------------------------------
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+&lt;br&gt;</description>
+<smd name="2" x="1.25" y="0" dx="1" dy="1.8" layer="1"/>
+<smd name="1" x="-1.25" y="0" dx="1" dy="1.8" layer="1"/>
+<wire x1="0" y1="0.75" x2="0.2" y2="0.75" width="0.1" layer="51"/>
+<wire x1="0.2" y1="0.75" x2="1.6" y2="0.75" width="0.1" layer="51"/>
+<wire x1="1.6" y1="0.75" x2="1.6" y2="-0.75" width="0.1" layer="51"/>
+<wire x1="1.6" y1="-0.75" x2="-1.6" y2="-0.75" width="0.1" layer="51"/>
+<wire x1="-1.6" y1="-0.75" x2="-1.6" y2="0.75" width="0.1" layer="51"/>
+<wire x1="-1.6" y1="0.75" x2="0" y2="0.75" width="0.1" layer="51"/>
+<rectangle x1="-1.55" y1="-0.75" x2="-0.85" y2="0.7" layer="51"/>
+<rectangle x1="0.85" y1="-0.75" x2="1.55" y2="0.7" layer="51"/>
+<wire x1="0.65" y1="0.75" x2="-0.6" y2="0.75" width="0.1524" layer="21"/>
+<wire x1="0.65" y1="-0.75" x2="-0.6" y2="-0.75" width="0.1524" layer="21"/>
+<text x="-2.3" y="1.05" size="1.016" layer="25" ratio="12">&gt;Name</text>
+<text x="-2.15" y="-2.1" size="1.016" layer="27" ratio="12">&gt;Value</text>
+</package>
+</packages>
+<symbols>
+<symbol name="CRYSTAL">
+<wire x1="1.016" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.016" y2="0" width="0.1524" layer="94"/>
+<wire x1="-0.381" y1="1.524" x2="-0.381" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="-0.381" y1="-1.524" x2="0.381" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="0.381" y1="-1.524" x2="0.381" y2="1.524" width="0.254" layer="94"/>
+<wire x1="0.381" y1="1.524" x2="-0.381" y2="1.524" width="0.254" layer="94"/>
+<wire x1="1.016" y1="1.778" x2="1.016" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="1.778" x2="-1.016" y2="-1.778" width="0.254" layer="94"/>
+<text x="-2.54" y="2.286" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-2.159" y="-1.143" size="0.8636" layer="93">1</text>
+<text x="1.524" y="-1.143" size="0.8636" layer="93">2</text>
+<pin name="2" x="5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1"/>
+</symbol>
+<symbol name="CRYSTAL-3">
+<wire x1="-1.016" y1="0" x2="-2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="1.016" y2="0" width="0.1524" layer="94"/>
+<wire x1="0.381" y1="-1.524" x2="0.381" y2="1.524" width="0.254" layer="94"/>
+<wire x1="0.381" y1="1.524" x2="-0.381" y2="1.524" width="0.254" layer="94"/>
+<wire x1="-0.381" y1="1.524" x2="-0.381" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="-0.381" y1="-1.524" x2="0.381" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="-1.778" x2="-1.016" y2="1.778" width="0.254" layer="94"/>
+<wire x1="1.016" y1="-1.778" x2="1.016" y2="1.778" width="0.254" layer="94"/>
+<wire x1="1.778" y1="-1.905" x2="1.778" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="1.778" y1="-2.54" x2="-1.778" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-1.778" y1="-2.54" x2="-1.778" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="-1.778" y1="1.905" x2="-1.778" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="1.778" y1="2.54" x2="-1.778" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="1.778" y1="2.54" x2="1.778" y2="1.905" width="0.1524" layer="94"/>
+<text x="-2.54" y="-1.016" size="1.778" layer="95" rot="R180">&gt;NAME</text>
+<text x="-2.54" y="2.54" size="1.778" layer="96" rot="R180">&gt;VALUE</text>
+<text x="-2.159" y="-1.143" size="0.8636" layer="93">1</text>
+<text x="1.524" y="-1.143" size="0.8636" layer="93">2</text>
+<text x="1.143" y="2.794" size="0.8636" layer="93" rot="R90">3</text>
+<pin name="2" x="-2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="3" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+</symbol>
+<symbol name="CRYSTAL-4">
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ABLS-LR*" prefix="XT" uservalue="yes">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#414141&gt;
+&lt;font color=#ffffff&gt;
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Ultra Low ESR low frequency crystal! • HC49US, Resistance welded
+• 3.0MHz to 36MHz&lt;/b&gt; 
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#BDBDBD&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;font color=#666666&gt;
+&lt;b&gt;Description&lt;/b&gt;
+&lt;p&gt;
+FEATURES: &lt;br&gt;
+• Ultra low ESR as low as 20 ohms for 4MHz, 85% lower than 
+   typical SMD Low Profile HC49S Crystals&lt;br&gt;
+• Low negative resistance(-R) IC design can ensure high oscillation margin&lt;br&gt;
+• Tight stability and automotive grade temperature available&lt;br&gt;
+• Hermetically resistance weld sealed
+&lt;p&gt;
+APPLICATIONS:&lt;br&gt;
+• Low negative resistance u-controller design 
+  for low frequency&lt;br&gt;
+• Wide range of automotive applications&lt;br&gt;
+• Industrial applications
+&lt;p&gt;
+&lt;b&gt;How to Order&lt;/b&gt;
+&lt;table border="1" cellspacing="0" cellpadding="5"&gt;
+&lt;tr&gt;
+&lt;th&gt;Cristal&lt;/th&gt;&lt;th&gt;Frequency in MHz&lt;/th&gt;&lt;th&gt;Load Capacitance&lt;/th&gt;&lt;th&gt;Operating Temp&lt;/th&gt;&lt;th&gt;Freq. Tolerance&lt;/th&gt;&lt;th&gt;Freq. Stability &lt;/th&gt;&lt;th&gt;Packaging&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ABLS-LR&lt;/td&gt;
+&lt;td&gt;e.g.&lt;br&gt; 3.579545MHz&lt;br&gt;
+14.31818MHz&lt;br&gt;
+24.000MHz&lt;/td&gt;
+&lt;td&gt;
+Blank: 18pF&lt;br&gt;
+Please specify CL in pF
+or S for Series (10pF
+minimum)&lt;/td&gt;
+&lt;td&gt;
+Blank: 0 to 70 °C&lt;br&gt;
+A: -10°C ~ +60°C&lt;br&gt;
+B: -20°C ~ +70°C&lt;br&gt;
+C: -30°C ~ +70°C&lt;br&gt;
+N: -30°C ~ +85°C&lt;br&gt;
+D: -40°C ~ +85°C&lt;br&gt;
+J(*): -40°C to +105°C&lt;br&gt;
+K(*): -40°C to +125°C&lt;br&gt;
+L(*): -55°C to +125°C&lt;/td&gt;
+&lt;td&gt;
+Blank: ±50ppm&lt;br&gt;
+H5: ± 5 ppm&lt;br&gt;
+1: ± 10 ppm&lt;br&gt;
+7: ± 15 ppm&lt;br&gt;
+2: ± 20 ppm&lt;br&gt;
+3: ± 25 ppm&lt;br&gt;
+4: ± 30 ppm&lt;/td&gt;
+&lt;td&gt;
+Blank: ±100ppm &lt;br&gt;
+U(**): ± 10 ppm&lt;br&gt;
+G: ± 15 ppm&lt;br&gt;
+X: ± 20 ppm&lt;br&gt;
+W: ± 25 ppm&lt;br&gt;
+Y: ± 30 ppm&lt;br&gt;
+H: ± 35 ppm&lt;br&gt;
+Q: ± 100 ppm&lt;br&gt;
+R: ± 150 ppm&lt;/td&gt;
+&lt;td&gt;Blank: Bulk&lt;br&gt;
+T: Tape &amp; Reel&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#BDBDBD&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;Ref: &lt;/b&gt;&lt;a href="http://www.abracon.com/Resonators/ABLS-LR.pdf"&gt;Datasheet&lt;/a&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#414141&gt;
+&lt;font color=#ffffff&gt;
+Add more variants to ABLS-LR@, just remplace the "@" with a new technologie named according to order code parameters.&lt;br&gt; 
+It is mandatory to fill up the following attributes &lt;b&gt;MANUFACTURER, DESCRIPTION, MOUSER, AVNET, ARROW, FUTURE, NEWARK, DIGIKEY, AVRG-PRICE, OCTOPART-LINK, DATASHEET&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;</description>
+<gates>
+<gate name="G$1" symbol="CRYSTAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="HC49US1140X470-2N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="-13.500MHZ-T">
+<attribute name="ARROW" value="" constant="no"/>
+<attribute name="AVNET" value="ABLS-LR-13.500MHZ-T"/>
+<attribute name="AVRG-PRICE" value="1.98"/>
+<attribute name="DATASHEET" value="http://www.abracon.com/Resonators/ABLS-LR.pdf"/>
+<attribute name="DESCRIPTION" value="13.500MHz 0C +70C 50ppm 100ppm 10 Ohms ESR 18pF"/>
+<attribute name="DIGIKEY" value="535-10182-2-ND"/>
+<attribute name="EAGLEUP" value="HC49US1140X470X420-2N" constant="no"/>
+<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="MOUSER" value="815-ABLS-LR-13.50M-T"/>
+<attribute name="NEWARK" value="" constant="no"/>
+<attribute name="OCTOPART-LINK" value="http://octopart.com/partsearch#search/requestData&amp;q=ABLS-LR-12.000MHZ-T"/>
+</technology>
+<technology name="@">
+<attribute name="ARROW" value="" constant="no"/>
+<attribute name="AVNET" value="" constant="no"/>
+<attribute name="AVRG-PRICE" value="" constant="no"/>
+<attribute name="DATASHEET" value="http://www.abracon.com/Resonators/ABLS-LR.pdf"/>
+<attribute name="DESCRIPTION" value="Ultra Low ESR low frequency crystal! • HC49US, Resistance welded • 3.0MHz to 36MHz "/>
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="EAGLEUP" value="HC49US1140X470X420-2N" constant="no"/>
+<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="MOUSER" value="" constant="no"/>
+<attribute name="NEWARK" value="" constant="no"/>
+<attribute name="OCTOPART-LINK" value="http://octopart.com/partsearch#search/requestData&amp;q=ABLS-LR"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ABLSG*" prefix="XT" uservalue="yes">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#414141&gt;
+&lt;font color=#ffffff&gt;
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;With 3rd lead case-grounded, ideal for EMI shielding 
+• HC49US, Resistance welded • 3.579545 MHz to 75 MHz&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#BDBDBD&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;font color=#666666&gt;
+&lt;b&gt;Description&lt;/b&gt;
+&lt;p&gt;
+FEATURES: &lt;br&gt;
+• 3rd Lead is Grounded, Ideal for 
+  EMI Sensitive Applications&lt;br&gt;
+• IR-reflow capable&lt;br&gt;
+• Low height reduced to 4.2mm&lt;br&gt;
+• Tight stability &amp; extended temperature available
+&lt;p&gt;
+APPLICATIONS:&lt;br&gt;
+• EMI sensitive applications&lt;br&gt;
+• Computers, Modems, Microprocessors&lt;br&gt;
+• Medical Electronics&lt;br&gt;
+• Automotive and Industrial&lt;br&gt;
+• Wireless Applications
+&lt;p&gt;
+&lt;b&gt;How to Order&lt;/b&gt;
+&lt;table border="1" cellspacing="0" cellpadding="5"&gt;
+&lt;tr&gt;
+&lt;th&gt;Cristal&lt;/th&gt;&lt;th&gt;Frequency in MHz&lt;/th&gt;&lt;th&gt;Load Capacitance&lt;/th&gt;&lt;th&gt;Operating Temp&lt;/th&gt;&lt;th&gt;Freq. Tolerance&lt;/th&gt;&lt;th&gt;Freq. Stability &lt;/th&gt;&lt;th&gt;Mode&lt;/th&gt;&lt;th&gt;Packaging&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ABLSG&lt;/td&gt;
+&lt;td&gt;
+e.g. 3.579545MHz&lt;br&gt;
+4.31818MHz&lt;br&gt;
+26.000MHz
+&lt;/td&gt;
+&lt;td&gt;Please specify CL in pF or
+S for Series (8 to 33pF)
+Please contact ABRACON for other
+values&lt;/td&gt;
+&lt;td&gt;
+A: -10°C ~ +60°C&lt;br&gt;
+B: -20°C ~ +70°C&lt;br&gt;
+C: -30°C ~ +70°C&lt;br&gt;
+N: -30°C ~ +85°C&lt;br&gt;
+D: -40°C ~ +85°C&lt;br&gt;
+J(*): -40°C to +105°C&lt;br&gt;
+K(*): -40°C to +125°C&lt;br&gt;
+L(*): -55°C to +125°C&lt;/td&gt;
+&lt;td&gt;
+H5: ± 5 ppm&lt;br&gt;
+1: ± 10 ppm&lt;br&gt;
+7: ± 15 ppm&lt;br&gt;
+2: ± 20 ppm&lt;br&gt;
+3: ± 25 ppm&lt;br&gt;
+4: ± 30 ppm&lt;/td&gt;
+&lt;td&gt;
+U(**): ± 10 ppm&lt;br&gt;
+G: ± 15 ppm&lt;br&gt;
+X: ± 20 ppm&lt;br&gt;
+W: ± 25 ppm&lt;br&gt;
+Y: ± 30 ppm&lt;br&gt;
+H: ± 35 ppm&lt;br&gt;
+Q: ± 100 ppm&lt;br&gt;
+R: ± 150 ppm&lt;/td&gt;
+&lt;td&gt;F: Fund.AT for &gt;24MHz&lt;br&gt; 
+FB: Fund.BT for &gt;24MHz&lt;/td&gt;
+&lt;td&gt;Blank: Bulk&lt;br&gt;
+T: Tape &amp; Reel&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#BDBDBD&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;Ref: &lt;/b&gt;&lt;a href="http://www.abracon.com/Resonators/ABLSG.pdf"&gt;Datasheet&lt;/a&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#414141&gt;
+&lt;font color=#ffffff&gt;
+Add more variants to ABLSLG@, just remplace the "@" with a new technologie named according to order code parameters.&lt;br&gt; 
+It is mandatory to fill up the following attributes &lt;b&gt;MANUFACTURER, DESCRIPTION, MOUSER, AVNET, ARROW, FUTURE, NEWARK, DIGIKEY, AVRG-PRICE, OCTOPART-LINK, DATASHEET&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;</description>
+<gates>
+<gate name="G$1" symbol="CRYSTAL-3" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="HC49US1140X470-3N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name="-16.000MHZ-D-2-Y-T">
+<attribute name="ARROW" value="" constant="no"/>
+<attribute name="AVNET" value="" constant="no"/>
+<attribute name="AVRG-PRICE" value="0.63"/>
+<attribute name="DATASHEET" value="http://www.abracon.com/Resonators/ABLSG.pdf"/>
+<attribute name="DESCRIPTION" value="16MHz 18pF 20ppm 30ppm -40C to +85C"/>
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="EAGLEUP" value="HC49US1140X470X420-3N" constant="no"/>
+<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="MOUSER" value="815-ABLSG-16-D2YT"/>
+<attribute name="NEWARK" value="" constant="no"/>
+<attribute name="OCTOPART-LINK" value="http://octopart.com/ablsg-16.000mhz-d-2-y-t-abracon-18618701"/>
+</technology>
+<technology name="@">
+<attribute name="ARROW" value="" constant="no"/>
+<attribute name="AVNET" value="" constant="no"/>
+<attribute name="AVRG-PRICE" value="" constant="no"/>
+<attribute name="DATASHEET" value="http://www.abracon.com/Resonators/ABLSG.pdf"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="EAGLEUP" value="HC49US1140X470X420-3N" constant="no"/>
+<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="MOUSER" value="" constant="no"/>
+<attribute name="NEWARK" value="" constant="no"/>
+<attribute name="OCTOPART-LINK" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ABLS?*" prefix="XT" uservalue="yes">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#414141&gt;
+&lt;font color=#ffffff&gt;
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;HC49US, Resistance welded • 3.579545MHz to 70MHz &lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#BDBDBD&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;font color=#666666&gt;
+&lt;b&gt;Description&lt;/b&gt;
+&lt;p&gt;
+FEATURES: &lt;br&gt;
+• Suitable for RoHS reflow&lt;br&gt;
+• Available for tight stability &amp; extended 
+  temperature range
+&lt;p&gt;
+APPLICATIONS:&lt;br&gt;
+• Computers, Modems, Microprocessors&lt;br&gt;
+• Automotive and Industrial &lt;br&gt;
+• Wireless Applications
+&lt;p&gt;
+&lt;b&gt;How to Order&lt;/b&gt;
+&lt;table border="1" cellspacing="0" cellpadding="5"&gt;
+&lt;tr&gt;
+&lt;th&gt;Cristal&lt;/th&gt;&lt;th&gt;Frequency in MHz&lt;/th&gt;&lt;th&gt;Load Capacitance&lt;/th&gt;&lt;th&gt;ESR if other than STD&lt;/th&gt;&lt;th&gt;Operating Temp&lt;/th&gt;&lt;th&gt;Freq. Tolerance&lt;/th&gt;&lt;th&gt;Freq. Stability &lt;/th&gt;&lt;th&gt;Mode&lt;/th&gt;&lt;th&gt;Packaging&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ABLS&lt;br&gt;ABLS2&lt;br&gt;ABLS3&lt;/td&gt;
+&lt;td&gt;e .g. 3.579545 MHz&lt;br&gt;
+14.31818 MHz&lt;br&gt;
+26.000MHz
+&lt;/td&gt;
+&lt;td&gt;
+Blank: 18pF&lt;br&gt;
+Please specify CL (8 to 33p F)
+in pF or S for Series&lt;br&gt;
+Please contact ABRACON for other
+va lues
+&lt;/td&gt;
+&lt;td&gt;
+Balnk: 15 Ohm&lt;br&gt;
+Specify a value in Ω
+&lt;/td&gt;
+&lt;td&gt;
+Blank: 0°C ~ +60°C&lt;br&gt;
+A: -10°C ~ +60°C&lt;br&gt;
+B: -20°C ~ +70°C&lt;br&gt;
+C: -30°C ~ +70°C&lt;br&gt;
+N: -30°C ~ +85°C&lt;br&gt;
+D: -40°C ~ +85°C&lt;br&gt;
+J(*): -40°C to +105°C&lt;br&gt;
+K(*): -40°C to +125°C&lt;br&gt;
+L(*): -55°C to +125°C&lt;/td&gt;
+&lt;td&gt;
+Blank: 50ppm&lt;br&gt;
+H5: ± 5 ppm&lt;br&gt;
+1: ± 10 ppm&lt;br&gt;
+7: ± 15 ppm&lt;br&gt;
+2: ± 20 ppm&lt;br&gt;
+3: ± 25 ppm&lt;br&gt;
+4: ± 30 ppm&lt;/td&gt;
+&lt;td&gt;
+Blank: 100ppm&lt;br&gt;
+U(**): ± 10 ppm&lt;br&gt;
+G: ± 15 ppm&lt;br&gt;
+X: ± 20 ppm&lt;br&gt;
+W: ± 25 ppm&lt;br&gt;
+Y: ± 30 ppm&lt;br&gt;
+H: ± 35 ppm&lt;br&gt;
+Q: ± 100 ppm&lt;br&gt;
+R: ± 150 ppm&lt;/td&gt;
+&lt;td&gt;
+F: Fund.AT for &gt;24MHz&lt;br&gt;
+FB: Fund.BT for &gt;24MHz
+&lt;/td&gt;
+&lt;td&gt;Blank: Bulk&lt;br&gt;
+T: Tape &amp; Reel&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#BDBDBD&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;Ref: &lt;/b&gt;&lt;a href="http://www.abracon.com/Resonators/abls.pdf"&gt;Datasheet ABLS, &lt;/a&gt;
+&lt;b&gt;Ref: &lt;/b&gt;&lt;a href="http://www.abracon.com/Resonators/ABLS2.pdf"&gt;Datasheet ABLS2, &lt;/a&gt;
+&lt;b&gt;Ref: &lt;/b&gt;&lt;a href="http://www.abracon.com/Resonators/ABLS3.pdf"&gt;Datasheet ABLS3&lt;/a&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#414141&gt;
+&lt;font color=#ffffff&gt;
+Add more variants to ABLS@, just remplace the "@" with a new technologie named according to order code parameters.&lt;br&gt; 
+It is mandatory to fill it up the following attributes &lt;b&gt;MANUFACTURER, DESCRIPTION, MOUSER, AVNET, ARROW, FUTURE, NEWARK, DIGIKEY, AVRG-PRICE, OCTOPART-LINK, DATASHEET&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;</description>
+<gates>
+<gate name="G$1" symbol="CRYSTAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="3" package="HC49US1140X470-2N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="-27.000MHZ-D4YF-T">
+<attribute name="ARROW" value="" constant="no"/>
+<attribute name="AVNET" value="" constant="no"/>
+<attribute name="AVRG-PRICE" value="0.56"/>
+<attribute name="DATASHEET" value="http://www.abracon.com/Resonators/ABLS3.pdf"/>
+<attribute name="DESCRIPTION" value="27MHz 30ppm -30ppm -40C to +85C 18pF"/>
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="EAGLEUP" value="HC49US1140X470X250-2N" constant="no"/>
+<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="MOUSER" value="815-ABLS3-27MD4YFT"/>
+<attribute name="NEWARK" value="" constant="no"/>
+<attribute name="OCTOPART-LINK" value="http://octopart.com/abls3-27.000mhz-d4yf-t-abracon-19955861"/>
+</technology>
+<technology name="@">
+<attribute name="ARROW" value="" constant="no"/>
+<attribute name="AVNET" value="" constant="no"/>
+<attribute name="AVRG-PRICE" value="" constant="no"/>
+<attribute name="DATASHEET" value="http://www.abracon.com/Resonators/ABLS3.pdf"/>
+<attribute name="DESCRIPTION" value="HC49US, Resistance welded • 3.579545MHz to 70MHz " constant="no"/>
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="EAGLEUP" value="HC49US1140X470X250-2N" constant="no"/>
+<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="MOUSER" value="" constant="no"/>
+<attribute name="NEWARK" value="" constant="no"/>
+<attribute name="OCTOPART-LINK" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="2" package="HC49US1140X470-2N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="-14.7456MHZ-D4Y-T">
+<attribute name="ARROW" value="" constant="no"/>
+<attribute name="AVNET" value="" constant="no"/>
+<attribute name="AVRG-PRICE" value="0.53"/>
+<attribute name="DATASHEET" value="http://www.abracon.com/Resonators/ABLS2.pdf"/>
+<attribute name="DESCRIPTION" value="14.7456MHz 30ppm 30ppm -40C+85C 18pF"/>
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="EAGLEUP" value="HC49US1140X470X330-2N" constant="no"/>
+<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="MOUSER" value="815-ABLS2-14.7-D4Y-T"/>
+<attribute name="NEWARK" value="" constant="no"/>
+<attribute name="OCTOPART-LINK" value="http://octopart.com/abls2-14.7456mhz-d4y-t-abracon-9563557"/>
+</technology>
+<technology name="@">
+<attribute name="ARROW" value="" constant="no"/>
+<attribute name="AVNET" value="" constant="no"/>
+<attribute name="AVRG-PRICE" value="" constant="no"/>
+<attribute name="DATASHEET" value="http://www.abracon.com/Resonators/ABLS2.pdf"/>
+<attribute name="DESCRIPTION" value="HC49US, Resistance welded • 3.579545MHz to 70MHz"/>
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="EAGLEUP" value="HC49US1140X470X330-2N" constant="no"/>
+<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="MOUSER" value="" constant="no"/>
+<attribute name="NEWARK" value="" constant="no"/>
+<attribute name="OCTOPART-LINK" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="" package="HC49US1140X470-2N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="-20.000MHZ-B2-T">
+<attribute name="ARROW" value="" constant="no"/>
+<attribute name="AVNET" value="" constant="no"/>
+<attribute name="AVRG-PRICE" value="0.46"/>
+<attribute name="DATASHEET" value="http://www.abracon.com/Resonators/abls.pdf"/>
+<attribute name="DESCRIPTION" value="20.000MHz -20C +70C 20ppm 50ppm 15 Ohms ESR 18pF"/>
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="EAGLEUP" value="HC49US1140X470X420-2N" constant="no"/>
+<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="MOUSER" value="815-ABLS-20-B2"/>
+<attribute name="NEWARK" value="" constant="no"/>
+<attribute name="OCTOPART-LINK" value="http://octopart.com/abls-20.000mhz-b2-t-abracon-39958"/>
+</technology>
+<technology name="@">
+<attribute name="ARROW" value="" constant="no"/>
+<attribute name="AVNET" value="" constant="no"/>
+<attribute name="AVRG-PRICE" value="" constant="no"/>
+<attribute name="DATASHEET" value="http://www.abracon.com/Resonators/abls.pdf"/>
+<attribute name="DESCRIPTION" value="HC49US, Resistance welded • 3.579545MHz to 70MHz"/>
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="EAGLEUP" value="HC49US1140X470X420-2N" constant="no"/>
+<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="MOUSER" value="" constant="no"/>
+<attribute name="NEWARK" value="" constant="no"/>
+<attribute name="OCTOPART-LINK" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ABSM3?*" prefix="XT" uservalue="yes">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#414141&gt;
+&lt;font color=#ffffff&gt;
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;HC49US, Resistance welded • 3.5MHz to 60MHz &lt;/b&gt; 
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#BDBDBD&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;font color=#666666&gt;
+&lt;b&gt;Description&lt;/b&gt;
+&lt;p&gt;
+FEATURES: &lt;br&gt;
+• Excellent all-purpose surface-mount crystal.&lt;br&gt;
+• Four pad land pattern compatible with common 
+  plastic molded designs
+&lt;p&gt;
+APPLICATIONS:&lt;br&gt;
+• Home electronics&lt;br&gt;
+• Computers, modems, and communications&lt;br&gt;
+• Clock applications&lt;br&gt;
+• Microprocessors
+&lt;p&gt;
+&lt;b&gt;How to Order&lt;/b&gt;
+&lt;table border="1" cellspacing="0" cellpadding="5"&gt;
+&lt;tr&gt;
+&lt;th&gt;Crystal&lt;/th&gt;&lt;th&gt;Height&lt;/th&gt;&lt;th&gt;Frequency in MHz&lt;/th&gt;&lt;th&gt;Load Capacitance&lt;/th&gt;&lt;th&gt;Custom ESR&lt;/th&gt;&lt;th&gt;Operating Temp&lt;/th&gt;&lt;th&gt;Freq. Tolerance&lt;/th&gt;&lt;th&gt;Freq. Stability &lt;/th&gt;&lt;th&gt;Mode&lt;/th&gt;&lt;th&gt;Packaging&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ABSM3A&lt;br&gt; ABSM32A&lt;br&gt;ABSM33A&lt;br&gt;ABSM3B&lt;br&gt; ABSM32B&lt;br&gt; ABSM33B &lt;/td&gt;
+&lt;td&gt;
+Blank 5.1mm&lt;br&gt;
+2 4.5mm &lt;br&gt;
+3 3.8mm
+&lt;/td&gt;
+&lt;td&gt;XX.XXX MHz
+&lt;/td&gt;
+&lt;td&gt;Please specify CL
+ in pF or S for Series (10 to 33pF)&lt;br&gt;
+&lt;/td&gt;
+&lt;td&gt;
+RXXX Value in Ω
+&lt;/td&gt;
+&lt;td&gt;
+E: 0°C to +70°C&lt;br&gt;
+B: -20°C to +70°C&lt;br&gt;
+C: -30°C to +70°C&lt;br&gt;
+N: -30°C to +85°C&lt;br&gt;
+D: -40°C to +85°C&lt;br&gt;
+&lt;td&gt;
+1: ± 10 ppm&lt;br&gt;
+7: ± 15 ppm&lt;br&gt;
+2: ± 20 ppm&lt;br&gt;
+3: ± 25 ppm&lt;br&gt;
+4: ± 30 ppm&lt;/td&gt;
+&lt;td&gt;
+U(**): ± 10 ppm&lt;br&gt;
+G: ± 15 ppm&lt;br&gt;
+X: ± 20 ppm&lt;br&gt;
+W: ± 25 ppm&lt;br&gt;
+Y: ± 30 ppm&lt;br&gt;
+H: ± 35 ppm&lt;br&gt;
+Z: ± 150 ppm&lt;/td&gt;
+&lt;td&gt;
+F: Fund.AT for &gt;24MHz&lt;br&gt;
+FB: Fund.BT for &gt;24MHz
+&lt;/td&gt;
+&lt;td&gt;Blank: Bulk&lt;br&gt;
+T: Tape &amp; Reel&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#BDBDBD&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;Ref: &lt;/b&gt;&lt;a href="http://www.abracon.com/Resonators/ABSM3A.pdf"&gt;Datasheet ABSM3A, &lt;/a&gt;
+&lt;b&gt;Ref: &lt;/b&gt;&lt;a href="http://www.abracon.com/Resonators/ABSM3B.pdf"&gt;Datasheet ABSM3B, &lt;/a&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#414141&gt;
+&lt;font color=#ffffff&gt;
+Add more variants to ABSM3@, just remplace the "@" with a new technologie named according to order code parameters.&lt;br&gt; 
+It is mandatory to fill up the following attributes &lt;b&gt;DESCRIPTION, MOUSER, AVNET, ARROW, FUTURE, NEWARK, DIGIKEY, AVRG-PRICE, OCTOPART-LINK, DATASHEET&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;</description>
+<gates>
+<gate name="G$1" symbol="CRYSTAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="3A" package="HC49US1300X470-4N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="4"/>
+</connects>
+<technologies>
+<technology name="@">
+<attribute name="AVRG-PRICE" value="" constant="no"/>
+<attribute name="DATASHEET" value="http://www.abracon.com/Resonators/ABSM3A.pdf"/>
+<attribute name="DESCRIPTION" value="HC49US, Resistance welded • 3.5MHz to 60MHz "/>
+<attribute name="EAGLEUP" value="HC49US1300X470X380-4N" constant="no"/>
+<attribute name="MOUSER" value="" constant="no"/>
+<attribute name="OCTOPART-LINK" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="3B" package="HC49US1300X470-4N">
+<connects>
+<connect gate="G$1" pin="1" pad="1 4"/>
+<connect gate="G$1" pin="2" pad="2 3"/>
+</connects>
+<technologies>
+<technology name="@">
+<attribute name="AVRG-PRICE" value="" constant="no"/>
+<attribute name="DATASHEET" value="http://www.abracon.com/Resonators/ABSM3B.pdf"/>
+<attribute name="DESCRIPTION" value="HC49US, Resistance welded • 3.5MHz to 60MHz "/>
+<attribute name="EAGLEUP" value="HC49US1300X470X380-4N" constant="no"/>
+<attribute name="MOUSER" value="" constant="no"/>
+<attribute name="OCTOPART-LINK" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="2A" package="HC49US1300X470-4N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="4"/>
+</connects>
+<technologies>
+<technology name="@">
+<attribute name="AVRG-PRICE" value="" constant="no"/>
+<attribute name="DATASHEET" value="http://www.abracon.com/Resonators/ABSM3A.pdf"/>
+<attribute name="DESCRIPTION" value="HC49US, Resistance welded • 3.5MHz to 60MHz "/>
+<attribute name="EAGLEUP" value="HC49US1300X470X450-4N" constant="no"/>
+<attribute name="MOUSER" value="" constant="no"/>
+<attribute name="OCTOPART-LINK" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="2B" package="HC49US1300X470-4N">
+<connects>
+<connect gate="G$1" pin="1" pad="1 4"/>
+<connect gate="G$1" pin="2" pad="2 3"/>
+</connects>
+<technologies>
+<technology name="@">
+<attribute name="AVRG-PRICE" value="" constant="no"/>
+<attribute name="DATASHEET" value="http://www.abracon.com/Resonators/ABSM3B.pdf"/>
+<attribute name="DESCRIPTION" value="HC49US, Resistance welded • 3.5MHz to 60MHz "/>
+<attribute name="EAGLEUP" value="" constant="no"/>
+<attribute name="MOUSER" value="" constant="no"/>
+<attribute name="OCTOPART-LINK" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="A" package="HC49US1300X470-4N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="4"/>
+</connects>
+<technologies>
+<technology name="-3.6864MHZ-20-D4Z-T">
+<attribute name="AVRG-PRICE" value="0.80"/>
+<attribute name="DATASHEET" value="http://www.abracon.com/Resonators/ABSM3A.pdf"/>
+<attribute name="DESCRIPTION" value="3.6864 MHz ±50 ppm 20 pF -40 to +85 °C SMT Microprocessor Crystal"/>
+<attribute name="EAGLEUP" value="HC49US1300X470X510-4N" constant="no"/>
+<attribute name="MOUSER" value="" constant="no"/>
+<attribute name="OCTOPART-LINK" value="http://octopart.com/absm3a-3.6864mhz-20-d4z-t-abracon-20092781"/>
+</technology>
+<technology name="@">
+<attribute name="AVRG-PRICE" value="" constant="no"/>
+<attribute name="DATASHEET" value="http://www.abracon.com/Resonators/ABSM3A.pdf"/>
+<attribute name="DESCRIPTION" value="HC49US, Resistance welded • 3.5MHz to 60MHz "/>
+<attribute name="EAGLEUP" value="HC49US1300X470X510-4N" constant="no"/>
+<attribute name="MOUSER" value="" constant="no"/>
+<attribute name="OCTOPART-LINK" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="B" package="HC49US1300X470-4N">
+<connects>
+<connect gate="G$1" pin="1" pad="1 4"/>
+<connect gate="G$1" pin="2" pad="2 3"/>
+</connects>
+<technologies>
+<technology name="@">
+<attribute name="ARROW" value="" constant="no"/>
+<attribute name="AVNET" value="" constant="no"/>
+<attribute name="AVRG-PRICE" value="" constant="no"/>
+<attribute name="DATASHEET" value="http://www.abracon.com/Resonators/ABSM3B.pdf"/>
+<attribute name="DESCRIPTION" value="HC49US, Resistance welded • 3.5MHz to 60MHz "/>
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="EAGLEUP" value="HC49US1300X470X510-4N" constant="no"/>
+<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="MOUSER" value="" constant="no"/>
+<attribute name="NEWARK" value="" constant="no"/>
+<attribute name="OCTOPART-LINK" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ABM2*" prefix="XT" uservalue="yes">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#414141&gt;
+&lt;font color=#ffffff&gt;
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Ceramic Glass sealed • 8.0MHz to 100MHz  &lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#BDBDBD&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;font color=#666666&gt;
+&lt;b&gt;Description&lt;/b&gt;
+&lt;p&gt;
+FEATURES: &lt;br&gt;
+• Low in height; suitable for thin equipment&lt;br&gt;
+• Glass sealed package assures high reliability and high temperature operation&lt;br&gt;
+• Tight tolerance and stability available&lt;br&gt;
+• Suitable for RoHS compliant reflow&lt;br&gt;
+• Low cost glass sealed crystal solution
+&lt;p&gt;
+APPLICATIONS:&lt;br&gt;
+• High density applications&lt;br&gt;
+• Modems, communication and test equipment&lt;br&gt;
+• PMCIA, Wireless applications&lt;br&gt;
+• Microprocessor crystals
+&lt;p&gt;
+&lt;b&gt;How to Order&lt;/b&gt;
+&lt;table border="1" cellspacing="0" cellpadding="5"&gt;
+&lt;tr&gt;
+&lt;th&gt;Cristal&lt;/th&gt;&lt;th&gt;Frequency in MHz&lt;/th&gt;&lt;th&gt;Load Capacitance&lt;/th&gt;&lt;th&gt;ESR if other than STD&lt;/th&gt;&lt;th&gt;Operating Temp&lt;/th&gt;&lt;th&gt;Freq. Tolerance&lt;/th&gt;&lt;th&gt;Freq. Stability &lt;/th&gt;&lt;th&gt;Mode&lt;/th&gt;&lt;th&gt;Packaging&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ABLS&lt;br&gt;ABLS2&lt;br&gt;ABLS3&lt;/td&gt;
+&lt;td&gt;e .g. 8.000 MHz&lt;br&gt;
+14.31818 MHz&lt;br&gt;
+26.000MHz
+&lt;/td&gt;
+&lt;td&gt;
+Blank: 18pF&lt;br&gt;
+Please specify CL (8 to 33p F)
+in pF or S for Series&lt;br&gt;
+Please contact ABRACON for other
+va lues
+&lt;/td&gt;
+&lt;td&gt;
+Balnk: 15 Ohm&lt;br&gt;
+Specify a value in Ω
+&lt;/td&gt;
+&lt;td&gt;
+Blank: 0°C ~ +60°C&lt;br&gt;
+E: 0°C ~ +60°C&lt;br&gt;
+B: -20°C ~ +70°C&lt;br&gt;
+C: -30°C ~ +70°C&lt;br&gt;
+N: -30°C ~ +85°C&lt;br&gt;
+D: -40°C ~ +85°C&lt;br&gt;
+J(*): -40°C to +105°C&lt;br&gt;
+K(*): -40°C to +125°C&lt;br&gt;
+L(*): -55°C to +125°C&lt;/td&gt;
+&lt;td&gt;
+Blank: 50ppm&lt;br&gt;
+1: ± 10 ppm&lt;br&gt;
+7: ± 15 ppm&lt;br&gt;
+2: ± 20 ppm&lt;br&gt;
+3: ± 25 ppm&lt;br&gt;
+4: ± 30 ppm&lt;/td&gt;
+&lt;td&gt;
+Blank: 100ppm&lt;br&gt;
+U(**): ± 10 ppm&lt;br&gt;
+G: ± 15 ppm&lt;br&gt;
+X: ± 20 ppm&lt;br&gt;
+W: ± 25 ppm&lt;br&gt;
+Y: ± 30 ppm&lt;br&gt;
+H: ± 35 ppm&lt;br&gt;
+A: ± 100 ppm&lt;br&gt;
+V: ± 120 ppm&lt;/td&gt;
+P: ± 150 ppm
+&lt;td&gt;
+F: Fund.AT for &gt;40MHz&lt;br&gt;
+&lt;/td&gt;
+&lt;td&gt;Blank: Bulk&lt;br&gt;
+T: Tape &amp; Reel
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#BDBDBD&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;Ref: &lt;/b&gt;&lt;a href="http://www.abracon.com/Resonators/abls.pdf"&gt;Datasheet ABLS, &lt;/a&gt;
+&lt;b&gt;Ref: &lt;/b&gt;&lt;a href="http://www.abracon.com/Resonators/ABLS2.pdf"&gt;Datasheet ABLS2, &lt;/a&gt;
+&lt;b&gt;Ref: &lt;/b&gt;&lt;a href="http://www.abracon.com/Resonators/ABLS3.pdf"&gt;Datasheet ABLS3&lt;/a&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#414141&gt;
+&lt;font color=#ffffff&gt;
+Add more variants to ABLS@, just remplace the "@" with a new technologie named according to order code parameters.&lt;br&gt; 
+It is mandatory to fill it up the following attributes &lt;b&gt;MANUFACTURER, DESCRIPTION, MOUSER, AVNET, ARROW, FUTURE, NEWARK, DIGIKEY, AVRG-PRICE, OCTOPART-LINK, DATASHEET&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;</description>
+<gates>
+<gate name="G$1" symbol="CRYSTAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CEMIC800X450-2N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="-12.000MHZ-D4Y-T">
+<attribute name="ARROW" value="" constant="no"/>
+<attribute name="AVNET" value="" constant="no"/>
+<attribute name="AVRG-PRICE" value="0.67" constant="no"/>
+<attribute name="DATASHEET" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="Cristales 12.0MHz 18pF 30ppm -40C +85C "/>
+<attribute name="DIGIKEY" value="535-10875-2-ND"/>
+<attribute name="EAGLEUP" value="CEMIC800X450-2N" constant="no"/>
+<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="ABRACON"/>
+<attribute name="MOUSER" value="815-ABM2-12-D4Y-T"/>
+<attribute name="NEWARK" value="37T9754"/>
+<attribute name="OCTOPART-LINK" value="http://octopart.com/abm2-12.000mhz-d4y-t-abracon-19955908"/>
+</technology>
+<technology name="-8.000MHZ-D4Y-T">
+<attribute name="ARROW" value="" constant="no"/>
+<attribute name="AVNET" value="" constant="no"/>
+<attribute name="AVRG-PRICE" value="0.64" constant="no"/>
+<attribute name="DATASHEET" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="Cristales 8.0MHz 18pF 30ppm -40C +85C"/>
+<attribute name="DIGIKEY" value="535-10870-2-ND"/>
+<attribute name="EAGLEUP" value="CEMIC800X450-2N" constant="no"/>
+<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="ABRACON"/>
+<attribute name="MOUSER" value="815-ABM2-8-D4Y-T"/>
+<attribute name="NEWARK" value="37T9829"/>
+<attribute name="OCTOPART-LINK" value="http://octopart.com/abm2-8.000mhz-d4y-t-abracon-19955932"/>
+</technology>
+<technology name="@">
+<attribute name="ARROW" value="" constant="no"/>
+<attribute name="AVNET" value="" constant="no"/>
+<attribute name="AVRG-PRICE" value="" constant="no"/>
+<attribute name="DATASHEET" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="EAGLEUP" value="CEMIC800X450-2N" constant="no"/>
+<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="ABRACON"/>
+<attribute name="MOUSER" value="" constant="no"/>
+<attribute name="NEWARK" value="" constant="no"/>
+<attribute name="OCTOPART-LINK" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AB26TRB*" prefix="XT" uservalue="yes">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#414141&gt;
+&lt;font color=#ffffff&gt;
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Cylindrical type Reflowable • 30kHz to 100kHz &lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#BDBDBD&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;font color=#666666&gt;
+&lt;b&gt;Description&lt;/b&gt;
+&lt;p&gt;
+FEATURES: &lt;br&gt;
+• Formed leads for low cost SMD type&lt;br&gt;
+• Excellent shock resistance&lt;br&gt;
+• Reflow Capable&lt;br&gt;
+• Low cost for consumer applications&lt;br&gt;
+• IR reflow capable
+&lt;p&gt;
+APPLICATIONS:&lt;br&gt;
+• Real time clock&lt;br&gt;
+• Measuring instruments&lt;br&gt;
+• Blue-tooth and wireless applications
+&lt;p&gt;
+&lt;b&gt;How to Order&lt;/b&gt;
+&lt;table border="1" cellspacing="0" cellpadding="5"&gt;
+&lt;tr&gt;
+&lt;th&gt;Cristal&lt;/th&gt;&lt;th&gt;Frequency in MHz&lt;/th&gt;&lt;th&gt;Load Capacitance&lt;/th&gt;&lt;th&gt;Freq. Tolerance&lt;/th&gt;&lt;th&gt;Packaging&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;AB26TRB&lt;/td&gt;
+&lt;td&gt;32.768 KHz&lt;/td&gt;
+&lt;td&gt;
+Blank: 12.5pF&lt;br&gt;
+6 - 6pF&lt;br&gt;
+10 - 10pF&lt;/td&gt;
+&lt;td&gt;
+Blank: 50ppm&lt;br&gt;
+1: ± 10 ppm&lt;br&gt;
+7: ± 15 ppm&lt;br&gt;
+&lt;/td&gt;
+&lt;td&gt;Blank: Bulk&lt;br&gt;
+T: Tape &amp; Reel
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#BDBDBD&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;Ref: &lt;/b&gt;&lt;a href="http://www.abracon.com/Resonators/AB26TRB.pdf"&gt;Datasheet &lt;/a&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#414141&gt;
+&lt;font color=#ffffff&gt;
+Add more variants to AB26TRB@, just remplace the "@" with a new technologie named according to order code parameters.&lt;br&gt; 
+It is mandatory to fill it up the following attributes &lt;b&gt;MANUFACTURER, DESCRIPTION, MOUSER, AVNET, ARROW, FUTURE, NEWARK, DIGIKEY, AVRG-PRICE, OCTOPART-LINK, DATASHEET&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;</description>
+<gates>
+<gate name="G$1" symbol="CRYSTAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CYLC600X190-2N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="-32.768KHZ-T">
+<attribute name="ARROW" value="" constant="no"/>
+<attribute name="AVNET" value="" constant="no"/>
+<attribute name="AVRG-PRICE" value="0.48"/>
+<attribute name="DATASHEET" value="http://www.abracon.com/Resonators/AB26TRB.pdf"/>
+<attribute name="DESCRIPTION" value="Cristales 32.768KHz"/>
+<attribute name="DIGIKEY" value="535-9033-2-ND"/>
+<attribute name="EAGLEUP" value="CYLC600X190-2N" constant="no"/>
+<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="ABRACON"/>
+<attribute name="MOUSER" value="815-AB26TRB-32.76KHZ"/>
+<attribute name="NEWARK" value="13J1807"/>
+<attribute name="OCTOPART-LINK" value="http://octopart.com/ab26trb-32.768khz-t-abracon-315482"/>
+</technology>
+<technology name="@">
+<attribute name="ARROW" value="" constant="no"/>
+<attribute name="AVNET" value="" constant="no"/>
+<attribute name="AVRG-PRICE" value="" constant="no"/>
+<attribute name="DATASHEET" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="EAGLEUP" value="CYLC600X190-2N" constant="no"/>
+<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="ABRACON"/>
+<attribute name="MOUSER" value="" constant="no"/>
+<attribute name="NEWARK" value="" constant="no"/>
+<attribute name="OCTOPART-LINK" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ABS07-120-32.768KHZ-T" prefix="XT" uservalue="yes">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#414141&gt;
+&lt;font color=#ffffff&gt;
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;3.2 x 1.5 x 0.9mm • Low Profile, 32.768kHz 6pF, ESR Optimized Tuning Fork Crystal
+&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#BDBDBD&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;font color=#666666&gt;
+&lt;b&gt;Description&lt;/b&gt;
+&lt;p&gt;
+FEATURES: &lt;br&gt;
+• Guaranteed ESR of 60kΩ Maximum for Low Power Designs&lt;br&gt;
+• 0.9mm height ideal for high density circuit boards&lt;br&gt;
+• Seam sealed ceramic package offers excellent environmental &amp; heat resistance&lt;br&gt;
+• Extended Operating temperature of -40°C to +85°C for industrial applications
+&lt;p&gt;
+APPLICATIONS:&lt;br&gt;
+• Power sensitive designs requiring Low ESR Crystal&lt;br&gt;
+• Communication &amp; measurement equipment&lt;br&gt;
+• Commercial, Consumer &amp; Industrial applications&lt;br&gt;
+• Wireless communications&lt;br&gt;
+• PDA and Smartphone
+&lt;p&gt;
+&lt;b&gt;How to Order&lt;/b&gt;&lt;br&gt;
+ABS07-120-32.768kHz-T
+&lt;p&gt;
+&lt;tr&gt;
+&lt;td bgcolor=#BDBDBD&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;Ref: &lt;/b&gt;&lt;a href="http://www.abracon.com/Resonators/ABS07-120-32.768kHz-T.pdf"&gt;Datasheet &lt;/a&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#414141&gt;
+&lt;font color=#ffffff&gt;
+
+It is mandatory to fill it up the following attributes &lt;b&gt;MANUFACTURER, DESCRIPTION, MOUSER, AVNET, ARROW, FUTURE, NEWARK, DIGIKEY, AVRG-PRICE, OCTOPART-LINK, DATASHEET&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;</description>
+<gates>
+<gate name="G$1" symbol="CRYSTAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CEMIC320X150-2N">
+<connects>
+<connect gate="G$1" pin="1" pad="2"/>
+<connect gate="G$1" pin="2" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="ARROW" value="" constant="no"/>
+<attribute name="AVNET" value="" constant="no"/>
+<attribute name="AVRG-PRICE" value="" constant="no"/>
+<attribute name="DATASHEET" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="EAGLEUP" value="CEMIC320X150-2N" constant="no"/>
+<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="ABRACON" constant="no"/>
+<attribute name="MOUSER" value="" constant="no"/>
+<attribute name="NEWARK" value="" constant="no"/>
+<attribute name="OCTOPART-LINK" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

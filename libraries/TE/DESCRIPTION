@@ -1,0 +1,35 @@
+<language en>
+<table border="0" cellpadding="5" cellspacing="0">
+
+<tr>
+<td bgcolor=#0173AF>
+<font color=#ffffff>
+<br>
+<b>TE CONNECTIVITY</b><br>
+</td>
+</tr>
+
+<tr>
+<td bgcolor=#aaccff>
+<font color=#ffffff>
+<b>Ref: </b><a href="www.te.com">WebSite</a>
+</tr>
+</td>
+
+<tr>
+<td>
+<font color=#666666>
+<br>
+<img src="te.jpg"><p>
+TE Connectivity, Ltd., previously known as Tyco Electronics, Ltd., and formerly a segment of Tyco International, designs and manufactures highly engineered solutions that connect and protect data and power. The company serves customers in more than 150 countries in a variety of industries including automotive; data communication systems; consumer electronics; telecommunications; aerospace, defense and marine; medical; energy; and lighting.
+<p>
+
+<b>Libraries</b>
+<ul>
+<li>Fixed Resistor
+<li>USB
+</ul>
+</td>
+</tr>
+</table>
+</language en>

@@ -1,0 +1,1067 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>&lt;table border="0" cellpadding="5" cellspacing="0"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#aaccff&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;Universal Serial Bus Conectors&lt;/b&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;font color=#666666&gt;
+
+&lt;p&gt;
+TE Connectivity (TE) is a standing member of the USB-IF (USB Implementers Forum) and offers a wide
+range of products to meet your interconnect needs. Our products accommodate the two differentially
+driven data wires that provide bi-directional, simultaneous signals for USB 2.0 (480 mbps) and USB 1
+(1.5 &amp; 12 mbps). TE has a wide variety of USB offerings including: standard (A &amp; B), mini B, and micro
+A/B and B sizes. We also offer locking versions of its standard USB as well as latching versions of its
+standard and micro USB.
+&lt;p&gt;
+Ref: &lt;a href="http://www.te.com/catalog/menu/en/24505?BML=10576,17560,17553,17559"&gt;Link&lt;/a&gt;
+&lt;p&gt;
+&lt;b&gt;Components&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;Micro USB AB Female
+&lt;li&gt;Mini USB B Female
+&lt;li&gt;USB A Female
+&lt;/ul&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;</description>
+<packages>
+<package name="USB-A">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0" width="600"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#0173AF colspan="2"&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;USB-A R/A TH W/ REAR&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;img src="../../models/conectors/usb/png/USB-A-TH+TH.png" width="240"&gt;
+&lt;/td&gt;
+&lt;td bgcolor=#ffffff&gt;
+&lt;font color=#666666&gt;
+ 13.8mm L x 14.6mm W x 7.7mm H &lt;br&gt;
+----------------------------------------------
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;</description>
+<pad name="2" x="2.7" y="1" drill="1"/>
+<pad name="3" x="2.7" y="-1" drill="1"/>
+<pad name="1" x="2.7" y="3.5" drill="1"/>
+<pad name="4" x="2.7" y="-3.5" drill="1"/>
+<wire x1="-10.3" y1="6" x2="2" y2="6" width="0.1" layer="51"/>
+<wire x1="2" y1="6" x2="3.8" y2="6" width="0.1" layer="51"/>
+<wire x1="3.8" y1="6" x2="4.1" y2="6" width="0.1" layer="51"/>
+<wire x1="4.1" y1="6" x2="4.1" y2="-6.1" width="0.1" layer="51"/>
+<wire x1="4.1" y1="-6.1" x2="3.8" y2="-6.1" width="0.1" layer="51"/>
+<wire x1="3.8" y1="-6.1" x2="2" y2="-6.1" width="0.1" layer="51"/>
+<wire x1="2" y1="-6.1" x2="-10.3" y2="-6.1" width="0.1" layer="51"/>
+<wire x1="-10.3" y1="-6.1" x2="-10.3" y2="6" width="0.1" layer="51"/>
+<wire x1="-10.3" y1="6" x2="-10.3" y2="7" width="0.1" layer="51"/>
+<wire x1="-10.3" y1="7" x2="-10.1" y2="7" width="0.1" layer="51"/>
+<wire x1="-10.1" y1="7" x2="-10.1" y2="-7" width="0.1" layer="51"/>
+<wire x1="-10.1" y1="-7" x2="-10.3" y2="-7" width="0.1" layer="51"/>
+<wire x1="-10.3" y1="-7" x2="-10.3" y2="-6.1" width="0.1" layer="51"/>
+<wire x1="2" y1="-6.1" x2="2" y2="-7" width="0.1" layer="51"/>
+<wire x1="2" y1="-7" x2="4.1" y2="-7" width="0.1" layer="51"/>
+<wire x1="4.1" y1="-7" x2="4.1" y2="7" width="0.1" layer="51"/>
+<wire x1="4.1" y1="7" x2="2" y2="7" width="0.1" layer="51"/>
+<wire x1="2" y1="7" x2="2" y2="6" width="0.1" layer="51"/>
+<wire x1="3.8" y1="6" x2="3.8" y2="-6.1" width="0.1" layer="51"/>
+<rectangle x1="-0.7" y1="6.1" x2="0.7" y2="7.1" layer="51"/>
+<rectangle x1="-0.7" y1="-7.1" x2="0.7" y2="-6.1" layer="51"/>
+<wire x1="-2" y1="4.2" x2="-7.1" y2="4.2" width="0.1" layer="51"/>
+<wire x1="-7.1" y1="4.2" x2="-8" y2="4.2" width="0.1" layer="51"/>
+<wire x1="-8" y1="4.2" x2="-8" y2="1.3" width="0.1" layer="51"/>
+<wire x1="-8" y1="1.3" x2="-7.1" y2="1.3" width="0.1" layer="51"/>
+<wire x1="-7.1" y1="1.3" x2="-2" y2="1.3" width="0.1" layer="51"/>
+<wire x1="-2" y1="1.3" x2="-2" y2="1.6" width="0.1" layer="51"/>
+<wire x1="-2" y1="3.9" x2="-2" y2="4.2" width="0.1" layer="51"/>
+<wire x1="-2" y1="-1.2" x2="-8" y2="-1.2" width="0.1" layer="51"/>
+<wire x1="-8" y1="-1.2" x2="-8" y2="-4.1" width="0.1" layer="51"/>
+<wire x1="-8" y1="-4.1" x2="-2" y2="-4.1" width="0.1" layer="51"/>
+<wire x1="-7.1" y1="3.5" x2="-7.1" y2="2.1" width="0.1" layer="51"/>
+<wire x1="-2" y1="3.9" x2="-7.1" y2="3.5" width="0.1" layer="51"/>
+<wire x1="-2" y1="1.6" x2="-7.1" y2="2.1" width="0.1" layer="51"/>
+<wire x1="-2" y1="-1.2" x2="-7.1" y2="-1.2" width="0.1" layer="51"/>
+<wire x1="-7.1" y1="-1.2" x2="-8" y2="-1.2" width="0.1" layer="51"/>
+<wire x1="-8" y1="-1.2" x2="-8" y2="-4.1" width="0.1" layer="51"/>
+<wire x1="-8" y1="-4.1" x2="-7.1" y2="-4.1" width="0.1" layer="51"/>
+<wire x1="-7.1" y1="-4.1" x2="-2" y2="-4.1" width="0.1" layer="51"/>
+<wire x1="-2" y1="-4.1" x2="-2" y2="-3.8" width="0.1" layer="51"/>
+<wire x1="-2" y1="-1.5" x2="-2" y2="-1.2" width="0.1" layer="51"/>
+<wire x1="-7.1" y1="-1.9" x2="-7.1" y2="-3.3" width="0.1" layer="51"/>
+<wire x1="-2" y1="-1.5" x2="-7.1" y2="-1.9" width="0.1" layer="51"/>
+<wire x1="-2" y1="-3.8" x2="-7.1" y2="-3.3" width="0.1" layer="51"/>
+<wire x1="4" y1="7" x2="4" y2="-7" width="0.1524" layer="21"/>
+<wire x1="-10.5" y1="-7" x2="-10.5" y2="7" width="0.1524" layer="21"/>
+<wire x1="-10.5" y1="-7" x2="-1.5" y2="-7" width="0.1524" layer="21"/>
+<wire x1="1.5" y1="-7" x2="4" y2="-7" width="0.1524" layer="21"/>
+<wire x1="4" y1="7" x2="1.5" y2="7" width="0.1524" layer="21"/>
+<wire x1="-1.5" y1="7" x2="-10.5" y2="7" width="0.1524" layer="21"/>
+<pad name="P$1" x="0" y="6.57" drill="2.3"/>
+<pad name="P$2" x="0" y="-6.57" drill="2.3"/>
+<text x="-8.4" y="7.5" size="1.016" layer="25" ratio="12">&gt;Name</text>
+<text x="-8.4" y="-8.4" size="1.016" layer="27" ratio="12">&gt;Value</text>
+</package>
+<package name="USB-A-SMD+TH">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0" width="600"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#0173AF colspan="2"&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;USB-A R/A SMD W/TH&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;img src="../../models/conectors/usb/png/USB-A-SMD+TH.png" width="240"&gt;
+&lt;/td&gt;
+&lt;td bgcolor=#ffffff&gt;
+&lt;font color=#666666&gt;
+ 13.8mm L x 14.6mm W x 7.7mm H &lt;br&gt;
+----------------------------------------------
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;</description>
+<wire x1="-10.3" y1="6" x2="2" y2="6" width="0.1" layer="51"/>
+<wire x1="2" y1="6" x2="3.8" y2="6" width="0.1" layer="51"/>
+<wire x1="3.8" y1="6" x2="4.1" y2="6" width="0.1" layer="51"/>
+<wire x1="4.1" y1="6" x2="4.1" y2="-6.1" width="0.1" layer="51"/>
+<wire x1="4.1" y1="-6.1" x2="3.8" y2="-6.1" width="0.1" layer="51"/>
+<wire x1="3.8" y1="-6.1" x2="2" y2="-6.1" width="0.1" layer="51"/>
+<wire x1="2" y1="-6.1" x2="-10.3" y2="-6.1" width="0.1" layer="51"/>
+<wire x1="-10.3" y1="-6.1" x2="-10.3" y2="6" width="0.1" layer="51"/>
+<wire x1="-10.3" y1="6" x2="-10.3" y2="7" width="0.1" layer="51"/>
+<wire x1="-10.3" y1="7" x2="-10.1" y2="7" width="0.1" layer="51"/>
+<wire x1="-10.1" y1="7" x2="-10.1" y2="-7" width="0.1" layer="51"/>
+<wire x1="-10.1" y1="-7" x2="-10.3" y2="-7" width="0.1" layer="51"/>
+<wire x1="-10.3" y1="-7" x2="-10.3" y2="-6.1" width="0.1" layer="51"/>
+<wire x1="2" y1="-6.1" x2="2" y2="-7" width="0.1" layer="51"/>
+<wire x1="2" y1="-7" x2="4.1" y2="-7" width="0.1" layer="51"/>
+<wire x1="4.1" y1="-7" x2="4.1" y2="7" width="0.1" layer="51"/>
+<wire x1="4.1" y1="7" x2="2" y2="7" width="0.1" layer="51"/>
+<wire x1="2" y1="7" x2="2" y2="6" width="0.1" layer="51"/>
+<wire x1="3.8" y1="6" x2="3.8" y2="-6.1" width="0.1" layer="51"/>
+<rectangle x1="-0.7" y1="6.1" x2="0.7" y2="7.1" layer="51"/>
+<rectangle x1="-0.7" y1="-7.1" x2="0.7" y2="-6.1" layer="51"/>
+<wire x1="-2" y1="4.2" x2="-8" y2="4.2" width="0.1" layer="51"/>
+<wire x1="-8" y1="4.2" x2="-8" y2="1.3" width="0.1" layer="51"/>
+<wire x1="-8" y1="1.3" x2="-2" y2="1.3" width="0.1" layer="51"/>
+<wire x1="-2" y1="1.3" x2="-2" y2="1.6" width="0.1" layer="51"/>
+<wire x1="-2" y1="3.9" x2="-2" y2="4.2" width="0.1" layer="51"/>
+<wire x1="-7.1" y1="3.5" x2="-7.1" y2="2.1" width="0.1" layer="51"/>
+<wire x1="-2" y1="3.9" x2="-7.1" y2="3.5" width="0.1" layer="51"/>
+<wire x1="-2" y1="1.6" x2="-7.1" y2="2.1" width="0.1" layer="51"/>
+<wire x1="-2" y1="-1.2" x2="-8" y2="-1.2" width="0.1" layer="51"/>
+<wire x1="-8" y1="-1.2" x2="-8" y2="-4.1" width="0.1" layer="51"/>
+<wire x1="-8" y1="-4.1" x2="-2" y2="-4.1" width="0.1" layer="51"/>
+<wire x1="-2" y1="-4.1" x2="-2" y2="-3.8" width="0.1" layer="51"/>
+<wire x1="-2" y1="-1.5" x2="-2" y2="-1.2" width="0.1" layer="51"/>
+<wire x1="-7.1" y1="-1.9" x2="-7.1" y2="-3.3" width="0.1" layer="51"/>
+<wire x1="-2" y1="-1.5" x2="-7.1" y2="-1.9" width="0.1" layer="51"/>
+<wire x1="-2" y1="-3.8" x2="-7.1" y2="-3.3" width="0.1" layer="51"/>
+<wire x1="4" y1="7" x2="4" y2="-7" width="0.1524" layer="21"/>
+<wire x1="-10.5" y1="-7" x2="-10.5" y2="7" width="0.1524" layer="21"/>
+<wire x1="-10.5" y1="-7" x2="-1.5" y2="-7" width="0.1524" layer="21"/>
+<wire x1="1.5" y1="-7" x2="4" y2="-7" width="0.1524" layer="21"/>
+<wire x1="4" y1="7" x2="1.5" y2="7" width="0.1524" layer="21"/>
+<wire x1="-1.5" y1="7" x2="-10.5" y2="7" width="0.1524" layer="21"/>
+<pad name="P$1" x="0" y="6.57" drill="2.3"/>
+<pad name="P$2" x="0" y="-6.57" drill="2.3"/>
+<smd name="2" x="3.7" y="1" dx="3" dy="1.25" layer="1"/>
+<smd name="3" x="3.7" y="-1" dx="3" dy="1.25" layer="1"/>
+<smd name="1" x="3.7" y="3.5" dx="3" dy="1.25" layer="1"/>
+<smd name="4" x="3.7" y="-3.5" dx="3" dy="1.25" layer="1"/>
+<text x="-8.2" y="7.3" size="1.016" layer="25" ratio="12">&gt;Name</text>
+<text x="-8.3" y="-8.4" size="1.016" layer="27" ratio="12">&gt;Value</text>
+</package>
+<package name="USB-A-SMD+SMD">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0" width="600"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#0173AF colspan="2"&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;USB-A R/A SMD W/ REAR&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;img src="../../models/conectors/usb/png/USB-A-SMD+SMD.png" width="240"&gt;
+&lt;/td&gt;
+&lt;td bgcolor=#ffffff&gt;
+&lt;font color=#666666&gt;
+ 13.8mm L x 14.6mm W x 7.7mm H &lt;br&gt;
+----------------------------------------------
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;</description>
+<wire x1="-10.3" y1="6" x2="2" y2="6" width="0.1" layer="51"/>
+<wire x1="2" y1="6" x2="3.8" y2="6" width="0.1" layer="51"/>
+<wire x1="3.8" y1="6" x2="4.1" y2="6" width="0.1" layer="51"/>
+<wire x1="4.1" y1="6" x2="4.1" y2="-6.1" width="0.1" layer="51"/>
+<wire x1="4.1" y1="-6.1" x2="3.8" y2="-6.1" width="0.1" layer="51"/>
+<wire x1="3.8" y1="-6.1" x2="2" y2="-6.1" width="0.1" layer="51"/>
+<wire x1="2" y1="-6.1" x2="-10.3" y2="-6.1" width="0.1" layer="51"/>
+<wire x1="-10.3" y1="-6.1" x2="-10.3" y2="6" width="0.1" layer="51"/>
+<wire x1="-10.3" y1="6" x2="-10.3" y2="7" width="0.1" layer="51"/>
+<wire x1="-10.3" y1="7" x2="-10.1" y2="7" width="0.1" layer="51"/>
+<wire x1="-10.1" y1="7" x2="-10.1" y2="-7" width="0.1" layer="51"/>
+<wire x1="-10.1" y1="-7" x2="-10.3" y2="-7" width="0.1" layer="51"/>
+<wire x1="-10.3" y1="-7" x2="-10.3" y2="-6.1" width="0.1" layer="51"/>
+<wire x1="2" y1="-6.1" x2="2" y2="-7" width="0.1" layer="51"/>
+<wire x1="2" y1="-7" x2="4.1" y2="-7" width="0.1" layer="51"/>
+<wire x1="4.1" y1="-7" x2="4.1" y2="7" width="0.1" layer="51"/>
+<wire x1="4.1" y1="7" x2="2" y2="7" width="0.1" layer="51"/>
+<wire x1="2" y1="7" x2="2" y2="6" width="0.1" layer="51"/>
+<wire x1="3.8" y1="6" x2="3.8" y2="-6.1" width="0.1" layer="51"/>
+<rectangle x1="-0.7" y1="6.1" x2="0.7" y2="7.1" layer="51"/>
+<rectangle x1="-0.7" y1="-7.1" x2="0.7" y2="-6.1" layer="51"/>
+<wire x1="-2" y1="4.2" x2="-8" y2="4.2" width="0.1" layer="51"/>
+<wire x1="-8" y1="4.2" x2="-8" y2="1.3" width="0.1" layer="51"/>
+<wire x1="-8" y1="1.3" x2="-2" y2="1.3" width="0.1" layer="51"/>
+<wire x1="-2" y1="1.3" x2="-2" y2="1.6" width="0.1" layer="51"/>
+<wire x1="-2" y1="3.9" x2="-2" y2="4.2" width="0.1" layer="51"/>
+<wire x1="-7.1" y1="-1.2" x2="-8" y2="-1.2" width="0.1" layer="51"/>
+<wire x1="-8" y1="-4.1" x2="-7.1" y2="-4.1" width="0.1" layer="51"/>
+<wire x1="-7.1" y1="3.5" x2="-7.1" y2="2.1" width="0.1" layer="51"/>
+<wire x1="-2" y1="3.9" x2="-7.1" y2="3.5" width="0.1" layer="51"/>
+<wire x1="-2" y1="1.6" x2="-7.1" y2="2.1" width="0.1" layer="51"/>
+<wire x1="-2" y1="-1.2" x2="-7.1" y2="-1.2" width="0.1" layer="51"/>
+<wire x1="-8" y1="-1.2" x2="-8" y2="-4.1" width="0.1" layer="51"/>
+<wire x1="-7.1" y1="-4.1" x2="-2" y2="-4.1" width="0.1" layer="51"/>
+<wire x1="-2" y1="-4.1" x2="-2" y2="-3.8" width="0.1" layer="51"/>
+<wire x1="-2" y1="-1.5" x2="-2" y2="-1.2" width="0.1" layer="51"/>
+<wire x1="-7.1" y1="-1.9" x2="-7.1" y2="-3.3" width="0.1" layer="51"/>
+<wire x1="-2" y1="-1.5" x2="-7.1" y2="-1.9" width="0.1" layer="51"/>
+<wire x1="-2" y1="-3.8" x2="-7.1" y2="-3.3" width="0.1" layer="51"/>
+<wire x1="4" y1="7" x2="4" y2="-7" width="0.1524" layer="21"/>
+<wire x1="-10.5" y1="-7" x2="-10.5" y2="7" width="0.1524" layer="21"/>
+<wire x1="-10.5" y1="-7" x2="-1.5" y2="-7" width="0.1524" layer="21"/>
+<wire x1="1.5" y1="-7" x2="4" y2="-7" width="0.1524" layer="21"/>
+<wire x1="4" y1="7" x2="1.5" y2="7" width="0.1524" layer="21"/>
+<wire x1="-1.5" y1="7" x2="-10.5" y2="7" width="0.1524" layer="21"/>
+<smd name="3" x="3.7" y="-1" dx="3" dy="1.25" layer="1"/>
+<smd name="2" x="3.7" y="1" dx="3" dy="1.25" layer="1"/>
+<smd name="1" x="3.7" y="3.5" dx="3" dy="1.25" layer="1"/>
+<smd name="4" x="3.7" y="-3.5" dx="3" dy="1.25" layer="1"/>
+<smd name="P$2" x="0" y="-7.6" dx="2.4" dy="2.2" layer="1" rot="R90"/>
+<smd name="P$7" x="0" y="7.6" dx="2.4" dy="2.2" layer="1" rot="R90"/>
+<hole x="-4" y="4.6" drill="1.2"/>
+<hole x="-4" y="-4.6" drill="1.2"/>
+<text x="-8.3" y="7.3" size="1.016" layer="25" ratio="12">&gt;Name</text>
+<text x="-8.4" y="-8.4" size="1.016" layer="27" ratio="12">&gt;Value</text>
+</package>
+<package name="USB-MINIB-SMD+SMD+RET">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0" width="600"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#0173AF colspan="2"&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;MINI USB-B R/A SMT W/ TH&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;img src="../../models/conectors/usb/png/USB-MINIB-SMD+SMD+RET.png" width="240"&gt;
+&lt;/td&gt;
+&lt;td bgcolor=#ffffff&gt;
+&lt;font color=#666666&gt;
+ 9.25mm L x 7.7mm W x 3.9mm H &lt;br&gt;
+----------------------------------------------
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;</description>
+<wire x1="-5.9182" y1="3.8416" x2="-3.6879" y2="3.8416" width="0.1016" layer="51"/>
+<wire x1="-3.6879" y1="3.8416" x2="-3.6879" y2="4.8799" width="0.1016" layer="51"/>
+<wire x1="-3.6879" y1="4.8799" x2="-3.3245" y2="4.8799" width="0.1016" layer="51"/>
+<wire x1="-3.3245" y1="4.8799" x2="-3.3245" y2="4.4646" width="0.1016" layer="51"/>
+<wire x1="-3.3245" y1="4.4646" x2="-2.7015" y2="4.4646" width="0.1016" layer="51"/>
+<wire x1="-2.7015" y1="4.4646" x2="-2.7015" y2="4.8799" width="0.1016" layer="51"/>
+<wire x1="-2.7015" y1="4.8799" x2="-2.3093" y2="4.8799" width="0.1016" layer="51"/>
+<wire x1="-2.3093" y1="4.8799" x2="-2.3093" y2="3.8416" width="0.1016" layer="51"/>
+<wire x1="2.8032" y1="3.8416" x2="0.7266" y2="3.8416" width="0.1016" layer="51"/>
+<wire x1="0.7266" y1="3.8416" x2="0.519" y2="4.0492" width="0.1016" layer="51" curve="-90"/>
+<wire x1="0.519" y1="4.0492" x2="0.519" y2="4.205" width="0.1016" layer="51"/>
+<wire x1="0.519" y1="4.205" x2="2.907" y2="4.205" width="0.1016" layer="51"/>
+<wire x1="2.907" y1="4.205" x2="3.4781" y2="3.6339" width="0.1016" layer="51" curve="-90"/>
+<wire x1="-5.9182" y1="-3.8414" x2="-5.9182" y2="3.8416" width="0.1016" layer="51"/>
+<wire x1="-1.8171" y1="2.9591" x2="-4.5685" y2="2.7514" width="0.1016" layer="51"/>
+<wire x1="-4.5685" y1="2.7514" x2="-4.828" y2="2.5438" width="0.1016" layer="51" curve="68.629849"/>
+<wire x1="-4.828" y1="2.5438" x2="-4.828" y2="1.9727" width="0.1016" layer="51" curve="34.099487"/>
+<wire x1="-4.828" y1="1.9727" x2="-4.5685" y2="1.7651" width="0.1016" layer="51" curve="68.629849"/>
+<wire x1="-4.5685" y1="1.7651" x2="-1.8171" y2="1.5055" width="0.1016" layer="51"/>
+<wire x1="-1.8171" y1="1.5055" x2="-1.8171" y2="1.7132" width="0.1016" layer="51"/>
+<wire x1="-1.8171" y1="1.7132" x2="-4.2051" y2="1.9727" width="0.1016" layer="51"/>
+<wire x1="-4.2051" y1="1.9727" x2="-4.2051" y2="2.4919" width="0.1016" layer="51"/>
+<wire x1="-4.2051" y1="2.4919" x2="-1.8171" y2="2.7514" width="0.1016" layer="51"/>
+<wire x1="-1.8171" y1="2.7514" x2="-1.8171" y2="2.9591" width="0.1016" layer="51"/>
+<wire x1="2.8032" y1="3.8416" x2="3.0627" y2="3.5821" width="0.1016" layer="51" curve="-90"/>
+<wire x1="3.0627" y1="3.5821" x2="3.0627" y2="3.011" width="0.1016" layer="51"/>
+<wire x1="3.0627" y1="3.011" x2="3.4261" y2="3.011" width="0.1016" layer="51"/>
+<wire x1="1.713" y1="4.2569" x2="1.713" y2="4.8799" width="0.1016" layer="51"/>
+<wire x1="1.713" y1="4.8799" x2="2.1283" y2="4.8799" width="0.1016" layer="51"/>
+<wire x1="2.1283" y1="4.8799" x2="2.1283" y2="4.4646" width="0.1016" layer="51"/>
+<wire x1="2.1283" y1="4.4646" x2="2.6474" y2="4.4646" width="0.1016" layer="51"/>
+<wire x1="2.6474" y1="4.4646" x2="2.6474" y2="4.8799" width="0.1016" layer="51"/>
+<wire x1="2.6474" y1="4.8799" x2="3.0627" y2="4.8799" width="0.1016" layer="51"/>
+<wire x1="3.0627" y1="4.8799" x2="3.0627" y2="4.2569" width="0.1016" layer="51"/>
+<wire x1="0.5709" y1="1.7651" x2="0.5709" y2="-1.765" width="0.1016" layer="51"/>
+<wire x1="1.0381" y1="-1.8169" x2="1.0381" y2="1.817" width="0.1016" layer="51"/>
+<wire x1="1.0381" y1="1.817" x2="0.8305" y2="2.0246" width="0.1016" layer="51" curve="90.055225"/>
+<wire x1="0.8304" y1="2.0246" x2="0.5709" y2="1.7651" width="0.1016" layer="51" curve="89.955858"/>
+<wire x1="1.5573" y1="-2.0246" x2="3.4261" y2="-2.0246" width="0.1016" layer="51"/>
+<wire x1="3.0627" y1="-1.9726" x2="3.0627" y2="1.9727" width="0.1016" layer="51"/>
+<wire x1="-4.5684" y1="1.2459" x2="-0.5192" y2="1.0383" width="0.1016" layer="51"/>
+<wire x1="-0.5192" y1="1.0383" x2="-0.3116" y2="0.8306" width="0.1016" layer="51" curve="-83.771817"/>
+<wire x1="-4.5685" y1="1.2459" x2="-4.7761" y2="1.0383" width="0.1016" layer="51" curve="90"/>
+<wire x1="-4.7761" y1="1.0382" x2="-4.5685" y2="0.8306" width="0.1016" layer="51" curve="90"/>
+<wire x1="-4.5685" y1="0.8306" x2="-1.1422" y2="0.623" width="0.1016" layer="51"/>
+<wire x1="-5.9182" y1="-3.8414" x2="-3.6879" y2="-3.8414" width="0.1016" layer="51"/>
+<wire x1="-3.6879" y1="-3.8414" x2="-3.6879" y2="-4.8797" width="0.1016" layer="51"/>
+<wire x1="-3.6879" y1="-4.8797" x2="-3.3245" y2="-4.8797" width="0.1016" layer="51"/>
+<wire x1="-3.3245" y1="-4.8797" x2="-3.3245" y2="-4.4644" width="0.1016" layer="51"/>
+<wire x1="-3.3245" y1="-4.4644" x2="-2.7015" y2="-4.4644" width="0.1016" layer="51"/>
+<wire x1="-2.7015" y1="-4.4644" x2="-2.7015" y2="-4.8797" width="0.1016" layer="51"/>
+<wire x1="-2.7015" y1="-4.8797" x2="-2.3093" y2="-4.8797" width="0.1016" layer="51"/>
+<wire x1="-2.3093" y1="-4.8797" x2="-2.3093" y2="-3.8414" width="0.1016" layer="51"/>
+<wire x1="-2.3093" y1="-3.8414" x2="2.8032" y2="-3.8414" width="0.1016" layer="51"/>
+<wire x1="0.7266" y1="-3.8414" x2="0.519" y2="-4.049" width="0.1016" layer="51" curve="90"/>
+<wire x1="0.519" y1="-4.049" x2="0.519" y2="-4.2048" width="0.1016" layer="51"/>
+<wire x1="0.519" y1="-4.2048" x2="2.907" y2="-4.2048" width="0.1016" layer="51"/>
+<wire x1="2.907" y1="-4.2048" x2="3.4781" y2="-3.6337" width="0.1016" layer="51" curve="90.020069"/>
+<wire x1="-1.8171" y1="-2.9589" x2="-4.5685" y2="-2.7512" width="0.1016" layer="51"/>
+<wire x1="-4.5685" y1="-2.7512" x2="-4.828" y2="-2.5436" width="0.1016" layer="51" curve="-68.629849"/>
+<wire x1="-4.828" y1="-2.5436" x2="-4.828" y2="-1.9725" width="0.1016" layer="51" curve="-34.099487"/>
+<wire x1="-4.828" y1="-1.9725" x2="-4.5685" y2="-1.7649" width="0.1016" layer="51" curve="-68.629849"/>
+<wire x1="-4.5685" y1="-1.7649" x2="-1.8171" y2="-1.5053" width="0.1016" layer="51"/>
+<wire x1="-1.8171" y1="-1.5053" x2="-1.8171" y2="-1.713" width="0.1016" layer="51"/>
+<wire x1="-1.8171" y1="-1.713" x2="-4.2051" y2="-1.9725" width="0.1016" layer="51"/>
+<wire x1="-4.2051" y1="-1.9725" x2="-4.2051" y2="-2.4917" width="0.1016" layer="51"/>
+<wire x1="-4.2051" y1="-2.4917" x2="-1.8171" y2="-2.7512" width="0.1016" layer="51"/>
+<wire x1="-1.8171" y1="-2.7512" x2="-1.8171" y2="-2.9589" width="0.1016" layer="51"/>
+<wire x1="2.8032" y1="-3.8414" x2="3.0627" y2="-3.5819" width="0.1016" layer="51" curve="90.044176"/>
+<wire x1="3.0627" y1="-3.5819" x2="3.0627" y2="-3.0108" width="0.1016" layer="51"/>
+<wire x1="3.0627" y1="-3.0108" x2="3.4261" y2="-3.0108" width="0.1016" layer="51"/>
+<wire x1="1.713" y1="-4.2567" x2="1.713" y2="-4.8797" width="0.1016" layer="51"/>
+<wire x1="1.713" y1="-4.8797" x2="2.1283" y2="-4.8797" width="0.1016" layer="51"/>
+<wire x1="2.1283" y1="-4.8797" x2="2.1283" y2="-4.4644" width="0.1016" layer="51"/>
+<wire x1="2.1283" y1="-4.4644" x2="2.6474" y2="-4.4644" width="0.1016" layer="51"/>
+<wire x1="2.6474" y1="-4.4644" x2="2.6474" y2="-4.8797" width="0.1016" layer="51"/>
+<wire x1="2.6474" y1="-4.8797" x2="3.0627" y2="-4.8797" width="0.1016" layer="51"/>
+<wire x1="3.0627" y1="-4.8797" x2="3.0627" y2="-4.2567" width="0.1016" layer="51"/>
+<wire x1="1.0381" y1="-1.8168" x2="0.8305" y2="-2.0244" width="0.1016" layer="51" curve="-90.055225"/>
+<wire x1="0.8304" y1="-2.0244" x2="0.5709" y2="-1.7649" width="0.1016" layer="51" curve="-89.867677"/>
+<wire x1="1.5573" y1="-1.9725" x2="1.5573" y2="2.0248" width="0.1016" layer="51"/>
+<wire x1="1.5573" y1="2.0248" x2="3.4261" y2="2.0248" width="0.1016" layer="51"/>
+<wire x1="-4.5684" y1="-1.2457" x2="-0.5192" y2="-1.0381" width="0.1016" layer="51"/>
+<wire x1="-0.5192" y1="-1.0381" x2="-0.3116" y2="-0.8304" width="0.1016" layer="51" curve="83.722654"/>
+<wire x1="-0.3116" y1="-0.8304" x2="-0.3116" y2="0.8307" width="0.1016" layer="51"/>
+<wire x1="-4.5685" y1="-1.2457" x2="-4.7761" y2="-1.0381" width="0.1016" layer="51" curve="-90"/>
+<wire x1="-4.7761" y1="-1.038" x2="-4.5685" y2="-0.8304" width="0.1016" layer="51" curve="-90"/>
+<wire x1="-4.5685" y1="-0.8304" x2="-1.1422" y2="-0.6228" width="0.1016" layer="51"/>
+<wire x1="-1.1422" y1="-0.6228" x2="-1.1422" y2="0.6232" width="0.1016" layer="51"/>
+<wire x1="-5.9182" y1="-3.8414" x2="-4.4146" y2="-3.8414" width="0.1016" layer="51"/>
+<wire x1="-2.3093" y1="3.8416" x2="0.7265" y2="3.8415" width="0.1016" layer="51"/>
+<wire x1="3.4781" y1="3.634" x2="3.478" y2="-3.0109" width="0.1016" layer="51"/>
+<text x="-4.445" y="5.715" size="1.016" layer="25" ratio="12">&gt;NAME</text>
+<text x="-4.445" y="-6.985" size="1.016" layer="27" ratio="12">&gt;VALUE</text>
+<hole x="0" y="2.2" drill="0.9"/>
+<hole x="0" y="-2.2" drill="0.9"/>
+<smd name="3" x="2.6" y="0" dx="2.5" dy="0.5" layer="1"/>
+<smd name="2" x="2.6" y="0.8" dx="2.5" dy="0.5" layer="1"/>
+<smd name="1" x="2.6" y="1.6" dx="2.5" dy="0.5" layer="1"/>
+<smd name="4" x="2.6" y="-0.8" dx="2.5" dy="0.5" layer="1"/>
+<smd name="5" x="2.6" y="-1.6" dx="2.5" dy="0.5" layer="1"/>
+<smd name="6" x="2.6" y="4.4" dx="2.5" dy="2" layer="1"/>
+<smd name="8" x="2.6" y="-4.4" dx="2.5" dy="2" layer="1"/>
+<smd name="7" x="-2.9" y="4.4" dx="2.5" dy="2" layer="1"/>
+<smd name="9" x="-2.9" y="-4.4" dx="2.5" dy="2" layer="1"/>
+<wire x1="3.5" y1="3.2" x2="3.5" y2="2.1" width="0.1524" layer="21"/>
+<wire x1="1.2" y1="3.8" x2="-1.4" y2="3.8" width="0.1524" layer="21"/>
+<wire x1="3.5" y1="-2.1" x2="3.5" y2="-3.2" width="0.1524" layer="21"/>
+<wire x1="1.2" y1="-3.9" x2="-1.4" y2="-3.9" width="0.1524" layer="21"/>
+<wire x1="-4.4" y1="-3.9" x2="-5.9" y2="-3.9" width="0.1524" layer="21"/>
+<wire x1="-5.9" y1="-3.9" x2="-5.9" y2="3.8" width="0.1524" layer="21"/>
+<wire x1="-5.9" y1="3.8" x2="-4.3" y2="3.8" width="0.1524" layer="21"/>
+</package>
+<package name="USB-MINIB-SMD+SMD">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0" width="600"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#0173AF colspan="2"&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;MINI USB-B R/A SMT W/ TH&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;img src="../../models/conectors/usb/png/USB-MINIB-SMD+SMD.png" width="240"&gt;
+&lt;/td&gt;
+&lt;td bgcolor=#ffffff&gt;
+&lt;font color=#666666&gt;
+ 9.25mm L x 7.7mm W x 3.9mm H &lt;br&gt;
+----------------------------------------------
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;</description>
+<wire x1="-5.9182" y1="3.8416" x2="-3.6879" y2="3.8416" width="0.1016" layer="51"/>
+<wire x1="-3.6879" y1="3.8416" x2="-3.6879" y2="4.8799" width="0.1016" layer="51"/>
+<wire x1="-3.6879" y1="4.8799" x2="-3.3245" y2="4.8799" width="0.1016" layer="51"/>
+<wire x1="-3.3245" y1="4.8799" x2="-3.3245" y2="4.4646" width="0.1016" layer="51"/>
+<wire x1="-3.3245" y1="4.4646" x2="-2.7015" y2="4.4646" width="0.1016" layer="51"/>
+<wire x1="-2.7015" y1="4.4646" x2="-2.7015" y2="4.8799" width="0.1016" layer="51"/>
+<wire x1="-2.7015" y1="4.8799" x2="-2.3093" y2="4.8799" width="0.1016" layer="51"/>
+<wire x1="-2.3093" y1="4.8799" x2="-2.3093" y2="3.8416" width="0.1016" layer="51"/>
+<wire x1="2.8032" y1="3.8416" x2="0.7266" y2="3.8416" width="0.1016" layer="51"/>
+<wire x1="0.7266" y1="3.8416" x2="0.519" y2="4.0492" width="0.1016" layer="51" curve="-90"/>
+<wire x1="0.519" y1="4.0492" x2="0.519" y2="4.205" width="0.1016" layer="51"/>
+<wire x1="0.519" y1="4.205" x2="2.907" y2="4.205" width="0.1016" layer="51"/>
+<wire x1="2.907" y1="4.205" x2="3.4781" y2="3.6339" width="0.1016" layer="51" curve="-90"/>
+<wire x1="-5.9182" y1="-3.8414" x2="-5.9182" y2="3.8416" width="0.1016" layer="51"/>
+<wire x1="-1.8171" y1="2.9591" x2="-4.5685" y2="2.7514" width="0.1016" layer="51"/>
+<wire x1="-4.5685" y1="2.7514" x2="-4.828" y2="2.5438" width="0.1016" layer="51" curve="68.629849"/>
+<wire x1="-4.828" y1="2.5438" x2="-4.828" y2="1.9727" width="0.1016" layer="51" curve="34.099487"/>
+<wire x1="-4.828" y1="1.9727" x2="-4.5685" y2="1.7651" width="0.1016" layer="51" curve="68.629849"/>
+<wire x1="-4.5685" y1="1.7651" x2="-1.8171" y2="1.5055" width="0.1016" layer="51"/>
+<wire x1="-1.8171" y1="1.5055" x2="-1.8171" y2="1.7132" width="0.1016" layer="51"/>
+<wire x1="-1.8171" y1="1.7132" x2="-4.2051" y2="1.9727" width="0.1016" layer="51"/>
+<wire x1="-4.2051" y1="1.9727" x2="-4.2051" y2="2.4919" width="0.1016" layer="51"/>
+<wire x1="-4.2051" y1="2.4919" x2="-1.8171" y2="2.7514" width="0.1016" layer="51"/>
+<wire x1="-1.8171" y1="2.7514" x2="-1.8171" y2="2.9591" width="0.1016" layer="51"/>
+<wire x1="2.8032" y1="3.8416" x2="3.0627" y2="3.5821" width="0.1016" layer="51" curve="-90"/>
+<wire x1="3.0627" y1="3.5821" x2="3.0627" y2="3.011" width="0.1016" layer="51"/>
+<wire x1="3.0627" y1="3.011" x2="3.4261" y2="3.011" width="0.1016" layer="51"/>
+<wire x1="1.713" y1="4.2569" x2="1.713" y2="4.8799" width="0.1016" layer="51"/>
+<wire x1="1.713" y1="4.8799" x2="2.1283" y2="4.8799" width="0.1016" layer="51"/>
+<wire x1="2.1283" y1="4.8799" x2="2.1283" y2="4.4646" width="0.1016" layer="51"/>
+<wire x1="2.1283" y1="4.4646" x2="2.6474" y2="4.4646" width="0.1016" layer="51"/>
+<wire x1="2.6474" y1="4.4646" x2="2.6474" y2="4.8799" width="0.1016" layer="51"/>
+<wire x1="2.6474" y1="4.8799" x2="3.0627" y2="4.8799" width="0.1016" layer="51"/>
+<wire x1="3.0627" y1="4.8799" x2="3.0627" y2="4.2569" width="0.1016" layer="51"/>
+<wire x1="0.5709" y1="1.7651" x2="0.5709" y2="-1.765" width="0.1016" layer="51"/>
+<wire x1="1.0381" y1="-1.8169" x2="1.0381" y2="1.817" width="0.1016" layer="51"/>
+<wire x1="1.0381" y1="1.817" x2="0.8305" y2="2.0246" width="0.1016" layer="51" curve="90.055225"/>
+<wire x1="0.8304" y1="2.0246" x2="0.5709" y2="1.7651" width="0.1016" layer="51" curve="89.955858"/>
+<wire x1="1.5573" y1="-2.0246" x2="3.4261" y2="-2.0246" width="0.1016" layer="51"/>
+<wire x1="3.0627" y1="-1.9726" x2="3.0627" y2="1.9727" width="0.1016" layer="51"/>
+<wire x1="-4.5684" y1="1.2459" x2="-0.5192" y2="1.0383" width="0.1016" layer="51"/>
+<wire x1="-0.5192" y1="1.0383" x2="-0.3116" y2="0.8306" width="0.1016" layer="51" curve="-83.771817"/>
+<wire x1="-4.5685" y1="1.2459" x2="-4.7761" y2="1.0383" width="0.1016" layer="51" curve="90"/>
+<wire x1="-4.7761" y1="1.0382" x2="-4.5685" y2="0.8306" width="0.1016" layer="51" curve="90"/>
+<wire x1="-4.5685" y1="0.8306" x2="-1.1422" y2="0.623" width="0.1016" layer="51"/>
+<wire x1="-5.9182" y1="-3.8414" x2="-3.6879" y2="-3.8414" width="0.1016" layer="51"/>
+<wire x1="-3.6879" y1="-3.8414" x2="-3.6879" y2="-4.8797" width="0.1016" layer="51"/>
+<wire x1="-3.6879" y1="-4.8797" x2="-3.3245" y2="-4.8797" width="0.1016" layer="51"/>
+<wire x1="-3.3245" y1="-4.8797" x2="-3.3245" y2="-4.4644" width="0.1016" layer="51"/>
+<wire x1="-3.3245" y1="-4.4644" x2="-2.7015" y2="-4.4644" width="0.1016" layer="51"/>
+<wire x1="-2.7015" y1="-4.4644" x2="-2.7015" y2="-4.8797" width="0.1016" layer="51"/>
+<wire x1="-2.7015" y1="-4.8797" x2="-2.3093" y2="-4.8797" width="0.1016" layer="51"/>
+<wire x1="-2.3093" y1="-4.8797" x2="-2.3093" y2="-3.8414" width="0.1016" layer="51"/>
+<wire x1="-2.3093" y1="-3.8414" x2="2.8032" y2="-3.8414" width="0.1016" layer="51"/>
+<wire x1="0.7266" y1="-3.8414" x2="0.519" y2="-4.049" width="0.1016" layer="51" curve="90"/>
+<wire x1="0.519" y1="-4.049" x2="0.519" y2="-4.2048" width="0.1016" layer="51"/>
+<wire x1="0.519" y1="-4.2048" x2="2.907" y2="-4.2048" width="0.1016" layer="51"/>
+<wire x1="2.907" y1="-4.2048" x2="3.4781" y2="-3.6337" width="0.1016" layer="51" curve="90.020069"/>
+<wire x1="-1.8171" y1="-2.9589" x2="-4.5685" y2="-2.7512" width="0.1016" layer="51"/>
+<wire x1="-4.5685" y1="-2.7512" x2="-4.828" y2="-2.5436" width="0.1016" layer="51" curve="-68.629849"/>
+<wire x1="-4.828" y1="-2.5436" x2="-4.828" y2="-1.9725" width="0.1016" layer="51" curve="-34.099487"/>
+<wire x1="-4.828" y1="-1.9725" x2="-4.5685" y2="-1.7649" width="0.1016" layer="51" curve="-68.629849"/>
+<wire x1="-4.5685" y1="-1.7649" x2="-1.8171" y2="-1.5053" width="0.1016" layer="51"/>
+<wire x1="-1.8171" y1="-1.5053" x2="-1.8171" y2="-1.713" width="0.1016" layer="51"/>
+<wire x1="-1.8171" y1="-1.713" x2="-4.2051" y2="-1.9725" width="0.1016" layer="51"/>
+<wire x1="-4.2051" y1="-1.9725" x2="-4.2051" y2="-2.4917" width="0.1016" layer="51"/>
+<wire x1="-4.2051" y1="-2.4917" x2="-1.8171" y2="-2.7512" width="0.1016" layer="51"/>
+<wire x1="-1.8171" y1="-2.7512" x2="-1.8171" y2="-2.9589" width="0.1016" layer="51"/>
+<wire x1="2.8032" y1="-3.8414" x2="3.0627" y2="-3.5819" width="0.1016" layer="51" curve="90.044176"/>
+<wire x1="3.0627" y1="-3.5819" x2="3.0627" y2="-3.0108" width="0.1016" layer="51"/>
+<wire x1="3.0627" y1="-3.0108" x2="3.4261" y2="-3.0108" width="0.1016" layer="51"/>
+<wire x1="1.713" y1="-4.2567" x2="1.713" y2="-4.8797" width="0.1016" layer="51"/>
+<wire x1="1.713" y1="-4.8797" x2="2.1283" y2="-4.8797" width="0.1016" layer="51"/>
+<wire x1="2.1283" y1="-4.8797" x2="2.1283" y2="-4.4644" width="0.1016" layer="51"/>
+<wire x1="2.1283" y1="-4.4644" x2="2.6474" y2="-4.4644" width="0.1016" layer="51"/>
+<wire x1="2.6474" y1="-4.4644" x2="2.6474" y2="-4.8797" width="0.1016" layer="51"/>
+<wire x1="2.6474" y1="-4.8797" x2="3.0627" y2="-4.8797" width="0.1016" layer="51"/>
+<wire x1="3.0627" y1="-4.8797" x2="3.0627" y2="-4.2567" width="0.1016" layer="51"/>
+<wire x1="1.0381" y1="-1.8168" x2="0.8305" y2="-2.0244" width="0.1016" layer="51" curve="-90.055225"/>
+<wire x1="0.8304" y1="-2.0244" x2="0.5709" y2="-1.7649" width="0.1016" layer="51" curve="-89.867677"/>
+<wire x1="1.5573" y1="-1.9725" x2="1.5573" y2="2.0248" width="0.1016" layer="51"/>
+<wire x1="1.5573" y1="2.0248" x2="3.4261" y2="2.0248" width="0.1016" layer="51"/>
+<wire x1="-4.5684" y1="-1.2457" x2="-0.5192" y2="-1.0381" width="0.1016" layer="51"/>
+<wire x1="-0.5192" y1="-1.0381" x2="-0.3116" y2="-0.8304" width="0.1016" layer="51" curve="83.722654"/>
+<wire x1="-0.3116" y1="-0.8304" x2="-0.3116" y2="0.8307" width="0.1016" layer="51"/>
+<wire x1="-4.5685" y1="-1.2457" x2="-4.7761" y2="-1.0381" width="0.1016" layer="51" curve="-90"/>
+<wire x1="-4.7761" y1="-1.038" x2="-4.5685" y2="-0.8304" width="0.1016" layer="51" curve="-90"/>
+<wire x1="-4.5685" y1="-0.8304" x2="-1.1422" y2="-0.6228" width="0.1016" layer="51"/>
+<wire x1="-1.1422" y1="-0.6228" x2="-1.1422" y2="0.6232" width="0.1016" layer="51"/>
+<wire x1="-5.9182" y1="-3.8414" x2="-4.4146" y2="-3.8414" width="0.1016" layer="51"/>
+<wire x1="-2.3093" y1="3.8416" x2="0.7265" y2="3.8415" width="0.1016" layer="51"/>
+<wire x1="3.4781" y1="3.634" x2="3.478" y2="-3.0109" width="0.1016" layer="51"/>
+<text x="-4.445" y="5.715" size="1.016" layer="25" ratio="12">&gt;NAME</text>
+<text x="-4.445" y="-6.985" size="1.016" layer="27" ratio="12">&gt;VALUE</text>
+<smd name="3" x="2.6" y="0" dx="2.5" dy="0.5" layer="1"/>
+<smd name="2" x="2.6" y="0.8" dx="2.5" dy="0.5" layer="1"/>
+<smd name="1" x="2.6" y="1.6" dx="2.5" dy="0.5" layer="1"/>
+<smd name="4" x="2.6" y="-0.8" dx="2.5" dy="0.5" layer="1"/>
+<smd name="5" x="2.6" y="-1.6" dx="2.5" dy="0.5" layer="1"/>
+<smd name="6" x="2.6" y="4.4" dx="2.5" dy="2" layer="1"/>
+<smd name="8" x="2.6" y="-4.4" dx="2.5" dy="2" layer="1"/>
+<smd name="7" x="-2.9" y="4.4" dx="2.5" dy="2" layer="1"/>
+<smd name="9" x="-2.9" y="-4.4" dx="2.5" dy="2" layer="1"/>
+<wire x1="3.5" y1="3.2" x2="3.5" y2="2.1" width="0.1524" layer="21"/>
+<wire x1="1.2" y1="3.8" x2="-1.4" y2="3.8" width="0.1524" layer="21"/>
+<wire x1="3.5" y1="-2.1" x2="3.5" y2="-3.2" width="0.1524" layer="21"/>
+<wire x1="1.2" y1="-3.9" x2="-1.4" y2="-3.9" width="0.1524" layer="21"/>
+<wire x1="-4.4" y1="-3.9" x2="-5.9" y2="-3.9" width="0.1524" layer="21"/>
+<wire x1="-5.9" y1="-3.9" x2="-5.9" y2="3.8" width="0.1524" layer="21"/>
+<wire x1="-5.9" y1="3.8" x2="-4.3" y2="3.8" width="0.1524" layer="21"/>
+</package>
+<package name="USB-MICRO-B">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0" width="600"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#0173AF colspan="2"&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;MICRO USB 2.0  SMT TYPE B 5 CONTACTS&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;img src="../../models/conectors/usb/png/TE_USB-MICRO-AB-4T.png" width="240"&gt;
+&lt;/td&gt;
+&lt;td bgcolor=#ffffff&gt;
+&lt;font color=#666666&gt;
+ 5.9mm L x 8mm W x 2.4mm H &lt;br&gt;
+----------------------------------------------
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;</description>
+<smd name="3" x="2.7" y="0" dx="1.35" dy="0.4" layer="1"/>
+<smd name="2" x="2.7" y="0.65" dx="1.35" dy="0.4" layer="1"/>
+<smd name="4" x="2.7" y="-0.65" dx="1.35" dy="0.4" layer="1"/>
+<smd name="1" x="2.7" y="1.3" dx="1.35" dy="0.4" layer="1"/>
+<smd name="5" x="2.7" y="-1.3" dx="1.35" dy="0.4" layer="1"/>
+<smd name="P$7" x="0" y="-1.2" dx="1.9" dy="1.9" layer="1"/>
+<smd name="P$8" x="0" y="1.2" dx="1.9" dy="1.9" layer="1"/>
+<wire x1="-1.45" y1="-3.7" x2="-1.45" y2="3.7" width="0.1" layer="51"/>
+<wire x1="-2.75" y1="-3.1" x2="-2.75" y2="3.15" width="0.1" layer="51"/>
+<wire x1="-2.15" y1="-3.7" x2="2.85" y2="-3.7" width="0.1" layer="51"/>
+<wire x1="2.85" y1="3.7" x2="-2.15" y2="3.7" width="0.1" layer="51"/>
+<wire x1="2.85" y1="-3.7" x2="2.85" y2="-2.05" width="0.1" layer="51"/>
+<wire x1="2.85" y1="2.05" x2="2.85" y2="3.7" width="0.1" layer="51"/>
+<wire x1="2" y1="1.5" x2="2" y2="1.3" width="0.1" layer="51"/>
+<wire x1="2" y1="1.3" x2="2" y2="0.65" width="0.1" layer="51"/>
+<wire x1="2" y1="0.65" x2="2" y2="-0.65" width="0.1" layer="51"/>
+<wire x1="2" y1="-0.65" x2="2" y2="-1.3" width="0.1" layer="51"/>
+<wire x1="2" y1="-1.3" x2="2" y2="-1.45" width="0.1" layer="51"/>
+<wire x1="2" y1="-1.45" x2="2.85" y2="-2.05" width="0.1" layer="51"/>
+<wire x1="2" y1="1.5" x2="2.85" y2="2.05" width="0.1" layer="51"/>
+<wire x1="-2.15" y1="-3.7" x2="-2.15" y2="-3.1" width="0.1" layer="51"/>
+<wire x1="-2.15" y1="-3.1" x2="-2.15" y2="3.1" width="0.1" layer="51"/>
+<wire x1="-2.15" y1="3.1" x2="-2.15" y2="3.7" width="0.1" layer="51"/>
+<wire x1="-2.15" y1="3.7" x2="-2.75" y2="4.3" width="0.1" layer="51"/>
+<wire x1="-2.75" y1="4.3" x2="-2.75" y2="3.7" width="0.1" layer="51"/>
+<wire x1="-2.75" y1="3.7" x2="-2.2" y2="3.15" width="0.1" layer="51"/>
+<wire x1="-2.2" y1="3.15" x2="-2.15" y2="3.1" width="0.1" layer="51"/>
+<wire x1="-2.2" y1="3.15" x2="-2.75" y2="3.15" width="0.1" layer="51"/>
+<wire x1="-2.15" y1="-3.7" x2="-2.75" y2="-4.3" width="0.1" layer="51"/>
+<wire x1="-2.75" y1="-4.3" x2="-2.75" y2="-3.7" width="0.1" layer="51"/>
+<wire x1="-2.75" y1="-3.7" x2="-2.15" y2="-3.1" width="0.1" layer="51"/>
+<wire x1="-2.15" y1="-3.1" x2="-2.75" y2="-3.1" width="0.1" layer="51"/>
+<text x="-1.05" y="5.1" size="1.016" layer="25" ratio="12">&gt;Name</text>
+<text x="-1.05" y="-6.2" size="1.016" layer="27" ratio="12">&gt;Value</text>
+<wire x1="3.15" y1="0" x2="2.05" y2="0" width="0.1" layer="51"/>
+<wire x1="2" y1="-0.65" x2="3.15" y2="-0.65" width="0.1" layer="51"/>
+<wire x1="2" y1="-1.3" x2="3.15" y2="-1.3" width="0.1" layer="51"/>
+<wire x1="2" y1="0.65" x2="3.15" y2="0.65" width="0.1" layer="51"/>
+<wire x1="2" y1="1.3" x2="3.15" y2="1.3" width="0.1" layer="51"/>
+<rectangle x1="2.05" y1="1.15" x2="3.2" y2="1.45" layer="51"/>
+<rectangle x1="2.05" y1="0.5" x2="3.2" y2="0.8" layer="51"/>
+<rectangle x1="2" y1="-0.15" x2="3.2" y2="0.15" layer="51"/>
+<rectangle x1="2" y1="-0.8" x2="3.2" y2="-0.5" layer="51"/>
+<rectangle x1="2.05" y1="-1.45" x2="3.2" y2="-1.15" layer="51"/>
+<smd name="P$1" x="2.7" y="3.2" dx="1.4" dy="1.6" layer="1"/>
+<smd name="P$2" x="2.7" y="-3.2" dx="1.4" dy="1.6" layer="1"/>
+<smd name="P$3" x="0" y="3.7" dx="2.3" dy="1.3" layer="1" rot="R90"/>
+<smd name="P$4" x="0" y="-3.7" dx="2.3" dy="1.3" layer="1" rot="R90"/>
+<wire x1="-0.8" y1="3.7" x2="-1.45" y2="3.7" width="0.1524" layer="21"/>
+<wire x1="-1.45" y1="3.7" x2="-1.45" y2="-3.7" width="0.1524" layer="21"/>
+<wire x1="-1.45" y1="-3.7" x2="-0.8" y2="-3.7" width="0.1524" layer="21"/>
+<wire x1="2.85" y1="2.25" x2="2.85" y2="1.65" width="0.1524" layer="21"/>
+<wire x1="2.85" y1="-2.3" x2="2.85" y2="-1.65" width="0.1524" layer="21"/>
+<wire x1="0.8" y1="-3.7" x2="1.9" y2="-3.7" width="0.1524" layer="21"/>
+<wire x1="0.8" y1="3.7" x2="1.85" y2="3.7" width="0.1524" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="USB-A4">
+<pin name="VUSB" x="10.16" y="5.08" visible="pin" length="short" rot="R180"/>
+<pin name="D-" x="10.16" y="2.54" visible="pin" length="short" rot="R180"/>
+<pin name="D+" x="10.16" y="0" visible="pin" length="short" rot="R180"/>
+<pin name="GND" x="10.16" y="-2.54" visible="pin" length="short" rot="R180"/>
+<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-2.54" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="5.08" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="5.08" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
+<text x="-5.08" y="7.62" size="1.778" layer="95">&gt;Name</text>
+<text x="-5.08" y="-7.62" size="1.778" layer="96">&gt;Value</text>
+</symbol>
+<symbol name="USB-AB5">
+<pin name="VUSB" x="7.62" y="5.08" visible="pin" length="short" swaplevel="1" rot="R180"/>
+<pin name="D-" x="7.62" y="2.54" visible="pin" length="short" swaplevel="1" rot="R180"/>
+<pin name="D+" x="7.62" y="0" visible="pin" length="short" rot="R180"/>
+<pin name="ID" x="7.62" y="-2.54" visible="pin" length="short" swaplevel="1" rot="R180"/>
+<pin name="GND" x="7.62" y="-5.08" visible="pin" length="short" swaplevel="1" rot="R180"/>
+<wire x1="5.08" y1="7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-5.08" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="5.08" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
+<text x="-7.62" y="7.62" size="1.778" layer="95">&gt;Name</text>
+<text x="-7.62" y="-10.16" size="1.778" layer="96">&gt;Value</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="292303-?*" prefix="J" uservalue="yes">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#0173AF&gt;
+&lt;font color=#ffffff&gt;
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;USB A R/A RCPT&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#aaccff&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;font color=#666666&gt;
+&lt;b&gt;Description&lt;/b&gt;
+&lt;p&gt;
+Product Type Features:
+&lt;ul&gt;
+&lt;li&gt;Size = Standard
+&lt;li&gt;Series = A
+&lt;li&gt;Gender = Receptacle
+&lt;li&gt;Orientation = Right Angle
+&lt;li&gt;LED = Without
+&lt;li&gt;PCB Mount Retention Type = Kinked Leg(s)
+&lt;/ul&gt;
+Mechanical Attachment:
+&lt;ul&gt;
+&lt;li&gt;Mount Location = Top
+&lt;/ul&gt;
+
+Termination Features:
+&lt;ul&gt;
+&lt;li&gt;Contact Termination Type = Through Hole
+&lt;li&gt;Termination Method = Solder
+&lt;li&gt;Tail Length (mm [in]) = 2.84 [0.112]
+&lt;/ul&gt;
+Dimensions:
+&lt;ul&gt;
+&lt;li&gt;PCB Thickness, Recommended (mm [in]) = 1.57 [0.062]
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;b&gt;How to order&lt;/b&gt;
+&lt;table border="1" cellpadding="3" cellspacing="0"&gt;
+&lt;tr&gt;
+&lt;th&gt;Common Part&lt;/th&gt;&lt;th&gt;Type = Caractericitcs&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+292303
+&lt;/td&gt;
+&lt;td&gt;
+-1 = Solder tail length 2.84 mm/Kinked legs&lt;br&gt;
+-2 = Solder tail length 2.29 mm/Kinked legs&lt;br&gt;
+-4 = Solder tail length 2.84 mm/Kinked legs/High temperature compatible&lt;br&gt;
+-5 = Solder tail length 2.84 mm/Kinked legs&lt;br&gt;
+-6 = Solder tail length 2.29 mm/Kinked legs/High temperature compatible&lt;br&gt;
+-7 = T/H solder legs&lt;br&gt;
+-9 = High temperature surface mount hold down tab&lt;br&gt;
+&lt;/td&gt;
+
+&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#aaccff&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;Ref:&lt;/b&gt;
+&lt;a href="http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F292303%7FE8%7Fpdf%7FEnglish%7FENG_CD_292303_E8.pdf%7F292303-1"&gt;Datasheet&lt;/a&gt; 
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#0173AF&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;</description>
+<gates>
+<gate name="G$1" symbol="USB-A4" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="USB-A">
+<connects>
+<connect gate="G$1" pin="D+" pad="2"/>
+<connect gate="G$1" pin="D-" pad="3"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="VUSB" pad="1"/>
+</connects>
+<technologies>
+<technology name="1">
+<attribute name="ARROW" value="" constant="no"/>
+<attribute name="AVNET" value="" constant="no"/>
+<attribute name="AVRG-PRICE" value="" constant="no"/>
+<attribute name="DATASHEET" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="EAGLEUP" value="USB-A-TH+TH" constant="no"/>
+<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MOUSER" value="" constant="no"/>
+<attribute name="NEWARK" value="" constant="no"/>
+<attribute name="OCTOPART-LINK" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="7" package="USB-A-SMD+TH">
+<connects>
+<connect gate="G$1" pin="D+" pad="3"/>
+<connect gate="G$1" pin="D-" pad="2"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="VUSB" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="9" package="USB-A-SMD+SMD">
+<connects>
+<connect gate="G$1" pin="D+" pad="3"/>
+<connect gate="G$1" pin="D-" pad="2"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="VUSB" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1981584-1" prefix="J" uservalue="yes">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#0173AF&gt;
+&lt;font color=#ffffff&gt;
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;MICRO USB RECEPTACLE STANDARD TYPE AB ASSY&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#aaccff&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;font color=#666666&gt;
+&lt;b&gt;Description&lt;/b&gt;
+&lt;p&gt;
+Product Type Features:
+&lt;ul&gt;
+&lt;li&gt;Size = Micro
+&lt;li&gt;Series = AB
+&lt;li&gt;Gender = Receptacle
+&lt;li&gt;Orientation = Right Angle
+&lt;li&gt;LED = Without
+&lt;li&gt;PCB Mount Retention Type = SMT Hold Down
+&lt;/ul&gt;
+Mechanical Attachment:
+&lt;ul&gt;
+&lt;li&gt;Mount Location = Top
+&lt;/ul&gt;
+
+Termination Features:
+&lt;ul&gt;
+&lt;li&gt;Contact Termination Type = Surface Mount
+&lt;li&gt;Termination Method = Surface Mount
+&lt;/ul&gt;
+Dimensions:
+&lt;ul&gt;
+&lt;li&gt;PCB Thickness, Recommended (mm [in]) = 1.00 [0.039]
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;b&gt;How to order&lt;/b&gt;
+&lt;p&gt;
+                                                                                                                                                                    
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#aaccff&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;Ref:&lt;/b&gt;
+&lt;a href="http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F1981584%7FD1%7Fpdf%7FEnglish%7FENG_CD_1981584_D1.pdf%7F1981584-1"&gt;Datasheet&lt;/a&gt; 
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#0173AF&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;</description>
+<gates>
+<gate name="G$1" symbol="USB-AB5" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="USB-MICRO-B">
+<connects>
+<connect gate="G$1" pin="D+" pad="3"/>
+<connect gate="G$1" pin="D-" pad="2"/>
+<connect gate="G$1" pin="GND" pad="5"/>
+<connect gate="G$1" pin="ID" pad="4"/>
+<connect gate="G$1" pin="VUSB" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="ARROW" value="" constant="no"/>
+<attribute name="AVNET" value="" constant="no"/>
+<attribute name="AVRG-PRICE" value="" constant="no"/>
+<attribute name="DATASHEET" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="EAGLEUP" value="TE_USB-MICRO-AB-4T" constant="no"/>
+<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MOUSER" value="" constant="no"/>
+<attribute name="NEWARK" value="" constant="no"/>
+<attribute name="OCTOPART-LINK" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="?-1734035-1" prefix="J" uservalue="yes">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#0173AF&gt;
+&lt;font color=#ffffff&gt;
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;USB MINIB R/A RCPT&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#aaccff&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;font color=#666666&gt;
+&lt;b&gt;Description&lt;/b&gt;
+&lt;p&gt;
+Product Type Features:
+&lt;ul&gt;
+&lt;li&gt;Size = Mini
+&lt;li&gt;Series = B
+&lt;li&gt;Gender = Receptacle
+&lt;li&gt;Orientation = Right Angle
+&lt;li&gt;LED = Without
+&lt;li&gt;PCB Mount Retention Type = SMT Hold Down
+&lt;/ul&gt;
+Mechanical Attachment:
+&lt;ul&gt;
+&lt;li&gt;Mount Location = Top
+&lt;/ul&gt;
+
+Termination Features:
+&lt;ul&gt;
+&lt;li&gt;Contact Termination Type = Surface Mount
+&lt;li&gt;Termination Method = Solder
+&lt;/ul&gt;
+Dimensions:
+&lt;ul&gt;
+&lt;li&gt;PCB Thickness, Recommended (mm [in]) = 1.57 [0.062]
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;b&gt;How to order&lt;/b&gt;
+&lt;table border="1" cellpadding="3" cellspacing="0"&gt;
+&lt;tr&gt;
+&lt;th&gt;Common Part&lt;/th&gt;&lt;th&gt;Type = Caractericitcs&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+1734035-1
+&lt;/td&gt;
+&lt;td&gt;
+ = With retentive legs&lt;br&gt;
+1- = without retentive legs&lt;br&gt;
+&lt;/td&gt;
+
+&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#aaccff&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;Ref:&lt;/b&gt;
+&lt;a href="http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F1734035%7FE%7Fpdf%7FEnglish%7FENG_CD_1734035_E.pdf%7F1-1734035-2"&gt;Datasheet&lt;/a&gt; 
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#0173AF&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;</description>
+<gates>
+<gate name="G$1" symbol="USB-AB5" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="USB-MINIB-SMD+SMD+RET">
+<connects>
+<connect gate="G$1" pin="D+" pad="3"/>
+<connect gate="G$1" pin="D-" pad="2"/>
+<connect gate="G$1" pin="GND" pad="5"/>
+<connect gate="G$1" pin="ID" pad="4"/>
+<connect gate="G$1" pin="VUSB" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="ARROW" value="" constant="no"/>
+<attribute name="AVNET" value="" constant="no"/>
+<attribute name="AVRG-PRICE" value="" constant="no"/>
+<attribute name="DATASHEET" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="EAGLEUP" value="USB-MINIB-SMD+SMD+RET" constant="no"/>
+<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MOUSER" value="" constant="no"/>
+<attribute name="NEWARK" value="" constant="no"/>
+<attribute name="OCTOPART-LINK" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="1" package="USB-MINIB-SMD+SMD">
+<connects>
+<connect gate="G$1" pin="D+" pad="3"/>
+<connect gate="G$1" pin="D-" pad="2"/>
+<connect gate="G$1" pin="GND" pad="5"/>
+<connect gate="G$1" pin="ID" pad="4"/>
+<connect gate="G$1" pin="VUSB" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

@@ -1,0 +1,1494 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>&lt;table border="0" cellpadding="5" cellspacing="0"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#6999D1&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;Indication leds&lt;/b&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;font color=#666666&gt;
+Our LED indication products and solutions facilitate machine to human communication. &lt;br&gt;
+Whether it’s a custom solution or an off-the-shelf standard, our Opto4™ product lines enable design engineers to make moving light from point-to-point practical, easy, efficient, and affordable. &lt;br&gt;
+We work closely with our customers to understand their needs and present options that meet their application requirements.
+&lt;p&gt;
+&lt;b&gt;PRODUCT BRIEFS&lt;/b&gt;&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;Weather Resistant Panel Mount Assemblies
+&lt;li&gt;HT Series- Right Angle Surface Mount LED 
+&lt;li&gt;ORCAdapt™ Complete Light Pipe System 
+&lt;li&gt;PM5-3 Series, 3 Leaded, Bi-Color Panel Mount LED Assembly 
+&lt;li&gt;SMS1105 &amp; SMP2, PLCC2 Surface Mount LEDs 
+&lt;li&gt;SM1204 &amp; SMP6 Series, Surface Mount LEDs
+&lt;li&gt;FLPC2, Plastic Optical Fiber Light Pipe System 
+&lt;li&gt;PMR4 Series, Rectangular Panel Mount
+&lt;/ul&gt;
+&lt;p&gt;
+Ref: &lt;a href="http://www.bivar.com/Products/LEDIndication.aspx"&gt;Link&lt;/a&gt;&lt;br&gt;
+Ref: &lt;a href="http://www.bivar.com/Portals/0/Flash/Catalog/Index.html"&gt;Catalog&lt;/a&gt;
+&lt;p&gt;
+&lt;b&gt;Components&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;SM0603--------Surface Mount Led
+&lt;li&gt;SM0805--------Surface Mount Led
+&lt;li&gt;SM1204--------Surface Mount Led
+&lt;li&gt;SM1204B------Surface Mount Led Bi-color
+&lt;li&gt;SM1206--------Surface Mount Led
+&lt;li&gt;SM1210B------Surface Mount Led Bi-color
+&lt;li&gt;SM1210RGB---Surface Mount Led RGB
+&lt;/ul&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;</description>
+<packages>
+<package name="D0603">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0" width="600"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#002D62 colspan="2"&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;0603 SMD LED&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;img src="../../models/leds/SM/png/D0603.png" width="240"&gt;
+&lt;/td&gt;
+&lt;td bgcolor=#ffffff&gt;
+&lt;font color=#666666&gt;
+ 1.6 mm × 0.8 mm (0.063 in × 0.031 in). &lt;br&gt;
+----------------------------------------------
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;</description>
+<wire x1="-0.8" y1="0.4" x2="0.8" y2="0.4" width="0.1" layer="51"/>
+<wire x1="0.8" y1="0.4" x2="0.8" y2="-0.4" width="0.1" layer="51"/>
+<wire x1="0.8" y1="-0.4" x2="-0.8" y2="-0.4" width="0.1" layer="51"/>
+<wire x1="-0.8" y1="-0.4" x2="-0.8" y2="0.4" width="0.1" layer="51"/>
+<rectangle x1="-0.8" y1="-0.4" x2="-0.5" y2="0.4" layer="51"/>
+<rectangle x1="0.5" y1="-0.4" x2="0.8" y2="0.4" layer="51"/>
+<text x="-1.3" y="0.6" size="1.016" layer="25" ratio="12">&gt;Name</text>
+<text x="-1.3" y="-1.6" size="1.016" layer="27" ratio="12">&gt;Value</text>
+<wire x1="-0.2" y1="0.4" x2="0.2" y2="0.4" width="0.1524" layer="21"/>
+<wire x1="0.2" y1="-0.4" x2="-0.2" y2="-0.4" width="0.1524" layer="21"/>
+<wire x1="1.3" y1="0.2" x2="1.3" y2="-0.2" width="0.1524" layer="21"/>
+<smd name="1" x="0.8" y="0" dx="0.8" dy="0.8" layer="1"/>
+<smd name="2" x="-0.8" y="0" dx="0.8" dy="0.8" layer="1"/>
+</package>
+<package name="D0805">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0" width="600"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#002D62 colspan="2"&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;0805 SMD LED&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;img src="../../models/leds/SM/png/D0805.png" width="240"&gt;
+&lt;/td&gt;
+&lt;td bgcolor=#ffffff&gt;
+&lt;font color=#666666&gt;
+2.0 mm × 1.25 mm (0.079 in × 0.049 in).&lt;br&gt; 
+---------------------------------------------------------------
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;</description>
+<wire x1="-1" y1="0.6" x2="1" y2="0.6" width="0.1" layer="51"/>
+<wire x1="1" y1="0.6" x2="1" y2="-0.6" width="0.1" layer="51"/>
+<wire x1="1" y1="-0.6" x2="-1" y2="-0.6" width="0.1" layer="51"/>
+<wire x1="-1" y1="-0.6" x2="-1" y2="0.6" width="0.1" layer="51"/>
+<rectangle x1="-1" y1="-0.6" x2="-0.6" y2="0.6" layer="51"/>
+<rectangle x1="0.6" y1="-0.6" x2="1" y2="0.6" layer="51"/>
+<text x="-1.7" y="-1.8" size="1.016" layer="25" ratio="12">&gt;Name</text>
+<text x="-1.7" y="0.8" size="1.016" layer="27" ratio="12">&gt;Value</text>
+<wire x1="0.4" y1="0.6" x2="-0.4" y2="0.6" width="0.1524" layer="21"/>
+<wire x1="-0.4" y1="-0.6" x2="0.4" y2="-0.6" width="0.1524" layer="21"/>
+<wire x1="1.8" y1="0.2" x2="1.8" y2="-0.2" width="0.1524" layer="21"/>
+<smd name="1" x="1.1" y="0" dx="1.2" dy="1.2" layer="1"/>
+<smd name="2" x="-1.1" y="0" dx="1.2" dy="1.2" layer="1"/>
+</package>
+<package name="D1210">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0" width="600"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#002D62 colspan="2"&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;1210 SMD BI-LED&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;img src="../../models/leds/SM/png/D1210.png" width="240"&gt;
+&lt;/td&gt;
+&lt;td bgcolor=#ffffff&gt;
+&lt;font color=#666666&gt;
+3.2 mm × 2.7 mm &lt;br&gt; 
+---------------------------------------------------------------
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;</description>
+<wire x1="-1.6" y1="1.2" x2="1.6" y2="1.2" width="0.127" layer="51"/>
+<wire x1="1.6" y1="1.2" x2="1.6" y2="-1.2" width="0.127" layer="51"/>
+<wire x1="1.6" y1="-1.2" x2="-1.6" y2="-1.2" width="0.127" layer="51"/>
+<wire x1="-1.6" y1="-1.2" x2="-1.6" y2="1.2" width="0.127" layer="51"/>
+<rectangle x1="-1.6" y1="-1.2" x2="-0.9" y2="1.2" layer="51"/>
+<rectangle x1="0.9" y1="-1.2" x2="1.6" y2="1.2" layer="51"/>
+<wire x1="0.9" y1="1.2" x2="-0.9" y2="1.2" width="0.127" layer="21"/>
+<wire x1="0.8" y1="-1.2" x2="-0.8" y2="-1.2" width="0.127" layer="21"/>
+<text x="-2.1" y="1.5" size="1.016" layer="25" ratio="12">&gt;Name</text>
+<text x="-2.1" y="-2.5" size="1.016" layer="27" ratio="12">&gt;Value</text>
+<wire x1="2.65" y1="0.35" x2="2.65" y2="-0.25" width="0.1524" layer="21"/>
+<smd name="1" x="1.75" y="-0.7" dx="1.5" dy="1" layer="1"/>
+<smd name="2" x="1.75" y="0.7" dx="1.5" dy="1" layer="1"/>
+<smd name="3" x="-1.75" y="-0.7" dx="1.5" dy="1" layer="1"/>
+<smd name="4" x="-1.75" y="0.7" dx="1.5" dy="1" layer="1"/>
+</package>
+<package name="D1206">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0" width="600"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#002D62 colspan="2"&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;1206 SMD LED&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;img src="../../models/leds/SM/png/D1206.png" width="240"&gt;
+&lt;/td&gt;
+&lt;td bgcolor=#ffffff&gt;
+&lt;font color=#666666&gt;
+3.2 mm × 1.6 mm (0.13 in × 0.063 in).&lt;br&gt; 
+---------------------------------------------------------------
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;</description>
+<wire x1="-1.6" y1="0.8" x2="1.6" y2="0.8" width="0.1" layer="51"/>
+<wire x1="1.6" y1="0.8" x2="1.6" y2="-0.8" width="0.1" layer="51"/>
+<wire x1="1.6" y1="-0.8" x2="-1.6" y2="-0.8" width="0.1" layer="51"/>
+<wire x1="-1.6" y1="-0.8" x2="-1.6" y2="0.8" width="0.1" layer="51"/>
+<rectangle x1="-1.6" y1="-0.8" x2="-1.1" y2="0.8" layer="51"/>
+<rectangle x1="1.1" y1="-0.8" x2="1.6" y2="0.8" layer="51"/>
+<text x="-2.3" y="1" size="1.016" layer="25" font="vector" ratio="12">&gt;Name</text>
+<text x="-2.3" y="-2" size="1.016" layer="27" font="vector" ratio="12">&gt;Value</text>
+<wire x1="1" y1="0.8" x2="-1" y2="0.8" width="0.127" layer="21"/>
+<wire x1="-1" y1="-0.8" x2="1" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="2.6" y1="0.3" x2="2.6" y2="-0.3" width="0.1524" layer="21"/>
+<smd name="1" x="1.7" y="0" dx="1.5" dy="1.5" layer="1"/>
+<smd name="2" x="-1.7" y="0" dx="1.5" dy="1.5" layer="1"/>
+</package>
+<package name="D1204">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0" width="600"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#002D62 colspan="2"&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;1204 SMD LED&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;img src="../../models/leds/SM/png/D1204.png" width="240"&gt;
+&lt;/td&gt;
+&lt;td bgcolor=#ffffff&gt;
+&lt;font color=#666666&gt;
+3.2 mm × 1.0 mm x 1.5mm.&lt;br&gt; 
+---------------------------------------------------------------
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;</description>
+<smd name="1" x="1.75" y="0" dx="1.5" dy="1" layer="1"/>
+<smd name="2" x="-1.75" y="0" dx="1.5" dy="1" layer="1"/>
+<smd name="3" x="0" y="0.5" dx="1" dy="1" layer="1"/>
+<wire x1="-1.5" y1="0.25" x2="1.6" y2="0.25" width="0.1" layer="51"/>
+<wire x1="1.6" y1="0.25" x2="1.6" y2="-0.25" width="0.1" layer="51"/>
+<wire x1="1.6" y1="-0.25" x2="1" y2="-0.25" width="0.1" layer="51"/>
+<wire x1="1" y1="-0.25" x2="-1" y2="-0.25" width="0.1" layer="51"/>
+<wire x1="-1" y1="-0.25" x2="-1.5" y2="-0.25" width="0.1" layer="51"/>
+<wire x1="-1.5" y1="-0.25" x2="-1.5" y2="0.25" width="0.1" layer="51"/>
+<wire x1="1" y1="-0.25" x2="-1" y2="-0.25" width="0.1" layer="51" curve="-180"/>
+<wire x1="-0.95" y1="-0.6" x2="-0.95" y2="-1.25" width="0.1524" layer="21"/>
+<wire x1="-0.95" y1="-1.25" x2="0.9" y2="-1.25" width="0.1524" layer="21"/>
+<wire x1="0.9" y1="-1.25" x2="0.9" y2="-0.65" width="0.1524" layer="21"/>
+<wire x1="-0.85" y1="0.25" x2="-0.7" y2="0.25" width="0.1524" layer="21"/>
+<wire x1="0.65" y1="0.25" x2="0.8" y2="0.25" width="0.1524" layer="21"/>
+</package>
+<package name="D1206-IL">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0" width="600"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#2a7fff colspan="2"&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;1206 SMD LED&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;img src="../../models/leds/SM/png/D1206-IL.png" width="240"&gt;
+&lt;/td&gt;
+&lt;td bgcolor=#ffffff&gt;
+&lt;font color=#666666&gt;
+3.2 mm × 1.6 mm (0.13 in × 0.063 in).&lt;br&gt; 
+---------------------------------------------------------------
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;</description>
+<wire x1="-1.6" y1="0.8" x2="1.6" y2="0.8" width="0.1" layer="51"/>
+<wire x1="1.6" y1="0.8" x2="1.6" y2="-0.8" width="0.1" layer="51"/>
+<wire x1="1.6" y1="-0.8" x2="-1.6" y2="-0.8" width="0.1" layer="51"/>
+<wire x1="-1.6" y1="-0.8" x2="-1.6" y2="0.8" width="0.1" layer="51"/>
+<rectangle x1="-1.6" y1="-0.8" x2="-1.1" y2="0.8" layer="51"/>
+<rectangle x1="1.1" y1="-0.8" x2="1.6" y2="0.8" layer="51"/>
+<text x="-2.3" y="1" size="1.016" layer="25" font="vector" ratio="12">&gt;Name</text>
+<text x="-2.3" y="-2" size="1.016" layer="27" font="vector" ratio="12">&gt;Value</text>
+<wire x1="1" y1="0.8" x2="-1" y2="0.8" width="0.127" layer="21"/>
+<wire x1="-1" y1="-0.8" x2="1" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="2.6" y1="0.3" x2="2.6" y2="-0.3" width="0.1524" layer="21"/>
+<smd name="1" x="1.7" y="0" dx="1.5" dy="1.5" layer="1"/>
+<smd name="2" x="-1.7" y="0" dx="1.5" dy="1.5" layer="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="LED">
+<wire x1="1.27" y1="0" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-2.032" y1="-0.762" x2="-3.429" y2="-2.159" width="0.1524" layer="94"/>
+<wire x1="-1.905" y1="-1.905" x2="-3.302" y2="-3.302" width="0.1524" layer="94"/>
+<text x="3.556" y="-4.572" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="5.715" y="-4.572" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="C" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="A" x="0" y="2.54" visible="off" length="short" direction="pas" rot="R270"/>
+<polygon width="0.1524" layer="94">
+<vertex x="-3.429" y="-2.159"/>
+<vertex x="-3.048" y="-1.27"/>
+<vertex x="-2.54" y="-1.778"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-3.302" y="-3.302"/>
+<vertex x="-2.921" y="-2.413"/>
+<vertex x="-2.413" y="-2.921"/>
+</polygon>
+</symbol>
+<symbol name="BI-LED">
+<wire x1="3.81" y1="0" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="1.27" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="3.81" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0.508" y1="-0.762" x2="-0.889" y2="-2.159" width="0.1524" layer="94"/>
+<wire x1="0.635" y1="-1.905" x2="-0.762" y2="-3.302" width="0.1524" layer="94"/>
+<text x="6.096" y="-4.572" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="8.255" y="-4.572" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="C2" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="A" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<polygon width="0.1524" layer="94">
+<vertex x="-0.889" y="-2.159"/>
+<vertex x="-0.508" y="-1.27"/>
+<vertex x="0" y="-1.778"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-0.762" y="-3.302"/>
+<vertex x="-0.381" y="-2.413"/>
+<vertex x="0.127" y="-2.921"/>
+</polygon>
+<wire x1="-1.27" y1="0" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-3.81" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-3.81" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-3.81" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-4.572" y1="-0.762" x2="-5.969" y2="-2.159" width="0.1524" layer="94"/>
+<wire x1="-4.445" y1="-1.905" x2="-5.842" y2="-3.302" width="0.1524" layer="94"/>
+<polygon width="0.1524" layer="94">
+<vertex x="-5.969" y="-2.159"/>
+<vertex x="-5.588" y="-1.27"/>
+<vertex x="-5.08" y="-1.778"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-5.842" y="-3.302"/>
+<vertex x="-5.461" y="-2.413"/>
+<vertex x="-4.953" y="-2.921"/>
+</polygon>
+<wire x1="2.54" y1="0" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<pin name="C1" x="-2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+</symbol>
+<symbol name="DUAL-LED">
+<wire x1="3.81" y1="0" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="1.27" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="3.81" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0.508" y1="-0.762" x2="-0.889" y2="-2.159" width="0.1524" layer="94"/>
+<wire x1="0.635" y1="-1.905" x2="-0.762" y2="-3.302" width="0.1524" layer="94"/>
+<text x="6.096" y="-4.572" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="8.255" y="-4.572" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="C" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="A" x="2.54" y="2.54" visible="off" length="short" direction="pas" rot="R270"/>
+<polygon width="0.1524" layer="94">
+<vertex x="-0.889" y="-2.159"/>
+<vertex x="-0.508" y="-1.27"/>
+<vertex x="0" y="-1.778"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-0.762" y="-3.302"/>
+<vertex x="-0.381" y="-2.413"/>
+<vertex x="0.127" y="-2.921"/>
+</polygon>
+<wire x1="-1.27" y1="0" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-3.81" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-3.81" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-3.81" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-4.572" y1="-0.762" x2="-5.969" y2="-2.159" width="0.1524" layer="94"/>
+<wire x1="-4.445" y1="-1.905" x2="-5.842" y2="-3.302" width="0.1524" layer="94"/>
+<pin name="C1" x="-2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="A1" x="-2.54" y="2.54" visible="off" length="short" direction="pas" rot="R270"/>
+<polygon width="0.1524" layer="94">
+<vertex x="-5.969" y="-2.159"/>
+<vertex x="-5.588" y="-1.27"/>
+<vertex x="-5.08" y="-1.778"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-5.842" y="-3.302"/>
+<vertex x="-5.461" y="-2.413"/>
+<vertex x="-4.953" y="-2.921"/>
+</polygon>
+</symbol>
+<symbol name="TRI-LED">
+<wire x1="6.35" y1="0" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="3.81" y2="0" width="0.254" layer="94"/>
+<wire x1="6.35" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="3.81" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="6.35" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="3.81" y2="0" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="3.048" y1="-0.762" x2="1.651" y2="-2.159" width="0.1524" layer="94"/>
+<wire x1="3.175" y1="-1.905" x2="1.778" y2="-3.302" width="0.1524" layer="94"/>
+<text x="8.636" y="-4.572" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="10.795" y="-4.572" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="C1" x="5.08" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="A" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<polygon width="0.1524" layer="94">
+<vertex x="1.651" y="-2.159"/>
+<vertex x="2.032" y="-1.27"/>
+<vertex x="2.54" y="-1.778"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="1.778" y="-3.302"/>
+<vertex x="2.159" y="-2.413"/>
+<vertex x="2.667" y="-2.921"/>
+</polygon>
+<wire x1="1.27" y1="0" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-2.032" y1="-0.762" x2="-3.429" y2="-2.159" width="0.1524" layer="94"/>
+<wire x1="-1.905" y1="-1.905" x2="-3.302" y2="-3.302" width="0.1524" layer="94"/>
+<polygon width="0.1524" layer="94">
+<vertex x="-3.429" y="-2.159"/>
+<vertex x="-3.048" y="-1.27"/>
+<vertex x="-2.54" y="-1.778"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-3.302" y="-3.302"/>
+<vertex x="-2.921" y="-2.413"/>
+<vertex x="-2.413" y="-2.921"/>
+</polygon>
+<wire x1="5.08" y1="0" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="0" width="0.254" layer="94"/>
+<pin name="C2" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<wire x1="-3.81" y1="0" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="-6.35" y2="0" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="-6.35" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="0" x2="-5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="0" x2="-6.35" y2="0" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="0" x2="-5.08" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-7.112" y1="-0.762" x2="-8.509" y2="-2.159" width="0.1524" layer="94"/>
+<wire x1="-6.985" y1="-1.905" x2="-8.382" y2="-3.302" width="0.1524" layer="94"/>
+<polygon width="0.1524" layer="94">
+<vertex x="-8.509" y="-2.159"/>
+<vertex x="-8.128" y="-1.27"/>
+<vertex x="-7.62" y="-1.778"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-8.382" y="-3.302"/>
+<vertex x="-8.001" y="-2.413"/>
+<vertex x="-7.493" y="-2.921"/>
+</polygon>
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="0" width="0.254" layer="94"/>
+<pin name="C3" x="-5.08" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<wire x1="5.08" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SM0603*" prefix="D" uservalue="yes">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#002D62&gt;
+&lt;font color=#ffffff&gt;
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Surface Mount LED 0603&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#6999D1&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;font color=#666666&gt;
+&lt;b&gt;Description&lt;/b&gt;
+&lt;p&gt;
+Bivar Surface Mount 0603 package LED may be used in nearly any lighting or indication application.  
+The miniature package is ideal for small scale applications such as general indication and backlighting.  
+Low power consumption and excellent long life reliability are suitable for battery powered equipment.  
+Bivar offers water clear LED lens for maximum luminous intensity.  Wide variety of wavelength and intensity combinations are available to meet any illumination need.  The SM0603 LED is packaged in 
+standard tape and reels for pick and place assemblies.   
+&lt;p&gt;
+♦  Industry Standard 0603 Package&lt;br&gt;                              
+♦  RoHS Compliant &lt;br&gt;
+♦  Small Package and Footprint  &lt;br&gt;
+♦  Water Clear Lens &lt;br&gt;
+♦  Wide Viewing Angle &lt;br&gt;
+♦  Ideal for Status Indication, Display, and Backlighting
+&lt;p&gt;
+&lt;b&gt;How to Order&lt;/b&gt;
+&lt;table cellpadding="3" cellspacing="0" border="1"&gt;
+&lt;tr&gt;
+&lt;th&gt;Type&lt;/th&gt;&lt;th&gt;Package&lt;/th&gt;&lt;th&gt;Color&lt;/th&gt;&lt;th&gt;Clear type&lt;/th&gt;&lt;th&gt;Current level&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;SM = Surface mount&lt;/td&gt;
+&lt;td&gt;0603&lt;/td&gt;
+&lt;td&gt;
+A = Amber&lt;br&gt;
+ BW = Blue&lt;br&gt;
+G = Green&lt;br&gt;
+H = HE red&lt;br&gt;
+O = Orange&lt;br&gt;
+PG = Pure Green&lt;br&gt;
+R = Read&lt;br&gt;
+SB = Super Blue&lt;br&gt;
+SG = Super Green&lt;br&gt;
+SPG = Super Pure Green&lt;br&gt;
+SR = Super Red&lt;br&gt;
+UBW = Ultra Blue&lt;br&gt;
+UH = Ultra HE Red&lt;br&gt;
+UO = Ultra Orange&lt;br&gt;
+UPG = Ultra Pure Green&lt;br&gt;
+UR = Ultra Red&lt;br&gt;
+UW = Ultra White&lt;br&gt;
+UY = Ultra Yellow
+XPG = Xtra Pure Green
+Y = Yellow
+&lt;/td&gt;
+&lt;td&gt;
+C = Water Clear
+&lt;/td&gt;
+&lt;td&gt;
+None = standart&lt;br&gt;
+L = Low Current
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#6999D1&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;Ref: &lt;/b&gt;&lt;a href="http://www.bivar.com/Products/LEDIndication/LEDs/SurfaceMountLEDs.aspx"&gt;Datasheet&lt;/a&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#002D62&gt;
+&lt;font color=#ffffff&gt;
+Add more variants to SM0603@, just remplace the "@" with a new technologie named according to order code parameters.&lt;br&gt; 
+It is mandatory to fill up the following attributes &lt;b&gt;DESCRIPTION, MOUSER, AVNET, ARROW, FUTURE, NEWARK, DIGIKEY, AVRG-PRICE, OCTOPART-LINK, DATASHEET&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;</description>
+<gates>
+<gate name="G$1" symbol="LED" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="D0603">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="C" pad="2"/>
+</connects>
+<technologies>
+<technology name="@">
+<attribute name="ARROW" value="" constant="no"/>
+<attribute name="AVNET" value="" constant="no"/>
+<attribute name="AVRG-PRICE" value="" constant="no"/>
+<attribute name="DATASHEET" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="Sourface Mount LED 0603"/>
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="EAGLEUP" value="D0603" constant="no"/>
+<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="MOUSER" value="" constant="no"/>
+<attribute name="NEWARK" value="" constant="no"/>
+<attribute name="OCTOPART-LINK" value="" constant="no"/>
+</technology>
+<technology name="AC">
+<attribute name="ARROW" value="" constant="no"/>
+<attribute name="AVNET" value="" constant="no"/>
+<attribute name="AVRG-PRICE" value="0.3" constant="no"/>
+<attribute name="DATASHEET" value="http://www.bivar.com/Images/Cart/SM0603AC.pdf"/>
+<attribute name="DESCRIPTION" value="LED estándar - SMD Amber 610 nm Water Clear"/>
+<attribute name="DIGIKEY" value="SM0603AC-ND"/>
+<attribute name="EAGLEUP" value="D0603" constant="no"/>
+<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="MOUSER" value="749-SM0603AC"/>
+<attribute name="NEWARK" value="" constant="no"/>
+<attribute name="OCTOPART-LINK" value="http://octopart.com/sm0603ac-bivar-22358815"/>
+</technology>
+<technology name="HC">
+<attribute name="ARROW" value="" constant="no"/>
+<attribute name="AVNET" value="" constant="no"/>
+<attribute name="AVRG-PRICE" value="0.3" constant="no"/>
+<attribute name="DATASHEET" value="http://www.mouser.com/ds/2/50/SM0603HC-46730.pdf"/>
+<attribute name="DESCRIPTION" value="LED estándar - SMD (montaje superficial) HE Red 635 nm Water Clear"/>
+<attribute name="DIGIKEY" value="SM0603HC-ND"/>
+<attribute name="EAGLEUP" value="D0603" constant="no"/>
+<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="MOUSER" value="749-SM0603HC"/>
+<attribute name="NEWARK" value="" constant="no"/>
+<attribute name="OCTOPART-LINK" value="http://octopart.com/sm0603hc-bivar-7872294"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SM0805*" prefix="D" uservalue="yes">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#002D62&gt;
+&lt;font color=#ffffff&gt;
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Surface Mount LED 0805&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#6999D1&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;font color=#666666&gt;
+&lt;b&gt;Description&lt;/b&gt;
+&lt;p&gt;
+Bivar Surface Mount 0805 package LED may be used in nearly any lighting or indication application.  
+The miniature package is ideal for small scale applications such as general indication and backlighting.  
+Low power consumption and excellent long life reliability are suitable for battery powered equipment.  
+Bivar offers water clear LED lens for maximum luminous intensity.  Wide variety of wavelength and intensity combinations are available to meet any illumination need.  The SM0805 LED is packaged in 
+standard tape and reels for pick and place assemblies.   
+&lt;p&gt;
+♦  Industry Standard 0805 Package&lt;br&gt;                              
+♦  RoHS Compliant &lt;br&gt;
+♦  Small Package and Footprint  &lt;br&gt;
+♦  Water Clear Lens &lt;br&gt;
+♦  Wide Viewing Angle &lt;br&gt;
+♦  Ideal for Status Indication, Display, and Backlighting
+&lt;p&gt;
+&lt;b&gt;How to Order&lt;/b&gt;
+&lt;table cellpadding="3" cellspacing="0" border="1"&gt;
+&lt;tr&gt;
+&lt;th&gt;Type&lt;/th&gt;&lt;th&gt;Package&lt;/th&gt;&lt;th&gt;Color&lt;/th&gt;&lt;th&gt;Clear type&lt;/th&gt;&lt;th&gt;Current level&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;SM = Surface mount&lt;/td&gt;
+&lt;td&gt;0805&lt;/td&gt;
+&lt;td&gt;
+A = Amber&lt;br&gt;
+ BW = Blue&lt;br&gt;
+G = Green&lt;br&gt;
+H = HE red&lt;br&gt;
+O = Orange&lt;br&gt;
+PG = Pure Green&lt;br&gt;
+R = Read&lt;br&gt;
+SB = Super Blue&lt;br&gt;
+SG = Super Green&lt;br&gt;
+SPG = Super Pure Green&lt;br&gt;
+SR = Super Red&lt;br&gt;
+UBW = Ultra Blue&lt;br&gt;
+UH = Ultra HE Red&lt;br&gt;
+UO = Ultra Orange&lt;br&gt;
+UPG = Ultra Pure Green&lt;br&gt;
+UR = Ultra Red&lt;br&gt;
+UW = Ultra White&lt;br&gt;
+UY = Ultra Yellow
+XPG = Xtra Pure Green
+Y = Yellow
+&lt;/td&gt;
+&lt;td&gt;
+C = Water Clear
+&lt;/td&gt;
+&lt;td&gt;
+None = standart&lt;br&gt;
+L = Low Current
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#6999D1&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;Ref: &lt;/b&gt;&lt;a href="http://www.bivar.com/Products/LEDIndication/LEDs/SurfaceMountLEDs.aspx"&gt;Link&lt;/a&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#002D62&gt;
+&lt;font color=#ffffff&gt;
+Add more variants to SM0805@, just remplace the "@" with a new technologie named according to order code parameters.&lt;br&gt; 
+It is mandatory to fill up the following attributes &lt;b&gt;DESCRIPTION, MOUSER, AVNET, ARROW, FUTURE, NEWARK, DIGIKEY, AVRG-PRICE, OCTOPART-LINK, DATASHEET&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;</description>
+<gates>
+<gate name="G$1" symbol="LED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="D0805">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="C" pad="2"/>
+</connects>
+<technologies>
+<technology name="@">
+<attribute name="ARROW" value="" constant="no"/>
+<attribute name="AVNET" value="" constant="no"/>
+<attribute name="AVRG-PRICE" value="" constant="no"/>
+<attribute name="DATASHEET" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="EAGLEUP" value="D0805" constant="no"/>
+<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="MOUSER" value="" constant="no"/>
+<attribute name="NEWARK" value="" constant="no"/>
+<attribute name="OCTOPART-LINK" value="" constant="no"/>
+</technology>
+<technology name="AC">
+<attribute name="ARROW" value="" constant="no"/>
+<attribute name="AVNET" value="" constant="no"/>
+<attribute name="AVRG-PRICE" value="0.4"/>
+<attribute name="DATASHEET" value="http://www.bivar.com/Images/Cart/SM0805AC.pdf"/>
+<attribute name="DESCRIPTION" value="LED, SMD, 0805, 2 Leads, Amber, Water Clear Lens, 130 Deg Viewing Angle"/>
+<attribute name="DIGIKEY" value="SM0805AC-ND"/>
+<attribute name="EAGLEUP" value="D0805" constant="no"/>
+<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="MOUSER" value="749-SM0805AC"/>
+<attribute name="NEWARK" value="20K3100"/>
+<attribute name="OCTOPART-LINK" value="http://octopart.com/sm0805ac-bivar-5838577"/>
+</technology>
+<technology name="BWC">
+<attribute name="ARROW" value="" constant="no"/>
+<attribute name="AVNET" value="" constant="no"/>
+<attribute name="AVRG-PRICE" value="0.65"/>
+<attribute name="DATASHEET" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="LED estándar - SMD (montaje superficial) Super Blue 430 nm Water Clear "/>
+<attribute name="DIGIKEY" value="SM0805BWC-ND"/>
+<attribute name="EAGLEUP" value="D0805" constant="no"/>
+<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="MOUSER" value="749-SM0805BWC "/>
+<attribute name="NEWARK" value="" constant="no"/>
+<attribute name="OCTOPART-LINK" value="http://octopart.com/sm0805bwc-bivar-22358821"/>
+</technology>
+<technology name="HC">
+<attribute name="ARROW" value="" constant="no"/>
+<attribute name="AVNET" value="" constant="no"/>
+<attribute name="AVRG-PRICE" value="0.4"/>
+<attribute name="DATASHEET" value="http://www.bivar.com/images/cart/SM0805HC.pdf"/>
+<attribute name="DESCRIPTION" value="LED estándar - SMD (montaje superficial) HE Red 660 nm Water Clear "/>
+<attribute name="DIGIKEY" value="SM0805HC-ND"/>
+<attribute name="EAGLEUP" value="D0805" constant="no"/>
+<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="MOUSER" value="749-SM0805HC "/>
+<attribute name="NEWARK" value="" constant="no"/>
+<attribute name="OCTOPART-LINK" value="http://octopart.com/sm0805hc-bivar-2191580"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SM1204*" prefix="D" uservalue="yes">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#002D62&gt;
+&lt;font color=#ffffff&gt;
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Surface Mount LED 1204&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#6999D1&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;font color=#666666&gt;
+&lt;b&gt;Description&lt;/b&gt;
+&lt;p&gt;
+Bivar Surface Mount 1204 package LED may be used in nearly any lighting or indication application.    
+The right angle package is ideal for small scale applications such as edge lighting or general indication.  Low power consumption and excellent long life reliability are ideal for battery powered equipment.  
+Wide variety of wavelength and intensity combinations are available to meet any illumination need.  
+Bivar offers water clear LED lens for maximum luminous intensity.  The SM1204 LED is packaged in 
+standard tape and reels for pick and place assemblies.   
+&lt;p&gt;
+♦  Industry Standard 1204 Package&lt;br&gt;                              
+♦  RoHS Compliant &lt;br&gt;
+♦  Small Package and Footprint  &lt;br&gt;
+♦  Water Clear Lens &lt;br&gt;
+♦  Wide Viewing Angle &lt;br&gt;
+♦  Ideal for Status Indication, Display, and Backlighting
+&lt;p&gt;
+&lt;b&gt;How to Order&lt;/b&gt;
+&lt;table cellpadding="3" cellspacing="0" border="1"&gt;
+&lt;tr&gt;
+&lt;th&gt;Type&lt;/th&gt;&lt;th&gt;Package&lt;/th&gt;&lt;th&gt;Color&lt;/th&gt;&lt;th&gt;Clear type&lt;/th&gt;&lt;th&gt;Current level&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;SM = Surface mount&lt;/td&gt;
+&lt;td&gt;1204&lt;/td&gt;
+&lt;td&gt;
+BW = Blue&lt;br&gt;
+PG = Pure Green&lt;br&gt;
+SB = Super Blue&lt;br&gt;
+SG = Super Green&lt;br&gt;
+SPG = Super Pure Green&lt;br&gt;
+SR = Super Red&lt;br&gt;
+UA = Ultra Amber&lt;br&gt;
+UBW = Ultra Blue&lt;br&gt;
+UG = Ultra Green&lt;br&gt;
+UO = Ultra Orange&lt;br&gt;
+UPG = Ultra Pure Green&lt;br&gt;
+UR = Ultra Red&lt;br&gt;
+UW = Ultra White&lt;br&gt;
+UY = Ultra Yellow
+&lt;/td&gt;
+&lt;td&gt;
+C = Water Clear
+&lt;/td&gt;
+&lt;td&gt;
+None = standart&lt;br&gt;
+L = Low Current
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#6999D1&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;Ref: &lt;/b&gt;&lt;a href="http://www.bivar.com/Products/LEDIndication/LEDs/SurfaceMountLEDs.aspx"&gt;Link&lt;/a&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#002D62&gt;
+&lt;font color=#ffffff&gt;
+Add more variants to SM1204@, just remplace the "@" with a new technologie named according to order code parameters.&lt;br&gt; 
+It is mandatory to fill up the following attributes &lt;b&gt;DESCRIPTION, MOUSER, AVNET, ARROW, FUTURE, NEWARK, DIGIKEY, AVRG-PRICE, OCTOPART-LINK, DATASHEET&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;</description>
+<gates>
+<gate name="G$1" symbol="LED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="D1204">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="C" pad="2"/>
+</connects>
+<technologies>
+<technology name="@">
+<attribute name="EAGLEUP" value="BIVAR_D1204" constant="no"/>
+</technology>
+<technology name="BWC">
+<attribute name="ARROW" value="" constant="no"/>
+<attribute name="AVNET" value="" constant="no"/>
+<attribute name="AVRG-PRICE" value="1.53" constant="no"/>
+<attribute name="DATASHEET" value="http://www.bivar.com/Images/Cart/SM1204BWC.pdf"/>
+<attribute name="DESCRIPTION" value="LED, SMD, 1204, Blue, Water Clear Lens, 110 Deg Viewing Angle"/>
+<attribute name="DIGIKEY" value="492-1231-2-ND"/>
+<attribute name="EAGLEUP" value="BIVAR_D1204" constant="no"/>
+<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="MOUSER" value="749-SM1204BWC"/>
+<attribute name="NEWARK" value="73R3993"/>
+<attribute name="OCTOPART-LINK" value="http://octopart.com/sm1204bwc-bivar-13127514"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SM1204B*" prefix="D" uservalue="yes">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#002D62&gt;
+&lt;font color=#ffffff&gt;
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Surface Mount LED Bi-Color 1204&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#6999D1&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;font color=#666666&gt;
+&lt;b&gt;Description&lt;/b&gt;
+&lt;p&gt;
+Bivar Surface Mount 1204 Bi-Color LED combines two chips in a single package.  The right angle 
+package is ideal for small scale applications where multiple signals need to be displayed. The third 
+color can be created by powering up both chips together. Low power consumption and excellent long 
+life reliability are ideal for battery powered equipment.  Bivar offers water clear LED lens for maximum 
+luminous intensity. Wide variety of wavelength and intensity combinations are available to meet any 
+illumination need. The SM1204 LED is packaged in standard tape and reels for pick and place assemblies.
+&lt;p&gt;
+♦  Industry Standard 1204 Package&lt;br&gt;                              
+♦  RoHS Compliant &lt;br&gt;
+♦  Two Chips in One Package&lt;br&gt; 
+♦  Right Angle Mounting&lt;br&gt; 
+♦  Water Clear Lens &lt;br&gt;
+♦  Wide Viewing Angle &lt;br&gt;
+♦  Ideal for Status Indication and Display 
+&lt;p&gt;
+&lt;b&gt;How to Order&lt;/b&gt;
+&lt;table cellpadding="3" cellspacing="0" border="1"&gt;
+&lt;tr&gt;
+&lt;th&gt;Type&lt;/th&gt;&lt;th&gt;Package&lt;/th&gt;&lt;th&gt;Clear Type&lt;/th&gt;&lt;th&gt;Color&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;SM = Surface mount&lt;/td&gt;
+&lt;td&gt;1204B&lt;/td&gt;
+&lt;td&gt;
+C = Water Clear
+&lt;/td&gt;
+&lt;td&gt;
+None = Red/Green&lt;br&gt;
+A/G = Amber/Green&lt;br&gt;
+R/B = Red/Blue&lt;br&gt;
+R/G = Red/Green
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#6999D1&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;Ref: &lt;/b&gt;&lt;a href="http://www.bivar.com/Products/LEDIndication/LEDs/SurfaceMountLEDs.aspx"&gt;Link&lt;/a&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#002D62&gt;
+&lt;font color=#ffffff&gt;
+Add more variants to SM1204B@, just remplace the "@" with a new technologie named according to order code parameters.&lt;br&gt; 
+It is mandatory to fill up the following attributes &lt;b&gt;DESCRIPTION, MOUSER, AVNET, ARROW, FUTURE, NEWARK, DIGIKEY, AVRG-PRICE, OCTOPART-LINK, DATASHEET&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;</description>
+<gates>
+<gate name="G$1" symbol="BI-LED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="D1204">
+<connects>
+<connect gate="G$1" pin="A" pad="3"/>
+<connect gate="G$1" pin="C1" pad="1"/>
+<connect gate="G$1" pin="C2" pad="2"/>
+</connects>
+<technologies>
+<technology name="@">
+<attribute name="ARROW" value="" constant="no"/>
+<attribute name="AVNET" value="" constant="no"/>
+<attribute name="AVRG-PRICE" value="" constant="no"/>
+<attribute name="DATASHEET" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="EAGLEUP" value="BIVAR_D1204" constant="no"/>
+<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="MOUSER" value="" constant="no"/>
+<attribute name="NEWARK" value="" constant="no"/>
+<attribute name="OCTOPART-LINK" value="" constant="no"/>
+</technology>
+<technology name="C-A/G">
+<attribute name="ARROW" value="" constant="no"/>
+<attribute name="AVNET" value="" constant="no"/>
+<attribute name="AVRG-PRICE" value="0.46"/>
+<attribute name="DATASHEET" value="http://www.bivar.com/Images/Cart/SM1204BC-AG.pdf"/>
+<attribute name="DESCRIPTION" value="LED, SMD, 1204, Bi-Color, Amber/Green, Water Clear Lens, 130 Deg Viewing Angle"/>
+<attribute name="DIGIKEY" value="492-1229-2-ND"/>
+<attribute name="EAGLEUP" value="BIVAR_D1204" constant="no"/>
+<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="MOUSER" value="749-SM1204BC-A/G"/>
+<attribute name="NEWARK" value="73R3991"/>
+<attribute name="OCTOPART-LINK" value="http://octopart.com/sm1204bc-a%2Fg-bivar-13127511"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SM1206*" prefix="D" uservalue="yes">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#002D62&gt;
+&lt;font color=#ffffff&gt;
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Surface Mount LED 1206&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#6999D1&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;font color=#666666&gt;
+&lt;b&gt;Description&lt;/b&gt;
+&lt;p&gt;
+Bivar Surface Mount 1206 package LED may be used in nearly any lighting or indication application.  
+The miniature package is ideal for small scale applications such as general indication and backlighting.  
+Low power consumption and excellent long life reliability are suitable for battery powered equipment.  
+Bivar offers water clear LED lens for maximum luminous intensity.  Wide variety of wavelength and intensity combinations are available to meet any illumination need.  The SM1206 LED is packaged in 
+standard tape and reels for pick and place assemblies.   
+&lt;p&gt;
+♦  Industry Standard 1206 Package                             &lt;br&gt; 
+♦  RoHS Compliant &lt;br&gt;
+♦  Small  Package and Footprint &lt;br&gt;
+♦  Water Clear Lens &lt;br&gt;
+♦  Wide Viewing Angle &lt;br&gt;
+♦  Ideal for Status Indication, Display, and Backlighting
+&lt;p&gt;
+&lt;b&gt;How to Order&lt;/b&gt;
+&lt;table cellpadding="3" cellspacing="0" border="1"&gt;
+&lt;tr&gt;
+&lt;th&gt;Type&lt;/th&gt;&lt;th&gt;Package&lt;/th&gt;&lt;th&gt;Color&lt;/th&gt;&lt;th&gt;Clear type&lt;/th&gt;&lt;th&gt;Lens&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;SM = Surface mount&lt;/td&gt;
+&lt;td&gt;1206&lt;/td&gt;
+&lt;td&gt;
+A = Amber&lt;br&gt;
+BW = Blue&lt;br&gt;
+G = Green&lt;br&gt;
+H = HE Red&lt;br&gt;
+O = Orange&lt;br&gt;
+PG = Pure Green&lt;br&gt;
+R = Red&lt;br&gt;
+SBW = Super Blue&lt;br&gt;
+SG = Super Green&lt;br&gt;
+SPG = Super Pure Green&lt;br&gt;
+SR = Super Red&lt;br&gt;
+UA = Ultra Amber&lt;br&gt;
+UBW = Ultra Blue&lt;br&gt;
+UG = Ultra Green&lt;br&gt;
+UH = Ultra HE Red&lt;br&gt;
+UO = Ultra Orange&lt;br&gt;
+UPG = Ultra Pure Green&lt;br&gt;
+UR = Ultra Red&lt;br&gt;
+UW = Ultra White&lt;br&gt;
+UY = Ultra Yellow&lt;br&gt;
+XPG = Xtra Pure Green&lt;br&gt;
+Y = Yellow
+&lt;/td&gt;
+&lt;td&gt;
+C = Water Clear&lt;br&gt;
+
+&lt;/td&gt;
+&lt;td&gt;
+None: ""&lt;br&gt;
+-IL = Inner Lens
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#6999D1&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;Ref: &lt;/b&gt;&lt;a href="http://www.bivar.com/Products/LEDIndication/LEDs/SurfaceMountLEDs.aspx"&gt;Link&lt;/a&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#002D62&gt;
+&lt;font color=#ffffff&gt;
+Add more variants to SM1206@, just remplace the "@" with a new technologie named according to order code parameters.&lt;br&gt; 
+It is mandatory to fill up the following attributes &lt;b&gt;DESCRIPTION, MOUSER, AVNET, ARROW, FUTURE, NEWARK, DIGIKEY, AVRG-PRICE, OCTOPART-LINK, DATASHEET&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;</description>
+<gates>
+<gate name="G$1" symbol="LED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="D1206">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="C" pad="2"/>
+</connects>
+<technologies>
+<technology name="@">
+<attribute name="ARROW" value="" constant="no"/>
+<attribute name="AVNET" value="" constant="no"/>
+<attribute name="AVRG-PRICE" value="" constant="no"/>
+<attribute name="DATASHEET" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="EAGLEUP" value="BIVAR_D1206" constant="no"/>
+<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="MOUSER" value="" constant="no"/>
+<attribute name="NEWARK" value="" constant="no"/>
+<attribute name="OCTOPART-LINK" value="" constant="no"/>
+</technology>
+<technology name="AC">
+<attribute name="ARROW" value="" constant="no"/>
+<attribute name="AVNET" value="" constant="no"/>
+<attribute name="AVRG-PRICE" value="0.29"/>
+<attribute name="DATASHEET" value="http://www.bivar.com/Images/Cart/SM1206AC.pdf"/>
+<attribute name="DESCRIPTION" value="LED, SMD, 1206, 2 Leads, Amber, Water Clear Lens, 140 Deg Viewing Angle"/>
+<attribute name="DIGIKEY" value="SM1206AC-ND"/>
+<attribute name="EAGLEUP" value="BIVAR_D1206" constant="no"/>
+<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="MOUSER" value="" constant="no"/>
+<attribute name="NEWARK" value="" constant="no"/>
+<attribute name="OCTOPART-LINK" value="http://octopart.com/sm1206ac-bivar-7872295"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SM1206UV*" prefix="D" uservalue="yes">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#002D62&gt;
+&lt;font color=#ffffff&gt;
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Surface Mount Inner LED 1206&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#6999D1&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;font color=#666666&gt;
+&lt;b&gt;Description&lt;/b&gt;
+&lt;p&gt;
+Bivar’s Surface Mount 1206 UV Inner Lens LED is offered in a standard 1206 foot print and is ideal for 
+any UV applications.  The water clear inner lens provides a narrow viewing angle and maximum radiation power output.  
+The miniature package provides long life and reliability making it ideal for industrial 
+curing, hazard detection, medical applications such as instrument sterilization, fluorescent counterfeit 
+watermark detection, and forensic applications.  Bivar SM1206 UV-IL LED is packaged in standard 
+tape and reels for pick and place assemblies.   
+&lt;p&gt;
+♦  Industry Standard 1206 Package &lt;br&gt;                             
+♦  RoHS Compliant &lt;br&gt;
+♦  UV Emitting LED &lt;br&gt;
+♦  Water Clear Lens &lt;br&gt;
+♦  Narrow Viewing Angle &lt;br&gt;
+♦  Ideal for Curing, Detection, and Medical Applications
+&lt;p&gt;
+&lt;b&gt;How to Order&lt;/b&gt;
+&lt;table cellpadding="3" cellspacing="0" border="1"&gt;
+&lt;tr&gt;
+&lt;th&gt;Type&lt;/th&gt;&lt;th&gt;Package&lt;/th&gt;&lt;th&gt;Wavelenght&lt;/th&gt;&lt;th&gt;Lens&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;SM = Surface mount&lt;/td&gt;
+&lt;td&gt;1206UV&lt;/td&gt;
+&lt;td&gt;
+390 = 390nm&lt;br&gt;
+395 = 395nm&lt;br&gt;
+400 = 400nm&lt;br&gt;
+405 = 405nm
+&lt;/td&gt;
+&lt;td&gt;
+Blank = Standart&lt;br&gt;
+IL = Inner Lens
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#6999D1&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;Ref: &lt;/b&gt;&lt;a href="http://www.bivar.com/Products/LEDIndication/LEDs/SurfaceMountLEDs.aspx"&gt;Link&lt;/a&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#002D62&gt;
+&lt;font color=#ffffff&gt;
+Add more variants to SM1206UV@, just remplace the "@" with a new technologie named according to order code parameters.&lt;br&gt; 
+It is mandatory to fill up the following attributes &lt;b&gt;DESCRIPTION, MOUSER, AVNET, ARROW, FUTURE, NEWARK, DIGIKEY, AVRG-PRICE, OCTOPART-LINK, DATASHEET&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;</description>
+<gates>
+<gate name="G$1" symbol="LED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="D1206-IL">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="C" pad="2"/>
+</connects>
+<technologies>
+<technology name="-390">
+<attribute name="ARROW" value="" constant="no"/>
+<attribute name="AVNET" value="" constant="no"/>
+<attribute name="AVRG-PRICE" value="0.49"/>
+<attribute name="DATASHEET" value="http://www.bivar.com/Images/Cart/SM1206UV-390.pdf"/>
+<attribute name="DESCRIPTION" value="LED, SMD, 1206, 2 Leads, Blue UV, 390nm, Water Clear Lens, 140 Deg Viewing Angle"/>
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="EAGLEUP" value="BIVAR_D1206" constant="no"/>
+<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="MOUSER" value="" constant="no"/>
+<attribute name="NEWARK" value="" constant="no"/>
+<attribute name="OCTOPART-LINK" value=""/>
+</technology>
+<technology name="@">
+<attribute name="EAGLEUP" value="BIVAR_D1206" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SM1210B*" prefix="D" uservalue="yes">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#002D62&gt;
+&lt;font color=#ffffff&gt;
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Surface Mount Bi-Color LED 1210&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#6999D1&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;font color=#666666&gt;
+&lt;b&gt;Description&lt;/b&gt;
+&lt;p&gt;
+Bivar Surface Mount 1210 package Bi-Color LED combines two chips in a single package.  They are 
+ideal for small scale applications where multiple signals need to be displayed. When needed, the  third 
+color can be created by powering up both chips together.  Bivar offers water clear LED lens for high 
+luminous intensity and wide viewing angles.  Wide variety of color and intensity combinations are available to meet any illumination need.   The SM1210 LED is packaged in standard tape and reels for pick 
+and place assemblies.    
+&lt;p&gt;
+♦  Industry Standard Package &lt;br&gt;                            
+♦  RoHS Compliant &lt;br&gt;
+♦  Two Chips in One Package &lt;br&gt;
+♦  Water Clear Lens &lt;br&gt;
+♦  Wide Viewing Angle &lt;br&gt;
+♦  Ideal for Status Indication and Lighting
+&lt;p&gt;
+&lt;b&gt;How to Order&lt;/b&gt;
+&lt;table cellpadding="3" cellspacing="0" border="1"&gt;
+&lt;tr&gt;
+&lt;th&gt;Type&lt;/th&gt;&lt;th&gt;Package&lt;/th&gt;&lt;th&gt;Clear type&lt;/th&gt;&lt;th&gt;Color&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;SM = Surface mount&lt;/td&gt;
+&lt;td&gt;1206B&lt;/td&gt;
+&lt;td&gt;
+C = Water Clear&lt;br&gt;
+&lt;/td&gt;
+&lt;td&gt;
+None = Red/Green&lt;br&gt;
+A/G = Amber/Green&lt;br&gt;
+SR/HG = Super Red/Hi-Green&lt;br&gt;
+UO/UG = Ultra Orange/Ultra Green&lt;br&gt;
+UR/UB = Ultra Red/Ultra Blue&lt;br&gt;
+UR/UG = Ultra Red/Ultra Green&lt;br&gt;
+UY/UG = Ultra Yellow/Ultra Green&lt;br&gt;
+Y/G = Yellow/Green
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#6999D1&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;Ref: &lt;/b&gt;&lt;a href="http://www.bivar.com/Products/LEDIndication/LEDs/SurfaceMountLEDs.aspx"&gt;Link&lt;/a&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#002D62&gt;
+&lt;font color=#ffffff&gt;
+Add more variants to SM1206UV@, just remplace the "@" with a new technologie named according to order code parameters.&lt;br&gt; 
+It is mandatory to fill up the following attributes &lt;b&gt;DESCRIPTION, MOUSER, AVNET, ARROW, FUTURE, NEWARK, DIGIKEY, AVRG-PRICE, OCTOPART-LINK, DATASHEET&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;</description>
+<gates>
+<gate name="G$1" symbol="DUAL-LED" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="D1210">
+<connects>
+<connect gate="G$1" pin="A" pad="3"/>
+<connect gate="G$1" pin="A1" pad="4"/>
+<connect gate="G$1" pin="C" pad="1"/>
+<connect gate="G$1" pin="C1" pad="2"/>
+</connects>
+<technologies>
+<technology name="@">
+<attribute name="ARROW" value="" constant="no"/>
+<attribute name="AVNET" value="" constant="no"/>
+<attribute name="AVRG-PRICE" value="" constant="no"/>
+<attribute name="DATASHEET" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="EAGLEUP" value="BIVAR_D1210" constant="no"/>
+<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="MOUSER" value="" constant="no"/>
+<attribute name="NEWARK" value="" constant="no"/>
+<attribute name="OCTOPART-LINK" value="" constant="no"/>
+</technology>
+<technology name="C-A/G">
+<attribute name="AVRG-PRICE" value="0.41"/>
+<attribute name="DATASHEET" value="http://www.bivar.com/Images/Cart/SM1210BC-AG.pdf"/>
+<attribute name="DESCRIPTION" value="LED, SMD, 1210, 4 Leads, Bi-Color, Amber/Green, Water Clear Lens, 130 Deg Viewing Angle"/>
+<attribute name="DIGIKEY" value="SM1210BC-A/G-ND"/>
+<attribute name="EAGLEUP" value="BIVAR_D1210" constant="no"/>
+<attribute name="OCTOPART-LINK" value="http://octopart.com/sm1210bc-a%2Fg-bivar-20170312"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SM1210RGB" prefix="D" uservalue="yes">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#002D62&gt;
+&lt;font color=#ffffff&gt;
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Surface Mount RGB LED 1210&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#6999D1&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;font color=#666666&gt;
+&lt;b&gt;Description&lt;/b&gt;
+&lt;p&gt;
+Bivar Surface Mount 1210 package RGB LED combines three chips in a single package.  They are 
+ideal for small scale applications where multiple signals need to be displayed. Wide variety of colors 
+can be created by simply mixing the three chips in different combinations.  Bivar offers water clear LED 
+lens for high luminous intensity and wide viewing angles making them suitable for lighting and display 
+applications. The SM1210 RGB LED is packaged in standard tape and reels for pick and place assemblies.  
+&lt;p&gt;
+♦  Industry Standard Package                  &lt;br&gt;            
+♦  RoHS Compliant &lt;br&gt;
+♦  Three Chips in One Package &lt;br&gt;
+♦  Water Clear Lens &lt;br&gt;
+♦  Wide Viewing Angle &lt;br&gt;
+♦  Ideal for Status Indication and Lighting
+&lt;p&gt;
+&lt;b&gt;How to Order&lt;/b&gt;
+
+
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#6999D1&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;Ref: &lt;/b&gt;&lt;a href="http://www.bivar.com/Products/LEDIndication/LEDs/SurfaceMountLEDs.aspx"&gt;Link&lt;/a&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#002D62&gt;
+&lt;font color=#ffffff&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;</description>
+<gates>
+<gate name="G$1" symbol="TRI-LED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="D1210">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="C1" pad="3"/>
+<connect gate="G$1" pin="C2" pad="4"/>
+<connect gate="G$1" pin="C3" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="ARROW" value="" constant="no"/>
+<attribute name="AVNET" value="" constant="no"/>
+<attribute name="AVRG-PRICE" value="2.46"/>
+<attribute name="DATASHEET" value="http://www.bivar.com/Images/Cart/SM1210RGB.pdf"/>
+<attribute name="DESCRIPTION" value="LED, SMD, 1210, 4 Leads, Tri-Color, Super Red/HE Green/Super Blue, Water Clear Lens, 130 Deg Viewing Angle"/>
+<attribute name="DIGIKEY" value="492-1243-2-ND"/>
+<attribute name="EAGLEUP" value="BIVAR_D1210" constant="no"/>
+<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="MOUSER" value="749-SM1210RGB"/>
+<attribute name="NEWARK" value="92C8134"/>
+<attribute name="OCTOPART-LINK" value="http://octopart.com/sm1210rgb-bivar-2191590"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

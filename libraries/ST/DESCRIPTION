@@ -1,0 +1,41 @@
+<language en>
+<table border="0" cellpadding="5" cellspacing="0">
+<tr>
+<td bgcolor=#2a7fff>
+<font color=#ffffff><br>
+<b>ST MICROELECTRONICS</b><br>
+</td>
+</tr>
+
+<tr>
+<td bgcolor=#aaccff>
+<font color=#ffffff>
+<b>Ref:</b> <a href="www.st.com">Website</a>
+</td>
+</tr>
+
+<tr>
+<td>
+<font color=#666666>
+<img src=st.jpg>
+<p>
+STMicroelectronics is one of the world’s largest semiconductor companies with net revenues of US$ 9.73 billion in 2011. Offering one of the industry’s broadest product portfolios, ST serves customers across the spectrum of electronics applications with innovative semiconductor solutions by leveraging its vast array of technologies, design expertise and combination of intellectual property portfolio, strategic partnerships and manufacturing strength.
+<p>
+Product Segments and Served Markets
+ST focuses its product strategy on sense and power technologies, automotive products, and embedded-processing solutions. The Sense and Power segment encompasses MEMS and sensors, power discrete, and advanced analog products. The Automotive portfolio covers all key application areas from powertrain and safety to car body and infotainment. The Embedded Processing Solutions include microcontrollers, digital consumer and imaging products, application processors and digital ASICs.
+<p>
+ST products are found everywhere microelectronics make a positive and innovative contribution to people's lives. The Company’s world-class products and technologies serve to:
+deliver compelling multimedia experiences to consumers anytime, anywhere – in the home, in the car, and on the go;
+increase energy efficiency all along the energy chain, from power generation to distribution and consumption;
+provide all aspects of data security and protection;
+and contribute to helping people live longer and better by enabling emerging healthcare and wellness applications.
+<p>
+<b>Libraries</b>
+<ul>
+<li>LDOs
+<li>Power switches
+</ul>
+</td>
+</tr>
+</table>
+</language en>

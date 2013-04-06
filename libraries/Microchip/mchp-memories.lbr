@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>&lt;table border="0" cellpadding="5" cellspacing="0"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#F0A3A2&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;serial and parallel memories&lt;/b&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;font color=#666666&gt;
+Serial EEPROM&lt;br&gt;
+Microchip offers the broadest range of Serial EEPROM devices (from 128 bits to 1 Mbit) over the widest operating voltage range (1.7 to 5.5V). Microchip Serial EEPROMs are compatible with the I²C®, SPI, Microwire, as well as the new single-I/O UNI/O® bus. Microchip offers a wide selection of innovative packages including small SOT-23 and SC-70 packages – as well as die options. Innovative low-power designs along with Microchip’s “Triple Test Flow” ensure high performance and quality at low costs
+&lt;p&gt;
+Serial SRAM&lt;br&gt;
+Need more RAM? SPI-compatible Serial SRAM devices from Microchip are available in 64 and 256 Kbit options. These devices provide high-speed performance at low power making them ideal for embedded applications needing more RAM. The devices use fewer pins with fewer interface connections and smaller packages thus ensuring smaller designs and lower system costs.
+&lt;p&gt;
+Serial Flash&lt;br&gt;
+With SST Serial Flash, less is definitely more. Lower pin count means less space, smaller PCBs, reduced system costs and lower power consumption. The industry’s fastest erase times mean cost savings during manufacturing. The 25 Series SPI family is among the industry's lowest power 3.0V and 1.8V products. The award-winning 26 Series SQI® family provides all the small size and low power advantages of Serial Flash with performance rivaling that of Parallel Flash. See the SST Product Selection Guide for the full range of SST Serial Flash Products.
+&lt;p&gt;
+Parallel Flash&lt;br&gt;
+Based on SuperFlash® technology, SST's Parallel Flash collection features products with high performance, superior reliability, and low power consumption. The industry’s fastest erase times mean cost savings during manufacturing. The 38 and 39 Series MPF™ (Multi-Purpose Flash) products, including MPF+ and Advanced MPF+, provide fast read and program times with features such as Erase-Suspend/Erase-Resume, Boot Block, Security ID, Hardware Reset and heightened protection features. See the SST 
+&lt;p&gt;
+Ref: &lt;a href="http://www.microchip.com/stellent/idcplg?IdcService=SS_GET_PAGE&amp;nodeId=80&amp;redirects=memoryl"&gt;Link&lt;/a&gt;
+&lt;p&gt;
+&lt;b&gt;Components&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;/ul&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+&lt;/table&gt;</description>
+<packages>
+<package name="SOIC127P600X175-8N">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0" width="600"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#ED2724 colspan="2"&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;Small Outline Package (SOIC8)&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;img src="../../models/ic/SOIC/png/SOIC127P600X175-8N.png" width="240"&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;font color=#666666&gt;
+1.27mm  Pitch&lt;br&gt;
+0.5mm Pin Width&lt;br&gt;
+8 Pin count&lt;br&gt;
+3.9mm L x 4.9mm W x 1.75mm H&lt;br&gt;
+----------------------------------------------------
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;</description>
+<smd name="2" x="-2.7" y="0.63" dx="0.6" dy="1.6" layer="1" rot="R90"/>
+<smd name="3" x="-2.7" y="-0.64" dx="0.6" dy="1.6" layer="1" rot="R90"/>
+<smd name="6" x="2.7" y="-0.64" dx="0.6" dy="1.6" layer="1" rot="R90"/>
+<smd name="7" x="2.7" y="0.64" dx="0.6" dy="1.6" layer="1" rot="R90"/>
+<smd name="1" x="-2.7" y="1.9" dx="0.6" dy="1.6" layer="1" rot="R90"/>
+<smd name="8" x="2.7" y="1.9" dx="0.6" dy="1.6" layer="1" rot="R90"/>
+<smd name="5" x="2.7" y="-1.9" dx="0.6" dy="1.6" layer="1" rot="R90"/>
+<smd name="4" x="-2.7" y="-1.9" dx="0.6" dy="1.6" layer="1" rot="R90"/>
+<wire x1="-1.6" y1="2.5" x2="1.6" y2="2.5" width="0.1524" layer="21"/>
+<wire x1="1.6" y1="2.5" x2="1.6" y2="-2.5" width="0.1524" layer="21"/>
+<wire x1="1.6" y1="-2.5" x2="-1.6" y2="-2.5" width="0.1524" layer="21"/>
+<wire x1="-1.6" y1="-2.5" x2="-1.6" y2="2.5" width="0.1524" layer="21"/>
+<circle x="-3.3" y="2.6" radius="0.22360625" width="0" layer="21"/>
+<wire x1="-1.9" y1="2.5" x2="-1.4" y2="2.5" width="0.1" layer="51"/>
+<wire x1="-1.4" y1="2.5" x2="1.9" y2="2.5" width="0.1" layer="51"/>
+<wire x1="1.9" y1="2.5" x2="1.9" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="1.9" y1="-2.5" x2="-1.4" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="-1.4" y1="-2.5" x2="-1.9" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="-1.9" y1="-2.5" x2="-1.9" y2="2.5" width="0.1" layer="51"/>
+<text x="-1.94" y="2.688" size="1.016" layer="25" ratio="12">&gt;Name</text>
+<text x="-1.915" y="-3.661" size="1.016" layer="27" ratio="12">&gt;Value</text>
+<wire x1="-1.4" y1="2.5" x2="-1.4" y2="-2.5" width="0.1" layer="51"/>
+<rectangle x1="-3" y1="1.7" x2="-1.9" y2="2.1" layer="51"/>
+<rectangle x1="1.9" y1="1.7" x2="3" y2="2.1" layer="51"/>
+<rectangle x1="1.9" y1="-2.1" x2="3" y2="-1.7" layer="51"/>
+<rectangle x1="-3" y1="-2.1" x2="-1.9" y2="-1.7" layer="51"/>
+<rectangle x1="-3" y1="0.43" x2="-1.9" y2="0.83" layer="51"/>
+<rectangle x1="-3" y1="-0.84" x2="-1.9" y2="-0.44" layer="51"/>
+<rectangle x1="1.953" y1="-0.84" x2="3.053" y2="-0.44" layer="51"/>
+<rectangle x1="1.953" y1="0.43" x2="3.053" y2="0.83" layer="51"/>
+</package>
+<package name="SOP65P490X109-8M">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0" width="600"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#ED2724 colspan="2"&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;Small Outline Package (SOP8)&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;img src="../../models/ic/SOP/png/SOP65P490X109-8M.png" width="240"&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;font color=#666666&gt;
+0.65mm  Pitch&lt;br&gt;
+8 Pin count&lt;br&gt;
+3.0mm L x 3.0mm W x 1.1mm H&lt;br&gt;
+----------------------------------------------------
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;</description>
+<smd name="2" x="-2.3" y="0.325" dx="0.45" dy="1.65" layer="1" rot="R90"/>
+<smd name="3" x="-2.3" y="-0.325" dx="0.45" dy="1.65" layer="1" rot="R90"/>
+<smd name="1" x="-2.3" y="0.975" dx="0.45" dy="1.65" layer="1" rot="R90"/>
+<smd name="4" x="-2.3" y="-0.975" dx="0.45" dy="1.65" layer="1" rot="R90"/>
+<smd name="5" x="2.3" y="-0.975" dx="0.45" dy="1.65" layer="1" rot="R90"/>
+<smd name="6" x="2.3" y="-0.325" dx="0.45" dy="1.65" layer="1" rot="R90"/>
+<smd name="7" x="2.3" y="0.325" dx="0.45" dy="1.65" layer="1" rot="R90"/>
+<smd name="8" x="2.3" y="0.975" dx="0.45" dy="1.65" layer="1" rot="R90"/>
+<wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.1" layer="51"/>
+<wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.1" layer="51"/>
+<wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.1" layer="51"/>
+<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.1" layer="51"/>
+<wire x1="-1.3" y1="1.5" x2="1.3" y2="1.5" width="0.1524" layer="21"/>
+<wire x1="1.3" y1="1.5" x2="1.3" y2="-1.5" width="0.1524" layer="21"/>
+<wire x1="1.3" y1="-1.5" x2="-1.3" y2="-1.5" width="0.1524" layer="21"/>
+<wire x1="-1.3" y1="-1.5" x2="-1.3" y2="1.5" width="0.1524" layer="21"/>
+<circle x="-0.7" y="0.9" radius="0.282840625" width="0.1524" layer="21"/>
+<text x="-2.3" y="1.7" size="1.016" layer="25" ratio="12">&gt;Name</text>
+<text x="-2.7" y="-2.7" size="1.016" layer="27" ratio="12">&gt;Value</text>
+</package>
+<package name="SOP65P640X110-8N">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0" width="600"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#ED2724 colspan="2"&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;Small Outline Package (SOP8)&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;img src="../../models/ic/SOP/png/SOP65P640X110-8N.png" width="240"&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;font color=#666666&gt;
+0.65mm  Pitch&lt;br&gt;
+8 Pin count&lt;br&gt;
+4.4mm L x 3.0mm W x 1.2mm H&lt;br&gt;
+----------------------------------------------------
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;</description>
+<smd name="2" x="-2.95" y="0.325" dx="1.5" dy="0.45" layer="1"/>
+<smd name="3" x="-2.95" y="-0.325" dx="1.5" dy="0.45" layer="1"/>
+<smd name="1" x="-2.95" y="0.975" dx="1.5" dy="0.45" layer="1"/>
+<smd name="4" x="-2.95" y="-0.975" dx="1.5" dy="0.45" layer="1"/>
+<smd name="6" x="2.95" y="-0.325" dx="1.5" dy="0.45" layer="1"/>
+<smd name="5" x="2.95" y="-0.975" dx="1.5" dy="0.45" layer="1"/>
+<smd name="7" x="2.95" y="0.325" dx="1.5" dy="0.45" layer="1"/>
+<smd name="8" x="2.95" y="0.975" dx="1.5" dy="0.45" layer="1"/>
+<wire x1="2.2" y1="1.5" x2="2.2" y2="-1.5" width="0.1" layer="51"/>
+<wire x1="2.2" y1="-1.5" x2="-2.2" y2="-1.5" width="0.1" layer="51"/>
+<wire x1="-2.2" y1="-1.5" x2="-2.2" y2="1.5" width="0.1" layer="51"/>
+<wire x1="-2.2" y1="1.5" x2="2.2" y2="1.5" width="0.1" layer="51"/>
+<wire x1="2" y1="1.5" x2="2" y2="-1.5" width="0.1524" layer="21"/>
+<wire x1="2" y1="-1.5" x2="-2" y2="-1.5" width="0.1524" layer="21"/>
+<wire x1="-2" y1="-1.5" x2="-2" y2="1.5" width="0.1524" layer="21"/>
+<wire x1="-2" y1="1.5" x2="2" y2="1.5" width="0.1524" layer="21"/>
+<circle x="-1.3" y="0.8" radius="0.3" width="0.1524" layer="21"/>
+<text x="-2.3" y="1.7" size="1.016" layer="25" ratio="12">&gt;Name</text>
+<text x="-2.3" y="-2.7" size="1.016" layer="27" ratio="12">&gt;Value</text>
+</package>
+</packages>
+<symbols>
+<symbol name="EEPROM-8">
+<pin name="!CS" x="-12.7" y="2.54" length="short"/>
+<pin name="SO" x="-12.7" y="0" length="short"/>
+<pin name="!WP" x="-12.7" y="-2.54" length="short"/>
+<pin name="!HOLD" x="12.7" y="0" length="short" rot="R180"/>
+<pin name="SCK" x="12.7" y="-2.54" length="short" rot="R180"/>
+<pin name="SI" x="12.7" y="-5.08" length="short" rot="R180"/>
+<pin name="VCC" x="12.7" y="2.54" length="short" direction="pwr" rot="R180"/>
+<pin name="VSS" x="-12.7" y="-5.08" length="short" direction="pwr"/>
+<wire x1="-10.16" y1="5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="5.08" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
+<text x="-10.16" y="5.08" size="1.778" layer="95">&gt;Name</text>
+<text x="-10.16" y="-10.16" size="1.778" layer="96">&gt;Value</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="25*320A-I/?" prefix="IC" uservalue="yes">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#E3000B&gt;
+&lt;font color=#ffffff&gt;
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;32K SPI Bus Serial EEPROM&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#DE6C72&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;font color=#666666&gt;
+&lt;b&gt;Description&lt;/b&gt;
+&lt;p&gt;
+The Microchip Technology Inc. 25AA320A/25LC320A (25XX320A*) are 32 kbit Serial Electrically Erasable PROMs. The memory is accessed via a simple Serial Peripheral Interface (SPI) compatible serial bus. The bus signals required are a clock input (SCK) plus separate data in (SI) and data out (SO) lines. Access to the device is controlled through a Chip Select (CS) input. Communication to the device can be paused via the hold pin (HOLD). While the device is paused, transitions on its inputs will be ignored, with the exception of Chip Select, allowing the host to service higher priority interrupts. The 25XX320A is available in standard packages including 8-lead PDIP and SOIC, and advanced packaging including 8-lead MSOP, TSSOP and 2x3 TDFN.
+&lt;p&gt;
+FEATURES
+&lt;ul&gt;
+&lt;li&gt;Max. Clock 10 MHz
+&lt;li&gt;Low-Power CMOS Technology - Max. Write Current: 5 mA at 5.5V, 10 MHz - Read Current: 5 mA at 5.5V, 10 MHz- Standby Current: 5 µA at 5.5V
+&lt;li&gt;4096 x 8-bit Organization
+&lt;li&gt;32-Byte Page
+&lt;li&gt;Self-Timed Erase and Write Cycles (5 ms max.)
+&lt;li&gt;Block Write Protection- Protect none, 1/4, 1/2 or all of array
+&lt;li&gt;Built-in Write Protection- Power-on/off data protection circuitry- Write enable latch- Write-protect pin
+&lt;li&gt;Sequential Read
+&lt;li&gt;High Reliability- Endurance: &gt;1M erase/write cycles- Data retention: &gt; 200 years- ESD protection: &gt; 4000V
+&lt;/ul&gt;
+&lt;b&gt;How to order&lt;/b&gt;
+&lt;table border="1" cellpadding="3" cellspacing="0" &gt;
+&lt;tr&gt;
+&lt;th&gt;Family&lt;/th&gt;
+&lt;th&gt;Voltage&lt;/th&gt;
+&lt;th&gt;Density&lt;/th&gt;
+&lt;th&gt;Temp&lt;/th&gt;
+&lt;th&gt;Package&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+25 = eeprom   
+&lt;/td&gt;
+&lt;td&gt;
+AA =  1.8-5.5v&lt;br&gt;
+LC = 2.5-5.5v
+&lt;/td&gt;
+&lt;td&gt;
+230A = 32Kbits
+&lt;/td&gt;
+&lt;td&gt;
+Industrial (I): -40°C to +85°C&lt;br&gt;
+Automotive (E): -40°C to +125°C
+&lt;/td&gt;
+&lt;td&gt;
+P = PDIP&lt;br&gt; 
+SN = SOIC&lt;br&gt; 
+ST = TSSOP&lt;br&gt; 
+MS = MSOP&lt;br&gt; 
+MNY = TDFN
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#DE6C72&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;Ref: &lt;/b&gt;&lt;a href="http://ww1.microchip.com/downloads/en/DeviceDoc/21828F.pdf"&gt;Datasheet&lt;/a&gt; 
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#E3000B&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;</description>
+<gates>
+<gate name="G$1" symbol="EEPROM-8" x="0" y="0"/>
+</gates>
+<devices>
+<device name="SN" package="SOIC127P600X175-8N">
+<connects>
+<connect gate="G$1" pin="!CS" pad="1"/>
+<connect gate="G$1" pin="!HOLD" pad="7"/>
+<connect gate="G$1" pin="!WP" pad="3"/>
+<connect gate="G$1" pin="SCK" pad="6"/>
+<connect gate="G$1" pin="SI" pad="5"/>
+<connect gate="G$1" pin="SO" pad="2"/>
+<connect gate="G$1" pin="VCC" pad="8"/>
+<connect gate="G$1" pin="VSS" pad="4"/>
+</connects>
+<technologies>
+<technology name="@">
+<attribute name="ARROW" value="" constant="no"/>
+<attribute name="AVNET" value="" constant="no"/>
+<attribute name="AVRG-PRICE" value="" constant="no"/>
+<attribute name="DATASHEET" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="EAGLEUP" value="SOIC127P600X175-8N" constant="no"/>
+<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MOUSER" value="" constant="no"/>
+<attribute name="NEWARK" value="" constant="no"/>
+<attribute name="OCTOPART-LINK" value="" constant="no"/>
+</technology>
+<technology name="LC">
+<attribute name="ARROW" value="" constant="no"/>
+<attribute name="AVNET" value="" constant="no"/>
+<attribute name="AVRG-PRICE" value="0.75" constant="no"/>
+<attribute name="DATASHEET" value="http://ww1.microchip.com/downloads/en/DeviceDoc/21828F.pdf"/>
+<attribute name="DESCRIPTION" value="32K BIT SPI SEEPROM 2.5V"/>
+<attribute name="DIGIKEY" value="25LC320A-I/SN-ND"/>
+<attribute name="EAGLEUP" value="SOIC127P600X175-8N" constant="no"/>
+<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MOUSER" value="579-25LC320A-I/SN"/>
+<attribute name="NEWARK" value="31K5833"/>
+<attribute name="OCTOPART-LINK" value="http://octopart.com/25lc320a-i%2Fsn-microchip-843316"/>
+</technology>
+</technologies>
+</device>
+<device name="ST" package="SOP65P640X110-8N">
+<connects>
+<connect gate="G$1" pin="!CS" pad="1"/>
+<connect gate="G$1" pin="!HOLD" pad="7"/>
+<connect gate="G$1" pin="!WP" pad="3"/>
+<connect gate="G$1" pin="SCK" pad="6"/>
+<connect gate="G$1" pin="SI" pad="5"/>
+<connect gate="G$1" pin="SO" pad="2"/>
+<connect gate="G$1" pin="VCC" pad="8"/>
+<connect gate="G$1" pin="VSS" pad="4"/>
+</connects>
+<technologies>
+<technology name="@">
+<attribute name="ARROW" value="" constant="no"/>
+<attribute name="AVNET" value="" constant="no"/>
+<attribute name="AVRG-PRICE" value="" constant="no"/>
+<attribute name="DATASHEET" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="EAGLEUP" value="" constant="no"/>
+<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MOUSER" value="" constant="no"/>
+<attribute name="NEWARK" value="" constant="no"/>
+<attribute name="OCTOPART-LINK" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="MS" package="SOP65P490X109-8M">
+<connects>
+<connect gate="G$1" pin="!CS" pad="1"/>
+<connect gate="G$1" pin="!HOLD" pad="7"/>
+<connect gate="G$1" pin="!WP" pad="3"/>
+<connect gate="G$1" pin="SCK" pad="6"/>
+<connect gate="G$1" pin="SI" pad="5"/>
+<connect gate="G$1" pin="SO" pad="2"/>
+<connect gate="G$1" pin="VCC" pad="8"/>
+<connect gate="G$1" pin="VSS" pad="4"/>
+</connects>
+<technologies>
+<technology name="@">
+<attribute name="ARROW" value="" constant="no"/>
+<attribute name="AVNET" value="" constant="no"/>
+<attribute name="AVRG-PRICE" value="" constant="no"/>
+<attribute name="DATASHEET" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="EAGLEUP" value="" constant="no"/>
+<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MOUSER" value="" constant="no"/>
+<attribute name="NEWARK" value="" constant="no"/>
+<attribute name="OCTOPART-LINK" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
