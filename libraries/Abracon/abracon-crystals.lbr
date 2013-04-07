@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.2">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -547,29 +547,19 @@ It is mandatory to fill up the following attributes &lt;b&gt;MANUFACTURER, DESCR
 </connects>
 <technologies>
 <technology name="-13.500MHZ-T">
-<attribute name="ARROW" value="" constant="no"/>
-<attribute name="AVNET" value="ABLS-LR-13.500MHZ-T"/>
-<attribute name="AVRG-PRICE" value="1.98"/>
 <attribute name="DATASHEET" value="http://www.abracon.com/Resonators/ABLS-LR.pdf"/>
 <attribute name="DESCRIPTION" value="13.500MHz 0C +70C 50ppm 100ppm 10 Ohms ESR 18pF"/>
-<attribute name="DIGIKEY" value="535-10182-2-ND"/>
 <attribute name="EAGLEUP" value="HC49US1140X470X420-2N" constant="no"/>
-<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="M-PRICE" value="1.98"/>
 <attribute name="MOUSER" value="815-ABLS-LR-13.50M-T"/>
-<attribute name="NEWARK" value="" constant="no"/>
 <attribute name="OCTOPART-LINK" value="http://octopart.com/partsearch#search/requestData&amp;q=ABLS-LR-12.000MHZ-T"/>
 </technology>
 <technology name="@">
-<attribute name="ARROW" value="" constant="no"/>
-<attribute name="AVNET" value="" constant="no"/>
-<attribute name="AVRG-PRICE" value="" constant="no"/>
 <attribute name="DATASHEET" value="http://www.abracon.com/Resonators/ABLS-LR.pdf"/>
 <attribute name="DESCRIPTION" value="Ultra Low ESR low frequency crystal! • HC49US, Resistance welded • 3.0MHz to 36MHz "/>
-<attribute name="DIGIKEY" value="" constant="no"/>
 <attribute name="EAGLEUP" value="HC49US1140X470X420-2N" constant="no"/>
-<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="M-PRICE" value="" constant="no"/>
 <attribute name="MOUSER" value="" constant="no"/>
-<attribute name="NEWARK" value="" constant="no"/>
 <attribute name="OCTOPART-LINK" value="http://octopart.com/partsearch#search/requestData&amp;q=ABLS-LR"/>
 </technology>
 </technologies>
@@ -690,29 +680,19 @@ It is mandatory to fill up the following attributes &lt;b&gt;MANUFACTURER, DESCR
 </connects>
 <technologies>
 <technology name="-16.000MHZ-D-2-Y-T">
-<attribute name="ARROW" value="" constant="no"/>
-<attribute name="AVNET" value="" constant="no"/>
-<attribute name="AVRG-PRICE" value="0.63"/>
 <attribute name="DATASHEET" value="http://www.abracon.com/Resonators/ABLSG.pdf"/>
 <attribute name="DESCRIPTION" value="16MHz 18pF 20ppm 30ppm -40C to +85C"/>
-<attribute name="DIGIKEY" value="" constant="no"/>
 <attribute name="EAGLEUP" value="HC49US1140X470X420-3N" constant="no"/>
-<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="M-PRICE" value="0.63"/>
 <attribute name="MOUSER" value="815-ABLSG-16-D2YT"/>
-<attribute name="NEWARK" value="" constant="no"/>
 <attribute name="OCTOPART-LINK" value="http://octopart.com/ablsg-16.000mhz-d-2-y-t-abracon-18618701"/>
 </technology>
 <technology name="@">
-<attribute name="ARROW" value="" constant="no"/>
-<attribute name="AVNET" value="" constant="no"/>
-<attribute name="AVRG-PRICE" value="" constant="no"/>
 <attribute name="DATASHEET" value="http://www.abracon.com/Resonators/ABLSG.pdf"/>
 <attribute name="DESCRIPTION" value="" constant="no"/>
-<attribute name="DIGIKEY" value="" constant="no"/>
 <attribute name="EAGLEUP" value="HC49US1140X470X420-3N" constant="no"/>
-<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="M-PRICE" value="" constant="no"/>
 <attribute name="MOUSER" value="" constant="no"/>
-<attribute name="NEWARK" value="" constant="no"/>
 <attribute name="OCTOPART-LINK" value="" constant="no"/>
 </technology>
 </technologies>
@@ -840,29 +820,19 @@ It is mandatory to fill it up the following attributes &lt;b&gt;MANUFACTURER, DE
 </connects>
 <technologies>
 <technology name="-27.000MHZ-D4YF-T">
-<attribute name="ARROW" value="" constant="no"/>
-<attribute name="AVNET" value="" constant="no"/>
-<attribute name="AVRG-PRICE" value="0.56"/>
 <attribute name="DATASHEET" value="http://www.abracon.com/Resonators/ABLS3.pdf"/>
 <attribute name="DESCRIPTION" value="27MHz 30ppm -30ppm -40C to +85C 18pF"/>
-<attribute name="DIGIKEY" value="" constant="no"/>
 <attribute name="EAGLEUP" value="HC49US1140X470X250-2N" constant="no"/>
-<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="M-PRICE" value="0.56"/>
 <attribute name="MOUSER" value="815-ABLS3-27MD4YFT"/>
-<attribute name="NEWARK" value="" constant="no"/>
 <attribute name="OCTOPART-LINK" value="http://octopart.com/abls3-27.000mhz-d4yf-t-abracon-19955861"/>
 </technology>
 <technology name="@">
-<attribute name="ARROW" value="" constant="no"/>
-<attribute name="AVNET" value="" constant="no"/>
-<attribute name="AVRG-PRICE" value="" constant="no"/>
 <attribute name="DATASHEET" value="http://www.abracon.com/Resonators/ABLS3.pdf"/>
 <attribute name="DESCRIPTION" value="HC49US, Resistance welded • 3.579545MHz to 70MHz " constant="no"/>
-<attribute name="DIGIKEY" value="" constant="no"/>
 <attribute name="EAGLEUP" value="HC49US1140X470X250-2N" constant="no"/>
-<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="M-PRICE" value="" constant="no"/>
 <attribute name="MOUSER" value="" constant="no"/>
-<attribute name="NEWARK" value="" constant="no"/>
 <attribute name="OCTOPART-LINK" value="" constant="no"/>
 </technology>
 </technologies>
@@ -874,29 +844,19 @@ It is mandatory to fill it up the following attributes &lt;b&gt;MANUFACTURER, DE
 </connects>
 <technologies>
 <technology name="-14.7456MHZ-D4Y-T">
-<attribute name="ARROW" value="" constant="no"/>
-<attribute name="AVNET" value="" constant="no"/>
-<attribute name="AVRG-PRICE" value="0.53"/>
 <attribute name="DATASHEET" value="http://www.abracon.com/Resonators/ABLS2.pdf"/>
 <attribute name="DESCRIPTION" value="14.7456MHz 30ppm 30ppm -40C+85C 18pF"/>
-<attribute name="DIGIKEY" value="" constant="no"/>
 <attribute name="EAGLEUP" value="HC49US1140X470X330-2N" constant="no"/>
-<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="M-PRICE" value="0.53"/>
 <attribute name="MOUSER" value="815-ABLS2-14.7-D4Y-T"/>
-<attribute name="NEWARK" value="" constant="no"/>
 <attribute name="OCTOPART-LINK" value="http://octopart.com/abls2-14.7456mhz-d4y-t-abracon-9563557"/>
 </technology>
 <technology name="@">
-<attribute name="ARROW" value="" constant="no"/>
-<attribute name="AVNET" value="" constant="no"/>
-<attribute name="AVRG-PRICE" value="" constant="no"/>
 <attribute name="DATASHEET" value="http://www.abracon.com/Resonators/ABLS2.pdf"/>
 <attribute name="DESCRIPTION" value="HC49US, Resistance welded • 3.579545MHz to 70MHz"/>
-<attribute name="DIGIKEY" value="" constant="no"/>
 <attribute name="EAGLEUP" value="HC49US1140X470X330-2N" constant="no"/>
-<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="M-PRICE" value="" constant="no"/>
 <attribute name="MOUSER" value="" constant="no"/>
-<attribute name="NEWARK" value="" constant="no"/>
 <attribute name="OCTOPART-LINK" value="" constant="no"/>
 </technology>
 </technologies>
@@ -908,29 +868,19 @@ It is mandatory to fill it up the following attributes &lt;b&gt;MANUFACTURER, DE
 </connects>
 <technologies>
 <technology name="-20.000MHZ-B2-T">
-<attribute name="ARROW" value="" constant="no"/>
-<attribute name="AVNET" value="" constant="no"/>
-<attribute name="AVRG-PRICE" value="0.46"/>
 <attribute name="DATASHEET" value="http://www.abracon.com/Resonators/abls.pdf"/>
 <attribute name="DESCRIPTION" value="20.000MHz -20C +70C 20ppm 50ppm 15 Ohms ESR 18pF"/>
-<attribute name="DIGIKEY" value="" constant="no"/>
 <attribute name="EAGLEUP" value="HC49US1140X470X420-2N" constant="no"/>
-<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="M-PRICE" value="0.46"/>
 <attribute name="MOUSER" value="815-ABLS-20-B2"/>
-<attribute name="NEWARK" value="" constant="no"/>
 <attribute name="OCTOPART-LINK" value="http://octopart.com/abls-20.000mhz-b2-t-abracon-39958"/>
 </technology>
 <technology name="@">
-<attribute name="ARROW" value="" constant="no"/>
-<attribute name="AVNET" value="" constant="no"/>
-<attribute name="AVRG-PRICE" value="" constant="no"/>
 <attribute name="DATASHEET" value="http://www.abracon.com/Resonators/abls.pdf"/>
 <attribute name="DESCRIPTION" value="HC49US, Resistance welded • 3.579545MHz to 70MHz"/>
-<attribute name="DIGIKEY" value="" constant="no"/>
 <attribute name="EAGLEUP" value="HC49US1140X470X420-2N" constant="no"/>
-<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="M-PRICE" value="" constant="no"/>
 <attribute name="MOUSER" value="" constant="no"/>
-<attribute name="NEWARK" value="" constant="no"/>
 <attribute name="OCTOPART-LINK" value="" constant="no"/>
 </technology>
 </technologies>
@@ -1048,10 +998,10 @@ It is mandatory to fill up the following attributes &lt;b&gt;DESCRIPTION, MOUSER
 </connects>
 <technologies>
 <technology name="@">
-<attribute name="AVRG-PRICE" value="" constant="no"/>
 <attribute name="DATASHEET" value="http://www.abracon.com/Resonators/ABSM3A.pdf"/>
 <attribute name="DESCRIPTION" value="HC49US, Resistance welded • 3.5MHz to 60MHz "/>
 <attribute name="EAGLEUP" value="HC49US1300X470X380-4N" constant="no"/>
+<attribute name="M-PRICE" value="" constant="no"/>
 <attribute name="MOUSER" value="" constant="no"/>
 <attribute name="OCTOPART-LINK" value="" constant="no"/>
 </technology>
@@ -1064,10 +1014,10 @@ It is mandatory to fill up the following attributes &lt;b&gt;DESCRIPTION, MOUSER
 </connects>
 <technologies>
 <technology name="@">
-<attribute name="AVRG-PRICE" value="" constant="no"/>
 <attribute name="DATASHEET" value="http://www.abracon.com/Resonators/ABSM3B.pdf"/>
 <attribute name="DESCRIPTION" value="HC49US, Resistance welded • 3.5MHz to 60MHz "/>
 <attribute name="EAGLEUP" value="HC49US1300X470X380-4N" constant="no"/>
+<attribute name="M-PRICE" value="" constant="no"/>
 <attribute name="MOUSER" value="" constant="no"/>
 <attribute name="OCTOPART-LINK" value="" constant="no"/>
 </technology>
@@ -1080,10 +1030,10 @@ It is mandatory to fill up the following attributes &lt;b&gt;DESCRIPTION, MOUSER
 </connects>
 <technologies>
 <technology name="@">
-<attribute name="AVRG-PRICE" value="" constant="no"/>
 <attribute name="DATASHEET" value="http://www.abracon.com/Resonators/ABSM3A.pdf"/>
 <attribute name="DESCRIPTION" value="HC49US, Resistance welded • 3.5MHz to 60MHz "/>
 <attribute name="EAGLEUP" value="HC49US1300X470X450-4N" constant="no"/>
+<attribute name="M-PRICE" value="" constant="no"/>
 <attribute name="MOUSER" value="" constant="no"/>
 <attribute name="OCTOPART-LINK" value="" constant="no"/>
 </technology>
@@ -1096,10 +1046,10 @@ It is mandatory to fill up the following attributes &lt;b&gt;DESCRIPTION, MOUSER
 </connects>
 <technologies>
 <technology name="@">
-<attribute name="AVRG-PRICE" value="" constant="no"/>
 <attribute name="DATASHEET" value="http://www.abracon.com/Resonators/ABSM3B.pdf"/>
 <attribute name="DESCRIPTION" value="HC49US, Resistance welded • 3.5MHz to 60MHz "/>
 <attribute name="EAGLEUP" value="" constant="no"/>
+<attribute name="M-PRICE" value="" constant="no"/>
 <attribute name="MOUSER" value="" constant="no"/>
 <attribute name="OCTOPART-LINK" value="" constant="no"/>
 </technology>
@@ -1112,18 +1062,18 @@ It is mandatory to fill up the following attributes &lt;b&gt;DESCRIPTION, MOUSER
 </connects>
 <technologies>
 <technology name="-3.6864MHZ-20-D4Z-T">
-<attribute name="AVRG-PRICE" value="0.80"/>
 <attribute name="DATASHEET" value="http://www.abracon.com/Resonators/ABSM3A.pdf"/>
 <attribute name="DESCRIPTION" value="3.6864 MHz ±50 ppm 20 pF -40 to +85 °C SMT Microprocessor Crystal"/>
 <attribute name="EAGLEUP" value="HC49US1300X470X510-4N" constant="no"/>
+<attribute name="M-PRICE" value="0.80"/>
 <attribute name="MOUSER" value="" constant="no"/>
 <attribute name="OCTOPART-LINK" value="http://octopart.com/absm3a-3.6864mhz-20-d4z-t-abracon-20092781"/>
 </technology>
 <technology name="@">
-<attribute name="AVRG-PRICE" value="" constant="no"/>
 <attribute name="DATASHEET" value="http://www.abracon.com/Resonators/ABSM3A.pdf"/>
 <attribute name="DESCRIPTION" value="HC49US, Resistance welded • 3.5MHz to 60MHz "/>
 <attribute name="EAGLEUP" value="HC49US1300X470X510-4N" constant="no"/>
+<attribute name="M-PRICE" value="" constant="no"/>
 <attribute name="MOUSER" value="" constant="no"/>
 <attribute name="OCTOPART-LINK" value="" constant="no"/>
 </technology>
@@ -1136,16 +1086,11 @@ It is mandatory to fill up the following attributes &lt;b&gt;DESCRIPTION, MOUSER
 </connects>
 <technologies>
 <technology name="@">
-<attribute name="ARROW" value="" constant="no"/>
-<attribute name="AVNET" value="" constant="no"/>
-<attribute name="AVRG-PRICE" value="" constant="no"/>
 <attribute name="DATASHEET" value="http://www.abracon.com/Resonators/ABSM3B.pdf"/>
 <attribute name="DESCRIPTION" value="HC49US, Resistance welded • 3.5MHz to 60MHz "/>
-<attribute name="DIGIKEY" value="" constant="no"/>
 <attribute name="EAGLEUP" value="HC49US1300X470X510-4N" constant="no"/>
-<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="M-PRICE" value="" constant="no"/>
 <attribute name="MOUSER" value="" constant="no"/>
-<attribute name="NEWARK" value="" constant="no"/>
 <attribute name="OCTOPART-LINK" value="" constant="no"/>
 </technology>
 </technologies>
@@ -1276,45 +1221,30 @@ It is mandatory to fill it up the following attributes &lt;b&gt;MANUFACTURER, DE
 </connects>
 <technologies>
 <technology name="-12.000MHZ-D4Y-T">
-<attribute name="ARROW" value="" constant="no"/>
-<attribute name="AVNET" value="" constant="no"/>
-<attribute name="AVRG-PRICE" value="0.67" constant="no"/>
 <attribute name="DATASHEET" value="" constant="no"/>
 <attribute name="DESCRIPTION" value="Cristales 12.0MHz 18pF 30ppm -40C +85C "/>
-<attribute name="DIGIKEY" value="535-10875-2-ND"/>
 <attribute name="EAGLEUP" value="CEMIC800X450-2N" constant="no"/>
-<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="M-PRICE" value="0.67" constant="no"/>
 <attribute name="MANUFACTURER" value="ABRACON"/>
 <attribute name="MOUSER" value="815-ABM2-12-D4Y-T"/>
-<attribute name="NEWARK" value="37T9754"/>
 <attribute name="OCTOPART-LINK" value="http://octopart.com/abm2-12.000mhz-d4y-t-abracon-19955908"/>
 </technology>
 <technology name="-8.000MHZ-D4Y-T">
-<attribute name="ARROW" value="" constant="no"/>
-<attribute name="AVNET" value="" constant="no"/>
-<attribute name="AVRG-PRICE" value="0.64" constant="no"/>
 <attribute name="DATASHEET" value="" constant="no"/>
 <attribute name="DESCRIPTION" value="Cristales 8.0MHz 18pF 30ppm -40C +85C"/>
-<attribute name="DIGIKEY" value="535-10870-2-ND"/>
 <attribute name="EAGLEUP" value="CEMIC800X450-2N" constant="no"/>
-<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="M-PRICE" value="0.64" constant="no"/>
 <attribute name="MANUFACTURER" value="ABRACON"/>
 <attribute name="MOUSER" value="815-ABM2-8-D4Y-T"/>
-<attribute name="NEWARK" value="37T9829"/>
 <attribute name="OCTOPART-LINK" value="http://octopart.com/abm2-8.000mhz-d4y-t-abracon-19955932"/>
 </technology>
 <technology name="@">
-<attribute name="ARROW" value="" constant="no"/>
-<attribute name="AVNET" value="" constant="no"/>
-<attribute name="AVRG-PRICE" value="" constant="no"/>
 <attribute name="DATASHEET" value="" constant="no"/>
 <attribute name="DESCRIPTION" value="" constant="no"/>
-<attribute name="DIGIKEY" value="" constant="no"/>
 <attribute name="EAGLEUP" value="CEMIC800X450-2N" constant="no"/>
-<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="M-PRICE" value="" constant="no"/>
 <attribute name="MANUFACTURER" value="ABRACON"/>
 <attribute name="MOUSER" value="" constant="no"/>
-<attribute name="NEWARK" value="" constant="no"/>
 <attribute name="OCTOPART-LINK" value="" constant="no"/>
 </technology>
 </technologies>
@@ -1406,31 +1336,21 @@ It is mandatory to fill it up the following attributes &lt;b&gt;MANUFACTURER, DE
 </connects>
 <technologies>
 <technology name="-32.768KHZ-T">
-<attribute name="ARROW" value="" constant="no"/>
-<attribute name="AVNET" value="" constant="no"/>
-<attribute name="AVRG-PRICE" value="0.48"/>
 <attribute name="DATASHEET" value="http://www.abracon.com/Resonators/AB26TRB.pdf"/>
 <attribute name="DESCRIPTION" value="Cristales 32.768KHz"/>
-<attribute name="DIGIKEY" value="535-9033-2-ND"/>
 <attribute name="EAGLEUP" value="CYLC600X190-2N" constant="no"/>
-<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="M-PRICE" value="0.48"/>
 <attribute name="MANUFACTURER" value="ABRACON"/>
 <attribute name="MOUSER" value="815-AB26TRB-32.76KHZ"/>
-<attribute name="NEWARK" value="13J1807"/>
 <attribute name="OCTOPART-LINK" value="http://octopart.com/ab26trb-32.768khz-t-abracon-315482"/>
 </technology>
 <technology name="@">
-<attribute name="ARROW" value="" constant="no"/>
-<attribute name="AVNET" value="" constant="no"/>
-<attribute name="AVRG-PRICE" value="" constant="no"/>
 <attribute name="DATASHEET" value="" constant="no"/>
 <attribute name="DESCRIPTION" value="" constant="no"/>
-<attribute name="DIGIKEY" value="" constant="no"/>
 <attribute name="EAGLEUP" value="CYLC600X190-2N" constant="no"/>
-<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="M-PRICE" value="" constant="no"/>
 <attribute name="MANUFACTURER" value="ABRACON"/>
 <attribute name="MOUSER" value="" constant="no"/>
-<attribute name="NEWARK" value="" constant="no"/>
 <attribute name="OCTOPART-LINK" value="" constant="no"/>
 </technology>
 </technologies>
@@ -1502,17 +1422,12 @@ It is mandatory to fill it up the following attributes &lt;b&gt;MANUFACTURER, DE
 </connects>
 <technologies>
 <technology name="">
-<attribute name="ARROW" value="" constant="no"/>
-<attribute name="AVNET" value="" constant="no"/>
-<attribute name="AVRG-PRICE" value="" constant="no"/>
 <attribute name="DATASHEET" value="" constant="no"/>
 <attribute name="DESCRIPTION" value="" constant="no"/>
-<attribute name="DIGIKEY" value="" constant="no"/>
 <attribute name="EAGLEUP" value="CEMIC320X150-2N" constant="no"/>
-<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="M-PRICE" value="" constant="no"/>
 <attribute name="MANUFACTURER" value="ABRACON" constant="no"/>
 <attribute name="MOUSER" value="" constant="no"/>
-<attribute name="NEWARK" value="" constant="no"/>
 <attribute name="OCTOPART-LINK" value="" constant="no"/>
 </technology>
 </technologies>

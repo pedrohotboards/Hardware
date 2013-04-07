@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.2">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -93,7 +93,7 @@ Ref: &lt;a href="http://www.abracon.com/resonators.htm"&gt;Website&lt;/a&gt;
 
 &lt;tr&gt;
 &lt;td&gt;
-&lt;img src="models/RESOSMD/png/ABR_CERAMIC370X310-3N.png" width="240"&gt;
+&lt;img src="../../models/osc/RESOSMD/png/CERAMIC370X310-3N.png" width="240"&gt;
 &lt;/td&gt;
 &lt;td bgcolor=#ffffff&gt;
 &lt;font color=#666666&gt;
@@ -136,7 +136,7 @@ CERAMIC SMD&lt;br&gt;
 
 &lt;tr&gt;
 &lt;td&gt;
-&lt;img src="models/RESOSMD/png/ABR_CERAMIC740X340-3N.png" width="240"&gt;
+&lt;img src="../../models/osc/RESOSMD/png/CERAMIC740X340-3N.png" width="240"&gt;
 &lt;/td&gt;
 &lt;td bgcolor=#ffffff&gt;
 &lt;font color=#666666&gt;
@@ -278,31 +278,21 @@ It is mandatory to fill it up the following attributes &lt;b&gt;MANUFACTURER, DE
 </connects>
 <technologies>
 <technology name="12.00">
-<attribute name="ARROW" value="" constant="no"/>
-<attribute name="AVNET" value="" constant="no"/>
-<attribute name="AVRG-PRICE" value="" constant="no"/>
 <attribute name="DATASHEET" value="" constant="no"/>
 <attribute name="DESCRIPTION" value="" constant="no"/>
-<attribute name="DIGIKEY" value="" constant="no"/>
 <attribute name="EAGLEUP" value="" constant="no"/>
-<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="M-PRICE" value="" constant="no"/>
 <attribute name="MANUFACTURER" value="" constant="no"/>
 <attribute name="MOUSER" value="" constant="no"/>
-<attribute name="NEWARK" value="" constant="no"/>
 <attribute name="OCTOPART-LINK" value="" constant="no"/>
 </technology>
 <technology name="@">
-<attribute name="ARROW" value="" constant="no"/>
-<attribute name="AVNET" value="" constant="no"/>
-<attribute name="AVRG-PRICE" value="" constant="no"/>
 <attribute name="DATASHEET" value="" constant="no"/>
 <attribute name="DESCRIPTION" value="" constant="no"/>
-<attribute name="DIGIKEY" value="" constant="no"/>
 <attribute name="EAGLEUP" value="" constant="no"/>
-<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="M-PRICE" value="" constant="no"/>
 <attribute name="MANUFACTURER" value="" constant="no"/>
 <attribute name="MOUSER" value="" constant="no"/>
-<attribute name="NEWARK" value="" constant="no"/>
 <attribute name="OCTOPART-LINK" value="" constant="no"/>
 </technology>
 </technologies>
@@ -388,45 +378,30 @@ It is mandatory to fill it up the following attributes &lt;b&gt;MANUFACTURER, DE
 </connects>
 <technologies>
 <technology name="12.00">
-<attribute name="ARROW" value="" constant="no"/>
-<attribute name="AVNET" value="" constant="no"/>
-<attribute name="AVRG-PRICE" value="" constant="no"/>
 <attribute name="DATASHEET" value="" constant="no"/>
 <attribute name="DESCRIPTION" value="" constant="no"/>
-<attribute name="DIGIKEY" value="" constant="no"/>
 <attribute name="EAGLEUP" value="CERAMIC740X340-3N" constant="no"/>
-<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="M-PRICE" value="" constant="no"/>
 <attribute name="MANUFACTURER" value="ABRACON"/>
 <attribute name="MOUSER" value="" constant="no"/>
-<attribute name="NEWARK" value="" constant="no"/>
 <attribute name="OCTOPART-LINK" value="" constant="no"/>
 </technology>
 <technology name="8.00">
-<attribute name="ARROW" value="" constant="no"/>
-<attribute name="AVNET" value="" constant="no"/>
-<attribute name="AVRG-PRICE" value="" constant="no"/>
 <attribute name="DATASHEET" value="" constant="no"/>
 <attribute name="DESCRIPTION" value="" constant="no"/>
-<attribute name="DIGIKEY" value="" constant="no"/>
 <attribute name="EAGLEUP" value="CERAMIC740X340-3N" constant="no"/>
-<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="M-PRICE" value="" constant="no"/>
 <attribute name="MANUFACTURER" value="ABRACON"/>
 <attribute name="MOUSER" value="" constant="no"/>
-<attribute name="NEWARK" value="" constant="no"/>
 <attribute name="OCTOPART-LINK" value="" constant="no"/>
 </technology>
 <technology name="@">
-<attribute name="ARROW" value="" constant="no"/>
-<attribute name="AVNET" value="" constant="no"/>
-<attribute name="AVRG-PRICE" value="" constant="no"/>
 <attribute name="DATASHEET" value="" constant="no"/>
 <attribute name="DESCRIPTION" value="" constant="no"/>
-<attribute name="DIGIKEY" value="" constant="no"/>
 <attribute name="EAGLEUP" value="CERAMIC740X340-3N" constant="no"/>
-<attribute name="FUTURE" value="" constant="no"/>
+<attribute name="M-PRICE" value="" constant="no"/>
 <attribute name="MANUFACTURER" value="ABRACON"/>
 <attribute name="MOUSER" value="" constant="no"/>
-<attribute name="NEWARK" value="" constant="no"/>
 <attribute name="OCTOPART-LINK" value="" constant="no"/>
 </technology>
 </technologies>
