@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.4">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>&lt;table border="0" cellpadding="5" cellspacing="0"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#5c5c5c&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;Interface IC and Connectivity Solutions&lt;/b&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;font color=#666666&gt;
+
+&lt;p&gt;
+Texas Instruments provides Interface IC solutions ranging from analog and digital CAN chips, USB 3.0, interface serial, digital interface, circuit interface, isolators, LVDS, ESD/EMI protection, and more industry standard products. Our Interface IC Selection Tool is available to help you understand what Interface IC best suits your connectivity needs.
+&lt;p&gt;
+Ref: &lt;a href="http://www.te.com/catalog/menu/en/24505?BML=10576,17560,17553,17559"&gt;Link&lt;/a&gt;
+&lt;p&gt;
+&lt;b&gt;Components&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;Ethernet PHY
+&lt;/ul&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;</description>
+<packages>
+<package name="QFP50P900X900X100-48N">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0" width="600"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#5c5c5c colspan="2"&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;USB-A R/A TH W/ REAR&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;img src="../../models/ic/QFP/png/QFP50P900X900X100-48N.png" width="240"&gt;
+&lt;/td&gt;
+&lt;td bgcolor=#ffffff&gt;
+&lt;font color=#666666&gt;
+ 9mm L x 9mm W x 1.0mm H &lt;br&gt;
+----------------------------------------------
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;</description>
+<smd name="42" x="0.25" y="4.3" dx="1.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="43" x="-0.25" y="4.3" dx="1.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="44" x="-0.75" y="4.3" dx="1.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="45" x="-1.25" y="4.3" dx="1.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="46" x="-1.75" y="4.3" dx="1.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="47" x="-2.25" y="4.3" dx="1.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="48" x="-2.75" y="4.3" dx="1.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="41" x="0.75" y="4.3" dx="1.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="40" x="1.25" y="4.3" dx="1.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="39" x="1.75" y="4.3" dx="1.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="38" x="2.25" y="4.3" dx="1.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="37" x="2.75" y="4.3" dx="1.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="19" x="0.25" y="-4.3" dx="1.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="18" x="-0.25" y="-4.3" dx="1.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="17" x="-0.75" y="-4.3" dx="1.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="16" x="-1.25" y="-4.3" dx="1.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="15" x="-1.75" y="-4.3" dx="1.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="14" x="-2.25" y="-4.3" dx="1.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="13" x="-2.75" y="-4.3" dx="1.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="20" x="0.75" y="-4.3" dx="1.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="21" x="1.25" y="-4.3" dx="1.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="22" x="1.75" y="-4.3" dx="1.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="23" x="2.25" y="-4.3" dx="1.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="24" x="2.75" y="-4.3" dx="1.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="31" x="4.3" y="0.25" dx="1.7" dy="0.3" layer="1" rot="R180"/>
+<smd name="32" x="4.3" y="0.75" dx="1.7" dy="0.3" layer="1" rot="R180"/>
+<smd name="33" x="4.3" y="1.25" dx="1.7" dy="0.3" layer="1" rot="R180"/>
+<smd name="30" x="4.3" y="-0.25" dx="1.7" dy="0.3" layer="1" rot="R180"/>
+<smd name="29" x="4.3" y="-0.75" dx="1.7" dy="0.3" layer="1" rot="R180"/>
+<smd name="28" x="4.3" y="-1.25" dx="1.7" dy="0.3" layer="1" rot="R180"/>
+<smd name="34" x="4.3" y="1.75" dx="1.7" dy="0.3" layer="1" rot="R180"/>
+<smd name="35" x="4.3" y="2.25" dx="1.7" dy="0.3" layer="1" rot="R180"/>
+<smd name="36" x="4.3" y="2.75" dx="1.7" dy="0.3" layer="1" rot="R180"/>
+<smd name="27" x="4.3" y="-1.75" dx="1.7" dy="0.3" layer="1" rot="R180"/>
+<smd name="26" x="4.3" y="-2.25" dx="1.7" dy="0.3" layer="1" rot="R180"/>
+<smd name="25" x="4.3" y="-2.75" dx="1.7" dy="0.3" layer="1" rot="R180"/>
+<smd name="6" x="-4.3" y="0.25" dx="1.7" dy="0.3" layer="1" rot="R180"/>
+<smd name="5" x="-4.3" y="0.75" dx="1.7" dy="0.3" layer="1" rot="R180"/>
+<smd name="4" x="-4.3" y="1.25" dx="1.7" dy="0.3" layer="1" rot="R180"/>
+<smd name="3" x="-4.3" y="1.75" dx="1.7" dy="0.3" layer="1" rot="R180"/>
+<smd name="7" x="-4.3" y="-0.25" dx="1.7" dy="0.3" layer="1" rot="R180"/>
+<smd name="8" x="-4.3" y="-0.75" dx="1.7" dy="0.3" layer="1" rot="R180"/>
+<smd name="2" x="-4.3" y="2.25" dx="1.7" dy="0.3" layer="1" rot="R180"/>
+<smd name="1" x="-4.3" y="2.75" dx="1.7" dy="0.3" layer="1" rot="R180"/>
+<smd name="9" x="-4.3" y="-1.25" dx="1.7" dy="0.3" layer="1" rot="R180"/>
+<smd name="10" x="-4.3" y="-1.75" dx="1.7" dy="0.3" layer="1" rot="R180"/>
+<smd name="11" x="-4.3" y="-2.25" dx="1.7" dy="0.3" layer="1" rot="R180"/>
+<smd name="12" x="-4.3" y="-2.75" dx="1.7" dy="0.3" layer="1" rot="R180"/>
+<wire x1="-3" y1="3.4" x2="3" y2="3.4" width="0.1" layer="51"/>
+<wire x1="3" y1="3.4" x2="3.4" y2="3" width="0.1" layer="51"/>
+<wire x1="3.4" y1="3" x2="3.4" y2="-3" width="0.1" layer="51"/>
+<wire x1="3.4" y1="-3" x2="3" y2="-3.4" width="0.1" layer="51"/>
+<wire x1="3" y1="-3.4" x2="-3" y2="-3.4" width="0.1" layer="51"/>
+<wire x1="-3" y1="-3.4" x2="-3.4" y2="-3" width="0.1" layer="51"/>
+<wire x1="-3" y1="3.4" x2="-3.4" y2="3" width="0.1" layer="51"/>
+<wire x1="-3.4" y1="3" x2="-3.4" y2="-3" width="0.1" layer="51"/>
+<wire x1="-3" y1="3.3" x2="3" y2="3.3" width="0.1524" layer="21"/>
+<wire x1="3" y1="3.3" x2="3.3" y2="3" width="0.1524" layer="21"/>
+<wire x1="3.3" y1="3" x2="3.3" y2="-3" width="0.1524" layer="21"/>
+<wire x1="3.3" y1="-3" x2="3" y2="-3.3" width="0.1524" layer="21"/>
+<wire x1="3" y1="-3.3" x2="-3" y2="-3.3" width="0.1524" layer="21"/>
+<wire x1="-3" y1="-3.3" x2="-3.3" y2="-3" width="0.1524" layer="21"/>
+<wire x1="-3.3" y1="-3" x2="-3.3" y2="3" width="0.1524" layer="21"/>
+<wire x1="-3.3" y1="3" x2="-3" y2="3.3" width="0.1524" layer="21"/>
+<circle x="-2.3" y="2.3" radius="0.5" width="0.1524" layer="21"/>
+<text x="-3" y="5.4" size="1.016" layer="25" ratio="12">&gt;Name</text>
+<text x="-3" y="-6.4" size="1.016" layer="27" ratio="12">&gt;Value</text>
+</package>
+</packages>
+<symbols>
+<symbol name="DP83848C-48PINS">
+<pin name="TXD_2" x="-22.86" y="17.78" length="short"/>
+<pin name="TXD_3/SNI_MODE" x="-22.86" y="15.24" length="short"/>
+<pin name="PWR_DOWN/INT" x="-22.86" y="12.7" length="short"/>
+<pin name="RESERVED" x="-22.86" y="10.16" length="short"/>
+<pin name="RESERVED1" x="-22.86" y="7.62" length="short"/>
+<pin name="RESERVED2" x="-22.86" y="5.08" length="short"/>
+<pin name="RESERVED3" x="-22.86" y="2.54" length="short"/>
+<pin name="RESERVED4" x="-22.86" y="0" length="short"/>
+<pin name="RD-" x="-22.86" y="-2.54" length="short"/>
+<pin name="RD+" x="-22.86" y="-5.08" length="short"/>
+<pin name="TD-" x="-22.86" y="-10.16" length="short"/>
+<pin name="TD+" x="-22.86" y="-12.7" length="short"/>
+<pin name="PFBIN1" x="-22.86" y="-15.24" length="short"/>
+<pin name="RESERVED5" x="-22.86" y="-20.32" length="short"/>
+<pin name="RESERVED6" x="-22.86" y="-22.86" length="short"/>
+<pin name="AVDD33" x="-22.86" y="-25.4" length="short"/>
+<pin name="PFBOUT" x="-22.86" y="-27.94" length="short"/>
+<pin name="RBIAS" x="-22.86" y="-30.48" length="short"/>
+<pin name="TXD_1" x="-22.86" y="20.32" length="short"/>
+<pin name="TXD_0" x="-22.86" y="22.86" length="short"/>
+<pin name="TX_EN" x="-22.86" y="25.4" length="short"/>
+<pin name="TX_CLK" x="-22.86" y="27.94" length="short"/>
+<pin name="25MHZ_OUT" x="35.56" y="-30.48" length="short" rot="R180"/>
+<pin name="LED_ACT/COL/AN2" x="35.56" y="-27.94" length="short" rot="R180"/>
+<pin name="LED_SPEED/AN1" x="35.56" y="-25.4" length="short" rot="R180"/>
+<pin name="LED_LINK/AN0" x="35.56" y="-22.86" length="short" rot="R180"/>
+<pin name="RESET_N" x="35.56" y="-20.32" length="short" rot="R180"/>
+<pin name="MDIO" x="35.56" y="-17.78" length="short" rot="R180"/>
+<pin name="MDC" x="35.56" y="-15.24" length="short" rot="R180"/>
+<pin name="X2" x="35.56" y="-10.16" length="short" rot="R180"/>
+<pin name="X1" x="35.56" y="-7.62" length="short" rot="R180"/>
+<pin name="PFBIN2" x="35.56" y="0" length="short" rot="R180"/>
+<pin name="RX_CLK" x="35.56" y="2.54" length="short" rot="R180"/>
+<pin name="RX_DV/MII_MODE" x="35.56" y="5.08" length="short" rot="R180"/>
+<pin name="CRS/CRS_DV/LED_CFG" x="35.56" y="7.62" length="short" rot="R180"/>
+<pin name="RX_ER/MDIX_EN" x="35.56" y="10.16" length="short" rot="R180"/>
+<pin name="COL/PHYAD0" x="35.56" y="12.7" length="short" rot="R180"/>
+<pin name="RXD_0/PHYAD1" x="35.56" y="15.24" length="short" rot="R180"/>
+<pin name="RXD_1/PHYAD2" x="35.56" y="17.78" length="short" rot="R180"/>
+<pin name="RXD_2/PHYAD3" x="35.56" y="20.32" length="short" rot="R180"/>
+<pin name="RXD_3/PHYAD4" x="35.56" y="22.86" length="short" rot="R180"/>
+<wire x1="-20.32" y1="30.48" x2="33.02" y2="30.48" width="0.254" layer="94"/>
+<wire x1="33.02" y1="30.48" x2="33.02" y2="-33.02" width="0.254" layer="94"/>
+<wire x1="33.02" y1="-33.02" x2="-20.32" y2="-33.02" width="0.254" layer="94"/>
+<wire x1="-20.32" y1="-33.02" x2="-20.32" y2="30.48" width="0.254" layer="94"/>
+<text x="-17.78" y="35.56" size="1.778" layer="95">&gt;Name</text>
+<text x="-17.78" y="33.02" size="1.778" layer="96">&gt;Value</text>
+<pin name="AGND" x="-22.86" y="-7.62" length="short" direction="pwr"/>
+<pin name="IOVDD33" x="35.56" y="27.94" length="short" direction="pwr" rot="R180"/>
+<pin name="IOGND" x="35.56" y="25.4" length="short" direction="pwr" rot="R180"/>
+<pin name="DGND" x="35.56" y="-2.54" length="short" direction="pwr" rot="R180"/>
+<pin name="IOGND1" x="35.56" y="-5.08" length="short" direction="pwr" rot="R180"/>
+<pin name="IOVDD331" x="35.56" y="-12.7" length="short" direction="pwr" rot="R180"/>
+<pin name="AGND1" x="-22.86" y="-17.78" length="short" direction="pwr"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="DP83848C" prefix="IC" uservalue="yes">
+<description>&lt;table border="0" cellpadding="5" cellspacing="0"&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#FF0000&gt;
+&lt;font color=#ffffff&gt;
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Commercial Temperature 
+Single Port 10/100 Mb/s Ethernet Physical Layer Transceiver&lt;/b&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#5c5c5c&gt;
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td&gt;
+&lt;font color=#666666&gt;
+&lt;b&gt;Description&lt;/b&gt;
+&lt;p&gt;
+The DP83848C is a robust fully featured 10/100 single 
+port Physical Layer device offering low power consumption, including several intelligent power down 
+states. These low power modes increase overall product reliability due to decreased power dissipation. Supporting multiple intelligent power modes allows the 
+application to use the absolute minimum amount of 
+power needed for operation. 
+&lt;p&gt;
+The DP83848C includes a 25MHz clock out. This 
+means that the application can be designed with a 
+minimum of external parts, which in turn results in the 
+lowest possible total cost of the solution. 
+&lt;p&gt;
+The DP83848C easily interfaces to twisted pair media 
+via an external transformer. Both MII and RMII are 
+supported ensuring ease and flexibility of design. 
+The DP83848C features integrated sublayers to support both 10BASE-T and 100BASE-TX Ethernet protocols, which ensures compatibility and interoperability 
+with all other standards based Ethernet solutions.
+The DP83848C is offered in a small form factor (48 pin 
+LQFP) so that a minimum of board space is needed.
+&lt;p&gt;
+&lt;b&gt;Features&lt;/b&gt;
+&lt;p&gt; 
+• Low-power 3.3V, 0.18µm CMOS technology&lt;br&gt;
+• Low power consumption &lt; 270mW Typical &lt;br&gt;
+• 3.3V MAC Interface&lt;br&gt;
+• Auto-MDIX for 10/100 Mb/s&lt;br&gt;
+• Energy Detection Mode &lt;br&gt;
+• 25 MHz clock out&lt;br&gt;
+• SNI Interface (configurable)&lt;br&gt;
+• RMII Rev. 1.2 Interface (configurable)&lt;br&gt;
+• MII Serial Management Interface (MDC and MDIO)&lt;br&gt;
+• IEEE 802.3u MII &lt;br&gt;
+• IEEE 802.3u Auto-Negotiation and Parallel Detection&lt;br&gt;
+• IEEE 802.3u ENDEC, 10BASE-T transceivers and filters&lt;br&gt;
+• IEEE 802.3u PCS, 100BASE-TX transceivers and filters&lt;br&gt;
+• Integrated ANSI X3.263 compliant TP-PMD physical sublayer with adaptive equalization and Baseline Wander compensation&lt;br&gt;
+• Error-free Operation up to 137 meters&lt;br&gt;
+• Programmable LED support Link, 10 /100 Mb/s Mode, Activity, and Collision Detect&lt;br&gt;
+• Single register access for complete PHY status&lt;br&gt;
+• 10/100 Mb/s packet BIST (Built in Self Test)
+&lt;p&gt;
+&lt;b&gt;How to order&lt;/b&gt;
+&lt;p&gt;
+                                                                                                                                                                    
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#5c5c5c&gt;
+&lt;font color=#ffffff&gt;
+&lt;b&gt;Ref:&lt;/b&gt;
+&lt;a href="http://www.ti.com/lit/ds/symlink/dp83848c.pdf"&gt;Datasheet&lt;/a&gt; 
+&lt;/tr&gt;
+&lt;/td&gt;
+
+&lt;tr&gt;
+&lt;td bgcolor=#FF0000&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;</description>
+<gates>
+<gate name="G$1" symbol="DP83848C-48PINS" x="-5.08" y="0"/>
+</gates>
+<devices>
+<device name="" package="QFP50P900X900X100-48N">
+<connects>
+<connect gate="G$1" pin="25MHZ_OUT" pad="25"/>
+<connect gate="G$1" pin="AGND" pad="15"/>
+<connect gate="G$1" pin="AGND1" pad="19"/>
+<connect gate="G$1" pin="AVDD33" pad="22"/>
+<connect gate="G$1" pin="COL/PHYAD0" pad="42"/>
+<connect gate="G$1" pin="CRS/CRS_DV/LED_CFG" pad="40"/>
+<connect gate="G$1" pin="DGND" pad="36"/>
+<connect gate="G$1" pin="IOGND" pad="35"/>
+<connect gate="G$1" pin="IOGND1" pad="47"/>
+<connect gate="G$1" pin="IOVDD33" pad="32"/>
+<connect gate="G$1" pin="IOVDD331" pad="48"/>
+<connect gate="G$1" pin="LED_ACT/COL/AN2" pad="26"/>
+<connect gate="G$1" pin="LED_LINK/AN0" pad="28"/>
+<connect gate="G$1" pin="LED_SPEED/AN1" pad="27"/>
+<connect gate="G$1" pin="MDC" pad="31"/>
+<connect gate="G$1" pin="MDIO" pad="30"/>
+<connect gate="G$1" pin="PFBIN1" pad="18"/>
+<connect gate="G$1" pin="PFBIN2" pad="37"/>
+<connect gate="G$1" pin="PFBOUT" pad="23"/>
+<connect gate="G$1" pin="PWR_DOWN/INT" pad="7"/>
+<connect gate="G$1" pin="RBIAS" pad="24"/>
+<connect gate="G$1" pin="RD+" pad="14"/>
+<connect gate="G$1" pin="RD-" pad="13"/>
+<connect gate="G$1" pin="RESERVED" pad="8"/>
+<connect gate="G$1" pin="RESERVED1" pad="9"/>
+<connect gate="G$1" pin="RESERVED2" pad="10"/>
+<connect gate="G$1" pin="RESERVED3" pad="11"/>
+<connect gate="G$1" pin="RESERVED4" pad="12"/>
+<connect gate="G$1" pin="RESERVED5" pad="20"/>
+<connect gate="G$1" pin="RESERVED6" pad="21"/>
+<connect gate="G$1" pin="RESET_N" pad="29"/>
+<connect gate="G$1" pin="RXD_0/PHYAD1" pad="43"/>
+<connect gate="G$1" pin="RXD_1/PHYAD2" pad="44"/>
+<connect gate="G$1" pin="RXD_2/PHYAD3" pad="45"/>
+<connect gate="G$1" pin="RXD_3/PHYAD4" pad="46"/>
+<connect gate="G$1" pin="RX_CLK" pad="38"/>
+<connect gate="G$1" pin="RX_DV/MII_MODE" pad="39"/>
+<connect gate="G$1" pin="RX_ER/MDIX_EN" pad="41"/>
+<connect gate="G$1" pin="TD+" pad="17"/>
+<connect gate="G$1" pin="TD-" pad="16"/>
+<connect gate="G$1" pin="TXD_0" pad="3"/>
+<connect gate="G$1" pin="TXD_1" pad="4"/>
+<connect gate="G$1" pin="TXD_2" pad="5"/>
+<connect gate="G$1" pin="TXD_3/SNI_MODE" pad="6"/>
+<connect gate="G$1" pin="TX_CLK" pad="1"/>
+<connect gate="G$1" pin="TX_EN" pad="2"/>
+<connect gate="G$1" pin="X1" pad="34"/>
+<connect gate="G$1" pin="X2" pad="33"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
