@@ -250,10 +250,10 @@ Ref: &lt;a href="http://www.e-switch.com/ProductCatalog/tabid/88/entity/tabid/95
 &lt;/tr&gt;
 
 &lt;/table&gt;</description>
-<smd name="1" x="-2.25" y="2.4" dx="1.4" dy="2.8" layer="1"/>
+<smd name="4" x="-2.25" y="2.4" dx="1.4" dy="2.8" layer="1"/>
 <smd name="2" x="2.25" y="2.4" dx="1.4" dy="2.8" layer="1"/>
-<smd name="3" x="2.25" y="-2.4" dx="1.4" dy="2.8" layer="1"/>
-<smd name="4" x="-2.25" y="-2.4" dx="1.4" dy="2.8" layer="1"/>
+<smd name="1" x="2.25" y="-2.4" dx="1.4" dy="2.8" layer="1"/>
+<smd name="3" x="-2.25" y="-2.4" dx="1.4" dy="2.8" layer="1"/>
 <wire x1="-3" y1="3" x2="3" y2="3" width="0.1" layer="51"/>
 <wire x1="3" y1="3" x2="3" y2="-3" width="0.1" layer="51"/>
 <wire x1="3" y1="-3" x2="-3" y2="-3" width="0.1" layer="51"/>
@@ -1052,10 +1052,10 @@ It is mandatory to fill up the following attributes &lt;b&gt;MANUFACTURER, DESCR
 </device>
 <device name="A" package="TACT600X600-4J">
 <connects>
-<connect gate="G$1" pin="P" pad="1"/>
+<connect gate="G$1" pin="P" pad="4"/>
 <connect gate="G$1" pin="P1" pad="2"/>
-<connect gate="G$1" pin="S" pad="3"/>
-<connect gate="G$1" pin="S1" pad="4"/>
+<connect gate="G$1" pin="S" pad="1"/>
+<connect gate="G$1" pin="S1" pad="3"/>
 </connects>
 <technologies>
 <technology name="@">
@@ -1076,10 +1076,10 @@ It is mandatory to fill up the following attributes &lt;b&gt;MANUFACTURER, DESCR
 </device>
 <device name="E" package="TACT600X600-4J">
 <connects>
-<connect gate="G$1" pin="P" pad="1"/>
+<connect gate="G$1" pin="P" pad="4"/>
 <connect gate="G$1" pin="P1" pad="2"/>
-<connect gate="G$1" pin="S" pad="3"/>
-<connect gate="G$1" pin="S1" pad="4"/>
+<connect gate="G$1" pin="S" pad="1"/>
+<connect gate="G$1" pin="S1" pad="3"/>
 </connects>
 <technologies>
 <technology name="@">
@@ -1100,10 +1100,10 @@ It is mandatory to fill up the following attributes &lt;b&gt;MANUFACTURER, DESCR
 </device>
 <device name="C" package="TACT600X600-4J">
 <connects>
-<connect gate="G$1" pin="P" pad="1"/>
+<connect gate="G$1" pin="P" pad="4"/>
 <connect gate="G$1" pin="P1" pad="2"/>
-<connect gate="G$1" pin="S" pad="3"/>
-<connect gate="G$1" pin="S1" pad="4"/>
+<connect gate="G$1" pin="S" pad="1"/>
+<connect gate="G$1" pin="S1" pad="3"/>
 </connects>
 <technologies>
 <technology name="@">
@@ -1124,10 +1124,10 @@ It is mandatory to fill up the following attributes &lt;b&gt;MANUFACTURER, DESCR
 </device>
 <device name="P" package="TACT600X600-4J">
 <connects>
-<connect gate="G$1" pin="P" pad="1"/>
+<connect gate="G$1" pin="P" pad="4"/>
 <connect gate="G$1" pin="P1" pad="2"/>
-<connect gate="G$1" pin="S" pad="3"/>
-<connect gate="G$1" pin="S1" pad="4"/>
+<connect gate="G$1" pin="S" pad="1"/>
+<connect gate="G$1" pin="S1" pad="3"/>
 </connects>
 <technologies>
 <technology name="@">
@@ -1148,10 +1148,10 @@ It is mandatory to fill up the following attributes &lt;b&gt;MANUFACTURER, DESCR
 </device>
 <device name="B" package="TACT600X600-4J">
 <connects>
-<connect gate="G$1" pin="P" pad="1"/>
+<connect gate="G$1" pin="P" pad="4"/>
 <connect gate="G$1" pin="P1" pad="2"/>
-<connect gate="G$1" pin="S" pad="3"/>
-<connect gate="G$1" pin="S1" pad="4"/>
+<connect gate="G$1" pin="S" pad="1"/>
+<connect gate="G$1" pin="S1" pad="3"/>
 </connects>
 <technologies>
 <technology name="@">
@@ -1172,10 +1172,10 @@ It is mandatory to fill up the following attributes &lt;b&gt;MANUFACTURER, DESCR
 </device>
 <device name="D" package="TACT600X600-4J">
 <connects>
-<connect gate="G$1" pin="P" pad="1"/>
+<connect gate="G$1" pin="P" pad="4"/>
 <connect gate="G$1" pin="P1" pad="2"/>
-<connect gate="G$1" pin="S" pad="3"/>
-<connect gate="G$1" pin="S1" pad="4"/>
+<connect gate="G$1" pin="S" pad="1"/>
+<connect gate="G$1" pin="S1" pad="3"/>
 </connects>
 <technologies>
 <technology name="@">
@@ -1196,10 +1196,10 @@ It is mandatory to fill up the following attributes &lt;b&gt;MANUFACTURER, DESCR
 </device>
 <device name="F" package="TACT600X600-4J">
 <connects>
-<connect gate="G$1" pin="P" pad="1"/>
+<connect gate="G$1" pin="P" pad="4"/>
 <connect gate="G$1" pin="P1" pad="2"/>
-<connect gate="G$1" pin="S" pad="3"/>
-<connect gate="G$1" pin="S1" pad="4"/>
+<connect gate="G$1" pin="S" pad="1"/>
+<connect gate="G$1" pin="S1" pad="3"/>
 </connects>
 <technologies>
 <technology name="@">
