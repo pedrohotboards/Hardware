@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.2">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3225,74 +3225,76 @@ J - ±5%
 </connects>
 <technologies>
 <technology name="@">
-<attribute name="ARROW" value="" constant="no"/>
-<attribute name="AVNET" value="" constant="no"/>
 <attribute name="AVRG-PRICE" value="" constant="no"/>
 <attribute name="DATASHEET" value="http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Data+Sheet%7F1773204%7FH%7Fpdf%7FEnglish%7FENG_DS_1773204_H.pdf%7F1623095-1"/>
 <attribute name="DESCRIPTION" value="" constant="no"/>
-<attribute name="DIGIKEY" value="" constant="no"/>
 <attribute name="EAGLEUP" value="RESC0603" constant="no"/>
-<attribute name="FUTURE" value="" constant="no"/>
 <attribute name="MANUFACTURER" value="" constant="no"/>
 <attribute name="MOUSER" value="" constant="no"/>
-<attribute name="NEWARK" value="" constant="no"/>
 <attribute name="OCTOPART-LINK" value="" constant="no"/>
 </technology>
 <technology name="F100K">
-<attribute name="ARROW" value="" constant="no"/>
-<attribute name="AVNET" value="" constant="no"/>
 <attribute name="AVRG-PRICE" value="" constant="no"/>
 <attribute name="DATASHEET" value="" constant="no"/>
-<attribute name="DESCRIPTION" value="" constant="no"/>
-<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="Resistores de película gruesa - SMD 0603 100kOhms 1/10W 50V " constant="no"/>
 <attribute name="EAGLEUP" value="RESC0603" constant="no"/>
-<attribute name="FUTURE" value="" constant="no"/>
 <attribute name="MANUFACTURER" value="" constant="no"/>
 <attribute name="MOUSER" value="" constant="no"/>
-<attribute name="NEWARK" value="" constant="no"/>
 <attribute name="OCTOPART-LINK" value="" constant="no"/>
 </technology>
 <technology name="F10K10">
-<attribute name="ARROW" value="" constant="no"/>
-<attribute name="AVNET" value="" constant="no"/>
 <attribute name="AVRG-PRICE" value="0.1"/>
 <attribute name="DATASHEET" value="http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Data+Sheet%7F1773204%7FH%7Fpdf%7FEnglish%7FENG_DS_1773204_H.pdf%7F1623095-1"/>
 <attribute name="DESCRIPTION" value="Resistores de película gruesa - SMD CRG0603 1% 10K 10KRL "/>
-<attribute name="DIGIKEY" value="" constant="no"/>
 <attribute name="EAGLEUP" value="RESC0603" constant="no"/>
-<attribute name="FUTURE" value="" constant="no"/>
 <attribute name="MANUFACTURER" value="" constant="no"/>
 <attribute name="MOUSER" value="279-CRG0603F10K/10"/>
-<attribute name="NEWARK" value="" constant="no"/>
 <attribute name="OCTOPART-LINK" value="http://octopart.com/crg0603f10k10-tyco+electronics-16077289"/>
 </technology>
 <technology name="F1M0">
-<attribute name="ARROW" value="" constant="no"/>
-<attribute name="AVNET" value="" constant="no"/>
 <attribute name="AVRG-PRICE" value="0.1"/>
 <attribute name="DATASHEET" value="http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Data+Sheet%7F1773204%7FH%7Fpdf%7FEnglish%7FENG_DS_1773204_H.pdf%7F1623095-1"/>
 <attribute name="DESCRIPTION" value="Resistores de película gruesa - SMD 0603 1 MOhms 1/10W 50V "/>
-<attribute name="DIGIKEY" value="" constant="no"/>
 <attribute name="EAGLEUP" value="RESC0603" constant="no"/>
-<attribute name="FUTURE" value="" constant="no"/>
 <attribute name="MANUFACTURER" value="" constant="no"/>
 <attribute name="MOUSER" value="279-CRG0603F1M0 "/>
-<attribute name="NEWARK" value="" constant="no"/>
 <attribute name="OCTOPART-LINK" value="http://octopart.com/crg0603f1m0-tyco+electronics-16077337"/>
 </technology>
+<technology name="F2K2">
+<attribute name="AVRG-PRICE" value="" constant="no"/>
+<attribute name="DATASHEET" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="Resistores de película gruesa - SMD 2.2KOhms 1/10W 50V" constant="no"/>
+<attribute name="EAGLEUP" value="RESC0603" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MOUSER" value="" constant="no"/>
+<attribute name="OCTOPART-LINK" value="" constant="no"/>
+</technology>
 <technology name="F390R">
-<attribute name="ARROW" value="" constant="no"/>
-<attribute name="AVNET" value="" constant="no"/>
 <attribute name="AVRG-PRICE" value="0.1"/>
 <attribute name="DATASHEET" value="http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Data+Sheet%7F1773204%7FH%7Fpdf%7FEnglish%7FENG_DS_1773204_H.pdf%7F1623095-1"/>
 <attribute name="DESCRIPTION" value="Resistores de película gruesa - SMD 0603 390Ohms 1/10W 50V "/>
-<attribute name="DIGIKEY" value="" constant="no"/>
 <attribute name="EAGLEUP" value="RESC0603" constant="no"/>
-<attribute name="FUTURE" value="" constant="no"/>
 <attribute name="MANUFACTURER" value="" constant="no"/>
 <attribute name="MOUSER" value="279-CRG0603F390R "/>
-<attribute name="NEWARK" value="" constant="no"/>
 <attribute name="OCTOPART-LINK" value="http://octopart.com/crg0603f390r-tyco+electronics-16077369"/>
+</technology>
+<technology name="F49R9">
+<attribute name="AVRG-PRICE" value="" constant="no"/>
+<attribute name="DATASHEET" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="Resistores de película gruesa - SMD CRG0603 1% 49R9" constant="no"/>
+<attribute name="EAGLEUP" value="RESC0603" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MOUSER" value="" constant="no"/>
+<attribute name="OCTOPART-LINK" value="" constant="no"/>
+</technology>
+<technology name="F4K87">
+<attribute name="AVRG-PRICE" value="" constant="no"/>
+<attribute name="DATASHEET" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="Resistores de película gruesa - SMD CRG0603 1% 4K87" constant="no"/>
+<attribute name="EAGLEUP" value="RESC0603" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MOUSER" value="" constant="no"/>
+<attribute name="OCTOPART-LINK" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
